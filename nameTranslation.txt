@@ -1,1807 +1,1807 @@
-// AACIBKOGOGB:Vector
-// AAEENEPPPCH:open_id_list
-// AAIKIKLEBDL:ItemAddHintNotify
-// AAKNNAPADEP:time
-// ABCDKLKJAEJ:entity_type
-// ABCKJPFCBBN:SceneGalleryBounceConjuringInfo
-// ABDLNJKJPOD:weapon
-// ABLJLDANMBA:CombatInvocationsNotify
-// ACEPDJOLHKK:stage_info_list
-// ACHIIHCKAGO:Type
-// ACIHPIDJAPJ:BeginCameraSceneLookNotify
-// ACKNAMDPDJI:CustomCommonNodeInfo
-// ACLAFJBDFJM:check_shape
-// ACPDAEBLCBA:ShapeBox
-// ADBFPOKIJHB:SalvageBundleChallengeInfo
-// ADEIBBNACKI:CodexTypeData
-// ADFOOFNPJIP:born_type
-// ADLLDDKKNCC:store_type
-// ADNAMOJGMPH:combo
-// ADPHEDPAHDD:MistTrialActivityDetailInfo
-// AEBLJNFKGEJ:card_product_type
-// AEIJOGLCLHE:activity_info
-// AEJFNCKHDDG:RogueDiaryActivityDetailInfo
-// AEMHPAOKEAA:today_fish_num
-// AENBMLCBPIB:wind_change_scene_time
-// AEPAMCLDHJN:GearActivityDetailInfo
-// AFBBDAEMEMO:start_cd
-// AFBDLBPDJEN:FleurFairV2DetailInfo
-// AFCOODFGGDL:GachaTransferItem
-// AFEIMNMDMHH:item_level
-// AFNEGLNICPD:server_buff_id
-// AGAKGCNDAGF:interact_type
-// AGCHOLMDCIL:GCGSkillPreviewExtraInfo
-// AGDOAGJBBJL:ServerLogNotify
-// AGEEOIPMNAD:option_list
-// AGHBDGJGFDH:comp_info
-// AGJAPBDBICP:info
-// AGJBEJLKMKG:SceneGalleryFungusFighterTrainingInfo
-// AGJBJJDKDKL:WidgetCreatorInfo
-// AGNFKPFMMFF:fetter_info
-// AHDJCADJDLK:hcoin_per_day
-// AHDMNOLOOJN:is_cached
-// AHELIEKDJGH:GetAllMailRsp
-// AHEMAGIFHLO:FireworksReformParamType
-// AHIFGHEKALH:ShopCardProduct
-// AHKDLEFHJBH:SceneGalleryHomeSeekFurnitureInfo
-// AHLOLKLBJBG:area_code
-// AHLPLJMOAOM:gallery_info_list
-// AHMIHFJHAJP:hunting_pair
-// AIAKJNNMAEE:search_time_map
-// AIEBMKODPKL:VehicleInteractRsp
-// AIFKBKMKBMG:ScenePlayBattleResultNotify
-// AIHKKAOCIIJ:dead_time
-// AIHNOIGMAJG:from_type
-// AIKGNCNHAEJ:index
-// AIPLIPBAEOD:record_list
-// AJBNNMFJPIK:BreakoutSyncCreateConnect
-// AJIMHFDLHNF:pose_para_list
-// AJJBIHJCAKF:duel
-// AJKDCPMNDGL:DisplayGroupRegionNotify
-// AJLJLNLFOPP:AnimatorParameterValueInfo
-// AKAEKDLLKFJ:InBattleMechanicusInfo
-// AKGKDBFHFGA:GetWidgetSlotRsp
-// AKKDJBOEBNO:parent_ability_entity_id
-// AKMNJCFMCAF:gadget_entity_id
-// AKOAPBNNLDJ:player_info_list
-// AKPBEBKFJIE:GCGMsgDiceRoll
-// ALAIAIFDCLI:BalloonSettleInfo
-// ALCJFDELPOO:have_viewed_list
-// ALFBGPNKJHH:override_map
-// ALHEPLMKGKH:region_radius
-// ALKAGIKHBPC:MailItem
-// ALLBPPFIHOI:is_force_ignore_cd
-// ALMAGPDBBPN:MpSettingType
-// ALMGIOPFBFC:submit_count
-// AMBLJMIJHEA:name_card_id
-// AMHEDCLAGEM:GCGMsgDiceReroll
-// ANDGDGBKGAO:OpActivityInfo
-// ANKIKJJHCNK:physical_object_list
-// ANKPLDPAEHN:raw_client_game_time
-// ANOGLELGLND:blacklist_uid_list
-// ANPHFMNDIIO:SettleReason
-// ANPMOBBNNLF:param1
-// AOAPPHPMNEM:PlayerPropChangeReasonNotify
-// AOFEGJJEBHJ:AbilityMetaSetPoseParameter
-// AOGJDEADFIH:region_search_list
-// AOIBAMDDELA:GameplayRecommendationReliquaryResponse
-// AOILGNLAOPI:LifeStateChangeNotify
-// APBDFLLNGJH:total_rotation
-// APCBOPCADGM:level_data_info_list
-// APFDCFDJCGD:included_furniture_index_list
-// APLFEAIIDKP:attack_target_id
-// APLHDDFFCHL:replay_brief_data
-// APNLLKBHJBL:UgcTriggerConditionGadgetDeactive
-// BABLALANKCD:is_adjust
-// BAFCPNLICKP:HomeLimitedShopBuyGoodsRsp
-// BAFIHNCJKKG:chest
-// BAHCHDMHEOH:gadget_talk_state
-// BAIDHMJFAAD:fish_distance_from_water
-// BANIOBBDLFB:HomeLimitedShopBuyGoodsReq
-// BBBOICDBKOP:GCGPhase
-// BBFCCCBILAF:max_charge_count
-// BBFOLENFKEH:LanternRiteActivityDetailInfo
-// BBGEMOELBPB:PlatformType
-// BBKBBDNJGOJ:ActivityPushTipsInfoNotify
-// BBKMEHJNIAG:EntityMoveInfo
-// BBLCKGHMAJL:reason
-// BBMPHLHBBDH:is_transfer_item_new
-// BCALOICHBJJ:SandwormCannonLevelData
-// BCGGIKPCJCM:is_record_score
-// BCGJFPFAGCF:GCGLevelType
-// BCIBKHMMHPK:is_add
-// BCKGDENBCIB:ItemExceedLimitMsgType
-// BCPNPBPACNM:EditUgcDungeonNotify
-// BDADMPLEPDL:PerformOperationNotify
-// BDAEJFLHLNL:CustomGalleryCountdownScoreBoard
-// BDCMIDKLDAD:AbilityMixinBreakout
-// BDCMKFKEKCI:SpiceActivityDetailInfo
-// BDEDFCPNPKD:TrialAvatarGrantRecord
-// BDHBFNHEALD:remain_reward_days
-// BDPOPDHJINP:x
-// BEHECMEIPEO:cell_id
-// BEHEGGIILOJ:is_view_formula
-// BEILBOHEDGC:SceneAvatarStaminaStepRsp
-// BEMIEMLAHHP:sender
-// BENALGILLEG:InBattleIrodoriChessSettleInfo
-// BEPDAOGPJDH:msg_pack_list
-// BEPHJPLNMIJ:PlayerEyePointStateNotify
-// BFBMEEJOMBE:change_onstage_preview_info
-// BFBMNIAGDGD:AbilityMetaModifierChange
-// BFCGCKDDANB:route_points
-// BFEJJMLDJNM:PropPair
-// BFEMGLHHLIN:LunaRiteHintPointType
-// BFFIDNDCOJA:EvtAnimatorParameterInfo
-// BFGBCJEAPNO:GCGSkillPreviewCardInfo
-// BFGFEKDFNOC:EnterCustomDungeonRsp
-// BGBGDFKHOKB:GCGMatchInfo
-// BGDHGBNKHFB:UgcGadget
-// BGIDIEFAGMA:GCGMsgDuelDataChange
-// BHBIHCJMAKK:discount_num
-// BHDECHENBCD:SceneGalleryCoinCollectInfo
-// BHNFOLFDPDI:stat_info_list
-// BHODDCAFHOL:server_buff_type
-// BIBLOGKKGMF:prop_type
-// BIEMKNPIHDK:AvatarLifeStateChangeNotify
-// BIJEAGHDHBI:GMObstacleInfo
-// BJAAHBJAPEG:HomeGroupPlayerInfo
-// BJCEDHOHNDL:item_num
-// BJCPAEELLHA:FleurFairPlayerStatInfo
-// BJIKKNKNFCD:HomeLimitedShopInfo
-// BJJAKGKAHHJ:GCGGameBusinessType
-// BJKMLBJGCHG:parent_ability_override
-// BJOJGJABHOD:result_param
-// BKDEPPMCPAC:coin_collect_info
-// BKHIDGDJEIM:content_msg
-// BKHOLCELHPD:widget_data_list
-// BKMEALNMLKN:sync_type
-// BKPOGGHCMHM:GCGSkillPreviewHpInfo
-// BLABJOFOJJH:wish_data_list
-// BLAFOMHICHF:qualify_uid_list
-// BLCHGOGJPGE:UgcTriggerActionDeactiveGadget
-// BLCIHHKGKAB:GetUgcBriefInfoRsp
-// BLELEDPHCEO:BlessingGetFriendPicListRsp
-// BLFMEMOMFKK:SceneGalleryInfoNotify
-// BLFOAIJEPLH:uid
-// BLHINKKJIGI:InBattleMechanicusSettleInfo
-// BLJAFPJHEDD:KeepRotType
-// BLJDAPHCOPL:GCGMsgSkillResult
-// BLJJCKBBNEK:scene_player_balloon_info_map
-// BLLNNMGIPPG:GalleryStartSource
-// BLMJNHLPHPA:BattlePassAllDataNotify
-// BLPANCPNDIN:EvtDoSkillSuccNotify
-// BMBJMAJOBOM:stop_end_time
-// BMCJOINHDOK:Unk3700_HJBIANEJEBC
-// BMHFDEEKNBC:DungeonSettleNotify
-// BMHKBLMAEHP:ContentAuditInfo
-// BMKOJJMLODF:is_content_closed
-// BMKOLEHLAGA:InteractType
-// BMLMFJLJOKI:skill_type
-// BMLOJGEMCMO:PlayerPreEnterMpNotify
-// BMMMEAPKIPI:show_avatar_info_list
-// BMOGFOOPLPF:FleurFairMusicGameInfo
-// BMPDNKJDKFL:GCGMsgNoDamageSkillResult
-// BNABGHLEALL:FireworksReformParam
-// BNBMBHHHDEK:AStarMethod
-// BNDFODHDOFN:WinterCampFriendWishData
-// BNHEMPJHKHP:CharAmusementInfo
-// BNJGHGGPODI:blossom_chest_info
-// BNMCEDEFBNO:GetGameplayRecommendationRsp
-// BNPFLLPNLCL:left_bonus_count
-// BOCKGGNEION:slot_identifier
-// BOCOGEGLMLH:ugc_brief_data
-// BOEGJEAIFBH:BlitzRushActivityDetailInfo
-// BOGOHAKNMAI:block_id
-// BOHEJKMMDIE:SceneGalleryAkaFesRhythmInfo
-// BOHLELJHPBP:lock_reason
-// BOJPAKPNFOG:damage
-// BOMJFCGADBD:resin
-// BOMPBEHJLDG:Reason
-// BONDJCEELCH:config_delay_week
-// BOOHEFMBNOI:mail_id_list
-// BOPDJMKHDMP:WinterCampActivityDetailInfo
-// BPBFFGCEKFC:extents
-// BPCODFECIDG:daily_info_list
-// BPDCHBIOCJD:EnterCustomDungeonType
-// BPDLCHDKNDM:WeaponUpgradeRsp
-// BPFBGDPFGBM:friend_enter_home_option
-// BPFHLNKCPIJ:other_params
-// BPJCJLELMHK:BreakoutSyncSnapShot
-// BPJGNBPADOB:FlightActivityDetailInfo
-// BPKCOPLDGJI:HomeBalloonRecord
-// BPMHEEEPGNL:name_id
-// CABJNKCHLJA:json_climate_type
-// CAEFBPLEMCN:AddReunionReportedTypeReq
-// CAJMELKBGMK:weather_area_id
-// CAKLDGPFNCM:ActivityPushTipsState
-// CBCPHHIANGO:fight_prop_map
-// CBIGAJDKBLO:UnlockPersonalLineRsp
-// CCANGPJMENC:invoke
-// CCDCFJEHJEP:daily_record_list
-// CCEHMIMOAJG:mark_flag
-// CCHPFCKNKPG:CustomGalleryNormalScoreBoard
-// CCJIEEFHCFA:zone_type
-// CDEGLJEFCHA:ViewCodexReq
-// CDFEDEAFIAN:uid_info_list
-// CDMLNJDPEOE:Reason
-// CDOCCPAOBBG:HomeGroupRecord
-// CEJJAFNLPJD:MathQuaternion
-// CENDCPLODIG:WeeklyBossResinDiscountInfo
-// CENGBBABGDK:entity_client_data
-// CEONPPFNJKP:PotionActivityDetailInfo
-// CFEDDBDNOFG:progress_stage_list
-// CFGKHMAFDIO:QuestParam
-// CFHKGOBKKHA:Item
-// CFLAEODAODA:GCGSkillPreviewNotify
-// CGADPCFCBNP:ActivityInfo
-// CGAFCDAPLNA:GameplayRecommendationElementReliquaryResponse
-// CGBJOONAECL:change_type
-// CGBKNPMIHOC:ugc_v2_special_gadget_info
-// CGBLNPFFMPC:is_use_condense_resin
-// CGBNHPMDCCP:UgcTriggerCondition
-// CGCFKGMFEEJ:dynamic_value_map
-// CGDLFLCFGJO:shape
-// CGENFBDIGCD:has_reach_event
-// CGGKGMNNIJL:z
-// CGHLHEJEPBN:HomeGetArrangementInfoRsp
-// CGIDPECOPDB:EntityJumpNotify
-// CGIPLMMPGEF:GCGGameBriefDataNotify
-// CGJNJMGBLGJ:RogueCellInfo
-// CGOCILGKLFK:mail_id
-// CGPCIGNNDDK:play_card_info
-// CGPNFNHOEMM:GCGMsgAddDice
-// CHFGKKAFJBI:modifier_local_id
-// CHHBJAFFAHK:GetFriendShowAvatarInfoRsp
-// CHJJNAPGLGC:SceneGallerySandwormInfo
-// CHKMIMEFMEK:del_mail_id_list
-// CHLLAECMOJB:proud_skill_extra_level_map
-// CHLLHMDGOJB:apply_entity_id
-// CHOBOPJHJNH:ugc_gadget_config_id
-// CHOHDFBEIJA:GCGSkillHpChangeType
-// CHPCIMDFMLF:gadget_config_id
-// CHPIJCEAKPL:EnterType
-// CICGGNGHEJD:CompoundBoostTakeStatusType
-// CICGHNPEKOI:ModifierAction
-// CIECOPKJKLD:extra_cd_type
-// CIGBBENOMAN:ClientCollectorData
-// CIHBJIJBPAE:disable_status_list
-// CIIGFBHMBPG:AddWindBulletNotify
-// CJCOKMKEOOH:EntityAuthorityChangeNotify
-// CJGCMKFDAMO:GetCustomDungeonRsp
-// CJJCNGHPEEE:delete_info
-// CJLNOKKGACI:status
-// CKBGPDIACON:sync
-// CKBKLEFOIAP:RegionSearchState
-// CKEBHMPOOAF:Unk3700_KAOACLDKNEE
-// CKGEAAPPOKD:info_list
-// CKHJDCLHAAE:is_success
-// CKKKDFJPDGN:count
-// CKKPNPAACIL:WidgetUpdateExtraCDRsp
-// CKNEJOAFFHL:is_allow_summon
-// CKOKLIHAJMD:play_index
-// CLFKHBLJCNE:GachaActivityDetailInfo
-// CLGKKKPMEML:stage
-// CLHAFLBJDMG:SalvageEscortSettleInfo
-// CLHAOOAFGNC:challenge_state
-// CLHLKJIJPFD:monster_config_id
-// CMDEMEJBIHA:mirror_avatar_info
-// CMFACBKEEIJ:bool1
-// CMFKMFJOBHC:WindFieldDungeonSettleInfo
-// CMKBMFAOEGJ:GCGMsgClientPerform
-// CMNOFDJKLBN:have_cur_schedule
-// CNBPMKGAKIA:prop_map
-// CNCEHAMMEIM:FilterType
-// CNFHHFFINHF:locked_personal_line_list
-// CNGBADCMFAN:take_status
-// CNGHOCBCPLJ:die_option
-// CNGJCPBFJPL:dungeon_entry_cond
-// CNLEFBIENLA:OrderFinishNotify
-// CNMLFJEHNLC:FungusFighterTrainingGallerySettleNotify
-// COADDFBPNIA:grant_record
-// COCMIKDFIMB:music_track_list
-// COHDDCAENCH:InBattleChessSettleInfo
-// COHHMEFLBPC:PlayerQuitFromMpNotify
-// COKLLKKPHDO:SceneEntityInfo
-// COLENAKLDOB:axis2
-// COLLPGKPLBJ:entity_id_list
-// CONKNHEJALP:GCGMsgUpdateController
-// COPHKPFMBAP:UgcV2DetailInfo
-// CPCNODLLEDG:GetOnlinePlayerListRsp
-// CPJPIFHCNCE:start_index
-// CPMONBNDCIB:field_status
-// CPNNODAGJLP:async_load
-// CPPJMHILPDB:GetShopRsp
-// DAAHBFCNACO:official_level_data_list
-// DADKGMEJJNB:DealAddFriendReq
-// DAELAOEEFFH:GCGMsgNewCard
-// DAGGEKGPGML:FleurFairV2PacmanStageInfo
-// DAIMPLJBKMJ:StartRogueDiaryPlayRsp
-// DAJACOAPHHJ:MpPlayRewardInfo
-// DAJAMAPGCPM:TreasureSeelieRegionData
-// DALMKMFCEBN:AbilityAppliedModifier
-// DAOKDCFGCCL:AbilityString
-// DBAFCMGKPIB:GCGMsgModifyRemove
-// DBICIDNGMNM:platform_list
-// DBJIDDMGMEL:init_peer_id
-// DBJJMCMFLMF:chapter_info_list
-// DBJOGHCECJC:point_id_list
-// DBKCEFBBGGL:FishNoRewardReason
-// DBPJEOCHFBG:data
-// DCBJKBNBFNK:BattlePassSchedule
-// DCDJBBBEPPN:EvtRushMoveInfo
-// DCEFJMIOFNG:ScreenInfo
-// DCJGAIBBACI:moving_platform_type
-// DCKKLOCBNDB:is_forbid_guest
-// DCKLMKFGNAF:send_time
-// DCLLOLONBEC:CoinCollectDetailInfo
-// DCOGPGIMMCM:initial_rotation_y
-// DDFMFPKCMIB:main_prop_id
-// DDKFNDEHAML:pool_id
-// DDKJIDONDEB:FoundationRsp
-// DDLHMOIIPGD:group_record
-// DDOLNIMLNCP:head
-// DDPMPNJPGEB:SceneGalleryTeamChainInfo
-// DEDJILFODAK:finish_id_list
-// DEKAGEONNLK:UgcDungeonPlayRecordNotify
-// DFAGHAHJFKC:FireworksReformData
-// DFBDNEECHCM:guid_list
-// DFEPAIIOCPF:player_brief_list
-// DFFKNOLBFCP:rot_offset
-// DFIHKEFPAHE:speed_level
-// DFIJKMCCDMO:option_idx
-// DFNDBFGAKOA:LuminanceStoneChallengeActivityDetailInfo
-// DGAKMKCJAPN:UgcDungeonCandidateTeamCreateReq
-// DGBEIOCMIBJ:area
-// DGBLNDCMAAL:Operation
-// DGCFJEAOCGD:HomeRacingGalleryRecord
-// DGDKDAPPFIP:passed_time
-// DGIAGDJEPML:FungusFighterDetailInfo
-// DHCMGKPOJLB:audit_state
-// DHEIDBMGKLI:force_update_url
-// DHEOOEHAIFO:AvatarEquipAffixInfo
-// DHFLDIDKCEO:SetFriendEnterHomeOptionReq
-// DHHIMCPFCKA:GetUgcDungeonBriefListRsp
-// DHKKPKDAJIM:allow_controller_map
-// DHPDHNDCPCD:FriendOnlineState
-// DIBAILDCPJF:ChangeEnergyReason
-// DIDCHLDBOPK:PropChangeReason
-// DIDCKIAOOHJ:prop_value
-// DIDKNGHPJDE:chapter_state
-// DIECOJGCGJK:HomeSceneArrangementInfo
-// DIEDFFOBGKO:AbilityMixinRecoverInfo
-// DIICJDLBDNF:stop_begin_time
-// DIILHLOBEKM:GadgetGeneralRewardInfoNotify
-// DIMDHFMECFH:PlayerQuitFromMpNotify
-// DINIBOHEOCB:AsterActivityDetailInfo
-// DJBMJHOOKIK:cost_revise
-// DJENAIDOMPA:photo_pos_data_list
-// DJFIBOCOIGI:fish_area_list
-// DJKBKLKPFML:HomeFurnitureData
-// DJLADHNBGCB:is_read
-// DJMJGGEJAMD:is_got_reward
-// DJOMBJMCPLB:time_range
-// DJOMOCAIFBO:GCGPlayerBriefData
-// DKAEBJBKEHJ:ball_place_info
-// DKCBNAJOMAD:open_map_info_list
-// DKCKCEDAMJK:init_pose_id
-// DKDBJCNEHOL:AbilityMixinBreakout
-// DKEEJDFAMHL:manipulate_type
-// DKFONLBFAMO:buff_info_list
-// DKJNMDMOMNJ:hit_collider_type
-// DKLAJKNGHIC:is_destroy_when_disconnect
-// DKNPNPHAAIK:online_player_info
-// DKOBNCBEPNE:RegionSearchInfo
-// DKOIBICEHKL:FoundationOpType
-// DKONOPENPKE:AddSignal
-// DLDNNEGGKNH:MonsterRoute
-// DLDODFNFDLE:prop_list
-// DLEFOMHPGMA:quest_id
-// DLEGDBBMEAN:BlessingFriendPicData
-// DLKDGGDOEMI:journey_gear_operator_info
-// DLKPFJMGDCP:mcoin_base
-// DLLEDPJCNEE:FishEscapeNotify
-// DLLHBDKCAHK:Reason
-// DLMBMICMADO:monster_group_guid
-// DLODGPAAMNJ:HomeMarkPointFurnitureData
-// DLOODAOMPLJ:GetPlayerSocialDetailRsp
-// DMBLGKNLDHJ:SceneGalleryHandballInfo
-// DMCBPPFMCAB:BattlePassCurScheduleUpdateNotify
-// DMDDPGAOJFF:GCGPVEDetailInfo
-// DMDNNJNJEBJ:GetUgcBriefInfoRsp
-// DMEOCJMPMKO:monster_count
-// DMFCFKPEHBF:cell_config_id
-// DMJCAHJGGFA:combat_data
-// DMJCFKOOPJP:AnimatorForceSetAirMoveNotify
-// DMLJBGLIEAC:UgcTowerLevelUpGadgetInfo
-// DMNCLCHKBED:ResinCostType
-// DNAPGOMHFLC:GCGStartChallengeRsp
-// DNCLIIDOBPK:fix_lod_level
-// DNELPOHCHOF:BreakoutSyncConnectUidInfo
-// DNENDOJDEEA:execution_game_time
-// DNJHAOEGLIE:challenge_detail
-// DNJICNIOKBK:attached_instanced_modifier
-// DNKKAJCHLFD:GCGSettleOptionReq
-// DNNEALHEIMG:item_id
-// DNNFHGPPLHC:WinterCampStageInfo
-// DNOFMDJNAPL:state
-// DOBKFIDPGKM:SalvagePreventStopReason
-// DOGIIGIODLP:brick_element_reaction_list
-// DOGMCJJGLHC:new_index
-// DOMKGCBALHF:scene_time
-// DOOGAFHLGHF:uid_discount_map
-// DPBJJBCFKAP:corners
-// DPCGLEMNGHD:climate_area_id
-// DPEADJKIMDP:ReunionReportedType
-// DPLDNKFJGNG:reward_item_list
-// DPMMHHGPPKO:HomeMarkPointNPCData
-// EABMCLLCCEG:TeamEnterSceneInfo
-// EADLBELJKPO:GadgetPlayUidInfo
-// EAINJKKODDF:invite_info
-// EAJAIDFNKEE:FollowType
-// EAKHDGOFELP:SandwormCannonDetailInfo
-// EAMBNBEGMLE:pre_index
-// EAMFLCGLDNH:EffigyChallengeV2DetailInfo
-// EBBDGDDHDMK:deal_add_friend_result
-// EBCAHHFNEKD:JourneyDetailInfo
-// EBHBIONNOKO:UgcDungeonSettleNotify
-// EBHMFPDNHBG:HomeBlockArrangementInfo
-// EBOJIKCABNJ:UgcDungeonSettleType
-// EBPABOBCHKO:fail_reason
-// EBPBKGGKLNO:UgcShopGadget
-// ECJEMNFMBKL:ForceUpdateInfo
-// ECPMHAKJDGB:GCGZoneType
-// EDAHHDMDBLJ:AvatarExcelInfo
-// EDANBOJOGLH:WidgetSlotTag
-// EDIGBNHDFPH:monster_id_list
-// EDJOEJJIOMG:GachaItem
-// EDLBHELNGEP:GetUgcBriefInfoRsp
-// EECMLMJLIKM:SceneWeaponInfo
-// EEDGBFNOGOK:level_route_id
-// EEDOJDFIDLC:is_serverbuff_modifier
-// EEGJKELKLHH:sandworm_cannon_info
-// EEHGGKNAEPO:MiracleRingDeliverItemReq
-// EEINDIGHKCP:append_prop_id_list
-// EEKAMPHMADD:is_creature_buff
-// EEKBFDEBADB:DragonSpineActivityDetailInfo
-// EEMHKOKDKFN:RegionSearch
-// EFALIABMJGD:GCGMessagePack
-// EFCAAOCHOMK:extra
-// EFFDKJNNICA:invoke_list
-// EFFEBCDBJDN:stage_id
-// EFKIABLIAFO:dungeon_setting
-// EFLBPECBKLI:player_uid
-// EFMDCPEDAII:EditUgcDungeonSettingNotify
-// EFNIEBGDFEB:anim_event_id
-// EFPKIIKDBLI:is_new_record
-// EFPPOPFCCHC:avatar
-// EGAMACMNCDD:IslandPartySettleNotify
-// EGBHMNHJHFO:WidgetSlotData
-// EGEAKBNFIGE:section_info_list
-// EGENHGBGKLD:equip_affix_id
-// EGFFNNKFEBL:GCGOperationAttack
-// EGFPGOLIFJJ:State
-// EGHLNMDHNHH:choose_player_count
-// EGIBGEHOPAA:main_prop_data_list
-// EGJFIBDCHCC:Reason
-// EGKINIFGJGF:GCGOperationPass
-// EGLHIJMOBOE:special_fish_count
-// EGLPFFGKFPO:para_val
-// EGNFJKEGJBN:BlossomChestInfo
-// EGOAENJILNP:msg_id
-// EHAMHMCGNIG:AvatarFetterInfo
-// EHBEAFJKCGD:SceneGallerySumoInfo
-// EHCGIGPEDIE:is_reliable
-// EHDHJLBPBFL:GCGOperationSurrender
-// EHFNPPFKEGH:lua_shell
-// EHGHKPFFAPI:record
-// EHLFBMJDALA:start_route_time
-// EHMFBBBOCHN:fall_count_map
-// EHMHDANBFKJ:PacmanDungeonStopReason
-// EHNFPNNOJCK:player_name
-// EIAAIGDKAON:ugc_guid
-// EIAGDNAAABH:PlayerCompoundMaterialBoostRsp
-// EIAMMIFHFAH:UgcTriggerConditionGadgetStateChange
-// EIBNEOPCIME:play_record_list
-// EICOEIFJGPD:ViewCodexRsp
-// EIEJBICOBLK:DungeonEntryBlockReason
-// EIEJFGMCGKC:para_type
-// EIHGAEBOEEL:has_delete_config
-// EIIFEELKBLM:last_move_scene_time_ms
-// EJCGHOFGIIK:last_move_reliable_seq
-// EJJEOCBHIIH:LuaShellType
-// EJMIFIJJHHF:target_pos
-// EKCCLHIBJMN:sbuff_uid
-// EKCDCLNOHEN:reward_info_list
-// EKOCFDOALAH:activated_sale_id_list
-// EKPMBCCPCFL:is_guest_can_operate
-// ELBJAEBIBHL:dungeon_id
-// ELBLBEGNOGH:GCGPVEActivitySettle
-// ELHJOGDLMDD:BlessingGetAllRecvPicRecordListRsp
-// ELPLEHIKNGO:ability_name
-// EMAKOIOCOAP:WidgetCreatorOpType
-// EMEJGINMIAI:UgcDungeonPlayerPersonalScore
-// EMGGPHAAMOJ:EffigyChallengeV4LevelDataInfo
-// EMGKJLALMOE:GCGOperationReq
-// EMLGMGFAODI:win_controller_id
-// EMLNPLIOBKP:cur_stamina
-// EMMNCLADMMD:MusicGameUgcNotify
-// EMOIIMFPGIF:SaveUgcDungeonDataReq
-// ENBFDLBJEEC:AvatarFollowRouteNotify
-// ENCDDLNNJNN:wave_suite_index
-// ENFMDMMBLPL:treasure_close_time
-// ENHCELNLBEJ:is_require_brief
-// ENIGLAKDJGP:food_weapon_guid_list
-// EOFGILHEPBM:StatueGadgetInfo
-// EOHCDCJJCCK:SaveUgcReq
-// EOIOMAICJDO:excel_info
-// EOMEBGCBEKM:EvtRushMoveNotify
-// EOMKPNJIFCI:BounceConjuringGallerySettleInfo
-// EPJCPMAAHLG:HomeMarkPointSuiteData
-// EPJDNKBIMKK:battle_info_map
-// EPLOGJCMBPL:is_entered
-// FADNEBJJAKL:FleurFairBalloonInfo
-// FALINLCBING:player_widget_info_list
-// FALKNJPJBNG:Reason
-// FAMEDGELAMD:cell_type
-// FANIJENLLKK:level
-// FAONAELGJBM:CustomGalleryTimerScoreBoard
-// FBAFNIDHHKP:item
-// FBCCCGAMKNP:UgcDungeonCandidateTeamAvatarInfo
-// FBCNDKIBMDK:GetUgcReq
-// FBELHIHHHIP:CoinCollectStageInfo
-// FBFJEFLNHAH:cur_tactic
-// FBGJBDGGLHD:extra_ball_dir
-// FBHNFKDMNIM:summer_time_dungeon_list
-// FBJCFJHHDIK:CrucibleActivityDetailInfo
-// FCBNFIGDBPB:WorldPlayerInfoNotify
-// FCHCFJPAGJH:shell_id
-// FCIKOFPBCNL:IrodoriMasterGallerySettleNotify
-// FCNKGFNMPJB:brief
-// FCOEONPKNAE:BreakoutSyncCreateConnect
-// FDECEKEDACM:GCGOperationPlayCard
-// FDIBBJAFGHL:UgcChestGadget
-// FDNGBADAAJP:EffigyChallengeV4RestartDungeonEndReason
-// FDOEFKKKGEA:InBattleFleurFairInfo
-// FEDMMDGNDNI:FurnitureMakeBeHelpedNotify
-// FEEPEIIEDHE:FightPropPair
-// FEFLIEPLPIA:Weapon
-// FEGFOCOKIPN:FleurFairFallInfo
-// FEGMPAOGJLA:CodexDataFullNotify
-// FEHACLLCMFF:gadget_guid
-// FEILFOFAJML:weapon_list
-// FEKBEHGKKML:BattlePassRewardTag
-// FEMJCBGPHCE:entity_info
-// FENHGONAOMK:equip_affix_list
-// FENMGEINIIM:SceneGallerySummerTimeV2BoatInfo
-// FEPJBAMNMAB:ChannelerSlabLoopDungeonResultInfo
-// FFHCKPDMAMH:GCGAskDuelRsp
-// FFHHDEKNHHI:equip_param
-// FFIPDNBAGOH:changed_renderers
-// FFNKKHOLFBE:GCGMsgPhaseChange
-// FFPBMNJACJH:BlossomChestInfoNotify
-// FGFHFIMHBMD:default_gadget_state_id
-// FGFKOGIJJMI:UpdateType
-// FGJGNAHHMJM:business_type
-// FGLKLJFJIGB:mark_point_data_list
-// FGNHGGCIHNN:ban_type
-// FGNMDPCJKMJ:is_need_update
-// FHCNGBLBLOO:start_pos
-// FHFLBOBFLEE:ToTheMoonQueryPathReq
-// FHGFOEMBFEI:VehicleInteractReq
-// FHHLOJLCBBB:special_name_id
-// FHJMFBMIIIH:creator_nickname
-// FHKMBIEBAKF:remain_uid_list
-// FIAJGPHKHJI:slot
-// FICJIFHAEPL:WaterSpiritActivityDetailInfo
-// FIFEIGBOALK:State
-// FIFNKCPDNPF:SceneGalleryMuqadasPotionInfo
-// FIIKEOEAHIE:ScenePlayerLocationNotify
-// FIIMBNIFBIM:server_game_time
-// FIJNEIAMGJL:float_value
-// FINDDPIPFJC:tower_level
-// FJCJJHPFNIN:LuaSetOptionNotify
-// FJEKLAEJNDE:card
-// FJFDMGNGKGG:enter_rot
-// FJLJOEDJJHO:GameplayRecommendationReliquaryRequest
-// FJOGOIECONA:ball_list
-// FKACLLNLHGN:EntityEnvironmentInfo
-// FKAIDAPEJIE:interact_id
-// FKCIEMELLOO:GalleryElectroherculesBattleStartParam
-// FKEKJCKNHIN:is_attachment_got
-// FKELFAJBDJL:max_bonus_time
-// FKILHJHKMLB:fetter_id
-// FKKGCDHBFOI:EnterUgcDungeonType
-// FKKODDDKJPO:UgcDungeonRoomDeployment
-// FLBMBDHHHPH:MailData
-// FLCPGMIKKDD:sumo_stage_map
-// FLGIPIKOKIE:gadget_state
-// FLOANOEDPHM:type
-// FMAKECGFHEP:SceneGalleryCharAmusementInfo
-// FMAPPOGCBBH:GCGMsgPVEIntentionChange
-// FMCLMCFAOIC:point_list
-// FMJGFPNHJEC:world_level
-// FMMCHJOALAN:MirrorAvatarInfo
-// FMNJDNOPNFI:round
-// FMOPCAEGEJF:trial_equip_list
-// FNAIDDPHIDM:vehicle_type
-// FNFPEOJEKKB:perform_type
-// FNGAJHBPBJD:is_win
-// FNMJFECJMOA:SalvageScoreChallengeInfo
-// FNMNGGILIMI:start_time
-// FNMNNCPFEMN:special_effect_type
-// FNNACJGLIJN:SalvagePreventGallerySettleInfo
-// FOCIHKKAMIA:inherent_proud_skill_list
-// FOIOMOLJFLN:UgcDungeonPlayRecord
-// FOKKBKPCJGG:EvtAvatarEnterFocusNotify
-// FOLDKHBEKDI:fish_scale
-// FOMJDMNAAJD:UgcDungeonImportSourceType
-// FOONOLPIDLM:PlayerLogoutReq
-// FPANLMKJNOA:OneoffGatherPointDetectorData
-// FPBNBAAMLND:MovingPlatformType
-// FPHFLFLPLBE:RockBoardExploreDetailInfo
-// FPIFMDDCNPA:BounceConjuringActivityDetailInfo
-// FPKKKOEPLCE:MatchReason
-// FPLDGMMFIDA:UgcDungeonSwitchRoomInviteInfo
-// FPOFGGEKANG:item_list
-// GAAIJLJJJCF:SceneGalleryInstableSprayInfo
-// GADGDADFBFL:RogueDiaryAvatar
-// GADHFJHOECO:client_game_time
-// GAHFGOCBFKB:Chest
-// GAHGIGFBKEB:hit_box_index
-// GAMLCJAMBNN:DateTimeDelete
-// GAOMLPPKMCM:delete_custom_furniture_list
-// GAPCANOGKLP:sub_furniture_list
-// GBAAGBBALDG:ref_id
-// GBFONJAKIPJ:param4
-// GBHAFDHLAGC:ServerLogType
-// GBHINEBBHEE:weapon_max_promote_level_map
-// GBJGCNNADMP:op_info
-// GBKJGOFGNDK:is_invalid
-// GBMAEMIGBCJ:pos_offset
-// GCBLAOFFGCG:param_list
-// GCFFFMCOKPL:GCGMsgWaitingListChange
-// GCGCMELMPFE:FleurFairFallSettleInfo
-// GCGIOCKFPNK:Unk3700_JDCCOJLEIBP
-// GCGNKEOELJM:life_count
-// GCJDEPIHHIK:SceneGalleryHideAndSeekInfo
-// GCJNOFIKJNH:DungeonCandidateTeamDismissReason
-// GDBCCNGLPNI:equip_id_list
-// GDLIOGPLAAD:cool_data
-// GDLOJHBCDKO:WidgetDoBagReq
-// GDMHFHAIKNA:DataResVersionNotify
-// GDMLMJPOFDK:SceneGallerySorushTrialHitmanInfo
-// GDNBJKNKFFN:energy_point
-// GDNFIIKFFOE:region_size
-// GDNIPLNJAKD:RechargeReq
-// GDNKLGHKGDP:show_area_state
-// GEAFFDPIKBC:finished_challenge_cell_num_map
-// GEBBBNIOOEC:region_data_list
-// GEBBKFPCDEM:PlayerLogoutReq
-// GEDFDMNOJOC:equip_guid_list
-// GEEAGOFFPGP:GCGStartChallengeByCheckRewardRsp
-// GEENOAKJCKK:CurVehicleInfo
-// GEFFMMOEKOG:Furniture
-// GEGFFEFNIIC:applied_abilities
-// GEJLNEIAGEH:QuitReason
-// GEKKPODHIDP:MarkMapReq
-// GEMCGGEGHHJ:entity_authority_info
-// GENJFGBHDKI:PlayerHomeCompInfo
-// GEOJAGPIPDD:skill_depot_id
-// GEPMIJIMBPN:modified_progress_id_list
-// GFGGIODIPKO:FurnitureMakeBeHelpedData
-// GFGHMOMEAGH:FishBattleEndReq
-// GFLOOOHGNMD:DealAddFriendRsp
-// GFNLMEFJHNO:params
-// GFPJHPAPKKD:fail_time
-// GFPKOMKEMDO:energy_stat_map
-// GFPLELEECEP:hp_change_value
-// GFPOOMCGHDF:spice_stage_data_list
-// GGCGGHPJGHG:SceneGalleryAkaFesArchaeologyInfo
-// GGDEKFMIBDD:RogueCellState
-// GGGCGKIJGLN:stage_map
-// GGGPJPHMADP:enter_type
-// GGHGPFEOJJC:FleurFairActivityDetailInfo
-// GGMFADPFGPK:FoundationInfo
-// GGMIHIFFHMH:ForwardType
-// GHAHMMBKGNB:GetMapMarkTipsRsp
-// GHBILOPLPKF:GCGFestivalDetailInfo
-// GHCMPBNFEMF:record_type
-// GHDAOJGKKDK:SceneGalleryWindFieldInfo
-// GHDMAFJGKLF:RoguelikeGiveUpRsp
-// GHEOIELAPEF:is_hide_progress
-// GHIOIDHKHEF:CodexType
-// GHLLOHFKCLF:ProtEntityType
-// GIAFBACGDGG:submit_limit
-// GIALHMGCIAI:AbilityAppliedAbility
-// GIJLPMIJPLK:ChapterStateNotify
-// GIKPAICIEIC:level_id
-// GJALHLJMCOJ:GCGActionType
-// GJGJNBGBODL:BonusOpActivityInfo
-// GJHFKIPJMOO:obstacle_id
-// GJIBFNCAGCG:SceneGadgetInfo
-// GJNICNMOPAP:pos_list
-// GJOKGKJFIJG:AreaPlayInfoNotify
-// GKALFDPBGEJ:BargainOfferPriceRsp
-// GKBBDEHCGKG:UgcDungeonCandidateTeamCreateRsp
-// GKHOOPIGBNB:CountDownDelete
-// GKICNKHCLFG:member_list
-// GKLPGICODKA:MapMarkFromType
-// GLBLHDFLONL:share_code
-// GLFPAGFJLDH:InBattleMechanicusCardChallengeState
-// GLGCJEAPGNH:UgcDungeonSetting
-// GLGDFOOHFFP:TryCustomDungeonType
-// GLGMKCDCPDF:tag
-// GLNKKKDGAHG:DungeonDieOptionReq
-// GMCCCLLIBOA:MultistagePlayInfo
-// GMCDABFDGAO:GCGMsgReactionBegin
-// GMEMGHFCIBM:MatchType
-// GMIBPGFLJKP:src_player_info
-// GMJEABNKALO:action_list
-// GMKFOAFPBKM:gacha_item_list
-// GMLDMBNNGGH:skill_id
-// GMLHNOAEHOH:UgcTriggerActionActiveMonsterGroup
-// GMLLGOGABDM:exist_duration
-// GMMIPMKLJHO:SorushTrialDetailInfo
-// GMNDOAMNIND:SeaLampActivityDetailInfo
-// GMOLHEBCLIL:CrucibleBattleUidInfo
-// GNAONFJPOLL:edit_state
-// GNBDNEPMHOM:FoundationStatus
-// GNGLFIIKLPK:DynamicNodes
-// GNHKLPKBLFG:tanuki_travel_level_data_list
-// GOBNHDJBCEG:InBattleMechanicusStageType
-// GODBHOINGIM:activity_push_tips_id
-// GOEHFLACGPG:is_locked
-// GOIPCLEIDEP:ScenePlayerSoundNotify
-// GOKIDBBFHMH:trial_avatar_info
-// GOOCGDLJLOH:title_id
-// GOOICJDCHDI:server_log
-// GPDMHDGJMPI:total_tick_time
-// GPHFBLAJNFD:MistTrialLevelData
-// GPOPJANPEBN:ForceDragAvatarNotify
-// HAAAAPJJBGF:GadgetAutoPickDropInfoNotify
-// HAAFCMANCPG:GCGMsgUseSkillEnd
-// HADAEPJPHOH:GalleryStopReason
-// HAELIGBIJPD:SceneGalleryFungusFighterCaptureInfo
-// HAFCILFBNLK:selected_reward_id_map
-// HAFLEEKEACM:GCGMsgPass
-// HANALKMEKCB:battle_info_list
-// HBBCELMPPBD:GadgetPlayInfo
-// HBBCFNLOGAL:rot
-// HBFBGAOGOHH:PlayerLuaShellNotify
-// HBFMJCIPIKN:SceneGalleryHomeBalloonInfo
-// HBGDJLEIAKD:tag_list
-// HBNJPBDNAMA:guid
-// HBNLIPBOOLG:Equip
-// HBODJNIOMFG:LunaRiteHintPointRsp
-// HCALOAJNNHC:move_dir
-// HCBIJLCIEAN:PropValue
-// HCBMDPJHFPF:instanced_ability_id
-// HCDEGENHOLD:GCGSettleNotify
-// HCDLNAJMKBB:location_info
-// HCFBGDJIILH:GalleryStartNotify
-// HCLOAFKDJMM:stage_data_list
-// HCNGHOHLGNK:MapMarkPointType
-// HCOHEGPHBGP:intention_map
-// HDBDMBFPNAO:ServerBuff
-// HDBELEOLAEK:WinterCampRecvItemNotify
-// HDGJECJNALN:ClientGadgetInfo
-// HDHJGHPKCOO:player_id
-// HDKAMFHMJCD:fungus_info_list
-// HDKJABKBPNM:GCGChangeOnstageInfo
-// HDOHAIEBKHM:prepare_end_time
-// HEHFFGELFKJ:prefab_path_hash
-// HEHGCADEPKO:start_scene_time
-// HEHGOLIMMIC:follow_type
-// HEIDLLBCHJM:personal_score_list
-// HEJLMNHPAOD:CombatInvokeEntry
-// HELCJCGKFOI:ClientReconnectNotify
-// HENGIKDOBAE:GetGameplayRecommendationReq
-// HFDBNMEGGEM:MapMarkPoint
-// HFKBFMHOPPD:shell_type
-// HFKFKADIKBJ:scene_arrangement_info
-// HFNADABDMFN:FishBattleEndRsp
-// HFOEHCOEBKN:equip_type
-// HGAPHNOEFNN:phase
-// HGFGOODOGMA:RecordUsage
-// HGFMKDHOLLL:ShowEquip
-// HGGGHEPKACB:AnimatorParameterValueInfoPair
-// HGKCMHNOHFE:official_custom_dungeon_list
-// HHCBLELDJIE:SummerTimeV2DungeonSettleInfo
-// HHCHHGCAGKM:SceneGalleryLanV3BoatMultiInfo
-// HHEBDBEAOHK:kill_num
-// HHIDIPNLEIE:VehicleLocationInfo
-// HIDAAFICGBA:cell_info
-// HIGFFKEEFIM:SceneGalleryEffigyChallengeV2Info
-// HIJJAMBCHCG:team_entity_id
-// HIKMLCJPBCM:material_id
-// HILDLOOGKPG:costume_id
-// HIMKPMMCODE:is_active
-// HIPOIOAANAN:forge_queue_id
-// HJAHGBAHJEN:GCGReason
-// HJBADENFGFM:FinishReason
-// HJCPAAEENBK:modifier_list
-// HJHHEMKNBON:mp_play_id
-// HJHLAGLIKAN:TreasureMapDetectorDataNotify
-// HJHNBBGJNDM:allow_controller_list
-// HKEEDJLGGCH:trial_avatar_id
-// HKFEFFMDACF:BreakoutSyncSnapShot
-// HLCNDFLEAFG:is_failed
-// HLHEOEGAPCN:sgv_dynamic_value_map
-// HLHJHHNDFHG:HomeLimitedShopGoods
-// HLICHHEHDNN:target_weapon_guid
-// HLMGPLDJHFC:RacingGallerySettleInfo
-// HLMPGLDJFOP:GadgetBornType
-// HLOGAILBMJO:forward
-// HLPKGMPFDAN:shop_item_info_list
-// HMDKALIFCLD:PlayerReportReq
-// HMEMJGOJFGK:ServerBuffChangeType
-// HMJDEOFMNDG:PlatformInfo
-// HMNDPOCDEPF:AbilityScalarValueEntry
-// HNAMEEKFFNM:target_player_info
-// HNECPJGKDEJ:scene_time_ms
-// HNIHKMOPLPM:LuaOptionType
-// HNLEOLMAJIK:recv_item_data_list
-// HOABKCLEOCM:ScenePlayBattleSettlePlayerInfo
-// HOBLFLCNFAN:disappear_type
-// HOELCLONGMK:GCGMsgOpTimer
-// HOGMBGDCPAA:revive_count
-// HOIKNBNMNDL:ScenePlayerInfoNotify
-// HPADEMNMCHG:fish_pool_gadget_id
-// HPALLJLANDD:BreakoutPhysicalObjectModifier
-// HPBBFHODFDA:param2
-// HPDOJOBCHKM:sky_crystal_detector_data
-// HPHFHIFCJEG:PlayerCookRsp
-// HPIMFFNAOEG:remaining_boss_hp
-// HPKNOBEEEHD:EffigyChallengeV4DetailInfo
-// HPNNDGCMLFP:mixin_recover_infos
-// HPNPBDFKHMM:DungeonCandidateTeamAvatar
-// HPPDPGIIGEM:online_id
-// IADECAEMFOM:UgcTriggerActionActiveMonsterWave
-// IAIIPKJLNLK:SetPlayerPropReq
-// IALEMCAPNCD:target_score
-// IALKMMLPOMI:collect_state
-// IAMBAHPMAPI:JourneyGearGadgetInfo
-// IAOCFEAJAOL:is_attached_parent_ability
-// IAOKEDKAHBA:DigActivityDetailInfo
-// IAONIKLOGKE:SceneGalleryVintageHuntingInfo
-// IBBKJNHHPJD:level_state
-// IBIIPOAJGNP:AvatarType
-// IBKACHLDIOC:VehicleInteractType
-// IBNKNHPBCFI:tips_type
-// ICBIDNFGBOF:ToTheMoonQueryPathRsp
-// ICDEMLMIIMK:HideAndSeekStageType
-// ICFALFBNDIG:player_data
-// ICIFINKLIKF:chest_drop_item_info_list
-// ICIGABCLAIA:ClientReconnectReason
-// ICJOODPEOKI:is_taken_finish_reward
-// IDCMHCNGFAP:SceneGalleryBalloonInfo
-// IDGHODIKNOO:animator_param_info
-// IDIKLFDJCAP:MailChangeNotify
-// IDJCELPHHCK:difficulty
-// IDMLFPFCIHN:player_info
-// IEAEGPDKBNP:VintageHuntingFirstStageInfo
-// IEBDLEKKNFE:battle_type
-// IEBMCABPHGJ:is_revive
-// IEECLKOFLLK:animator_para
-// IEIMOOGEAGJ:stage_list
-// IEKFECAEJEA:has_extra_ball
-// IEKGMMECGKL:WidgetCameraInfo
-// IEKGPOPJOIH:UgcTriggerActionDeactiveMonsterWaveCurrentGroup
-// IELEDIHLCCN:detail
-// IEMBLMHDOEC:offering_id
-// IEPDJMDLINC:refresh_id
-// IFAHJLLPPFD:trial_level_data_list
-// IFIIDOHJAFH:activity_push_tips_data_list
-// IFKKNJKFOBG:Reliquary
-// IGGFLNOFKFO:settle_info
-// IGJAHALKALH:HideAndSeekActivityDetailInfo
-// IGJJOLMLBLJ:UpdateAbilityCreatedMovingPlatformNotify
-// IGOODEALEPN:exp_number
-// IGPCGKDCNNM:StoreWeightLimitNotify
-// IGPLMIBHLND:card_limits_change_list
-// IHAFANPHGFP:delete_time_num_map
-// IHBDLNMBLLD:WinterCampGetRecvItemListRsp
-// IHGGOPNGEOD:DungeonCandidateTeamDismissNotify
-// IHHCHKIGBGF:skill_level_map
-// IHHLAMOLNJL:IslandPartyDetailInfo
-// IHHMIDIGCDJ:mystery_info
-// IHNACFDOAAP:gallery_info
-// IHOKPACKANF:axis1
-// IHPHKMAOPDI:MailTextContent
-// IIACMNDHEAM:ability_info
-// IIEBJAODCAC:GetAllSceneGalleryInfoRsp
-// IIFGBNIDPFP:offering_data_list
-// IIFKILFBBDB:expire_time
-// IIMEAOBOFBO:talent_id_list
-// IJBAAOEFEBN:VehicleInfo
-// IJBAHDNDJHM:ugc_tower_level_up_gadget_info
-// IJBOBKAGBON:EvtBulletHitNotify
-// IJFIOMFIJOM:avatar_id
-// IJFONOFPLAI:EvtFaceToEntityNotify
-// IJKNDFECIBE:refer_pos
-// IJMLKNKOFBC:is_recv
-// IKBNIKBDMOK:SvrMsgId
-// IKECOGJEHNK:owner_uid
-// IKILDLDLLCH:PlayerOfferingData
-// IKJDIGIDHEF:CylinderRegionSize
-// IKKADPEPEJO:CustomGalleryInfo
-// IKNGNIDCOJE:BlessingRecvPicRecord
-// IKNKFLINAJF:op
-// ILBCLHPLHKO:HitCollision
-// ILDOAFLJMPF:CustomGadgetTreeInfo
-// ILJPFAJNMIM:SceneGalleryIslandPartyRaftInfo
-// ILKLHOOHJAO:MissionStatus
-// ILNCBIOIFFJ:slot_list
-// ILPPNAEILML:finished_level_index
-// IMAPHGBNAHJ:is_single
-// IMCAHFIPHCK:SceneGalleryInfo
-// IMCDNFOPNIE:DataResVersionOpType
-// IMCLHEMCFIC:TakeBattlePassRewardReq
-// IMDOCDDMJDD:DoGachaRsp
-// IMFPALFFGMA:AvatarInfo
-// IMGPCEPBAAG:BreakoutSyncFinishGame
-// IMIEFDJEDCG:BreakoutActionType
-// IMMHIFHCLPN:camp_id
-// IMOHHNPKKDF:GetMailItemRsp
-// INAHBEOMHMI:nodes
-// INBHNJKPKDJ:PrivateChatReq
-// INDPBJEBBKO:WidgetExtraCdType
-// INEJPKEANCD:wave_index
-// INFKMIGKFJK:reliquary_list
-// INPABHCKHIC:EvtDestroyGadgetNotify
-// IOFLGGAGKGJ:GetUgcRsp
-// IOFLNDJCMBA:PlayerPreEnterMpNotify
-// IOGFNBCHKJA:CreateGadgetInfo
-// IOLMGGKBEFI:is_ignore_auth
-// IOMCICNDOID:uid_list
-// IPBAPMCCDJG:RogueDiaryRepairInfoNotify
-// IPBMCLAKJFM:cond_index_list
-// IPCIOFKONOJ:GameplayRecommendationSkillRequest
-// IPFLEEKKKML:is_need_destroy
-// IPIANPMJHHF:Unk3700_KMFLCEGIGCL
-// IPMCBADCFGP:ChallengeFinishType
-// IPOLANPEODI:event_type
-// IPPADJEDBEL:GetOnlinePlayerInfoReq
-// IPPHACBKODH:MistTrialBestAvatar
-// JAADJJNBPIL:attack_tag
-// JADACPFLLEA:GCGArenaSettle
-// JAHBADDGLBD:MonsterPointArrayRouteUpdateNotify
-// JAHGCPABJML:AbilityInvocationFailNotify
-// JAJAOJIDKAH:CreateEntityInfo
-// JAKMMGCHFPM:GCGMessage
-// JALBHCIPMMB:query_type
-// JBACJIKCHJE:current_building_id
-// JBDDDPEPEAC:element_type
-// JBDHPEPHMCB:PlayerPreEnterMpNotify
-// JBHILBBAHDO:is_inited
-// JBIHJIFMKOD:param3
-// JBJKIPKJHIC:DungeonEntryCond
-// JCACMJGEKDM:BattlePassMissionUpdateNotify
-// JCCJEEGAGBM:discount_num_limit
-// JCCOJGNMCCC:FishEscapeReason
-// JCDLAKICHCB:MotionState
-// JCLCKICNAJJ:HomeRacingGallerySettleNotify
-// JCNAKKOECOE:PlayerOfferingDataNotify
-// JCOPPCFHCJM:GCGMsgReactionEnd
-// JDBLHNFMPOA:dungeon_guid
-// JDCDMFAKGOH:keep_rot_type
-// JDCMNCDAFDF:HomeCustomFurnitureInfo
-// JDDJEPOCGGA:GetUgcDungeonBriefListReq
-// JDFOGHOMBPN:ai_info
-// JDGAALCFFOE:PlayerWidgetInfo
-// JDGMAFBIOOA:GetDungeonEntryExploreConditionRsp
-// JDKIBANJJBD:exp
-// JDMCOFMJODG:RemotePlayerWidgetNotify
-// JDNCFFEHKDN:wait_begin_time_us
-// JDNCKHEEIOB:original_resin_cost
-// JEBEPKINHMJ:HuntingOfferState
-// JECFJACAEBJ:is_quit_immediately
-// JEDBHDAMDOC:time_remain
-// JEFCHOOGAJE:SceneGalleryIrodoriMasterInfo
-// JEILCAIJKOH:chest_drop_id
-// JEJGDJKNHLC:battle_result
-// JEKOMBEKODM:suite_id
-// JEPICNJOJEN:gallery_id
-// JFBBMJOEEEC:SandwormLevelStateType
-// JFCOPHEKFMC:GCGMessagePackNotify
-// JFDKGCFLIDI:QueryCurrRegionHttpRsp
-// JFGDPGKLIDK:GCGSkillPreviewPlayCardInfo
-// JFJAJBNFHMM:BreakoutAction
-// JFJGJAJLPCE:FetterData
-// JFJIILCDOKO:UgcDungeonImportReq
-// JFKCCEHBMBP:SalesmanActivityDetailInfo
-// JFOHIGBPDLD:reliable_seq
-// JFOMPMGGHIN:QueryPathReq
-// JFPNCPAAMBK:MapMarkTipsType
-// JGBGKJOMCHP:random_item_num
-// JGBHBBNFAOH:recv_pic_record_list
-// JGCDEBAGAFL:SceneGalleryCrystalLinkInfo
-// JGGCDILKLJF:HomeFurnitureSuiteData
-// JGHFBIIHKGG:muqadas_potion_level_data_list
-// JGJICGHIOMJ:GatherGadgetInfo
-// JGJKPNNCBMA:from_parent_quest_id
-// JGMJJFFGGLC:GCGOperation
-// JGOIGBPENHM:SeaLampActivityInfo
-// JGPFADOEFIJ:SceneGalleryFungusFighterV2Info
-// JHACOGLBOOO:MonsterBornType
-// JHBMABJKLLK:end_reason
-// JHCALDFHNEL:equip_list
-// JHCILJDOHJC:PlayerCancelMatchReq
-// JHFHDMCIFPP:MassiveEntityElementOpBatchNotify
-// JHFOMIFCNDL:LunaRiteHintPoint
-// JHKJLKHMGFB:SyncScenePlayTeamEntityNotify
-// JHMEKCNCHMA:is_init_hash
-// JHMMAFKCIEA:ClientTriggerEventNotify
-// JICEOGOPGIC:team_resonance_list
-// JICMJICEPHM:room_id
-// JIDCCOPICDE:EntityAuthorityInfo
-// JIENNOFAEPE:extra_card_data
-// JIHNKACOANJ:GCGMsgSelectOnStageByEffect
-// JIIHFGKDCCG:BreakoutSyncPing
-// JIOFOGOAJNO:EvtLightCoreMove
-// JJABCCGBNGO:BreakoutSpawnPoint
-// JJCADLAOBJN:CoinCollectPrepareStageNotify
-// JJCGOOHMNFH:is_server_cache
-// JJCNHBOIMNJ:GCGGameBriefData
-// JJEOJIHLFKO:gcg_brief_data
-// JJFEOHFFJGK:mp_setting_type
-// JJIPFMLHHKI:CodexDataUpdateNotify
-// JKCCDOBHMEN:GCGClientPerformType
-// JKCPFBNOBIA:GCGOperationRedraw
-// JKDBDJFHFMJ:SetWidgetSlotReq
-// JKDGHPHEIBI:ReportReasonType
-// JKDPDIGIHMH:offering_data
-// JKICJJAJOOO:client_extra_info
-// JKPNMBEMOIA:transaction
-// JLCEPNMPGAI:is_elite
-// JLDCOLIEIJC:PlayerCancelMatchRsp
-// JLGNAGIBLIA:HomePlantFieldStatus
-// JLHAILKHIKK:PersonalLineAllDataRsp
-// JLHPMIOPGIK:max_combo
-// JLMOOJPDLMP:is_paused
-// JMAOAHKEGGH:speed_increase_count
-// JMAPGEBNINA:name
-// JMGBKGLJOPK:new_room_list
-// JMHFCBCOKHA:UgcDungeonCandidateTeamInfo
-// JMJAPHDILNC:PlayerMatchSuccNotify
-// JMKHDKHCNLI:LanV3BoatStageInfo
-// JMLHEPOPEIN:WindFieldDungeonFailReason
-// JMNGJOKBHHE:GameplayRecommendationSkillResponse
-// JMOLEKGAALD:OfferingInteractRsp
-// JMPAEBDOOMC:UgcType
-// JMPLKDAIKDI:obstacles
-// JNAFCDOHHAP:HideAndSeekStageInfo
-// JNBMAOOGJNM:unlock_status
-// JNCDLBINEDK:SceneGalleryFlowerInfo
-// JNDCKBIGBCA:affix_list
-// JNDJFDCCBHG:target_uid
-// JNECAGAJPLL:ElectroherculesBattleDetailInfo
-// JNEGELLFCJD:draft_id
-// JNELGLLLJNH:AreaPlayType
-// JNIMALFGJHL:retcode
-// JNKDGNEONND:HomeGetOnlineStatusRsp
-// JNLAJFJCEKE:config_count_down_time
-// JNNKICCLLMB:UgcTriggerAction
-// JODOHFBJKHH:operate_type
-// JOHEMHMIMGE:GetUgcDungeonBriefType
-// JOILKNMCCOO:CustomDungeonOfficialNotify
-// JPLDOBPBEHM:GCGSettleOptionRsp
-// JPLOOJCLIBC:ability
-// KAGMEOHONAL:RogueDiaryAvatarDisableStatus
-// KAGOCKBJHJO:skill_anchor_position
-// KAIILKGBDID:HachiActivityDetailInfo
-// KAINDLEHEFF:type_data_list
-// KAKNEJNDMKM:client_collector_data_list
-// KAMLKILKGCJ:height
-// KBCJEMHAONA:DungeonCandidateTeamInfoNotify
-// KBDNIGGCBPH:UgcSpecialGadgetInfo
-// KBFMJIOBFLM:trans_no
-// KBGLPCKOPIE:EffigyActivityDetailInfo
-// KBKAEKLFHFJ:in_air_move
-// KBMDLFEODEG:SalesmanStatusType
-// KBPFGBABEIN:OperateType
-// KCBMKEGCJLL:NightCrowGadgetInfo
-// KCBNPOEPNEA:SceneGalleryDuelHeartInfo
-// KCEDJCPDPPC:interval_velocity
-// KCFBMECCMEI:get_brief_type
-// KCLMIDIKALF:QuestCreateEntityRsp
-// KCMAEFKLMNI:EquipParam
-// KCMCBHHMBCL:ResinCard
-// KCNAANMBAJH:avatar_guid
-// KCNIPGCFNJA:PlantFlowerActivityDetailInfo
-// KCOJHKHHHKG:is_gcg_festival_mode_open
-// KCPCKLJLNBB:HomeCustomFurnitureInfoNotify
-// KDGOBKLJMFB:settle_type
-// KDLMFECGGMF:pos
-// KDNAJGCICCI:is_finished
-// KDNIGJELAKG:PlayerHomeCompInfoNotify
-// KEDGEEGIEHE:RoutePoint
-// KEDLGHNDKJD:duration
-// KEIJMOJGIMP:group_furniture_index
-// KEIMPLBMFJB:anim_hash
-// KEINOAECHLI:content
-// KEJBEFCENFJ:is_always_bonus
-// KEJKAHALIDO:HuntingOfferData
-// KEKCMGEJEFH:SalvagePreventSettleInfo
-// KEKEGEIJEAM:die_type
-// KEKHHEFEBMP:AbilityInvocationFixedNotify
-// KELDPGONNGE:GetOpActivityInfoRsp
-// KELFDEOAFKF:monster_wave_guid
-// KENKODEJAGO:UgcActivityDetailInfo
-// KEPEJAGBPHL:is_have_ball
-// KFDKGHGFJMM:CustomDungeonBanInfo
-// KFFKFJMKOIP:is_agreed
-// KFGALNKCKBI:SceneNpcInfo
-// KFHGKDPNCOH:ai_config_id
-// KFIENPFMPDE:extra_ball_index
-// KFIGAFFBCJK:EnterCustomDungeonReq
-// KFJLDFAOGKO:BreakoutBrickInfo
-// KFLLEKOCBDG:UgcDungeonBrief
-// KFPEFPDGGDA:GetCityHuntingOfferRsp
-// KFPJFNDJKBO:HomeMarkPointSceneData
-// KGAJOFBMHMF:sound_name
-// KGHDFHJFCEL:AbilityMetaAddAbility
-// KGHHLNEMIGA:BreakoutVector2
-// KGJLCBEKCFD:AbilityInvocationsNotify
-// KGKECGJLAGI:remaining_durability
-// KGOAMINGILG:BreakoutSyncPing
-// KGODEDHBFBL:Shop
-// KGODOIJKDLG:SceneGalleryIslandPartySailInfo
-// KGOGPHALIJC:stop_scene_time
-// KHCAHGHAJJE:is_peer_id_from_player
-// KHHHIIIDFBO:mail_list
-// KHJMLGNBKEE:custom_dungeon
-// KHNLJGDMGLO:offset
-// KHOGCCPJOMA:GCGHintType
-// KIAHNEFKENL:BreakoutSyncAction
-// KIAPOPBEEEG:AbilityMixinWindSeedSpawner
-// KIBMCLAPOFJ:TrialAvatarActivityDetailInfo
-// KIELEOCCDOD:level_info_map
-// KIJHPEOALOO:AkaFesDetailInfo
-// KIKFAGCHJLH:SalvageEscortGallerySettleInfo
-// KILLOLCBOOC:hint_status
-// KIMFBHDCCML:element_reaction
-// KIMPLIMBDEF:SceneEntityAiInfo
-// KINNHLAKGND:custom_dungeon_group_id
-// KIOLIOMBFFK:is_gcg_pve_mode_open
-// KJCIDEOIJBH:InstableSprayDungeonSettleInfo
-// KJEDMEJFFLB:item_param_list
-// KJEKBDODHHL:grant_reason
-// KJFNBDPPGML:HomeStakeRecord
-// KJLGFFNJGBF:BreakoutSyncAction
-// KJLKGGEENME:SceneGallerySandwormCannonSpecialEffectType
-// KJMMMJKODMK:PlayerOfferingRsp
-// KJMMODAJDBP:SalvageEscortSettleNotify
-// KJONFIDCMDB:InBattleMechanicusCardResultNotify
-// KKCFFGGKEON:AvatarSkillInfo
-// KKENMPHJLEJ:RefreshNotify
-// KKFJFJFBADM:RegionSearchNotify
-// KKFMHPLHACG:InBattleMechanicusCardInfo
-// KKGNEFILAFP:ShapeSphere
-// KKNOAAHAMOL:route
-// KKPDPHBLJIC:HomeRacingRecord
-// KKPGPCKEKCL:is_mp_challenge_touched
-// KKPMEODBBJB:UgcTriggerActionActiveGadget
-// KKPOHPAOPGP:recv_item_data
-// KKPONKHOBKA:ArenaChallengeActivityDetailInfo
-// KLBKDAOPBJB:ball_element_reaction_list
-// KLBOOICPDKD:summon_tag_map
-// KLIMJNKEOFM:camp_target_type
-// KLKGJEPALKM:region_info
-// KLLJKINOACL:FoundationNotify
-// KLMDFACKPCO:BossChestInfo
-// KLNCDOLLCFF:BattlePassMission
-// KLNMOHOKMIJ:HomeBalloonGallerySettleNotify
-// KMDJKLPMIOP:radius
-// KMFBBEIGFPD:ClientCollectorDataNotify
-// KMHPOBECOCB:GCGHintNotify
-// KMNLPJHMIMH:pic_num_map
-// KMNNNAKNHBM:y
-// KMOIJEHGODD:msg_list
-// KNBAAJMLDDK:player_score_map
-// KNDOIKLHHGM:born_time
-// KNFGCIFDKNA:route_id
-// KNIBHNOEHPA:BattlePassBuySuccNotify
-// KNIDFELLKBI:EntityFightPropChangeReasonNotify
-// KNIENDGLLNB:InBattleIrodoriChessInfo
-// KNLLMHNFNGD:GCGReplayAskDuelRsp
-// KNPCLHEKDFH:MapMarkTipsInfo
-// KNPPEPMHGLA:is_finish
-// KOBELJMIMKK:DraftInviteFailInfo
-// KOBKHBNBGLK:detail_list
-// KOCANIAJFAP:is_final
-// KOHBBNINDMG:ActivityInfoNotify
-// KOHPAHCLKOP:instanced_modifier_id
-// KOJFPCONKGF:player_list
-// KOJNJPFEBDJ:MichiaeMatsuriActivityDetailInfo
-// KPBAFBHHGDA:BreakoutElementReactionCounter
-// KPCLGHLLLNO:ServerLogLevel
-// KPEBBKIDPJG:copy_from_avatar_type
-// KPEIPIECFBM:CustomGalleryScoreBoardInfo
-// KPFIHGGBHIN:UgcDungeonRoom
-// KPGFAHDOIEA:GetUgcType
-// KPGKMFFCMBE:play_info
-// KPIAAJIJNFL:cell_state
-// KPIJOFBIHAP:WindFieldDetailInfo
-// KPINOBHDMKO:GadgetPlayStopNotify
-// KPJGFDNLENP:avatar_info_list
-// KPJHKLKLAFO:controller_path_hash
-// KPNHBIELABL:EffigyChallengeDungeonResultInfo
-// LAAGOMCGIPI:BattlePassRewardTakeOption
-// LACODAHCDKF:gadget_type
-// LAGHGCPKALD:query_status
-// LAMKNCEICCO:GCGMsgSelectOnStage
-// LAOGAJAHFND:is_modifier_added
-// LAOPIIOEEDN:fetter_list
-// LBBPGDEHJAI:is_need_show
-// LBCEODFLKOB:GravenInnocenceRaceSettleNotify
-// LBHIAOIHPFG:IslandPartySailInfoNotify
-// LBMLOGICEHP:DynamicSVONode
-// LBNAINDBOLG:PacmanSettleInfo
-// LBOHNIDABDG:HuntingStartNotify
-// LCDHMECLMKJ:AbilityInvokeEntry
-// LCEIIEJPMBJ:play_pos
-// LCEKDFMENDO:city_id
-// LCGNMPFKHMM:AreaNotify
-// LCIDDGHONIO:AbilityGadgetInfo
-// LCLBBABDNLD:BalloonGallerySettleInfo
-// LCNCBDDKKPP:child_challenge_list
-// LCPGHFPHOBA:action_type
-// LDBFNDHPFPH:spawn_point_list
-// LDCHCOOCLOF:chapter_id
-// LDDCGEOHMDL:WidgetCreateLocationInfo
-// LDDCLOLNJON:EvtEntityRenderersChangedNotify
-// LDGBHEIGDMN:HomeLimitedShopInfoRsp
-// LDLJNMJLKDP:notify
-// LDPIDJKDKAN:trial_avatar_index_id
-// LEACIJIIGMO:mail_text_content
-// LEEADIIDOGG:GCGPhaseType
-// LEHJABBABBN:RoguelikeDungeonSettleInfo
-// LEJGDJKFFKH:cur_vehicle_info
-// LELNLLMGOGI:VehicleMember
-// LEMAOKGMNPP:HomeSeekFurnitureGalleryScoreNotify
-// LEMNBCGPOJM:owner_entity_id
-// LENGKFNJEHO:op_activity_info_list
-// LFGJOFFBMCD:SceneFishInfo
-// LFGKFNHCMNB:parent_furniture_index
-// LFGPAGLJPKI:resin_cost
-// LFHIIGIHKAL:FungusFighterV2DetailInfo
-// LFLIJABHNNE:AbilityAttachedModifier
-// LFMOJKMHFFO:PlayerStartMatchReq
-// LFNEKNOECAN:evt_rush_move_info
-// LFONNHJEGMJ:TreasureMapRegionInfo
-// LGCBPDGPCGA:SceneGalleryJourneyDiceInfo
-// LGFPPKJKFIB:SalvageChallengeInfo
-// LGHAADAFJFD:InBattleChessInfo
-// LGIAICFIANB:UgcTriggerConditionMonsterWaveDeactive
-// LGMGPHGCPIA:TreasureMapActivityDetailInfo
-// LGOLELEELKF:is_token_costume_reward
-// LGPCMGFBGFI:card_guid
-// LHBBELJBLNN:OpType
-// LHEAAAFEPFI:BrickBreakerStageType
-// LHFHLEBMELI:MsgParam
-// LHFPEOBIMGI:SkyCrystalDetectorQuickUseResult
-// LHJABFJNAFM:is_region_detected
-// LHJDFENLFBL:TrialAvatarFirstPassDungeonNotify
-// LHMAJHGDDPG:HideAndSeekSettleNotify
-// LHOGKDHAIAO:AvatarChangeCostumeNotify
-// LHPFFOCPOFO:is_started
-// LIAIKELAFHD:take_option_list
-// LIBANBAOAPA:AddNewUgcDungeonReq
-// LIDNKJMLJKA:area_play_type
-// LIFJJODAKDG:SceneGallerySalvagePreventInfo
-// LIKONBIMHFP:shop
-// LILIKPHKIJG:AuditState
-// LIPOHCFDFBH:UgcMusicBriefInfo
-// LIPPAKABPAO:prefab_path_remote_hash
-// LJBLHFMBEEA:difficulty_id
-// LJIGLAENAAC:entity_info_list
-// LJJDNEGAKNN:Route
-// LJKDBGJPAJN:GCGIntentionChangeType
-// LJKOFNDHHJP:SealBattleBeginNotify
-// LJLEJOHEBPD:ModifierDurability
-// LJLJAADLMKA:SceneEntityDisappearNotify
-// LJLOLHCAIEB:InstableSprayDetailInfo
-// LJMPOMDHOEP:SalvagePreventSettleNotify
-// LKBMOIHPHME:ShowMessageNotify
-// LKDCKNHKKIM:GCGOperationReroll
-// LKDIBDIPLAP:play_type
-// LKEGEDDEAKG:friend_pic_data_list
-// LKGACLPMPDN:QuickUseWidgetRsp
-// LKGGCFCGEFD:animator_para_list
-// LKIPJGJIGAH:hit_count_map
-// LKMLFDPMCBI:PlayTeamEntityInfo
-// LKNMHOGNENB:BattlePassUnlockStatus
-// LKOILNDKGLF:HomeGetGroupRecordRsp
-// LLAPKKJPNDC:UgcTrigger
-// LLEKMPPFAHO:source
-// LLGJGCCNAFA:w
-// LLHBBAOCAPC:opened_statue_uid_list
-// LLHHOCIOPON:goods
-// LLJFPCFELLA:point_type
-// LLJLGIHIDFM:FishBattleResult
-// LLMLOFGGBON:start_rot
-// LMADDCDEOBC:timestamp
-// LMAHMKEMHDA:SceneCreateEntityReq
-// LMCDNMBFEIL:EntityRendererChangedInfo
-// LMJPPCIBDKP:GroupLinkBundle
-// LMMAFEGMCDH:is_rewind
-// LNBBDFIGPAA:stage_type
-// LNBCGCLMGEP:AvatarPropChangeReasonNotify
-// LNEIOAHCNFA:OtherCustomDungeonBrief
-// LNGDEHMNOLD:LockedPersonallineData
-// LNGFPAKKPKG:ProfilePicture
-// LNHDKCJIDEE:argument_list
-// LNJLCPHFFII:GCGMsgAddCards
-// LNLPJCAODPA:DynamicLayerNodes
-// LOANPKGMJFG:is_connected
-// LOBNGLBOLDG:buy_count
-// LOCOPBKJPKB:UgcMusicRecord
-// LOEHJPPGAFK:GetOnlinePlayerInfoRsp
-// LOEMFOJJPCP:BreakoutSnapShot
-// LOIOCNFFOAP:brick_suite_id
-// LOPDINBOCIK:GroupLinkShowAreaState
-// LPCHNACPLOF:card_list
-// LPGIMCHLEPB:EchoShellInfo
-// LPNDGGEHLED:HitColliderType
-// LPNPDKAJCKC:avatar_type
-// LPPNBFFNKFN:HomeBalloonGalleryRecord
-// LPPPHBLKEFJ:exp_level
-// MAFEMMAKPKE:WidgetUpdateExtraCDReq
-// MAFOBMIAFII:TeamChainDetailInfo
-// MAIFCEPLOBP:title
-// MAIMFFNGJPE:windmill_sync_angle
-// MAKIKCBOHIM:DungeonDieOptionRsp
-// MAMICOPJNMB:SealBattleType
-// MAMOLGICIBK:value
-// MANKMPGDICO:WidgetSorushInfo
-// MBCEAABMPPP:DungeonChallengeFinishNotify
-// MBCHNOENIEI:AvatarEquipChangeNotify
-// MBEBLHBEPDC:cmd
-// MBELGHLCOEG:attach_name_hash
-// MBEMPBBJEHJ:TreasureSeelieActivityDetailInfo
-// MBGEDBANLGP:change_count
-// MBIADKKLGII:EffigyChallengeV4RestartDungeonEndNotify
-// MBIDLMPGIFK:entity
-// MBLENAKDJDO:GetActivityInfoRsp
-// MBNAACGCHEC:is_show_cutscene
-// MBNKBHDCHFE:general_reward_info
-// MCCDKCEPBPH:CoinCollectOperatorInfo
-// MCCKECANFNI:QuestCreateEntityReq
-// MCDIEDFINNF:furniture_type
-// MCIEBIPBNHP:SceneCreateEntityRsp
-// MCJILDKPIJL:last_shock_time
-// MCJLFIFIDBK:renderer_changed_info
-// MCNFLOIKIHJ:live_id
-// MCPCDNEFGMC:Retcode
-// MCPHBBLOBNB:target_entity_id_list
-// MDDJEIIGLHN:IrodoriMasterGallerySettleInfo
-// MDJHFNPEKBP:query_id
-// MDJMDFGNMLO:price_tier
-// MDNJFNODDON:dice_side_list
-// MDODKLHDEAM:AbilityMetaReInitOverrideMap
-// MEDFPMNODJG:hint_center_pos
-// MEFCCNLBLHC:OneoffGatherPointDetectorDataNotify
-// MEHFNMBJDHN:HomePreviewBlueprintRsp
-// MEJCEKOPDON:rand_card_list
-// MELDJDBIBGO:speed
-// MEMKGDDCMEE:target_entity_id
-// MEODNFLCLJP:is_ban_skill
-// MEOMDJPKDHM:refresh_num
-// MFAJNMPKOPN:GalleryFlowerStartParam
-// MFBCBOLJDKE:EvtAnimatorParameterNotify
-// MFCGGHJKLIL:client_params
-// MFGJDOJODGC:score
-// MGBIGGJGBND:mission_list
-// MGCFOLBGOKE:AvatarEnterSceneInfo
-// MGDEOBJIMIC:EffigyChallengeV2SettleInfo
-// MGDJOFHMLIP:PlayerMatchInfoNotify
-// MGHMJMIELJG:IslandPartySailStage
-// MGLPAMFIMKI:change_intention_list
-// MGMKJHDKLHB:shop_info
-// MGOKIJPMIDH:FallSettleInfo
-// MHDNKAOEKLB:is_default_hide
-// MHEJDDDLCIB:cur_player_num_in_world
-// MHOKKLHKKMG:WidgetActiveChangeNotify
-// MIFJLKPFCHG:PlayerApplyEnterMpNotify
-// MIFLGOPCLAB:PlayerDieOption
-// MIHMJDHPBHB:GMShowObstacleRsp
-// MIMILHIDDLG:best_score
-// MIOGDLHDNMK:UgcDungeonSwitchRoomInviteInfoNotify
-// MJAGFLLNAED:BreakoutSyncFinishGame
-// MJBHCHEDJLL:TreasureMapDetectorData
-// MJBJLMFEOHE:CatchSeed
-// MJDOMNMFKFC:is_open
-// MJFLBAPLKLG:bargain_result
-// MJGGOJKLDFJ:FishPoolInfo
-// MJJADBBMNKB:EnterUgcDungeonRsp
-// MJJPGNLLNGA:phase_type
-// MKBJFDHCBDN:player_level
-// MKCNJEPAKAI:FungusFighterV2SettleInfo
-// MKDCGANOINA:BuoyantCombatDetailInfo
-// MKDOPDDLEHM:motion_info
-// MKHKMLCFAAJ:ChangeHpReason
-// MKHNNLGEOOB:finished_bundle_list
-// MKKLANNFGNM:val
-// MKPBPBDBMAN:GCGMsgCardUpdate
-// MLBJGDGCLFL:ReportSubtype
-// MLDECGKLHKI:TrialAvatarInfo
-// MLIFAALHBEH:action
-// MLJKKFHMIGF:FishtankFishInfo
-// MLMIBJJLEJH:score_board
-// MLPBEIJDLEH:skill_map
-// MLPOLCLALDE:force_id
-// MMADPENGHJN:GCGMsgTokenChange
-// MMAGOCLEBEH:FleurFairBalloonSettleInfo
-// MMBFHPLMHIB:GCGMsgPVEIntentionInfo
-// MMDOMHFPEMA:visibility_count
-// MMGANNIKAHG:OfferingPariDetailData
-// MMHBFKGNIMO:param
-// MMLPAHDFACO:option
-// MMPJKHADAJE:message
-// MNALAFOHOCJ:detail_data
-// MNCMMBIMBHL:CustomDungeonRecoverNotify
-// MNDLJENABOM:PlayerDieType
-// MNFAMHEJAHC:GCGMsgRemoveCards
-// MNFIBKHKAGP:ServerBuffChangeNotify
-// MNGLMKKEFJL:pass_cd_time
-// MNKIEDKOMIM:is_first_valid
-// MNLAJBGNOHI:watcher_list
-// MNMFJCFOFKH:MultistagePlaySettleNotify
-// MOBDKKIGJKG:GCGDiceSideType
-// MOEFJPEGMAB:BlessingActivityDetailInfo
-// MOIJFPKDLCP:is_enable_interact
-// MONJEGBNBCD:controller_path_remote_hash
-// MOOKANFNMCI:UgcDungeonSwitchRoomPlayerInfo
-// MPCLDJALHJO:SummerTimeV2DetailInfo
-// MPEAHPJPENI:attack_result
-// MPEAJMMJDAM:is_light
-// MPJNLAABODH:camp_type
-// MPLCINPMEEA:point_id
-// MPLFKHHMJKP:GetAllMailResultNotify
-// NAALEEMLALI:HomeMarkPointNotify
-// NABLKFGNCAJ:matchserver_id
-// NAGLDMFHDKC:day_content_info_list
-// NANELNMDEKC:affix_map
-// NAPHNMDEMAN:HomeEditCustomFurnitureRsp
-// NBACFKAGGEB:SceneGalleryBulletInfo
-// NBBDKDCEMIJ:days
-// NBDBIABFIKG:BreakoutPhysicalObject
-// NBDKHPHGLAJ:MaterialDeleteInfo
-// NBDPCAIOPPH:CustomGalleryScoreBoardUpdateNotify
-// NBKEPGMLMOD:TowerLevelEndNotify
-// NBKHNDLHJLB:CalcWeaponUpgradeReturnItemsRsp
-// NBOLBPKDFGA:SetEntityClientDataNotify
-// NCKABMJFLAA:is_quick
-// NCKPCEKKAIB:area_id
-// NCLEHJJDBHI:codex_id_list
-// NDAKFHPAEMG:BrickBreakerStageInfo
-// NDDEFMPDCGI:level_data_list
-// NDMGMNBPCIL:item_param
-// NDMLFKEOEIA:arrive_range
-// NDOBMNGCPNF:SceneGallerySalvageEscortInfo
-// NEAJCIDMIIL:ForgeQueueManipulateRsp
-// NEBMNJHCBPE:ugc_dungeon
-// NEEBNNJCKOK:summoned_tag
-// NEEHJFJHJDN:TeamChainSettleInfo
-// NEFDPBAGHGK:GCGMsgCostRevise
-// NEHBDOHJHJH:TanukiTravelActivityDetailInfo
-// NELKPPOAKGB:PhotoActivityDetailInfo
-// NEMGDDANHOL:FleurFairBossSettleInfo
-// NENEOCHHAPO:MotionInfo
-// NFDONINGBOG:Material
-// NFFDEJEHAAJ:MuqadasPotionActivityDetailInfo
-// NFGJELLAPGD:life_state
-// NFIKGICGKII:GetScenePerformanceRsp
-// NFKCPNKIFCO:MultistagePlayInfoNotify
-// NFLAPNPCMCF:StoreItemDelNotify
-// NFNCNNJLKJH:HomeFurnitureGroupData
-// NGALBMBADMA:music_id
-// NGBCMFINCHJ:GCGReplayBriefDataNotify
-// NGENKOMMCMJ:dice_index_list
-// NGGFMKKMHND:delete_time
-// NGKCFHGMGKM:attack_element_durability
-// NGLPMIMFFME:product_id
-// NGNANLEOEGH:BartenderActivityDetailInfo
-// NGNJMNFMFMA:RogueEliteCellDifficultyType
-// NHEPLOMEKKN:custom_furniture_info
-// NHFAFGEGHLO:WidgetThunderBirdFeatherInfo
-// NHFNBABAFCC:StartRogueEliteCellChallengeReq
-// NHJCCLPBANP:VintageHuntingSecondStageInfo
-// NHODLKCIBEP:fish_pool_pos
-// NHOFBPDLBGO:GadgetGeneralRewardInfo
-// NHPJIBGDAFJ:furniture_id
-// NIAFFKOLCOI:FleurFairMinigameInfo
-// NIDOHNPMDKC:WindSeedClientNotify
-// NIEBJMLBPBN:GCGSettleOption
-// NIGGNJACAGI:focus_forward
-// NIPPCECCBDB:retcode
-// NJDLGEOCIMA:fish_pool_entity_id
-// NJKHGJEDIJL:GadgetCrucibleInfo
-// NJKLGHEBOLA:PlayerLogoutReq
-// NJLGKAJHPKJ:promote_level
-// NJMEDPCJNHO:is_taken_reward
-// NKCJJBELPMF:WidgetSlotChangeNotify
-// NKCNOJLLPGE:GCGOperationOnStageSelect
-// NKJBOPEPEND:position
-// NKJFDLEPLEB:MusicGameActivityDetailInfo
-// NKKHCAKHIFN:core_proud_skill_level
-// NKLDPAAFKGC:dig_mark_point_list
-// NKLMDKEHBCB:DealAddFriendResultType
-// NKMIPCJMJID:combat_config_hash
-// NKMLDKFPBJJ:ServerUpdateGlobalValueNotify
-// NLACLKJOPOO:PotionDungeonResultInfo
-// NLACPAHHPGI:forward_type
-// NLAFEIEOMCN:parent_ability_name
-// NLHOEIAIILL:schedule_id
-// NLIICFGFGFN:DungeonPlayerDieReq
-// NLINJJMJGOF:AbilitySyncStateInfo
-// NLKAGNLMEGM:expedition_state
-// NLKKNAIONKJ:UgcMusicBriefInfo
-// NLNECPJLDHM:DungeonPreloadMonsterNotify
-// NLNLHHAAENP:modifier_durability
-// NMAAFMFDECE:content_close_time
-// NMBEJFFGLBA:VisionType
-// NMBIFHBJNOE:SceneAvatarInfo
-// NMBMIHLFCPI:MaterialDeleteReturnNotify
-// NMBPLKMDOOH:QueryPathRsp
-// NMDOJDABLBG:id
-// NMHAONILOJC:CharAmusementDetailInfo
-// NMKOJDOKFHH:EntityForceSyncRsp
-// NMLNPIHDJHE:dynamic_object_list
-// NNDBLAPCKJB:SalvageStageInfo
-// NNDGDAGLMPL:CustomDungeonResultInfo
-// NNDLLENLKHN:GadgetInteractReq
-// NNGHMEDCEPF:ability_data
-// NOAKKJHPOCC:GCGMsgModifyAdd
-// NOCCJNDDHAE:hp
-// NOJAPINMMLP:DelayWeekCountDownDelete
-// NOJCEDIDBBJ:DeshretObeliskGadgetInfo
-// NOKCADMMDGJ:avatar_guid_list
-// NOKGLEGCAEO:VintageActivityDetailInfo
-// NOMOLAMCOOC:invokes
-// NPDMMBFOLNG:importance
-// NPECDCOCKCI:cur_schedule
-// NPEEJCEKEOE:id_index_list
-// NPIOHKDFFHJ:VintageHuntingThirdStageInfo
-// NPJGIENFAJM:RefreshSeed
-// NPJLLALFMHH:optional_tired_avatar_list
-// NPKHNMNCHLH:QuitReason
-// NPOPPHBJPPF:SceneTeamAvatar
-// OAEEKIHBABH:level_info_list
-// OAHCEGHNPDI:authority_change_list
-// OAOIOECJHKJ:GameplayRecommendationElementReliquaryRequest
-// OAOOIAOEBKC:challenge_info_list
-// OBAGOLMPJAK:CheckAddItemExceedLimitNotify
-// OBGLOJGJKMK:ShowAvatarInfo
-// OBJPCLNBENM:HuntingOngoingNotify
-// OBKPPHPJLMG:FoundationReq
-// OCCMFBOAINL:BartenderCompleteOrderReq
-// OCLBAEAIHJK:UgcTriggerConditionMonsterGroupDeactive
-// OCLPKBKNCMM:PlayerApplyEnterMpAfterMatchAgreedNotify
-// OCNAGNKDEKA:StoreItemChangeNotify
-// OCNDINAKOJE:finish_type
-// ODCBBKDBKHM:pose_id
-// ODDKPDAJDHG:GCGMsgUseSkill
-// ODGHKBHKDIH:SalvageEscortStopReason
-// ODJMMNAEEGO:end_time
-// ODOFDOILNDL:DuelHeartDetailInfo
-// OEAGGIIHLKM:GravenInnocenceDetailInfo
-// OEBCOEJJIEF:chair_id
-// OEBEGFGMGJC:State
-// OEDGNNAGFMG:BeginCameraSceneLookWithTemplateNotify
-// OEGIHIELGNG:SceneGallerySorushTrialPhotoMatchInfo
-// OEIKBFOMCHM:RogueDiaryTiredAvatarNotify
-// OEJAKGEBDDI:hit_retreat_angle_compat
-// OEPKCIMACHK:ScenePlayerInfo
-// OFCEALHOKLA:seed_pos
-// OFCGIHHCCGD:PlayerStoreNotify
-// OFEHJBFIPEI:GalleryWillStartCountdownNotify
-// OFIMFMCMHHO:GeneralMatchInfo
-// OFINKGLDBND:fish_id
-// OFKOKAJIMFC:score_list
-// OFLELAMKLJD:ChessActivityDetailInfo
-// OFLHAGPDMAA:projector_entity_id
-// OGANLOKBBCA:DropItemRsp
-// OGHPKPNGDBN:blossom_refresh_type
-// OGJHODLOOCO:is_cg_viewed
-// OGNJNEMILGC:ChapterState
-// OGNMMFADFDG:FleurFairStageSettleNotify
-// OHAAHGPCDNC:HomePlantSubFieldData
-// OHAHHALNFOD:SetWidgetSlotRsp
-// OHEKFJOIMFB:rewarded_fetter_level_list
-// OHGCCNLKJIH:GCGDuel
-// OHGCGIBDKAP:snap_shot
-// OHICDNAOEPC:pending_promote_reward_list
-// OHKDGIPAHHH:MoonfinTrialActivityDetailInfo
-// OHKKCOKGJNA:DraftInviteFailReason
-// OHKNOCEHDHL:locked_by_uid
-// OHLPCAGEBNL:SceneGalleryTreasureSeelieInfo
-// OHMMEEGGHKM:scene_player_fall_info_map
-// OHMNLDMBKKD:CrystalLinkActivityDetailInfo
-// OHPDFFIHCJH:prop_owner_entity_id
-// OIKBLCKCEFD:fetter_state
-// OILDNOCJPNM:interact_uid_list
-// OIMBIOJPCFB:music_record_map
-// OIPMNBLNIMH:WinterCampGetFriendWishListRsp
-// OJBMMIFPOOH:parent_quest_id
-// OJCFCOMDCIO:spawned_brick_list
-// OJCKAMOPBOC:MistTrialSettleNotify
-// OJCLJNJKKHN:HomeEditCustomFurnitureReq
-// OJEDFDCFEOA:SummerTimeDetailInfo
-// OJFECJGDKAC:TreasureMapRegionInfoNotify
-// OJGFEDHAICD:RemoveRandTaskInfoNotify
-// OJIABBIMPJD:server_buff_list
-// OJIFEFECDJB:EntityClientExtraInfo
-// OJIHEAAPOLM:is_new_game
-// OJJBLGCADHC:HomeSeekFurnitureAllRecord
-// OJJNDGJFFKM:region_center_pos
-// OJKGKLHLAJE:npc_id
-// OJMICNAHMED:last_hit_peer_id
-// OJMOGCOEIHB:is_sandworm_appear
-// OJPFAFKHCFC:left_cd_time
-// OKACLHBDDPK:EventTriggerType
-// OKCDBJHDJDI:PlaySoundType
-// OKDGEAJFNFH:DraftOwnerStartInviteRsp
-// OKJAFPKLECE:SceneGalleryBrokenFloorInfo
-// OKKEJIDJBKC:full_cd_time_list
-// OKKKMLEJBEH:server_share_code
-// OKKKPGICCHN:server_seq
-// OKMJOCLNNKF:GCGMsgGameOver
-// OLAEIOILAHD:entity_environment_info_list
-// OLCBOJOFKPD:RogueCellUpdateNotify
-// OLDBNEFHKGH:player_uid_list
-// OLECMJKAHDK:IrodoriActivityDetailInfo
-// OLFMLFHAJPO:hint_point
-// OLJCBIAAAOJ:MaterialDeleteReturnType
-// OMJONCEHNGD:ugc_type
-// OMLJGCPFEEL:EvtEntityStartDieEndNotify
-// OMMAOFMKONO:GMQueryPathReq
-// OMMMJDKJFLK:CombatTypeArgument
-// OMNDCCBDMDA:ItemParam
-// OMNOMEOOPJM:param6
-// OMOAJLKBCPI:MatchPlayerInfo
-// OMOAKOPHDIJ:FriendEnterHomeOption
-// ONBACGGNJDI:is_end
-// ONDCCEFNLED:WeatherInfo
-// ONNPHOHAPPF:CustomDungeonBanType
-// ONPKLKIBDGG:SocialDetail
-// OOAAPKGMOAG:SceneGalleryPacmanInfo
-// OOBKNFOMKJH:scene_arrangement_info_list
-// OODPEDFHHNL:AvatarExpeditionState
-// OOFOPDKKFLH:UgcDungeonPlayAllDataNotify
-// OOGCJJHKBFH:spawn_pos
-// OOGEHMELIEL:authority_peer_id
-// OOGNFJHKHPI:SceneReliquaryInfo
-// OOIOIAMCANO:CreateReason
-// OOOBKABPMNB:cond_reason
-// OOPJLDGPDGC:monster_id
-// OPEBPLGMMJJ:UgcDungeon
-// OPHGNFJJLGD:GCGMsgSkillLimitsChange
-// OPIIPGAJIEC:use_client_rot
-// OPJCBKMGBOI:PolygonRegionSize
-// OPKIAOCIAOM:DeliveryActivityDetailInfo
-// OPKPMFODKAC:QuickUseWidgetReq
-// OPMCDAEOLJE:RoguelikeGadgetInfo
-// OPMDPNHFBNJ:ActivityPushTipsData
-// OPMEOAAOMEC:EchoShellDetailInfo
-// OPNMIBDJFJA:UgcDungeonImportOpType
-// OPPABJIGPAP:server_buff_uid
-// PACEHBFGBIG:ForgeQueueManipulateType
-// PADOBHCPGHM:is_unlocked
-// PAGHNDFEOJM:SceneGalleryFallInfo
-// PALJEGODEFK:element_reaction_buff
-// PANJABMKEII:TakeMaterialDeleteReturnReq
-// PBBMMFOHBGA:ability_override
-// PBCOHOCFAOP:AbilityBornType
-// PBJFGPHNEFL:psn_id
-// PBKHJJNBHOA:SceneGalleryLuminanceStoneChallengeInfo
-// PBLBBNPACNL:server_buff_change_type
-// PBNJFKKLHNG:AttackResult
-// PCBJLFFNBKG:WinterCampStageInfoChangeNotify
-// PCCFKEFIBIH:ForgeQueueManipulateReq
-// PCHFNHBBJLN:parent_index
-// PCHKLAKNLNN:HomePlantInfoRsp
-// PCIPDFIHKIL:config_id
-// PCJNGJNLIBB:SceneMonsterInfo
-// PCKKDLODJPI:HomeCreateBlueprintReq
-// PCPEJDNJIAD:TakeBattlePassRewardRsp
-// PDGAFFDEGDP:born_pos
-// PDGOLODMMFK:field_list
-// PDILDMCECAJ:SeaLampV3DetailInfo
-// PDKHBIEHNKM:is_unlock
-// PDLKECHMDHG:wind_change_target_level
-// PDMHHBAGEBG:skill_level_list
-// PDPOFDFIDKA:monster_route
-// PEEJKKLKDIH:ExpeditionActivityDetailInfo
-// PEFPPHLEMGP:LunaRiteDetailInfo
-// PEKGDMHEAIK:WorktopInfo
-// PEKPJLKEFAM:match_type
-// PELPNDAJNCK:platform
-// PEMPECECLPF:SumoActivityDetailInfo
-// PFMOCJPNIOB:GCGPickDetailNotify
-// PGCBKJMMHEP:GCGSkillPreviewInfo
-// PGCELMPDMAK:axis0
-// PGFLKFANGPO:UgcTriggerActionChangeGadgetState
-// PGFNNLIKEDD:entity_id
-// PGHGHOFIFDN:skill_id_list
-// PGHMEKIDFOD:key
-// PGMMIHBPBIN:EntityClientData
-// PGMMOBNDLHJ:route_type
-// PGOKFLPAGNO:MailCollectState
-// PHBIGCMGNHM:ClientAbilityChangeNotify
-// PHCBOJJFMLD:AuthorityChange
-// PHGMHCBENAF:applied_modifiers
-// PHKMJILKEIJ:GCGMsgMoveCard
-// PHLCKDHBFCH:FindHilichurlDetailInfo
-// PHLGPFADGPG:target_lock_point_index_list
-// PHMBCBDFCFK:WinterCampRecvItemData
-// PHMCKMAKNKK:weight_limit
-// PIAIPDPIDPD:BrickBreakerDetailInfo
-// PIFHPPGIKCA:StopServerInfo
-// PIHIGEPKGDL:center
-// PIICDEKGAIP:reform_param_list
-// PIJMHHGNKPI:CustomGalleryScoreBoardType
-// PIMBCDEHPMO:EvtAvatarLockChairRsp
-// PJAAEDFHNNL:CustomDungeonFinishType
-// PJBODNLDKOD:is_online_id
-// PJEEEBOPDHG:WidgetSlotOp
-// PJEGIPKKLHP:oneoff_gather_point_detector_data_list
-// PJLGNIOBMPM:mark_tips_list
-// PJLNJMMLOME:param5
-// PJNOEFJCLLK:SceneGalleryIslandPartyDownHillInfo
-// PJOFJKPOAOF:EvtBeingHitInfo
-// PJPMAFEFPCD:GCGOperationReboot
-// PKBCMEBKBLA:FleurFairGallerySettleInfo
-// PKBNABCLLKK:signature
-// PKFGOPKCIPA:brief
-// PKFHMHDLPHH:CrystalLinkDungeonSettleInfo
-// PKHKFKAGEKM:GCGMsgPhaseContinue
-// PKJHNEFDOGP:is_collected
-// PKJKOOEAOLC:wearing_flycloak_id
-// PKLGIOOOEHN:detail_play_type
-// PKNPAEJEKPO:controller_id
-// PKOEKPHPNCA:enter_pos
-// PLAIKPOGNDH:GCGMsgCostDice
-// PLCAPHFMOCH:is_pass_all_stage
-// PLIHFNACNNP:level_type
-// PLMCKJBKLFG:nickname
-// PLPPHHODODE:group_id
-// PMAAINCKKMJ:StoreType
-// PMBGGIBKKMP:BargainResultType
-// PMCDEBBMKDL:is_finish_any_level
-// PMCGEJJOFPA:gadget_id
-// PMHDEKIBJID:invite_fail_info_list
-// PMJKOIDEPOL:ref_pos
-// PMKPPBFFPGJ:UgcDungeonCandidateAvatarType
-// PMLDKMDJLOE:reduce_ratio
-// PMLLGDBCMBJ:virtual_furniture_list
-// PMPGOLNBBFD:is_from_match
-// PMPJJBHNIKP:url
-// PNDIFANEMMP:HomeUpdateArrangementInfoReq
-// PNFICIIJAFE:profile_picture
-// PNJEFPIKCIA:progress
-// PNJIFAADGAM:PlayerLogoutReq
-// PNLJDADNNLF:AbilityMetaUpdateBaseReactionDamage
-// PNONFNIHELJ:reported_type
-// POAHAHAJLLO:GCGEndReason
-// PODJNBBMEMJ:PlayerLogoutReq
-// POHJMCECHAK:EnterUgcDungeonReq
-// POJCEMBIBGG:DropItemReq
-// POJNEJGDBNH:fight_prop_list
-// POLDAGOEEKM:fail_motion
-// PONOMECEKJC:UgcDungeonSwitchRoomInviteState
-// POPGPKJKEAO:is_focus
-// POPJMOAFEFA:SceneGalleryBuoyantCombatInfo
-// PPBNKJJHFCD:AbilityInvokeArgument
-// PPDHEEAPELP:immediately
-// PPDIHMMDNCE:scene_id
-// PPDMAKNDIHH:official_black_coin_list
-// PPENPNCBCMO:OnlinePlayerInfo
-// PPEPDDCGEDO:node_list
-// PPHMKGLKGNO:OfferingInfo
-// PPJLNFLFDGG:peer_id
-// PPLCLIKFOAH:start_source
-// PPMKGIDKMPE:op_type
-// PPNCEIHIEOC:is_has_change
-// PPPKJNGKEGB:HomePlantFieldData
+AACIBKOGOGB⇨Vector
+AAEENEPPPCH⇨open_id_list
+AAIKIKLEBDL⇨ItemAddHintNotify
+AAKNNAPADEP⇨time
+ABCDKLKJAEJ⇨entity_type
+ABCKJPFCBBN⇨SceneGalleryBounceConjuringInfo
+ABDLNJKJPOD⇨weapon
+ABLJLDANMBA⇨CombatInvocationsNotify
+ACEPDJOLHKK⇨stage_info_list
+ACHIIHCKAGO⇨Type
+ACIHPIDJAPJ⇨BeginCameraSceneLookNotify
+ACKNAMDPDJI⇨CustomCommonNodeInfo
+ACLAFJBDFJM⇨check_shape
+ACPDAEBLCBA⇨ShapeBox
+ADBFPOKIJHB⇨SalvageBundleChallengeInfo
+ADEIBBNACKI⇨CodexTypeData
+ADFOOFNPJIP⇨born_type
+ADLLDDKKNCC⇨store_type
+ADNAMOJGMPH⇨combo
+ADPHEDPAHDD⇨MistTrialActivityDetailInfo
+AEBLJNFKGEJ⇨card_product_type
+AEIJOGLCLHE⇨activity_info
+AEJFNCKHDDG⇨RogueDiaryActivityDetailInfo
+AEMHPAOKEAA⇨today_fish_num
+AENBMLCBPIB⇨wind_change_scene_time
+AEPAMCLDHJN⇨GearActivityDetailInfo
+AFBBDAEMEMO⇨start_cd
+AFBDLBPDJEN⇨FleurFairV2DetailInfo
+AFCOODFGGDL⇨GachaTransferItem
+AFEIMNMDMHH⇨item_level
+AFNEGLNICPD⇨server_buff_id
+AGAKGCNDAGF⇨interact_type
+AGCHOLMDCIL⇨GCGSkillPreviewExtraInfo
+AGDOAGJBBJL⇨ServerLogNotify
+AGEEOIPMNAD⇨option_list
+AGHBDGJGFDH⇨comp_info
+AGJAPBDBICP⇨info
+AGJBEJLKMKG⇨SceneGalleryFungusFighterTrainingInfo
+AGJBJJDKDKL⇨WidgetCreatorInfo
+AGNFKPFMMFF⇨fetter_info
+AHDJCADJDLK⇨hcoin_per_day
+AHDMNOLOOJN⇨is_cached
+AHELIEKDJGH⇨GetAllMailRsp
+AHEMAGIFHLO⇨FireworksReformParamType
+AHIFGHEKALH⇨ShopCardProduct
+AHKDLEFHJBH⇨SceneGalleryHomeSeekFurnitureInfo
+AHLOLKLBJBG⇨area_code
+AHLPLJMOAOM⇨gallery_info_list
+AHMIHFJHAJP⇨hunting_pair
+AIAKJNNMAEE⇨search_time_map
+AIEBMKODPKL⇨VehicleInteractRsp
+AIFKBKMKBMG⇨ScenePlayBattleResultNotify
+AIHKKAOCIIJ⇨dead_time
+AIHNOIGMAJG⇨from_type
+AIKGNCNHAEJ⇨index
+AIPLIPBAEOD⇨record_list
+AJBNNMFJPIK⇨BreakoutSyncCreateConnect
+AJIMHFDLHNF⇨pose_para_list
+AJJBIHJCAKF⇨duel
+AJKDCPMNDGL⇨DisplayGroupRegionNotify
+AJLJLNLFOPP⇨AnimatorParameterValueInfo
+AKAEKDLLKFJ⇨InBattleMechanicusInfo
+AKGKDBFHFGA⇨GetWidgetSlotRsp
+AKKDJBOEBNO⇨parent_ability_entity_id
+AKMNJCFMCAF⇨gadget_entity_id
+AKOAPBNNLDJ⇨player_info_list
+AKPBEBKFJIE⇨GCGMsgDiceRoll
+ALAIAIFDCLI⇨BalloonSettleInfo
+ALCJFDELPOO⇨have_viewed_list
+ALFBGPNKJHH⇨override_map
+ALHEPLMKGKH⇨region_radius
+ALKAGIKHBPC⇨MailItem
+ALLBPPFIHOI⇨is_force_ignore_cd
+ALMAGPDBBPN⇨MpSettingType
+ALMGIOPFBFC⇨submit_count
+AMBLJMIJHEA⇨name_card_id
+AMHEDCLAGEM⇨GCGMsgDiceReroll
+ANDGDGBKGAO⇨OpActivityInfo
+ANKIKJJHCNK⇨physical_object_list
+ANKPLDPAEHN⇨raw_client_game_time
+ANOGLELGLND⇨blacklist_uid_list
+ANPHFMNDIIO⇨SettleReason
+ANPMOBBNNLF⇨param1
+AOAPPHPMNEM⇨PlayerPropChangeReasonNotify
+AOFEGJJEBHJ⇨AbilityMetaSetPoseParameter
+AOGJDEADFIH⇨region_search_list
+AOIBAMDDELA⇨GameplayRecommendationReliquaryResponse
+AOILGNLAOPI⇨LifeStateChangeNotify
+APBDFLLNGJH⇨total_rotation
+APCBOPCADGM⇨level_data_info_list
+APFDCFDJCGD⇨included_furniture_index_list
+APLFEAIIDKP⇨attack_target_id
+APLHDDFFCHL⇨replay_brief_data
+APNLLKBHJBL⇨UgcTriggerConditionGadgetDeactive
+BABLALANKCD⇨is_adjust
+BAFCPNLICKP⇨HomeLimitedShopBuyGoodsRsp
+BAFIHNCJKKG⇨chest
+BAHCHDMHEOH⇨gadget_talk_state
+BAIDHMJFAAD⇨fish_distance_from_water
+BANIOBBDLFB⇨HomeLimitedShopBuyGoodsReq
+BBBOICDBKOP⇨GCGPhase
+BBFCCCBILAF⇨max_charge_count
+BBFOLENFKEH⇨LanternRiteActivityDetailInfo
+BBGEMOELBPB⇨PlatformType
+BBKBBDNJGOJ⇨ActivityPushTipsInfoNotify
+BBKMEHJNIAG⇨EntityMoveInfo
+BBLCKGHMAJL⇨reason
+BBMPHLHBBDH⇨is_transfer_item_new
+BCALOICHBJJ⇨SandwormCannonLevelData
+BCGGIKPCJCM⇨is_record_score
+BCGJFPFAGCF⇨GCGLevelType
+BCIBKHMMHPK⇨is_add
+BCKGDENBCIB⇨ItemExceedLimitMsgType
+BCPNPBPACNM⇨EditUgcDungeonNotify
+BDADMPLEPDL⇨PerformOperationNotify
+BDAEJFLHLNL⇨CustomGalleryCountdownScoreBoard
+BDCMIDKLDAD⇨AbilityMixinBreakout
+BDCMKFKEKCI⇨SpiceActivityDetailInfo
+BDEDFCPNPKD⇨TrialAvatarGrantRecord
+BDHBFNHEALD⇨remain_reward_days
+BDPOPDHJINP⇨x
+BEHECMEIPEO⇨cell_id
+BEHEGGIILOJ⇨is_view_formula
+BEILBOHEDGC⇨SceneAvatarStaminaStepRsp
+BEMIEMLAHHP⇨sender
+BENALGILLEG⇨InBattleIrodoriChessSettleInfo
+BEPDAOGPJDH⇨msg_pack_list
+BEPHJPLNMIJ⇨PlayerEyePointStateNotify
+BFBMEEJOMBE⇨change_onstage_preview_info
+BFBMNIAGDGD⇨AbilityMetaModifierChange
+BFCGCKDDANB⇨route_points
+BFEJJMLDJNM⇨PropPair
+BFEMGLHHLIN⇨LunaRiteHintPointType
+BFFIDNDCOJA⇨EvtAnimatorParameterInfo
+BFGBCJEAPNO⇨GCGSkillPreviewCardInfo
+BFGFEKDFNOC⇨EnterCustomDungeonRsp
+BGBGDFKHOKB⇨GCGMatchInfo
+BGDHGBNKHFB⇨UgcGadget
+BGIDIEFAGMA⇨GCGMsgDuelDataChange
+BHBIHCJMAKK⇨discount_num
+BHDECHENBCD⇨SceneGalleryCoinCollectInfo
+BHNFOLFDPDI⇨stat_info_list
+BHODDCAFHOL⇨server_buff_type
+BIBLOGKKGMF⇨prop_type
+BIEMKNPIHDK⇨AvatarLifeStateChangeNotify
+BIJEAGHDHBI⇨GMObstacleInfo
+BJAAHBJAPEG⇨HomeGroupPlayerInfo
+BJCEDHOHNDL⇨item_num
+BJCPAEELLHA⇨FleurFairPlayerStatInfo
+BJIKKNKNFCD⇨HomeLimitedShopInfo
+BJJAKGKAHHJ⇨GCGGameBusinessType
+BJKMLBJGCHG⇨parent_ability_override
+BJOJGJABHOD⇨result_param
+BKDEPPMCPAC⇨coin_collect_info
+BKHIDGDJEIM⇨content_msg
+BKHOLCELHPD⇨widget_data_list
+BKMEALNMLKN⇨sync_type
+BKPOGGHCMHM⇨GCGSkillPreviewHpInfo
+BLABJOFOJJH⇨wish_data_list
+BLAFOMHICHF⇨qualify_uid_list
+BLCHGOGJPGE⇨UgcTriggerActionDeactiveGadget
+BLCIHHKGKAB⇨GetUgcBriefInfoRsp
+BLELEDPHCEO⇨BlessingGetFriendPicListRsp
+BLFMEMOMFKK⇨SceneGalleryInfoNotify
+BLFOAIJEPLH⇨uid
+BLHINKKJIGI⇨InBattleMechanicusSettleInfo
+BLJAFPJHEDD⇨KeepRotType
+BLJDAPHCOPL⇨GCGMsgSkillResult
+BLJJCKBBNEK⇨scene_player_balloon_info_map
+BLLNNMGIPPG⇨GalleryStartSource
+BLMJNHLPHPA⇨BattlePassAllDataNotify
+BLPANCPNDIN⇨EvtDoSkillSuccNotify
+BMBJMAJOBOM⇨stop_end_time
+BMCJOINHDOK⇨Unk3700_HJBIANEJEBC
+BMHFDEEKNBC⇨DungeonSettleNotify
+BMHKBLMAEHP⇨ContentAuditInfo
+BMKOJJMLODF⇨is_content_closed
+BMKOLEHLAGA⇨InteractType
+BMLMFJLJOKI⇨skill_type
+BMLOJGEMCMO⇨PlayerPreEnterMpNotify
+BMMMEAPKIPI⇨show_avatar_info_list
+BMOGFOOPLPF⇨FleurFairMusicGameInfo
+BMPDNKJDKFL⇨GCGMsgNoDamageSkillResult
+BNABGHLEALL⇨FireworksReformParam
+BNBMBHHHDEK⇨AStarMethod
+BNDFODHDOFN⇨WinterCampFriendWishData
+BNHEMPJHKHP⇨CharAmusementInfo
+BNJGHGGPODI⇨blossom_chest_info
+BNMCEDEFBNO⇨GetGameplayRecommendationRsp
+BNPFLLPNLCL⇨left_bonus_count
+BOCKGGNEION⇨slot_identifier
+BOCOGEGLMLH⇨ugc_brief_data
+BOEGJEAIFBH⇨BlitzRushActivityDetailInfo
+BOGOHAKNMAI⇨block_id
+BOHEJKMMDIE⇨SceneGalleryAkaFesRhythmInfo
+BOHLELJHPBP⇨lock_reason
+BOJPAKPNFOG⇨damage
+BOMJFCGADBD⇨resin
+BOMPBEHJLDG⇨Reason
+BONDJCEELCH⇨config_delay_week
+BOOHEFMBNOI⇨mail_id_list
+BOPDJMKHDMP⇨WinterCampActivityDetailInfo
+BPBFFGCEKFC⇨extents
+BPCODFECIDG⇨daily_info_list
+BPDCHBIOCJD⇨EnterCustomDungeonType
+BPDLCHDKNDM⇨WeaponUpgradeRsp
+BPFBGDPFGBM⇨friend_enter_home_option
+BPFHLNKCPIJ⇨other_params
+BPJCJLELMHK⇨BreakoutSyncSnapShot
+BPJGNBPADOB⇨FlightActivityDetailInfo
+BPKCOPLDGJI⇨HomeBalloonRecord
+BPMHEEEPGNL⇨name_id
+CABJNKCHLJA⇨json_climate_type
+CAEFBPLEMCN⇨AddReunionReportedTypeReq
+CAJMELKBGMK⇨weather_area_id
+CAKLDGPFNCM⇨ActivityPushTipsState
+CBCPHHIANGO⇨fight_prop_map
+CBIGAJDKBLO⇨UnlockPersonalLineRsp
+CCANGPJMENC⇨invoke
+CCDCFJEHJEP⇨daily_record_list
+CCEHMIMOAJG⇨mark_flag
+CCHPFCKNKPG⇨CustomGalleryNormalScoreBoard
+CCJIEEFHCFA⇨zone_type
+CDEGLJEFCHA⇨ViewCodexReq
+CDFEDEAFIAN⇨uid_info_list
+CDMLNJDPEOE⇨Reason
+CDOCCPAOBBG⇨HomeGroupRecord
+CEJJAFNLPJD⇨MathQuaternion
+CENDCPLODIG⇨WeeklyBossResinDiscountInfo
+CENGBBABGDK⇨entity_client_data
+CEONPPFNJKP⇨PotionActivityDetailInfo
+CFEDDBDNOFG⇨progress_stage_list
+CFGKHMAFDIO⇨QuestParam
+CFHKGOBKKHA⇨Item
+CFLAEODAODA⇨GCGSkillPreviewNotify
+CGADPCFCBNP⇨ActivityInfo
+CGAFCDAPLNA⇨GameplayRecommendationElementReliquaryResponse
+CGBJOONAECL⇨change_type
+CGBKNPMIHOC⇨ugc_v2_special_gadget_info
+CGBLNPFFMPC⇨is_use_condense_resin
+CGBNHPMDCCP⇨UgcTriggerCondition
+CGCFKGMFEEJ⇨dynamic_value_map
+CGDLFLCFGJO⇨shape
+CGENFBDIGCD⇨has_reach_event
+CGGKGMNNIJL⇨z
+CGHLHEJEPBN⇨HomeGetArrangementInfoRsp
+CGIDPECOPDB⇨EntityJumpNotify
+CGIPLMMPGEF⇨GCGGameBriefDataNotify
+CGJNJMGBLGJ⇨RogueCellInfo
+CGOCILGKLFK⇨mail_id
+CGPCIGNNDDK⇨play_card_info
+CGPNFNHOEMM⇨GCGMsgAddDice
+CHFGKKAFJBI⇨modifier_local_id
+CHHBJAFFAHK⇨GetFriendShowAvatarInfoRsp
+CHJJNAPGLGC⇨SceneGallerySandwormInfo
+CHKMIMEFMEK⇨del_mail_id_list
+CHLLAECMOJB⇨proud_skill_extra_level_map
+CHLLHMDGOJB⇨apply_entity_id
+CHOBOPJHJNH⇨ugc_gadget_config_id
+CHOHDFBEIJA⇨GCGSkillHpChangeType
+CHPCIMDFMLF⇨gadget_config_id
+CHPIJCEAKPL⇨EnterType
+CICGGNGHEJD⇨CompoundBoostTakeStatusType
+CICGHNPEKOI⇨ModifierAction
+CIECOPKJKLD⇨extra_cd_type
+CIGBBENOMAN⇨ClientCollectorData
+CIHBJIJBPAE⇨disable_status_list
+CIIGFBHMBPG⇨AddWindBulletNotify
+CJCOKMKEOOH⇨EntityAuthorityChangeNotify
+CJGCMKFDAMO⇨GetCustomDungeonRsp
+CJJCNGHPEEE⇨delete_info
+CJLNOKKGACI⇨status
+CKBGPDIACON⇨sync
+CKBKLEFOIAP⇨RegionSearchState
+CKEBHMPOOAF⇨Unk3700_KAOACLDKNEE
+CKGEAAPPOKD⇨info_list
+CKHJDCLHAAE⇨is_success
+CKKKDFJPDGN⇨count
+CKKPNPAACIL⇨WidgetUpdateExtraCDRsp
+CKNEJOAFFHL⇨is_allow_summon
+CKOKLIHAJMD⇨play_index
+CLFKHBLJCNE⇨GachaActivityDetailInfo
+CLGKKKPMEML⇨stage
+CLHAFLBJDMG⇨SalvageEscortSettleInfo
+CLHAOOAFGNC⇨challenge_state
+CLHLKJIJPFD⇨monster_config_id
+CMDEMEJBIHA⇨mirror_avatar_info
+CMFACBKEEIJ⇨bool1
+CMFKMFJOBHC⇨WindFieldDungeonSettleInfo
+CMKBMFAOEGJ⇨GCGMsgClientPerform
+CMNOFDJKLBN⇨have_cur_schedule
+CNBPMKGAKIA⇨prop_map
+CNCEHAMMEIM⇨FilterType
+CNFHHFFINHF⇨locked_personal_line_list
+CNGBADCMFAN⇨take_status
+CNGHOCBCPLJ⇨die_option
+CNGJCPBFJPL⇨dungeon_entry_cond
+CNLEFBIENLA⇨OrderFinishNotify
+CNMLFJEHNLC⇨FungusFighterTrainingGallerySettleNotify
+COADDFBPNIA⇨grant_record
+COCMIKDFIMB⇨music_track_list
+COHDDCAENCH⇨InBattleChessSettleInfo
+COHHMEFLBPC⇨PlayerQuitFromMpNotify
+COKLLKKPHDO⇨SceneEntityInfo
+COLENAKLDOB⇨axis2
+COLLPGKPLBJ⇨entity_id_list
+CONKNHEJALP⇨GCGMsgUpdateController
+COPHKPFMBAP⇨UgcV2DetailInfo
+CPCNODLLEDG⇨GetOnlinePlayerListRsp
+CPJPIFHCNCE⇨start_index
+CPMONBNDCIB⇨field_status
+CPNNODAGJLP⇨async_load
+CPPJMHILPDB⇨GetShopRsp
+DAAHBFCNACO⇨official_level_data_list
+DADKGMEJJNB⇨DealAddFriendReq
+DAELAOEEFFH⇨GCGMsgNewCard
+DAGGEKGPGML⇨FleurFairV2PacmanStageInfo
+DAIMPLJBKMJ⇨StartRogueDiaryPlayRsp
+DAJACOAPHHJ⇨MpPlayRewardInfo
+DAJAMAPGCPM⇨TreasureSeelieRegionData
+DALMKMFCEBN⇨AbilityAppliedModifier
+DAOKDCFGCCL⇨AbilityString
+DBAFCMGKPIB⇨GCGMsgModifyRemove
+DBICIDNGMNM⇨platform_list
+DBJIDDMGMEL⇨init_peer_id
+DBJJMCMFLMF⇨chapter_info_list
+DBJOGHCECJC⇨point_id_list
+DBKCEFBBGGL⇨FishNoRewardReason
+DBPJEOCHFBG⇨data
+DCBJKBNBFNK⇨BattlePassSchedule
+DCDJBBBEPPN⇨EvtRushMoveInfo
+DCEFJMIOFNG⇨ScreenInfo
+DCJGAIBBACI⇨moving_platform_type
+DCKKLOCBNDB⇨is_forbid_guest
+DCKLMKFGNAF⇨send_time
+DCLLOLONBEC⇨CoinCollectDetailInfo
+DCOGPGIMMCM⇨initial_rotation_y
+DDFMFPKCMIB⇨main_prop_id
+DDKFNDEHAML⇨pool_id
+DDKJIDONDEB⇨FoundationRsp
+DDLHMOIIPGD⇨group_record
+DDOLNIMLNCP⇨head
+DDPMPNJPGEB⇨SceneGalleryTeamChainInfo
+DEDJILFODAK⇨finish_id_list
+DEKAGEONNLK⇨UgcDungeonPlayRecordNotify
+DFAGHAHJFKC⇨FireworksReformData
+DFBDNEECHCM⇨guid_list
+DFEPAIIOCPF⇨player_brief_list
+DFFKNOLBFCP⇨rot_offset
+DFIHKEFPAHE⇨speed_level
+DFIJKMCCDMO⇨option_idx
+DFNDBFGAKOA⇨LuminanceStoneChallengeActivityDetailInfo
+DGAKMKCJAPN⇨UgcDungeonCandidateTeamCreateReq
+DGBEIOCMIBJ⇨area
+DGBLNDCMAAL⇨Operation
+DGCFJEAOCGD⇨HomeRacingGalleryRecord
+DGDKDAPPFIP⇨passed_time
+DGIAGDJEPML⇨FungusFighterDetailInfo
+DHCMGKPOJLB⇨audit_state
+DHEIDBMGKLI⇨force_update_url
+DHEOOEHAIFO⇨AvatarEquipAffixInfo
+DHFLDIDKCEO⇨SetFriendEnterHomeOptionReq
+DHHIMCPFCKA⇨GetUgcDungeonBriefListRsp
+DHKKPKDAJIM⇨allow_controller_map
+DHPDHNDCPCD⇨FriendOnlineState
+DIBAILDCPJF⇨ChangeEnergyReason
+DIDCHLDBOPK⇨PropChangeReason
+DIDCKIAOOHJ⇨prop_value
+DIDKNGHPJDE⇨chapter_state
+DIECOJGCGJK⇨HomeSceneArrangementInfo
+DIEDFFOBGKO⇨AbilityMixinRecoverInfo
+DIICJDLBDNF⇨stop_begin_time
+DIILHLOBEKM⇨GadgetGeneralRewardInfoNotify
+DIMDHFMECFH⇨PlayerQuitFromMpNotify
+DINIBOHEOCB⇨AsterActivityDetailInfo
+DJBMJHOOKIK⇨cost_revise
+DJENAIDOMPA⇨photo_pos_data_list
+DJFIBOCOIGI⇨fish_area_list
+DJKBKLKPFML⇨HomeFurnitureData
+DJLADHNBGCB⇨is_read
+DJMJGGEJAMD⇨is_got_reward
+DJOMBJMCPLB⇨time_range
+DJOMOCAIFBO⇨GCGPlayerBriefData
+DKAEBJBKEHJ⇨ball_place_info
+DKCBNAJOMAD⇨open_map_info_list
+DKCKCEDAMJK⇨init_pose_id
+DKDBJCNEHOL⇨AbilityMixinBreakout
+DKEEJDFAMHL⇨manipulate_type
+DKFONLBFAMO⇨buff_info_list
+DKJNMDMOMNJ⇨hit_collider_type
+DKLAJKNGHIC⇨is_destroy_when_disconnect
+DKNPNPHAAIK⇨online_player_info
+DKOBNCBEPNE⇨RegionSearchInfo
+DKOIBICEHKL⇨FoundationOpType
+DKONOPENPKE⇨AddSignal
+DLDNNEGGKNH⇨MonsterRoute
+DLDODFNFDLE⇨prop_list
+DLEFOMHPGMA⇨quest_id
+DLEGDBBMEAN⇨BlessingFriendPicData
+DLKDGGDOEMI⇨journey_gear_operator_info
+DLKPFJMGDCP⇨mcoin_base
+DLLEDPJCNEE⇨FishEscapeNotify
+DLLHBDKCAHK⇨Reason
+DLMBMICMADO⇨monster_group_guid
+DLODGPAAMNJ⇨HomeMarkPointFurnitureData
+DLOODAOMPLJ⇨GetPlayerSocialDetailRsp
+DMBLGKNLDHJ⇨SceneGalleryHandballInfo
+DMCBPPFMCAB⇨BattlePassCurScheduleUpdateNotify
+DMDDPGAOJFF⇨GCGPVEDetailInfo
+DMDNNJNJEBJ⇨GetUgcBriefInfoRsp
+DMEOCJMPMKO⇨monster_count
+DMFCFKPEHBF⇨cell_config_id
+DMJCAHJGGFA⇨combat_data
+DMJCFKOOPJP⇨AnimatorForceSetAirMoveNotify
+DMLJBGLIEAC⇨UgcTowerLevelUpGadgetInfo
+DMNCLCHKBED⇨ResinCostType
+DNAPGOMHFLC⇨GCGStartChallengeRsp
+DNCLIIDOBPK⇨fix_lod_level
+DNELPOHCHOF⇨BreakoutSyncConnectUidInfo
+DNENDOJDEEA⇨execution_game_time
+DNJHAOEGLIE⇨challenge_detail
+DNJICNIOKBK⇨attached_instanced_modifier
+DNKKAJCHLFD⇨GCGSettleOptionReq
+DNNEALHEIMG⇨item_id
+DNNFHGPPLHC⇨WinterCampStageInfo
+DNOFMDJNAPL⇨state
+DOBKFIDPGKM⇨SalvagePreventStopReason
+DOGIIGIODLP⇨brick_element_reaction_list
+DOGMCJJGLHC⇨new_index
+DOMKGCBALHF⇨scene_time
+DOOGAFHLGHF⇨uid_discount_map
+DPBJJBCFKAP⇨corners
+DPCGLEMNGHD⇨climate_area_id
+DPEADJKIMDP⇨ReunionReportedType
+DPLDNKFJGNG⇨reward_item_list
+DPMMHHGPPKO⇨HomeMarkPointNPCData
+EABMCLLCCEG⇨TeamEnterSceneInfo
+EADLBELJKPO⇨GadgetPlayUidInfo
+EAINJKKODDF⇨invite_info
+EAJAIDFNKEE⇨FollowType
+EAKHDGOFELP⇨SandwormCannonDetailInfo
+EAMBNBEGMLE⇨pre_index
+EAMFLCGLDNH⇨EffigyChallengeV2DetailInfo
+EBBDGDDHDMK⇨deal_add_friend_result
+EBCAHHFNEKD⇨JourneyDetailInfo
+EBHBIONNOKO⇨UgcDungeonSettleNotify
+EBHMFPDNHBG⇨HomeBlockArrangementInfo
+EBOJIKCABNJ⇨UgcDungeonSettleType
+EBPABOBCHKO⇨fail_reason
+EBPBKGGKLNO⇨UgcShopGadget
+ECJEMNFMBKL⇨ForceUpdateInfo
+ECPMHAKJDGB⇨GCGZoneType
+EDAHHDMDBLJ⇨AvatarExcelInfo
+EDANBOJOGLH⇨WidgetSlotTag
+EDIGBNHDFPH⇨monster_id_list
+EDJOEJJIOMG⇨GachaItem
+EDLBHELNGEP⇨GetUgcBriefInfoRsp
+EECMLMJLIKM⇨SceneWeaponInfo
+EEDGBFNOGOK⇨level_route_id
+EEDOJDFIDLC⇨is_serverbuff_modifier
+EEGJKELKLHH⇨sandworm_cannon_info
+EEHGGKNAEPO⇨MiracleRingDeliverItemReq
+EEINDIGHKCP⇨append_prop_id_list
+EEKAMPHMADD⇨is_creature_buff
+EEKBFDEBADB⇨DragonSpineActivityDetailInfo
+EEMHKOKDKFN⇨RegionSearch
+EFALIABMJGD⇨GCGMessagePack
+EFCAAOCHOMK⇨extra
+EFFDKJNNICA⇨invoke_list
+EFFEBCDBJDN⇨stage_id
+EFKIABLIAFO⇨dungeon_setting
+EFLBPECBKLI⇨player_uid
+EFMDCPEDAII⇨EditUgcDungeonSettingNotify
+EFNIEBGDFEB⇨anim_event_id
+EFPKIIKDBLI⇨is_new_record
+EFPPOPFCCHC⇨avatar
+EGAMACMNCDD⇨IslandPartySettleNotify
+EGBHMNHJHFO⇨WidgetSlotData
+EGEAKBNFIGE⇨section_info_list
+EGENHGBGKLD⇨equip_affix_id
+EGFFNNKFEBL⇨GCGOperationAttack
+EGFPGOLIFJJ⇨State
+EGHLNMDHNHH⇨choose_player_count
+EGIBGEHOPAA⇨main_prop_data_list
+EGJFIBDCHCC⇨Reason
+EGKINIFGJGF⇨GCGOperationPass
+EGLHIJMOBOE⇨special_fish_count
+EGLPFFGKFPO⇨para_val
+EGNFJKEGJBN⇨BlossomChestInfo
+EGOAENJILNP⇨msg_id
+EHAMHMCGNIG⇨AvatarFetterInfo
+EHBEAFJKCGD⇨SceneGallerySumoInfo
+EHCGIGPEDIE⇨is_reliable
+EHDHJLBPBFL⇨GCGOperationSurrender
+EHFNPPFKEGH⇨lua_shell
+EHGHKPFFAPI⇨record
+EHLFBMJDALA⇨start_route_time
+EHMFBBBOCHN⇨fall_count_map
+EHMHDANBFKJ⇨PacmanDungeonStopReason
+EHNFPNNOJCK⇨player_name
+EIAAIGDKAON⇨ugc_guid
+EIAGDNAAABH⇨PlayerCompoundMaterialBoostRsp
+EIAMMIFHFAH⇨UgcTriggerConditionGadgetStateChange
+EIBNEOPCIME⇨play_record_list
+EICOEIFJGPD⇨ViewCodexRsp
+EIEJBICOBLK⇨DungeonEntryBlockReason
+EIEJFGMCGKC⇨para_type
+EIHGAEBOEEL⇨has_delete_config
+EIIFEELKBLM⇨last_move_scene_time_ms
+EJCGHOFGIIK⇨last_move_reliable_seq
+EJJEOCBHIIH⇨LuaShellType
+EJMIFIJJHHF⇨target_pos
+EKCCLHIBJMN⇨sbuff_uid
+EKCDCLNOHEN⇨reward_info_list
+EKOCFDOALAH⇨activated_sale_id_list
+EKPMBCCPCFL⇨is_guest_can_operate
+ELBJAEBIBHL⇨dungeon_id
+ELBLBEGNOGH⇨GCGPVEActivitySettle
+ELHJOGDLMDD⇨BlessingGetAllRecvPicRecordListRsp
+ELPLEHIKNGO⇨ability_name
+EMAKOIOCOAP⇨WidgetCreatorOpType
+EMEJGINMIAI⇨UgcDungeonPlayerPersonalScore
+EMGGPHAAMOJ⇨EffigyChallengeV4LevelDataInfo
+EMGKJLALMOE⇨GCGOperationReq
+EMLGMGFAODI⇨win_controller_id
+EMLNPLIOBKP⇨cur_stamina
+EMMNCLADMMD⇨MusicGameUgcNotify
+EMOIIMFPGIF⇨SaveUgcDungeonDataReq
+ENBFDLBJEEC⇨AvatarFollowRouteNotify
+ENCDDLNNJNN⇨wave_suite_index
+ENFMDMMBLPL⇨treasure_close_time
+ENHCELNLBEJ⇨is_require_brief
+ENIGLAKDJGP⇨food_weapon_guid_list
+EOFGILHEPBM⇨StatueGadgetInfo
+EOHCDCJJCCK⇨SaveUgcReq
+EOIOMAICJDO⇨excel_info
+EOMEBGCBEKM⇨EvtRushMoveNotify
+EOMKPNJIFCI⇨BounceConjuringGallerySettleInfo
+EPJCPMAAHLG⇨HomeMarkPointSuiteData
+EPJDNKBIMKK⇨battle_info_map
+EPLOGJCMBPL⇨is_entered
+FADNEBJJAKL⇨FleurFairBalloonInfo
+FALINLCBING⇨player_widget_info_list
+FALKNJPJBNG⇨Reason
+FAMEDGELAMD⇨cell_type
+FANIJENLLKK⇨level
+FAONAELGJBM⇨CustomGalleryTimerScoreBoard
+FBAFNIDHHKP⇨item
+FBCCCGAMKNP⇨UgcDungeonCandidateTeamAvatarInfo
+FBCNDKIBMDK⇨GetUgcReq
+FBELHIHHHIP⇨CoinCollectStageInfo
+FBFJEFLNHAH⇨cur_tactic
+FBGJBDGGLHD⇨extra_ball_dir
+FBHNFKDMNIM⇨summer_time_dungeon_list
+FBJCFJHHDIK⇨CrucibleActivityDetailInfo
+FCBNFIGDBPB⇨WorldPlayerInfoNotify
+FCHCFJPAGJH⇨shell_id
+FCIKOFPBCNL⇨IrodoriMasterGallerySettleNotify
+FCNKGFNMPJB⇨brief
+FCOEONPKNAE⇨BreakoutSyncCreateConnect
+FDECEKEDACM⇨GCGOperationPlayCard
+FDIBBJAFGHL⇨UgcChestGadget
+FDNGBADAAJP⇨EffigyChallengeV4RestartDungeonEndReason
+FDOEFKKKGEA⇨InBattleFleurFairInfo
+FEDMMDGNDNI⇨FurnitureMakeBeHelpedNotify
+FEEPEIIEDHE⇨FightPropPair
+FEFLIEPLPIA⇨Weapon
+FEGFOCOKIPN⇨FleurFairFallInfo
+FEGMPAOGJLA⇨CodexDataFullNotify
+FEHACLLCMFF⇨gadget_guid
+FEILFOFAJML⇨weapon_list
+FEKBEHGKKML⇨BattlePassRewardTag
+FEMJCBGPHCE⇨entity_info
+FENHGONAOMK⇨equip_affix_list
+FENMGEINIIM⇨SceneGallerySummerTimeV2BoatInfo
+FEPJBAMNMAB⇨ChannelerSlabLoopDungeonResultInfo
+FFHCKPDMAMH⇨GCGAskDuelRsp
+FFHHDEKNHHI⇨equip_param
+FFIPDNBAGOH⇨changed_renderers
+FFNKKHOLFBE⇨GCGMsgPhaseChange
+FFPBMNJACJH⇨BlossomChestInfoNotify
+FGFHFIMHBMD⇨default_gadget_state_id
+FGFKOGIJJMI⇨UpdateType
+FGJGNAHHMJM⇨business_type
+FGLKLJFJIGB⇨mark_point_data_list
+FGNHGGCIHNN⇨ban_type
+FGNMDPCJKMJ⇨is_need_update
+FHCNGBLBLOO⇨start_pos
+FHFLBOBFLEE⇨ToTheMoonQueryPathReq
+FHGFOEMBFEI⇨VehicleInteractReq
+FHHLOJLCBBB⇨special_name_id
+FHJMFBMIIIH⇨creator_nickname
+FHKMBIEBAKF⇨remain_uid_list
+FIAJGPHKHJI⇨slot
+FICJIFHAEPL⇨WaterSpiritActivityDetailInfo
+FIFEIGBOALK⇨State
+FIFNKCPDNPF⇨SceneGalleryMuqadasPotionInfo
+FIIKEOEAHIE⇨ScenePlayerLocationNotify
+FIIMBNIFBIM⇨server_game_time
+FIJNEIAMGJL⇨float_value
+FINDDPIPFJC⇨tower_level
+FJCJJHPFNIN⇨LuaSetOptionNotify
+FJEKLAEJNDE⇨card
+FJFDMGNGKGG⇨enter_rot
+FJLJOEDJJHO⇨GameplayRecommendationReliquaryRequest
+FJOGOIECONA⇨ball_list
+FKACLLNLHGN⇨EntityEnvironmentInfo
+FKAIDAPEJIE⇨interact_id
+FKCIEMELLOO⇨GalleryElectroherculesBattleStartParam
+FKEKJCKNHIN⇨is_attachment_got
+FKELFAJBDJL⇨max_bonus_time
+FKILHJHKMLB⇨fetter_id
+FKKGCDHBFOI⇨EnterUgcDungeonType
+FKKODDDKJPO⇨UgcDungeonRoomDeployment
+FLBMBDHHHPH⇨MailData
+FLCPGMIKKDD⇨sumo_stage_map
+FLGIPIKOKIE⇨gadget_state
+FLOANOEDPHM⇨type
+FMAKECGFHEP⇨SceneGalleryCharAmusementInfo
+FMAPPOGCBBH⇨GCGMsgPVEIntentionChange
+FMCLMCFAOIC⇨point_list
+FMJGFPNHJEC⇨world_level
+FMMCHJOALAN⇨MirrorAvatarInfo
+FMNJDNOPNFI⇨round
+FMOPCAEGEJF⇨trial_equip_list
+FNAIDDPHIDM⇨vehicle_type
+FNFPEOJEKKB⇨perform_type
+FNGAJHBPBJD⇨is_win
+FNMJFECJMOA⇨SalvageScoreChallengeInfo
+FNMNGGILIMI⇨start_time
+FNMNNCPFEMN⇨special_effect_type
+FNNACJGLIJN⇨SalvagePreventGallerySettleInfo
+FOCIHKKAMIA⇨inherent_proud_skill_list
+FOIOMOLJFLN⇨UgcDungeonPlayRecord
+FOKKBKPCJGG⇨EvtAvatarEnterFocusNotify
+FOLDKHBEKDI⇨fish_scale
+FOMJDMNAAJD⇨UgcDungeonImportSourceType
+FOONOLPIDLM⇨PlayerLogoutReq
+FPANLMKJNOA⇨OneoffGatherPointDetectorData
+FPBNBAAMLND⇨MovingPlatformType
+FPHFLFLPLBE⇨RockBoardExploreDetailInfo
+FPIFMDDCNPA⇨BounceConjuringActivityDetailInfo
+FPKKKOEPLCE⇨MatchReason
+FPLDGMMFIDA⇨UgcDungeonSwitchRoomInviteInfo
+FPOFGGEKANG⇨item_list
+GAAIJLJJJCF⇨SceneGalleryInstableSprayInfo
+GADGDADFBFL⇨RogueDiaryAvatar
+GADHFJHOECO⇨client_game_time
+GAHFGOCBFKB⇨Chest
+GAHGIGFBKEB⇨hit_box_index
+GAMLCJAMBNN⇨DateTimeDelete
+GAOMLPPKMCM⇨delete_custom_furniture_list
+GAPCANOGKLP⇨sub_furniture_list
+GBAAGBBALDG⇨ref_id
+GBFONJAKIPJ⇨param4
+GBHAFDHLAGC⇨ServerLogType
+GBHINEBBHEE⇨weapon_max_promote_level_map
+GBJGCNNADMP⇨op_info
+GBKJGOFGNDK⇨is_invalid
+GBMAEMIGBCJ⇨pos_offset
+GCBLAOFFGCG⇨param_list
+GCFFFMCOKPL⇨GCGMsgWaitingListChange
+GCGCMELMPFE⇨FleurFairFallSettleInfo
+GCGIOCKFPNK⇨Unk3700_JDCCOJLEIBP
+GCGNKEOELJM⇨life_count
+GCJDEPIHHIK⇨SceneGalleryHideAndSeekInfo
+GCJNOFIKJNH⇨DungeonCandidateTeamDismissReason
+GDBCCNGLPNI⇨equip_id_list
+GDLIOGPLAAD⇨cool_data
+GDLOJHBCDKO⇨WidgetDoBagReq
+GDMHFHAIKNA⇨DataResVersionNotify
+GDMLMJPOFDK⇨SceneGallerySorushTrialHitmanInfo
+GDNBJKNKFFN⇨energy_point
+GDNFIIKFFOE⇨region_size
+GDNIPLNJAKD⇨RechargeReq
+GDNKLGHKGDP⇨show_area_state
+GEAFFDPIKBC⇨finished_challenge_cell_num_map
+GEBBBNIOOEC⇨region_data_list
+GEBBKFPCDEM⇨PlayerLogoutReq
+GEDFDMNOJOC⇨equip_guid_list
+GEEAGOFFPGP⇨GCGStartChallengeByCheckRewardRsp
+GEENOAKJCKK⇨CurVehicleInfo
+GEFFMMOEKOG⇨Furniture
+GEGFFEFNIIC⇨applied_abilities
+GEJLNEIAGEH⇨QuitReason
+GEKKPODHIDP⇨MarkMapReq
+GEMCGGEGHHJ⇨entity_authority_info
+GENJFGBHDKI⇨PlayerHomeCompInfo
+GEOJAGPIPDD⇨skill_depot_id
+GEPMIJIMBPN⇨modified_progress_id_list
+GFGGIODIPKO⇨FurnitureMakeBeHelpedData
+GFGHMOMEAGH⇨FishBattleEndReq
+GFLOOOHGNMD⇨DealAddFriendRsp
+GFNLMEFJHNO⇨params
+GFPJHPAPKKD⇨fail_time
+GFPKOMKEMDO⇨energy_stat_map
+GFPLELEECEP⇨hp_change_value
+GFPOOMCGHDF⇨spice_stage_data_list
+GGCGGHPJGHG⇨SceneGalleryAkaFesArchaeologyInfo
+GGDEKFMIBDD⇨RogueCellState
+GGGCGKIJGLN⇨stage_map
+GGGPJPHMADP⇨enter_type
+GGHGPFEOJJC⇨FleurFairActivityDetailInfo
+GGMFADPFGPK⇨FoundationInfo
+GGMIHIFFHMH⇨ForwardType
+GHAHMMBKGNB⇨GetMapMarkTipsRsp
+GHBILOPLPKF⇨GCGFestivalDetailInfo
+GHCMPBNFEMF⇨record_type
+GHDAOJGKKDK⇨SceneGalleryWindFieldInfo
+GHDMAFJGKLF⇨RoguelikeGiveUpRsp
+GHEOIELAPEF⇨is_hide_progress
+GHIOIDHKHEF⇨CodexType
+GHLLOHFKCLF⇨ProtEntityType
+GIAFBACGDGG⇨submit_limit
+GIALHMGCIAI⇨AbilityAppliedAbility
+GIJLPMIJPLK⇨ChapterStateNotify
+GIKPAICIEIC⇨level_id
+GJALHLJMCOJ⇨GCGActionType
+GJGJNBGBODL⇨BonusOpActivityInfo
+GJHFKIPJMOO⇨obstacle_id
+GJIBFNCAGCG⇨SceneGadgetInfo
+GJNICNMOPAP⇨pos_list
+GJOKGKJFIJG⇨AreaPlayInfoNotify
+GKALFDPBGEJ⇨BargainOfferPriceRsp
+GKBBDEHCGKG⇨UgcDungeonCandidateTeamCreateRsp
+GKHOOPIGBNB⇨CountDownDelete
+GKICNKHCLFG⇨member_list
+GKLPGICODKA⇨MapMarkFromType
+GLBLHDFLONL⇨share_code
+GLFPAGFJLDH⇨InBattleMechanicusCardChallengeState
+GLGCJEAPGNH⇨UgcDungeonSetting
+GLGDFOOHFFP⇨TryCustomDungeonType
+GLGMKCDCPDF⇨tag
+GLNKKKDGAHG⇨DungeonDieOptionReq
+GMCCCLLIBOA⇨MultistagePlayInfo
+GMCDABFDGAO⇨GCGMsgReactionBegin
+GMEMGHFCIBM⇨MatchType
+GMIBPGFLJKP⇨src_player_info
+GMJEABNKALO⇨action_list
+GMKFOAFPBKM⇨gacha_item_list
+GMLDMBNNGGH⇨skill_id
+GMLHNOAEHOH⇨UgcTriggerActionActiveMonsterGroup
+GMLLGOGABDM⇨exist_duration
+GMMIPMKLJHO⇨SorushTrialDetailInfo
+GMNDOAMNIND⇨SeaLampActivityDetailInfo
+GMOLHEBCLIL⇨CrucibleBattleUidInfo
+GNAONFJPOLL⇨edit_state
+GNBDNEPMHOM⇨FoundationStatus
+GNGLFIIKLPK⇨DynamicNodes
+GNHKLPKBLFG⇨tanuki_travel_level_data_list
+GOBNHDJBCEG⇨InBattleMechanicusStageType
+GODBHOINGIM⇨activity_push_tips_id
+GOEHFLACGPG⇨is_locked
+GOIPCLEIDEP⇨ScenePlayerSoundNotify
+GOKIDBBFHMH⇨trial_avatar_info
+GOOCGDLJLOH⇨title_id
+GOOICJDCHDI⇨server_log
+GPDMHDGJMPI⇨total_tick_time
+GPHFBLAJNFD⇨MistTrialLevelData
+GPOPJANPEBN⇨ForceDragAvatarNotify
+HAAAAPJJBGF⇨GadgetAutoPickDropInfoNotify
+HAAFCMANCPG⇨GCGMsgUseSkillEnd
+HADAEPJPHOH⇨GalleryStopReason
+HAELIGBIJPD⇨SceneGalleryFungusFighterCaptureInfo
+HAFCILFBNLK⇨selected_reward_id_map
+HAFLEEKEACM⇨GCGMsgPass
+HANALKMEKCB⇨battle_info_list
+HBBCELMPPBD⇨GadgetPlayInfo
+HBBCFNLOGAL⇨rot
+HBFBGAOGOHH⇨PlayerLuaShellNotify
+HBFMJCIPIKN⇨SceneGalleryHomeBalloonInfo
+HBGDJLEIAKD⇨tag_list
+HBNJPBDNAMA⇨guid
+HBNLIPBOOLG⇨Equip
+HBODJNIOMFG⇨LunaRiteHintPointRsp
+HCALOAJNNHC⇨move_dir
+HCBIJLCIEAN⇨PropValue
+HCBMDPJHFPF⇨instanced_ability_id
+HCDEGENHOLD⇨GCGSettleNotify
+HCDLNAJMKBB⇨location_info
+HCFBGDJIILH⇨GalleryStartNotify
+HCLOAFKDJMM⇨stage_data_list
+HCNGHOHLGNK⇨MapMarkPointType
+HCOHEGPHBGP⇨intention_map
+HDBDMBFPNAO⇨ServerBuff
+HDBELEOLAEK⇨WinterCampRecvItemNotify
+HDGJECJNALN⇨ClientGadgetInfo
+HDHJGHPKCOO⇨player_id
+HDKAMFHMJCD⇨fungus_info_list
+HDKJABKBPNM⇨GCGChangeOnstageInfo
+HDOHAIEBKHM⇨prepare_end_time
+HEHFFGELFKJ⇨prefab_path_hash
+HEHGCADEPKO⇨start_scene_time
+HEHGOLIMMIC⇨follow_type
+HEIDLLBCHJM⇨personal_score_list
+HEJLMNHPAOD⇨CombatInvokeEntry
+HELCJCGKFOI⇨ClientReconnectNotify
+HENGIKDOBAE⇨GetGameplayRecommendationReq
+HFDBNMEGGEM⇨MapMarkPoint
+HFKBFMHOPPD⇨shell_type
+HFKFKADIKBJ⇨scene_arrangement_info
+HFNADABDMFN⇨FishBattleEndRsp
+HFOEHCOEBKN⇨equip_type
+HGAPHNOEFNN⇨phase
+HGFGOODOGMA⇨RecordUsage
+HGFMKDHOLLL⇨ShowEquip
+HGGGHEPKACB⇨AnimatorParameterValueInfoPair
+HGKCMHNOHFE⇨official_custom_dungeon_list
+HHCBLELDJIE⇨SummerTimeV2DungeonSettleInfo
+HHCHHGCAGKM⇨SceneGalleryLanV3BoatMultiInfo
+HHEBDBEAOHK⇨kill_num
+HHIDIPNLEIE⇨VehicleLocationInfo
+HIDAAFICGBA⇨cell_info
+HIGFFKEEFIM⇨SceneGalleryEffigyChallengeV2Info
+HIJJAMBCHCG⇨team_entity_id
+HIKMLCJPBCM⇨material_id
+HILDLOOGKPG⇨costume_id
+HIMKPMMCODE⇨is_active
+HIPOIOAANAN⇨forge_queue_id
+HJAHGBAHJEN⇨GCGReason
+HJBADENFGFM⇨FinishReason
+HJCPAAEENBK⇨modifier_list
+HJHHEMKNBON⇨mp_play_id
+HJHLAGLIKAN⇨TreasureMapDetectorDataNotify
+HJHNBBGJNDM⇨allow_controller_list
+HKEEDJLGGCH⇨trial_avatar_id
+HKFEFFMDACF⇨BreakoutSyncSnapShot
+HLCNDFLEAFG⇨is_failed
+HLHEOEGAPCN⇨sgv_dynamic_value_map
+HLHJHHNDFHG⇨HomeLimitedShopGoods
+HLICHHEHDNN⇨target_weapon_guid
+HLMGPLDJHFC⇨RacingGallerySettleInfo
+HLMPGLDJFOP⇨GadgetBornType
+HLOGAILBMJO⇨forward
+HLPKGMPFDAN⇨shop_item_info_list
+HMDKALIFCLD⇨PlayerReportReq
+HMEMJGOJFGK⇨ServerBuffChangeType
+HMJDEOFMNDG⇨PlatformInfo
+HMNDPOCDEPF⇨AbilityScalarValueEntry
+HNAMEEKFFNM⇨target_player_info
+HNECPJGKDEJ⇨scene_time_ms
+HNIHKMOPLPM⇨LuaOptionType
+HNLEOLMAJIK⇨recv_item_data_list
+HOABKCLEOCM⇨ScenePlayBattleSettlePlayerInfo
+HOBLFLCNFAN⇨disappear_type
+HOELCLONGMK⇨GCGMsgOpTimer
+HOGMBGDCPAA⇨revive_count
+HOIKNBNMNDL⇨ScenePlayerInfoNotify
+HPADEMNMCHG⇨fish_pool_gadget_id
+HPALLJLANDD⇨BreakoutPhysicalObjectModifier
+HPBBFHODFDA⇨param2
+HPDOJOBCHKM⇨sky_crystal_detector_data
+HPHFHIFCJEG⇨PlayerCookRsp
+HPIMFFNAOEG⇨remaining_boss_hp
+HPKNOBEEEHD⇨EffigyChallengeV4DetailInfo
+HPNNDGCMLFP⇨mixin_recover_infos
+HPNPBDFKHMM⇨DungeonCandidateTeamAvatar
+HPPDPGIIGEM⇨online_id
+IADECAEMFOM⇨UgcTriggerActionActiveMonsterWave
+IAIIPKJLNLK⇨SetPlayerPropReq
+IALEMCAPNCD⇨target_score
+IALKMMLPOMI⇨collect_state
+IAMBAHPMAPI⇨JourneyGearGadgetInfo
+IAOCFEAJAOL⇨is_attached_parent_ability
+IAOKEDKAHBA⇨DigActivityDetailInfo
+IAONIKLOGKE⇨SceneGalleryVintageHuntingInfo
+IBBKJNHHPJD⇨level_state
+IBIIPOAJGNP⇨AvatarType
+IBKACHLDIOC⇨VehicleInteractType
+IBNKNHPBCFI⇨tips_type
+ICBIDNFGBOF⇨ToTheMoonQueryPathRsp
+ICDEMLMIIMK⇨HideAndSeekStageType
+ICFALFBNDIG⇨player_data
+ICIFINKLIKF⇨chest_drop_item_info_list
+ICIGABCLAIA⇨ClientReconnectReason
+ICJOODPEOKI⇨is_taken_finish_reward
+IDCMHCNGFAP⇨SceneGalleryBalloonInfo
+IDGHODIKNOO⇨animator_param_info
+IDIKLFDJCAP⇨MailChangeNotify
+IDJCELPHHCK⇨difficulty
+IDMLFPFCIHN⇨player_info
+IEAEGPDKBNP⇨VintageHuntingFirstStageInfo
+IEBDLEKKNFE⇨battle_type
+IEBMCABPHGJ⇨is_revive
+IEECLKOFLLK⇨animator_para
+IEIMOOGEAGJ⇨stage_list
+IEKFECAEJEA⇨has_extra_ball
+IEKGMMECGKL⇨WidgetCameraInfo
+IEKGPOPJOIH⇨UgcTriggerActionDeactiveMonsterWaveCurrentGroup
+IELEDIHLCCN⇨detail
+IEMBLMHDOEC⇨offering_id
+IEPDJMDLINC⇨refresh_id
+IFAHJLLPPFD⇨trial_level_data_list
+IFIIDOHJAFH⇨activity_push_tips_data_list
+IFKKNJKFOBG⇨Reliquary
+IGGFLNOFKFO⇨settle_info
+IGJAHALKALH⇨HideAndSeekActivityDetailInfo
+IGJJOLMLBLJ⇨UpdateAbilityCreatedMovingPlatformNotify
+IGOODEALEPN⇨exp_number
+IGPCGKDCNNM⇨StoreWeightLimitNotify
+IGPLMIBHLND⇨card_limits_change_list
+IHAFANPHGFP⇨delete_time_num_map
+IHBDLNMBLLD⇨WinterCampGetRecvItemListRsp
+IHGGOPNGEOD⇨DungeonCandidateTeamDismissNotify
+IHHCHKIGBGF⇨skill_level_map
+IHHLAMOLNJL⇨IslandPartyDetailInfo
+IHHMIDIGCDJ⇨mystery_info
+IHNACFDOAAP⇨gallery_info
+IHOKPACKANF⇨axis1
+IHPHKMAOPDI⇨MailTextContent
+IIACMNDHEAM⇨ability_info
+IIEBJAODCAC⇨GetAllSceneGalleryInfoRsp
+IIFGBNIDPFP⇨offering_data_list
+IIFKILFBBDB⇨expire_time
+IIMEAOBOFBO⇨talent_id_list
+IJBAAOEFEBN⇨VehicleInfo
+IJBAHDNDJHM⇨ugc_tower_level_up_gadget_info
+IJBOBKAGBON⇨EvtBulletHitNotify
+IJFIOMFIJOM⇨avatar_id
+IJFONOFPLAI⇨EvtFaceToEntityNotify
+IJKNDFECIBE⇨refer_pos
+IJMLKNKOFBC⇨is_recv
+IKBNIKBDMOK⇨SvrMsgId
+IKECOGJEHNK⇨owner_uid
+IKILDLDLLCH⇨PlayerOfferingData
+IKJDIGIDHEF⇨CylinderRegionSize
+IKKADPEPEJO⇨CustomGalleryInfo
+IKNGNIDCOJE⇨BlessingRecvPicRecord
+IKNKFLINAJF⇨op
+ILBCLHPLHKO⇨HitCollision
+ILDOAFLJMPF⇨CustomGadgetTreeInfo
+ILJPFAJNMIM⇨SceneGalleryIslandPartyRaftInfo
+ILKLHOOHJAO⇨MissionStatus
+ILNCBIOIFFJ⇨slot_list
+ILPPNAEILML⇨finished_level_index
+IMAPHGBNAHJ⇨is_single
+IMCAHFIPHCK⇨SceneGalleryInfo
+IMCDNFOPNIE⇨DataResVersionOpType
+IMCLHEMCFIC⇨TakeBattlePassRewardReq
+IMDOCDDMJDD⇨DoGachaRsp
+IMFPALFFGMA⇨AvatarInfo
+IMGPCEPBAAG⇨BreakoutSyncFinishGame
+IMIEFDJEDCG⇨BreakoutActionType
+IMMHIFHCLPN⇨camp_id
+IMOHHNPKKDF⇨GetMailItemRsp
+INAHBEOMHMI⇨nodes
+INBHNJKPKDJ⇨PrivateChatReq
+INDPBJEBBKO⇨WidgetExtraCdType
+INEJPKEANCD⇨wave_index
+INFKMIGKFJK⇨reliquary_list
+INPABHCKHIC⇨EvtDestroyGadgetNotify
+IOFLGGAGKGJ⇨GetUgcRsp
+IOFLNDJCMBA⇨PlayerPreEnterMpNotify
+IOGFNBCHKJA⇨CreateGadgetInfo
+IOLMGGKBEFI⇨is_ignore_auth
+IOMCICNDOID⇨uid_list
+IPBAPMCCDJG⇨RogueDiaryRepairInfoNotify
+IPBMCLAKJFM⇨cond_index_list
+IPCIOFKONOJ⇨GameplayRecommendationSkillRequest
+IPFLEEKKKML⇨is_need_destroy
+IPIANPMJHHF⇨Unk3700_KMFLCEGIGCL
+IPMCBADCFGP⇨ChallengeFinishType
+IPOLANPEODI⇨event_type
+IPPADJEDBEL⇨GetOnlinePlayerInfoReq
+IPPHACBKODH⇨MistTrialBestAvatar
+JAADJJNBPIL⇨attack_tag
+JADACPFLLEA⇨GCGArenaSettle
+JAHBADDGLBD⇨MonsterPointArrayRouteUpdateNotify
+JAHGCPABJML⇨AbilityInvocationFailNotify
+JAJAOJIDKAH⇨CreateEntityInfo
+JAKMMGCHFPM⇨GCGMessage
+JALBHCIPMMB⇨query_type
+JBACJIKCHJE⇨current_building_id
+JBDDDPEPEAC⇨element_type
+JBDHPEPHMCB⇨PlayerPreEnterMpNotify
+JBHILBBAHDO⇨is_inited
+JBIHJIFMKOD⇨param3
+JBJKIPKJHIC⇨DungeonEntryCond
+JCACMJGEKDM⇨BattlePassMissionUpdateNotify
+JCCJEEGAGBM⇨discount_num_limit
+JCCOJGNMCCC⇨FishEscapeReason
+JCDLAKICHCB⇨MotionState
+JCLCKICNAJJ⇨HomeRacingGallerySettleNotify
+JCNAKKOECOE⇨PlayerOfferingDataNotify
+JCOPPCFHCJM⇨GCGMsgReactionEnd
+JDBLHNFMPOA⇨dungeon_guid
+JDCDMFAKGOH⇨keep_rot_type
+JDCMNCDAFDF⇨HomeCustomFurnitureInfo
+JDDJEPOCGGA⇨GetUgcDungeonBriefListReq
+JDFOGHOMBPN⇨ai_info
+JDGAALCFFOE⇨PlayerWidgetInfo
+JDGMAFBIOOA⇨GetDungeonEntryExploreConditionRsp
+JDKIBANJJBD⇨exp
+JDMCOFMJODG⇨RemotePlayerWidgetNotify
+JDNCFFEHKDN⇨wait_begin_time_us
+JDNCKHEEIOB⇨original_resin_cost
+JEBEPKINHMJ⇨HuntingOfferState
+JECFJACAEBJ⇨is_quit_immediately
+JEDBHDAMDOC⇨time_remain
+JEFCHOOGAJE⇨SceneGalleryIrodoriMasterInfo
+JEILCAIJKOH⇨chest_drop_id
+JEJGDJKNHLC⇨battle_result
+JEKOMBEKODM⇨suite_id
+JEPICNJOJEN⇨gallery_id
+JFBBMJOEEEC⇨SandwormLevelStateType
+JFCOPHEKFMC⇨GCGMessagePackNotify
+JFDKGCFLIDI⇨QueryCurrRegionHttpRsp
+JFGDPGKLIDK⇨GCGSkillPreviewPlayCardInfo
+JFJAJBNFHMM⇨BreakoutAction
+JFJGJAJLPCE⇨FetterData
+JFJIILCDOKO⇨UgcDungeonImportReq
+JFKCCEHBMBP⇨SalesmanActivityDetailInfo
+JFOHIGBPDLD⇨reliable_seq
+JFOMPMGGHIN⇨QueryPathReq
+JFPNCPAAMBK⇨MapMarkTipsType
+JGBGKJOMCHP⇨random_item_num
+JGBHBBNFAOH⇨recv_pic_record_list
+JGCDEBAGAFL⇨SceneGalleryCrystalLinkInfo
+JGGCDILKLJF⇨HomeFurnitureSuiteData
+JGHFBIIHKGG⇨muqadas_potion_level_data_list
+JGJICGHIOMJ⇨GatherGadgetInfo
+JGJKPNNCBMA⇨from_parent_quest_id
+JGMJJFFGGLC⇨GCGOperation
+JGOIGBPENHM⇨SeaLampActivityInfo
+JGPFADOEFIJ⇨SceneGalleryFungusFighterV2Info
+JHACOGLBOOO⇨MonsterBornType
+JHBMABJKLLK⇨end_reason
+JHCALDFHNEL⇨equip_list
+JHCILJDOHJC⇨PlayerCancelMatchReq
+JHFHDMCIFPP⇨MassiveEntityElementOpBatchNotify
+JHFOMIFCNDL⇨LunaRiteHintPoint
+JHKJLKHMGFB⇨SyncScenePlayTeamEntityNotify
+JHMEKCNCHMA⇨is_init_hash
+JHMMAFKCIEA⇨ClientTriggerEventNotify
+JICEOGOPGIC⇨team_resonance_list
+JICMJICEPHM⇨room_id
+JIDCCOPICDE⇨EntityAuthorityInfo
+JIENNOFAEPE⇨extra_card_data
+JIHNKACOANJ⇨GCGMsgSelectOnStageByEffect
+JIIHFGKDCCG⇨BreakoutSyncPing
+JIOFOGOAJNO⇨EvtLightCoreMove
+JJABCCGBNGO⇨BreakoutSpawnPoint
+JJCADLAOBJN⇨CoinCollectPrepareStageNotify
+JJCGOOHMNFH⇨is_server_cache
+JJCNHBOIMNJ⇨GCGGameBriefData
+JJEOJIHLFKO⇨gcg_brief_data
+JJFEOHFFJGK⇨mp_setting_type
+JJIPFMLHHKI⇨CodexDataUpdateNotify
+JKCCDOBHMEN⇨GCGClientPerformType
+JKCPFBNOBIA⇨GCGOperationRedraw
+JKDBDJFHFMJ⇨SetWidgetSlotReq
+JKDGHPHEIBI⇨ReportReasonType
+JKDPDIGIHMH⇨offering_data
+JKICJJAJOOO⇨client_extra_info
+JKPNMBEMOIA⇨transaction
+JLCEPNMPGAI⇨is_elite
+JLDCOLIEIJC⇨PlayerCancelMatchRsp
+JLGNAGIBLIA⇨HomePlantFieldStatus
+JLHAILKHIKK⇨PersonalLineAllDataRsp
+JLHPMIOPGIK⇨max_combo
+JLMOOJPDLMP⇨is_paused
+JMAOAHKEGGH⇨speed_increase_count
+JMAPGEBNINA⇨name
+JMGBKGLJOPK⇨new_room_list
+JMHFCBCOKHA⇨UgcDungeonCandidateTeamInfo
+JMJAPHDILNC⇨PlayerMatchSuccNotify
+JMKHDKHCNLI⇨LanV3BoatStageInfo
+JMLHEPOPEIN⇨WindFieldDungeonFailReason
+JMNGJOKBHHE⇨GameplayRecommendationSkillResponse
+JMOLEKGAALD⇨OfferingInteractRsp
+JMPAEBDOOMC⇨UgcType
+JMPLKDAIKDI⇨obstacles
+JNAFCDOHHAP⇨HideAndSeekStageInfo
+JNBMAOOGJNM⇨unlock_status
+JNCDLBINEDK⇨SceneGalleryFlowerInfo
+JNDCKBIGBCA⇨affix_list
+JNDJFDCCBHG⇨target_uid
+JNECAGAJPLL⇨ElectroherculesBattleDetailInfo
+JNEGELLFCJD⇨draft_id
+JNELGLLLJNH⇨AreaPlayType
+JNIMALFGJHL⇨retcode
+JNKDGNEONND⇨HomeGetOnlineStatusRsp
+JNLAJFJCEKE⇨config_count_down_time
+JNNKICCLLMB⇨UgcTriggerAction
+JODOHFBJKHH⇨operate_type
+JOHEMHMIMGE⇨GetUgcDungeonBriefType
+JOILKNMCCOO⇨CustomDungeonOfficialNotify
+JPLDOBPBEHM⇨GCGSettleOptionRsp
+JPLOOJCLIBC⇨ability
+KAGMEOHONAL⇨RogueDiaryAvatarDisableStatus
+KAGOCKBJHJO⇨skill_anchor_position
+KAIILKGBDID⇨HachiActivityDetailInfo
+KAINDLEHEFF⇨type_data_list
+KAKNEJNDMKM⇨client_collector_data_list
+KAMLKILKGCJ⇨height
+KBCJEMHAONA⇨DungeonCandidateTeamInfoNotify
+KBDNIGGCBPH⇨UgcSpecialGadgetInfo
+KBFMJIOBFLM⇨trans_no
+KBGLPCKOPIE⇨EffigyActivityDetailInfo
+KBKAEKLFHFJ⇨in_air_move
+KBMDLFEODEG⇨SalesmanStatusType
+KBPFGBABEIN⇨OperateType
+KCBMKEGCJLL⇨NightCrowGadgetInfo
+KCBNPOEPNEA⇨SceneGalleryDuelHeartInfo
+KCEDJCPDPPC⇨interval_velocity
+KCFBMECCMEI⇨get_brief_type
+KCLMIDIKALF⇨QuestCreateEntityRsp
+KCMAEFKLMNI⇨EquipParam
+KCMCBHHMBCL⇨ResinCard
+KCNAANMBAJH⇨avatar_guid
+KCNIPGCFNJA⇨PlantFlowerActivityDetailInfo
+KCOJHKHHHKG⇨is_gcg_festival_mode_open
+KCPCKLJLNBB⇨HomeCustomFurnitureInfoNotify
+KDGOBKLJMFB⇨settle_type
+KDLMFECGGMF⇨pos
+KDNAJGCICCI⇨is_finished
+KDNIGJELAKG⇨PlayerHomeCompInfoNotify
+KEDGEEGIEHE⇨RoutePoint
+KEDLGHNDKJD⇨duration
+KEIJMOJGIMP⇨group_furniture_index
+KEIMPLBMFJB⇨anim_hash
+KEINOAECHLI⇨content
+KEJBEFCENFJ⇨is_always_bonus
+KEJKAHALIDO⇨HuntingOfferData
+KEKCMGEJEFH⇨SalvagePreventSettleInfo
+KEKEGEIJEAM⇨die_type
+KEKHHEFEBMP⇨AbilityInvocationFixedNotify
+KELDPGONNGE⇨GetOpActivityInfoRsp
+KELFDEOAFKF⇨monster_wave_guid
+KENKODEJAGO⇨UgcActivityDetailInfo
+KEPEJAGBPHL⇨is_have_ball
+KFDKGHGFJMM⇨CustomDungeonBanInfo
+KFFKFJMKOIP⇨is_agreed
+KFGALNKCKBI⇨SceneNpcInfo
+KFHGKDPNCOH⇨ai_config_id
+KFIENPFMPDE⇨extra_ball_index
+KFIGAFFBCJK⇨EnterCustomDungeonReq
+KFJLDFAOGKO⇨BreakoutBrickInfo
+KFLLEKOCBDG⇨UgcDungeonBrief
+KFPEFPDGGDA⇨GetCityHuntingOfferRsp
+KFPJFNDJKBO⇨HomeMarkPointSceneData
+KGAJOFBMHMF⇨sound_name
+KGHDFHJFCEL⇨AbilityMetaAddAbility
+KGHHLNEMIGA⇨BreakoutVector2
+KGJLCBEKCFD⇨AbilityInvocationsNotify
+KGKECGJLAGI⇨remaining_durability
+KGOAMINGILG⇨BreakoutSyncPing
+KGODEDHBFBL⇨Shop
+KGODOIJKDLG⇨SceneGalleryIslandPartySailInfo
+KGOGPHALIJC⇨stop_scene_time
+KHCAHGHAJJE⇨is_peer_id_from_player
+KHHHIIIDFBO⇨mail_list
+KHJMLGNBKEE⇨custom_dungeon
+KHNLJGDMGLO⇨offset
+KHOGCCPJOMA⇨GCGHintType
+KIAHNEFKENL⇨BreakoutSyncAction
+KIAPOPBEEEG⇨AbilityMixinWindSeedSpawner
+KIBMCLAPOFJ⇨TrialAvatarActivityDetailInfo
+KIELEOCCDOD⇨level_info_map
+KIJHPEOALOO⇨AkaFesDetailInfo
+KIKFAGCHJLH⇨SalvageEscortGallerySettleInfo
+KILLOLCBOOC⇨hint_status
+KIMFBHDCCML⇨element_reaction
+KIMPLIMBDEF⇨SceneEntityAiInfo
+KINNHLAKGND⇨custom_dungeon_group_id
+KIOLIOMBFFK⇨is_gcg_pve_mode_open
+KJCIDEOIJBH⇨InstableSprayDungeonSettleInfo
+KJEDMEJFFLB⇨item_param_list
+KJEKBDODHHL⇨grant_reason
+KJFNBDPPGML⇨HomeStakeRecord
+KJLGFFNJGBF⇨BreakoutSyncAction
+KJLKGGEENME⇨SceneGallerySandwormCannonSpecialEffectType
+KJMMMJKODMK⇨PlayerOfferingRsp
+KJMMODAJDBP⇨SalvageEscortSettleNotify
+KJONFIDCMDB⇨InBattleMechanicusCardResultNotify
+KKCFFGGKEON⇨AvatarSkillInfo
+KKENMPHJLEJ⇨RefreshNotify
+KKFJFJFBADM⇨RegionSearchNotify
+KKFMHPLHACG⇨InBattleMechanicusCardInfo
+KKGNEFILAFP⇨ShapeSphere
+KKNOAAHAMOL⇨route
+KKPDPHBLJIC⇨HomeRacingRecord
+KKPGPCKEKCL⇨is_mp_challenge_touched
+KKPMEODBBJB⇨UgcTriggerActionActiveGadget
+KKPOHPAOPGP⇨recv_item_data
+KKPONKHOBKA⇨ArenaChallengeActivityDetailInfo
+KLBKDAOPBJB⇨ball_element_reaction_list
+KLBOOICPDKD⇨summon_tag_map
+KLIMJNKEOFM⇨camp_target_type
+KLKGJEPALKM⇨region_info
+KLLJKINOACL⇨FoundationNotify
+KLMDFACKPCO⇨BossChestInfo
+KLNCDOLLCFF⇨BattlePassMission
+KLNMOHOKMIJ⇨HomeBalloonGallerySettleNotify
+KMDJKLPMIOP⇨radius
+KMFBBEIGFPD⇨ClientCollectorDataNotify
+KMHPOBECOCB⇨GCGHintNotify
+KMNLPJHMIMH⇨pic_num_map
+KMNNNAKNHBM⇨y
+KMOIJEHGODD⇨msg_list
+KNBAAJMLDDK⇨player_score_map
+KNDOIKLHHGM⇨born_time
+KNFGCIFDKNA⇨route_id
+KNIBHNOEHPA⇨BattlePassBuySuccNotify
+KNIDFELLKBI⇨EntityFightPropChangeReasonNotify
+KNIENDGLLNB⇨InBattleIrodoriChessInfo
+KNLLMHNFNGD⇨GCGReplayAskDuelRsp
+KNPCLHEKDFH⇨MapMarkTipsInfo
+KNPPEPMHGLA⇨is_finish
+KOBELJMIMKK⇨DraftInviteFailInfo
+KOBKHBNBGLK⇨detail_list
+KOCANIAJFAP⇨is_final
+KOHBBNINDMG⇨ActivityInfoNotify
+KOHPAHCLKOP⇨instanced_modifier_id
+KOJFPCONKGF⇨player_list
+KOJNJPFEBDJ⇨MichiaeMatsuriActivityDetailInfo
+KPBAFBHHGDA⇨BreakoutElementReactionCounter
+KPCLGHLLLNO⇨ServerLogLevel
+KPEBBKIDPJG⇨copy_from_avatar_type
+KPEIPIECFBM⇨CustomGalleryScoreBoardInfo
+KPFIHGGBHIN⇨UgcDungeonRoom
+KPGFAHDOIEA⇨GetUgcType
+KPGKMFFCMBE⇨play_info
+KPIAAJIJNFL⇨cell_state
+KPIJOFBIHAP⇨WindFieldDetailInfo
+KPINOBHDMKO⇨GadgetPlayStopNotify
+KPJGFDNLENP⇨avatar_info_list
+KPJHKLKLAFO⇨controller_path_hash
+KPNHBIELABL⇨EffigyChallengeDungeonResultInfo
+LAAGOMCGIPI⇨BattlePassRewardTakeOption
+LACODAHCDKF⇨gadget_type
+LAGHGCPKALD⇨query_status
+LAMKNCEICCO⇨GCGMsgSelectOnStage
+LAOGAJAHFND⇨is_modifier_added
+LAOPIIOEEDN⇨fetter_list
+LBBPGDEHJAI⇨is_need_show
+LBCEODFLKOB⇨GravenInnocenceRaceSettleNotify
+LBHIAOIHPFG⇨IslandPartySailInfoNotify
+LBMLOGICEHP⇨DynamicSVONode
+LBNAINDBOLG⇨PacmanSettleInfo
+LBOHNIDABDG⇨HuntingStartNotify
+LCDHMECLMKJ⇨AbilityInvokeEntry
+LCEIIEJPMBJ⇨play_pos
+LCEKDFMENDO⇨city_id
+LCGNMPFKHMM⇨AreaNotify
+LCIDDGHONIO⇨AbilityGadgetInfo
+LCLBBABDNLD⇨BalloonGallerySettleInfo
+LCNCBDDKKPP⇨child_challenge_list
+LCPGHFPHOBA⇨action_type
+LDBFNDHPFPH⇨spawn_point_list
+LDCHCOOCLOF⇨chapter_id
+LDDCGEOHMDL⇨WidgetCreateLocationInfo
+LDDCLOLNJON⇨EvtEntityRenderersChangedNotify
+LDGBHEIGDMN⇨HomeLimitedShopInfoRsp
+LDLJNMJLKDP⇨notify
+LDPIDJKDKAN⇨trial_avatar_index_id
+LEACIJIIGMO⇨mail_text_content
+LEEADIIDOGG⇨GCGPhaseType
+LEHJABBABBN⇨RoguelikeDungeonSettleInfo
+LEJGDJKFFKH⇨cur_vehicle_info
+LELNLLMGOGI⇨VehicleMember
+LEMAOKGMNPP⇨HomeSeekFurnitureGalleryScoreNotify
+LEMNBCGPOJM⇨owner_entity_id
+LENGKFNJEHO⇨op_activity_info_list
+LFGJOFFBMCD⇨SceneFishInfo
+LFGKFNHCMNB⇨parent_furniture_index
+LFGPAGLJPKI⇨resin_cost
+LFHIIGIHKAL⇨FungusFighterV2DetailInfo
+LFLIJABHNNE⇨AbilityAttachedModifier
+LFMOJKMHFFO⇨PlayerStartMatchReq
+LFNEKNOECAN⇨evt_rush_move_info
+LFONNHJEGMJ⇨TreasureMapRegionInfo
+LGCBPDGPCGA⇨SceneGalleryJourneyDiceInfo
+LGFPPKJKFIB⇨SalvageChallengeInfo
+LGHAADAFJFD⇨InBattleChessInfo
+LGIAICFIANB⇨UgcTriggerConditionMonsterWaveDeactive
+LGMGPHGCPIA⇨TreasureMapActivityDetailInfo
+LGOLELEELKF⇨is_token_costume_reward
+LGPCMGFBGFI⇨card_guid
+LHBBELJBLNN⇨OpType
+LHEAAAFEPFI⇨BrickBreakerStageType
+LHFHLEBMELI⇨MsgParam
+LHFPEOBIMGI⇨SkyCrystalDetectorQuickUseResult
+LHJABFJNAFM⇨is_region_detected
+LHJDFENLFBL⇨TrialAvatarFirstPassDungeonNotify
+LHMAJHGDDPG⇨HideAndSeekSettleNotify
+LHOGKDHAIAO⇨AvatarChangeCostumeNotify
+LHPFFOCPOFO⇨is_started
+LIAIKELAFHD⇨take_option_list
+LIBANBAOAPA⇨AddNewUgcDungeonReq
+LIDNKJMLJKA⇨area_play_type
+LIFJJODAKDG⇨SceneGallerySalvagePreventInfo
+LIKONBIMHFP⇨shop
+LILIKPHKIJG⇨AuditState
+LIPOHCFDFBH⇨UgcMusicBriefInfo
+LIPPAKABPAO⇨prefab_path_remote_hash
+LJBLHFMBEEA⇨difficulty_id
+LJIGLAENAAC⇨entity_info_list
+LJJDNEGAKNN⇨Route
+LJKDBGJPAJN⇨GCGIntentionChangeType
+LJKOFNDHHJP⇨SealBattleBeginNotify
+LJLEJOHEBPD⇨ModifierDurability
+LJLJAADLMKA⇨SceneEntityDisappearNotify
+LJLOLHCAIEB⇨InstableSprayDetailInfo
+LJMPOMDHOEP⇨SalvagePreventSettleNotify
+LKBMOIHPHME⇨ShowMessageNotify
+LKDCKNHKKIM⇨GCGOperationReroll
+LKDIBDIPLAP⇨play_type
+LKEGEDDEAKG⇨friend_pic_data_list
+LKGACLPMPDN⇨QuickUseWidgetRsp
+LKGGCFCGEFD⇨animator_para_list
+LKIPJGJIGAH⇨hit_count_map
+LKMLFDPMCBI⇨PlayTeamEntityInfo
+LKNMHOGNENB⇨BattlePassUnlockStatus
+LKOILNDKGLF⇨HomeGetGroupRecordRsp
+LLAPKKJPNDC⇨UgcTrigger
+LLEKMPPFAHO⇨source
+LLGJGCCNAFA⇨w
+LLHBBAOCAPC⇨opened_statue_uid_list
+LLHHOCIOPON⇨goods
+LLJFPCFELLA⇨point_type
+LLJLGIHIDFM⇨FishBattleResult
+LLMLOFGGBON⇨start_rot
+LMADDCDEOBC⇨timestamp
+LMAHMKEMHDA⇨SceneCreateEntityReq
+LMCDNMBFEIL⇨EntityRendererChangedInfo
+LMJPPCIBDKP⇨GroupLinkBundle
+LMMAFEGMCDH⇨is_rewind
+LNBBDFIGPAA⇨stage_type
+LNBCGCLMGEP⇨AvatarPropChangeReasonNotify
+LNEIOAHCNFA⇨OtherCustomDungeonBrief
+LNGDEHMNOLD⇨LockedPersonallineData
+LNGFPAKKPKG⇨ProfilePicture
+LNHDKCJIDEE⇨argument_list
+LNJLCPHFFII⇨GCGMsgAddCards
+LNLPJCAODPA⇨DynamicLayerNodes
+LOANPKGMJFG⇨is_connected
+LOBNGLBOLDG⇨buy_count
+LOCOPBKJPKB⇨UgcMusicRecord
+LOEHJPPGAFK⇨GetOnlinePlayerInfoRsp
+LOEMFOJJPCP⇨BreakoutSnapShot
+LOIOCNFFOAP⇨brick_suite_id
+LOPDINBOCIK⇨GroupLinkShowAreaState
+LPCHNACPLOF⇨card_list
+LPGIMCHLEPB⇨EchoShellInfo
+LPNDGGEHLED⇨HitColliderType
+LPNPDKAJCKC⇨avatar_type
+LPPNBFFNKFN⇨HomeBalloonGalleryRecord
+LPPPHBLKEFJ⇨exp_level
+MAFEMMAKPKE⇨WidgetUpdateExtraCDReq
+MAFOBMIAFII⇨TeamChainDetailInfo
+MAIFCEPLOBP⇨title
+MAIMFFNGJPE⇨windmill_sync_angle
+MAKIKCBOHIM⇨DungeonDieOptionRsp
+MAMICOPJNMB⇨SealBattleType
+MAMOLGICIBK⇨value
+MANKMPGDICO⇨WidgetSorushInfo
+MBCEAABMPPP⇨DungeonChallengeFinishNotify
+MBCHNOENIEI⇨AvatarEquipChangeNotify
+MBEBLHBEPDC⇨cmd
+MBELGHLCOEG⇨attach_name_hash
+MBEMPBBJEHJ⇨TreasureSeelieActivityDetailInfo
+MBGEDBANLGP⇨change_count
+MBIADKKLGII⇨EffigyChallengeV4RestartDungeonEndNotify
+MBIDLMPGIFK⇨entity
+MBLENAKDJDO⇨GetActivityInfoRsp
+MBNAACGCHEC⇨is_show_cutscene
+MBNKBHDCHFE⇨general_reward_info
+MCCDKCEPBPH⇨CoinCollectOperatorInfo
+MCCKECANFNI⇨QuestCreateEntityReq
+MCDIEDFINNF⇨furniture_type
+MCIEBIPBNHP⇨SceneCreateEntityRsp
+MCJILDKPIJL⇨last_shock_time
+MCJLFIFIDBK⇨renderer_changed_info
+MCNFLOIKIHJ⇨live_id
+MCPCDNEFGMC⇨Retcode
+MCPHBBLOBNB⇨target_entity_id_list
+MDDJEIIGLHN⇨IrodoriMasterGallerySettleInfo
+MDJHFNPEKBP⇨query_id
+MDJMDFGNMLO⇨price_tier
+MDNJFNODDON⇨dice_side_list
+MDODKLHDEAM⇨AbilityMetaReInitOverrideMap
+MEDFPMNODJG⇨hint_center_pos
+MEFCCNLBLHC⇨OneoffGatherPointDetectorDataNotify
+MEHFNMBJDHN⇨HomePreviewBlueprintRsp
+MEJCEKOPDON⇨rand_card_list
+MELDJDBIBGO⇨speed
+MEMKGDDCMEE⇨target_entity_id
+MEODNFLCLJP⇨is_ban_skill
+MEOMDJPKDHM⇨refresh_num
+MFAJNMPKOPN⇨GalleryFlowerStartParam
+MFBCBOLJDKE⇨EvtAnimatorParameterNotify
+MFCGGHJKLIL⇨client_params
+MFGJDOJODGC⇨score
+MGBIGGJGBND⇨mission_list
+MGCFOLBGOKE⇨AvatarEnterSceneInfo
+MGDEOBJIMIC⇨EffigyChallengeV2SettleInfo
+MGDJOFHMLIP⇨PlayerMatchInfoNotify
+MGHMJMIELJG⇨IslandPartySailStage
+MGLPAMFIMKI⇨change_intention_list
+MGMKJHDKLHB⇨shop_info
+MGOKIJPMIDH⇨FallSettleInfo
+MHDNKAOEKLB⇨is_default_hide
+MHEJDDDLCIB⇨cur_player_num_in_world
+MHOKKLHKKMG⇨WidgetActiveChangeNotify
+MIFJLKPFCHG⇨PlayerApplyEnterMpNotify
+MIFLGOPCLAB⇨PlayerDieOption
+MIHMJDHPBHB⇨GMShowObstacleRsp
+MIMILHIDDLG⇨best_score
+MIOGDLHDNMK⇨UgcDungeonSwitchRoomInviteInfoNotify
+MJAGFLLNAED⇨BreakoutSyncFinishGame
+MJBHCHEDJLL⇨TreasureMapDetectorData
+MJBJLMFEOHE⇨CatchSeed
+MJDOMNMFKFC⇨is_open
+MJFLBAPLKLG⇨bargain_result
+MJGGOJKLDFJ⇨FishPoolInfo
+MJJADBBMNKB⇨EnterUgcDungeonRsp
+MJJPGNLLNGA⇨phase_type
+MKBJFDHCBDN⇨player_level
+MKCNJEPAKAI⇨FungusFighterV2SettleInfo
+MKDCGANOINA⇨BuoyantCombatDetailInfo
+MKDOPDDLEHM⇨motion_info
+MKHKMLCFAAJ⇨ChangeHpReason
+MKHNNLGEOOB⇨finished_bundle_list
+MKKLANNFGNM⇨val
+MKPBPBDBMAN⇨GCGMsgCardUpdate
+MLBJGDGCLFL⇨ReportSubtype
+MLDECGKLHKI⇨TrialAvatarInfo
+MLIFAALHBEH⇨action
+MLJKKFHMIGF⇨FishtankFishInfo
+MLMIBJJLEJH⇨score_board
+MLPBEIJDLEH⇨skill_map
+MLPOLCLALDE⇨force_id
+MMADPENGHJN⇨GCGMsgTokenChange
+MMAGOCLEBEH⇨FleurFairBalloonSettleInfo
+MMBFHPLMHIB⇨GCGMsgPVEIntentionInfo
+MMDOMHFPEMA⇨visibility_count
+MMGANNIKAHG⇨OfferingPariDetailData
+MMHBFKGNIMO⇨param
+MMLPAHDFACO⇨option
+MMPJKHADAJE⇨message
+MNALAFOHOCJ⇨detail_data
+MNCMMBIMBHL⇨CustomDungeonRecoverNotify
+MNDLJENABOM⇨PlayerDieType
+MNFAMHEJAHC⇨GCGMsgRemoveCards
+MNFIBKHKAGP⇨ServerBuffChangeNotify
+MNGLMKKEFJL⇨pass_cd_time
+MNKIEDKOMIM⇨is_first_valid
+MNLAJBGNOHI⇨watcher_list
+MNMFJCFOFKH⇨MultistagePlaySettleNotify
+MOBDKKIGJKG⇨GCGDiceSideType
+MOEFJPEGMAB⇨BlessingActivityDetailInfo
+MOIJFPKDLCP⇨is_enable_interact
+MONJEGBNBCD⇨controller_path_remote_hash
+MOOKANFNMCI⇨UgcDungeonSwitchRoomPlayerInfo
+MPCLDJALHJO⇨SummerTimeV2DetailInfo
+MPEAHPJPENI⇨attack_result
+MPEAJMMJDAM⇨is_light
+MPJNLAABODH⇨camp_type
+MPLCINPMEEA⇨point_id
+MPLFKHHMJKP⇨GetAllMailResultNotify
+NAALEEMLALI⇨HomeMarkPointNotify
+NABLKFGNCAJ⇨matchserver_id
+NAGLDMFHDKC⇨day_content_info_list
+NANELNMDEKC⇨affix_map
+NAPHNMDEMAN⇨HomeEditCustomFurnitureRsp
+NBACFKAGGEB⇨SceneGalleryBulletInfo
+NBBDKDCEMIJ⇨days
+NBDBIABFIKG⇨BreakoutPhysicalObject
+NBDKHPHGLAJ⇨MaterialDeleteInfo
+NBDPCAIOPPH⇨CustomGalleryScoreBoardUpdateNotify
+NBKEPGMLMOD⇨TowerLevelEndNotify
+NBKHNDLHJLB⇨CalcWeaponUpgradeReturnItemsRsp
+NBOLBPKDFGA⇨SetEntityClientDataNotify
+NCKABMJFLAA⇨is_quick
+NCKPCEKKAIB⇨area_id
+NCLEHJJDBHI⇨codex_id_list
+NDAKFHPAEMG⇨BrickBreakerStageInfo
+NDDEFMPDCGI⇨level_data_list
+NDMGMNBPCIL⇨item_param
+NDMLFKEOEIA⇨arrive_range
+NDOBMNGCPNF⇨SceneGallerySalvageEscortInfo
+NEAJCIDMIIL⇨ForgeQueueManipulateRsp
+NEBMNJHCBPE⇨ugc_dungeon
+NEEBNNJCKOK⇨summoned_tag
+NEEHJFJHJDN⇨TeamChainSettleInfo
+NEFDPBAGHGK⇨GCGMsgCostRevise
+NEHBDOHJHJH⇨TanukiTravelActivityDetailInfo
+NELKPPOAKGB⇨PhotoActivityDetailInfo
+NEMGDDANHOL⇨FleurFairBossSettleInfo
+NENEOCHHAPO⇨MotionInfo
+NFDONINGBOG⇨Material
+NFFDEJEHAAJ⇨MuqadasPotionActivityDetailInfo
+NFGJELLAPGD⇨life_state
+NFIKGICGKII⇨GetScenePerformanceRsp
+NFKCPNKIFCO⇨MultistagePlayInfoNotify
+NFLAPNPCMCF⇨StoreItemDelNotify
+NFNCNNJLKJH⇨HomeFurnitureGroupData
+NGALBMBADMA⇨music_id
+NGBCMFINCHJ⇨GCGReplayBriefDataNotify
+NGENKOMMCMJ⇨dice_index_list
+NGGFMKKMHND⇨delete_time
+NGKCFHGMGKM⇨attack_element_durability
+NGLPMIMFFME⇨product_id
+NGNANLEOEGH⇨BartenderActivityDetailInfo
+NGNJMNFMFMA⇨RogueEliteCellDifficultyType
+NHEPLOMEKKN⇨custom_furniture_info
+NHFAFGEGHLO⇨WidgetThunderBirdFeatherInfo
+NHFNBABAFCC⇨StartRogueEliteCellChallengeReq
+NHJCCLPBANP⇨VintageHuntingSecondStageInfo
+NHODLKCIBEP⇨fish_pool_pos
+NHOFBPDLBGO⇨GadgetGeneralRewardInfo
+NHPJIBGDAFJ⇨furniture_id
+NIAFFKOLCOI⇨FleurFairMinigameInfo
+NIDOHNPMDKC⇨WindSeedClientNotify
+NIEBJMLBPBN⇨GCGSettleOption
+NIGGNJACAGI⇨focus_forward
+NIPPCECCBDB⇨retcode
+NJDLGEOCIMA⇨fish_pool_entity_id
+NJKHGJEDIJL⇨GadgetCrucibleInfo
+NJKLGHEBOLA⇨PlayerLogoutReq
+NJLGKAJHPKJ⇨promote_level
+NJMEDPCJNHO⇨is_taken_reward
+NKCJJBELPMF⇨WidgetSlotChangeNotify
+NKCNOJLLPGE⇨GCGOperationOnStageSelect
+NKJBOPEPEND⇨position
+NKJFDLEPLEB⇨MusicGameActivityDetailInfo
+NKKHCAKHIFN⇨core_proud_skill_level
+NKLDPAAFKGC⇨dig_mark_point_list
+NKLMDKEHBCB⇨DealAddFriendResultType
+NKMIPCJMJID⇨combat_config_hash
+NKMLDKFPBJJ⇨ServerUpdateGlobalValueNotify
+NLACLKJOPOO⇨PotionDungeonResultInfo
+NLACPAHHPGI⇨forward_type
+NLAFEIEOMCN⇨parent_ability_name
+NLHOEIAIILL⇨schedule_id
+NLIICFGFGFN⇨DungeonPlayerDieReq
+NLINJJMJGOF⇨AbilitySyncStateInfo
+NLKAGNLMEGM⇨expedition_state
+NLKKNAIONKJ⇨UgcMusicBriefInfo
+NLNECPJLDHM⇨DungeonPreloadMonsterNotify
+NLNLHHAAENP⇨modifier_durability
+NMAAFMFDECE⇨content_close_time
+NMBEJFFGLBA⇨VisionType
+NMBIFHBJNOE⇨SceneAvatarInfo
+NMBMIHLFCPI⇨MaterialDeleteReturnNotify
+NMBPLKMDOOH⇨QueryPathRsp
+NMDOJDABLBG⇨id
+NMHAONILOJC⇨CharAmusementDetailInfo
+NMKOJDOKFHH⇨EntityForceSyncRsp
+NMLNPIHDJHE⇨dynamic_object_list
+NNDBLAPCKJB⇨SalvageStageInfo
+NNDGDAGLMPL⇨CustomDungeonResultInfo
+NNDLLENLKHN⇨GadgetInteractReq
+NNGHMEDCEPF⇨ability_data
+NOAKKJHPOCC⇨GCGMsgModifyAdd
+NOCCJNDDHAE⇨hp
+NOJAPINMMLP⇨DelayWeekCountDownDelete
+NOJCEDIDBBJ⇨DeshretObeliskGadgetInfo
+NOKCADMMDGJ⇨avatar_guid_list
+NOKGLEGCAEO⇨VintageActivityDetailInfo
+NOMOLAMCOOC⇨invokes
+NPDMMBFOLNG⇨importance
+NPECDCOCKCI⇨cur_schedule
+NPEEJCEKEOE⇨id_index_list
+NPIOHKDFFHJ⇨VintageHuntingThirdStageInfo
+NPJGIENFAJM⇨RefreshSeed
+NPJLLALFMHH⇨optional_tired_avatar_list
+NPKHNMNCHLH⇨QuitReason
+NPOPPHBJPPF⇨SceneTeamAvatar
+OAEEKIHBABH⇨level_info_list
+OAHCEGHNPDI⇨authority_change_list
+OAOIOECJHKJ⇨GameplayRecommendationElementReliquaryRequest
+OAOOIAOEBKC⇨challenge_info_list
+OBAGOLMPJAK⇨CheckAddItemExceedLimitNotify
+OBGLOJGJKMK⇨ShowAvatarInfo
+OBJPCLNBENM⇨HuntingOngoingNotify
+OBKPPHPJLMG⇨FoundationReq
+OCCMFBOAINL⇨BartenderCompleteOrderReq
+OCLBAEAIHJK⇨UgcTriggerConditionMonsterGroupDeactive
+OCLPKBKNCMM⇨PlayerApplyEnterMpAfterMatchAgreedNotify
+OCNAGNKDEKA⇨StoreItemChangeNotify
+OCNDINAKOJE⇨finish_type
+ODCBBKDBKHM⇨pose_id
+ODDKPDAJDHG⇨GCGMsgUseSkill
+ODGHKBHKDIH⇨SalvageEscortStopReason
+ODJMMNAEEGO⇨end_time
+ODOFDOILNDL⇨DuelHeartDetailInfo
+OEAGGIIHLKM⇨GravenInnocenceDetailInfo
+OEBCOEJJIEF⇨chair_id
+OEBEGFGMGJC⇨State
+OEDGNNAGFMG⇨BeginCameraSceneLookWithTemplateNotify
+OEGIHIELGNG⇨SceneGallerySorushTrialPhotoMatchInfo
+OEIKBFOMCHM⇨RogueDiaryTiredAvatarNotify
+OEJAKGEBDDI⇨hit_retreat_angle_compat
+OEPKCIMACHK⇨ScenePlayerInfo
+OFCEALHOKLA⇨seed_pos
+OFCGIHHCCGD⇨PlayerStoreNotify
+OFEHJBFIPEI⇨GalleryWillStartCountdownNotify
+OFIMFMCMHHO⇨GeneralMatchInfo
+OFINKGLDBND⇨fish_id
+OFKOKAJIMFC⇨score_list
+OFLELAMKLJD⇨ChessActivityDetailInfo
+OFLHAGPDMAA⇨projector_entity_id
+OGANLOKBBCA⇨DropItemRsp
+OGHPKPNGDBN⇨blossom_refresh_type
+OGJHODLOOCO⇨is_cg_viewed
+OGNJNEMILGC⇨ChapterState
+OGNMMFADFDG⇨FleurFairStageSettleNotify
+OHAAHGPCDNC⇨HomePlantSubFieldData
+OHAHHALNFOD⇨SetWidgetSlotRsp
+OHEKFJOIMFB⇨rewarded_fetter_level_list
+OHGCCNLKJIH⇨GCGDuel
+OHGCGIBDKAP⇨snap_shot
+OHICDNAOEPC⇨pending_promote_reward_list
+OHKDGIPAHHH⇨MoonfinTrialActivityDetailInfo
+OHKKCOKGJNA⇨DraftInviteFailReason
+OHKNOCEHDHL⇨locked_by_uid
+OHLPCAGEBNL⇨SceneGalleryTreasureSeelieInfo
+OHMMEEGGHKM⇨scene_player_fall_info_map
+OHMNLDMBKKD⇨CrystalLinkActivityDetailInfo
+OHPDFFIHCJH⇨prop_owner_entity_id
+OIKBLCKCEFD⇨fetter_state
+OILDNOCJPNM⇨interact_uid_list
+OIMBIOJPCFB⇨music_record_map
+OIPMNBLNIMH⇨WinterCampGetFriendWishListRsp
+OJBMMIFPOOH⇨parent_quest_id
+OJCFCOMDCIO⇨spawned_brick_list
+OJCKAMOPBOC⇨MistTrialSettleNotify
+OJCLJNJKKHN⇨HomeEditCustomFurnitureReq
+OJEDFDCFEOA⇨SummerTimeDetailInfo
+OJFECJGDKAC⇨TreasureMapRegionInfoNotify
+OJGFEDHAICD⇨RemoveRandTaskInfoNotify
+OJIABBIMPJD⇨server_buff_list
+OJIFEFECDJB⇨EntityClientExtraInfo
+OJIHEAAPOLM⇨is_new_game
+OJJBLGCADHC⇨HomeSeekFurnitureAllRecord
+OJJNDGJFFKM⇨region_center_pos
+OJKGKLHLAJE⇨npc_id
+OJMICNAHMED⇨last_hit_peer_id
+OJMOGCOEIHB⇨is_sandworm_appear
+OJPFAFKHCFC⇨left_cd_time
+OKACLHBDDPK⇨EventTriggerType
+OKCDBJHDJDI⇨PlaySoundType
+OKDGEAJFNFH⇨DraftOwnerStartInviteRsp
+OKJAFPKLECE⇨SceneGalleryBrokenFloorInfo
+OKKEJIDJBKC⇨full_cd_time_list
+OKKKMLEJBEH⇨server_share_code
+OKKKPGICCHN⇨server_seq
+OKMJOCLNNKF⇨GCGMsgGameOver
+OLAEIOILAHD⇨entity_environment_info_list
+OLCBOJOFKPD⇨RogueCellUpdateNotify
+OLDBNEFHKGH⇨player_uid_list
+OLECMJKAHDK⇨IrodoriActivityDetailInfo
+OLFMLFHAJPO⇨hint_point
+OLJCBIAAAOJ⇨MaterialDeleteReturnType
+OMJONCEHNGD⇨ugc_type
+OMLJGCPFEEL⇨EvtEntityStartDieEndNotify
+OMMAOFMKONO⇨GMQueryPathReq
+OMMMJDKJFLK⇨CombatTypeArgument
+OMNDCCBDMDA⇨ItemParam
+OMNOMEOOPJM⇨param6
+OMOAJLKBCPI⇨MatchPlayerInfo
+OMOAKOPHDIJ⇨FriendEnterHomeOption
+ONBACGGNJDI⇨is_end
+ONDCCEFNLED⇨WeatherInfo
+ONNPHOHAPPF⇨CustomDungeonBanType
+ONPKLKIBDGG⇨SocialDetail
+OOAAPKGMOAG⇨SceneGalleryPacmanInfo
+OOBKNFOMKJH⇨scene_arrangement_info_list
+OODPEDFHHNL⇨AvatarExpeditionState
+OOFOPDKKFLH⇨UgcDungeonPlayAllDataNotify
+OOGCJJHKBFH⇨spawn_pos
+OOGEHMELIEL⇨authority_peer_id
+OOGNFJHKHPI⇨SceneReliquaryInfo
+OOIOIAMCANO⇨CreateReason
+OOOBKABPMNB⇨cond_reason
+OOPJLDGPDGC⇨monster_id
+OPEBPLGMMJJ⇨UgcDungeon
+OPHGNFJJLGD⇨GCGMsgSkillLimitsChange
+OPIIPGAJIEC⇨use_client_rot
+OPJCBKMGBOI⇨PolygonRegionSize
+OPKIAOCIAOM⇨DeliveryActivityDetailInfo
+OPKPMFODKAC⇨QuickUseWidgetReq
+OPMCDAEOLJE⇨RoguelikeGadgetInfo
+OPMDPNHFBNJ⇨ActivityPushTipsData
+OPMEOAAOMEC⇨EchoShellDetailInfo
+OPNMIBDJFJA⇨UgcDungeonImportOpType
+OPPABJIGPAP⇨server_buff_uid
+PACEHBFGBIG⇨ForgeQueueManipulateType
+PADOBHCPGHM⇨is_unlocked
+PAGHNDFEOJM⇨SceneGalleryFallInfo
+PALJEGODEFK⇨element_reaction_buff
+PANJABMKEII⇨TakeMaterialDeleteReturnReq
+PBBMMFOHBGA⇨ability_override
+PBCOHOCFAOP⇨AbilityBornType
+PBJFGPHNEFL⇨psn_id
+PBKHJJNBHOA⇨SceneGalleryLuminanceStoneChallengeInfo
+PBLBBNPACNL⇨server_buff_change_type
+PBNJFKKLHNG⇨AttackResult
+PCBJLFFNBKG⇨WinterCampStageInfoChangeNotify
+PCCFKEFIBIH⇨ForgeQueueManipulateReq
+PCHFNHBBJLN⇨parent_index
+PCHKLAKNLNN⇨HomePlantInfoRsp
+PCIPDFIHKIL⇨config_id
+PCJNGJNLIBB⇨SceneMonsterInfo
+PCKKDLODJPI⇨HomeCreateBlueprintReq
+PCPEJDNJIAD⇨TakeBattlePassRewardRsp
+PDGAFFDEGDP⇨born_pos
+PDGOLODMMFK⇨field_list
+PDILDMCECAJ⇨SeaLampV3DetailInfo
+PDKHBIEHNKM⇨is_unlock
+PDLKECHMDHG⇨wind_change_target_level
+PDMHHBAGEBG⇨skill_level_list
+PDPOFDFIDKA⇨monster_route
+PEEJKKLKDIH⇨ExpeditionActivityDetailInfo
+PEFPPHLEMGP⇨LunaRiteDetailInfo
+PEKGDMHEAIK⇨WorktopInfo
+PEKPJLKEFAM⇨match_type
+PELPNDAJNCK⇨platform
+PEMPECECLPF⇨SumoActivityDetailInfo
+PFMOCJPNIOB⇨GCGPickDetailNotify
+PGCBKJMMHEP⇨GCGSkillPreviewInfo
+PGCELMPDMAK⇨axis0
+PGFLKFANGPO⇨UgcTriggerActionChangeGadgetState
+PGFNNLIKEDD⇨entity_id
+PGHGHOFIFDN⇨skill_id_list
+PGHMEKIDFOD⇨key
+PGMMIHBPBIN⇨EntityClientData
+PGMMOBNDLHJ⇨route_type
+PGOKFLPAGNO⇨MailCollectState
+PHBIGCMGNHM⇨ClientAbilityChangeNotify
+PHCBOJJFMLD⇨AuthorityChange
+PHGMHCBENAF⇨applied_modifiers
+PHKMJILKEIJ⇨GCGMsgMoveCard
+PHLCKDHBFCH⇨FindHilichurlDetailInfo
+PHLGPFADGPG⇨target_lock_point_index_list
+PHMBCBDFCFK⇨WinterCampRecvItemData
+PHMCKMAKNKK⇨weight_limit
+PIAIPDPIDPD⇨BrickBreakerDetailInfo
+PIFHPPGIKCA⇨StopServerInfo
+PIHIGEPKGDL⇨center
+PIICDEKGAIP⇨reform_param_list
+PIJMHHGNKPI⇨CustomGalleryScoreBoardType
+PIMBCDEHPMO⇨EvtAvatarLockChairRsp
+PJAAEDFHNNL⇨CustomDungeonFinishType
+PJBODNLDKOD⇨is_online_id
+PJEEEBOPDHG⇨WidgetSlotOp
+PJEGIPKKLHP⇨oneoff_gather_point_detector_data_list
+PJLGNIOBMPM⇨mark_tips_list
+PJLNJMMLOME⇨param5
+PJNOEFJCLLK⇨SceneGalleryIslandPartyDownHillInfo
+PJOFJKPOAOF⇨EvtBeingHitInfo
+PJPMAFEFPCD⇨GCGOperationReboot
+PKBCMEBKBLA⇨FleurFairGallerySettleInfo
+PKBNABCLLKK⇨signature
+PKFGOPKCIPA⇨brief
+PKFHMHDLPHH⇨CrystalLinkDungeonSettleInfo
+PKHKFKAGEKM⇨GCGMsgPhaseContinue
+PKJHNEFDOGP⇨is_collected
+PKJKOOEAOLC⇨wearing_flycloak_id
+PKLGIOOOEHN⇨detail_play_type
+PKNPAEJEKPO⇨controller_id
+PKOEKPHPNCA⇨enter_pos
+PLAIKPOGNDH⇨GCGMsgCostDice
+PLCAPHFMOCH⇨is_pass_all_stage
+PLIHFNACNNP⇨level_type
+PLMCKJBKLFG⇨nickname
+PLPPHHODODE⇨group_id
+PMAAINCKKMJ⇨StoreType
+PMBGGIBKKMP⇨BargainResultType
+PMCDEBBMKDL⇨is_finish_any_level
+PMCGEJJOFPA⇨gadget_id
+PMHDEKIBJID⇨invite_fail_info_list
+PMJKOIDEPOL⇨ref_pos
+PMKPPBFFPGJ⇨UgcDungeonCandidateAvatarType
+PMLDKMDJLOE⇨reduce_ratio
+PMLLGDBCMBJ⇨virtual_furniture_list
+PMPGOLNBBFD⇨is_from_match
+PMPJJBHNIKP⇨url
+PNDIFANEMMP⇨HomeUpdateArrangementInfoReq
+PNFICIIJAFE⇨profile_picture
+PNJEFPIKCIA⇨progress
+PNJIFAADGAM⇨PlayerLogoutReq
+PNLJDADNNLF⇨AbilityMetaUpdateBaseReactionDamage
+PNONFNIHELJ⇨reported_type
+POAHAHAJLLO⇨GCGEndReason
+PODJNBBMEMJ⇨PlayerLogoutReq
+POHJMCECHAK⇨EnterUgcDungeonReq
+POJCEMBIBGG⇨DropItemReq
+POJNEJGDBNH⇨fight_prop_list
+POLDAGOEEKM⇨fail_motion
+PONOMECEKJC⇨UgcDungeonSwitchRoomInviteState
+POPGPKJKEAO⇨is_focus
+POPJMOAFEFA⇨SceneGalleryBuoyantCombatInfo
+PPBNKJJHFCD⇨AbilityInvokeArgument
+PPDHEEAPELP⇨immediately
+PPDIHMMDNCE⇨scene_id
+PPDMAKNDIHH⇨official_black_coin_list
+PPENPNCBCMO⇨OnlinePlayerInfo
+PPEPDDCGEDO⇨node_list
+PPHMKGLKGNO⇨OfferingInfo
+PPJLNFLFDGG⇨peer_id
+PPLCLIKFOAH⇨start_source
+PPMKGIDKMPE⇨op_type
+PPNCEIHIEOC⇨is_has_change
+PPPKJNGKEGB⇨HomePlantFieldData
