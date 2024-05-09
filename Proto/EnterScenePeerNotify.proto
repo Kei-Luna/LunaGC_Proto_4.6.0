@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 20243
+message EnterScenePeerNotify {
+	uint32 dest_scene_id = 1;
+	uint32 enter_scene_token = 9;
+	uint32 peer_id = 11;//11 or 3
+	uint32 host_peer_id = 3;//11 or 3
+}

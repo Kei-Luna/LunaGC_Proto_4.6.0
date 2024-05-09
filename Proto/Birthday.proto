@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PJENMAMNPEI
+message Birthday {
+	uint32 month = 1;
+	uint32 day = 2;
+}

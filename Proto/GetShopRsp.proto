@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Shop.proto";
+
+// 4.6.0
+// CmdId: 1428
+message GetShopRsp {
+	Shop shop = 10;
+	int32 retcode = 15;
+}

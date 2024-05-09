@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: BOCCJPKHICL
+enum WidgetSlotTag {
+	WIDGET_SLOT_TAG_QUICK_USE = 0;
+	WIDGET_SLOT_TAG_ATTACH_AVATAR = 1;
+}

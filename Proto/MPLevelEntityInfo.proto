@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilitySyncStateInfo.proto";
+
+// 4.6.0
+message MPLevelEntityInfo {
+	uint32 entity_id = 3;
+	uint32 authority_peer_id = 4;
+	AbilitySyncStateInfo ability_info = 7;
+}

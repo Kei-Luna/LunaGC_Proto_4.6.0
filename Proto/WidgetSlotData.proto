@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "WidgetSlotTag.proto";
+
+// 4.6.0
+message WidgetSlotData {
+	uint32 cd_over_time = 3;
+	bool is_active = 5;
+	WidgetSlotTag tag = 7;
+	uint32 material_id = 10;
+}

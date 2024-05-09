@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 1077
+message SceneForceUnlockNotify {
+	bool is_add = 12;
+	repeated uint32 force_id_list = 13;
+}

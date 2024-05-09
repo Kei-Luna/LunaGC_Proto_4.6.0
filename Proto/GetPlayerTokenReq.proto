@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 28960
+message GetPlayerTokenReq {
+	uint32 platform_type = 7;
+	string account_uid = 9;
+	uint32 key_id = 550;
+	string client_rand_key = 1605;
+	string account_token = 14;
+}

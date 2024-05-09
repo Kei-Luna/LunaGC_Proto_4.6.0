@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import ".proto";
+
+// 4.6.0
+// CmdId: 25965
+message SceneTimeNotify {
+	uint64 scene_time = 7;
+	bool is_paused = 11;
+	uint32 scene_id = 14;
+}

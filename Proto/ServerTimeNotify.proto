@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 3566
+message ServerTimeNotify {
+	uint64 server_time = 15;
+}

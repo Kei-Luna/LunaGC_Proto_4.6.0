@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// 4.6.0
+// CmdId: 21317
+message PlayerEnterSceneNotify {
+	uint32 target_uid = 14;//14 or 189
+	uint32 create_player_uid = 189;//14 or 189
+	Vector pos = 13;
+	uint32 scene_id = 7;
+	string scene_transaction = 120;
+	uint32 enter_scene_token = 15;
+	uint64 scene_begin_time = 6;
+	repeated uint32 scene_tag_id_list = 9;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ServerBuff.proto";
+import "AbilitySyncStateInfo.proto";
+
+// 4.6.0
+message AvatarEnterSceneInfo {
+	uint32 avatar_entity_id = 4;
+	repeated ServerBuff server_buff_list = 5;
+	repeated uint32 buff_id_list = 8;
+	AbilitySyncStateInfo avatar_ability_info = 10;//sus 10 or14
+	uint64 weapon_guid = 11;
+	uint32 weapon_entity_id = 12;
+	AbilitySyncStateInfo weapon_ability_info = 14;//sus 10 or14
+	uint64 avatar_guid = 15;
+}

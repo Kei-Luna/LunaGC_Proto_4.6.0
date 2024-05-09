@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "SceneTeamAvatar.proto";
+
+// 4.6.0
+// CmdId: 28422
+message SceneTeamUpdateNotify {
+	repeated SceneTeamAvatar scene_team_avatar_list = 5;
+	bool is_in_mp = 88; //tentativeID
+}

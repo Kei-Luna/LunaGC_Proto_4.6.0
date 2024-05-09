@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 27601
+message PlayerLoginReq {
+	string device_info = 9;
+	string device_name = 13;
+	string system_version = 12;
+	uint32 platform_type = 7;
+	string token = 1;
+	string checksum_client_version = 868;
+}

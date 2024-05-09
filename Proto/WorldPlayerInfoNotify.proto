@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "OnlinePlayerInfo.proto";
+import "PlayerWidgetInfo.proto";
+
+// 4.6.0
+// CmdId: 3610
+message WorldPlayerInfoNotify {
+	repeated OnlinePlayerInfo player_info_list = 1;
+	repeated PlayerWidgetInfo player_widget_info_list = 4;
+	repeated uint32 player_uid_list = 8;
+}
