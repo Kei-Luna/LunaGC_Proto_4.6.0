@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: OGJENPCDJEN
+message WeatherInfo {
+	uint32 weather_area_id = 1;
+}

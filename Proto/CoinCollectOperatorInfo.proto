@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NFEECFHHDLJ
+message CoinCollectOperatorInfo {
+	uint32 level_id = 1;
+}
