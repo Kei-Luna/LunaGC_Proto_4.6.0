@@ -2508,8 +2508,8 @@ message BBLCBONCEMF {
 // CmdId: 21191
 message ALOHMFAMAPB {
 	uint32 param = 3;
-	VisionType KMBILDCEJAN = 11;
-	repeated SceneEntityInfo HDFIIECBHBC = 15;
+	VisionType appear_type = 11;
+	repeated SceneEntityInfo entity_list = 15;
 }
 
 message AGLBFBEEHEF {
@@ -3256,7 +3256,7 @@ message IMGNMJLIAKB {
 }
 
 message SorushTrialDetailInfo {
-	map<uint32, uint32> Unk3700_KMFLCEGIGCL = 2;
+	map<uint32, uint32> IPIANPMJHHF = 2;
 	repeated uint32 FANDDGHDDGF = 6;
 	repeated uint32 HKPNKIPAECH = 8;
 	repeated uint32 FNOPHMBEPME = 10;
@@ -4658,7 +4658,7 @@ message IEKCEGFNINF {
 }
 
 message OfferingPariDetailData {
-	uint32 Unk3700_JDCCOJLEIBP = 13;
+	uint32 GCGIOCKFPNK = 13;
 	bool is_taken_finish_reward = 14;
 }
 
@@ -4817,8 +4817,8 @@ message HJPDCCNGGCJ {
 
 // CmdId: 29956
 message GJBBEOAEJKI {
-	VisionType KMBILDCEJAN = 1;
-	repeated SceneEntityInfo HDFIIECBHBC = 7;
+	VisionType appear_type = 1;
+	repeated SceneEntityInfo entity_list = 7;
 	uint32 param = 11;
 }
 
@@ -5106,7 +5106,7 @@ message NGLKNCPFFIN {
 	uint32 instanced_modifier_id = 4;
 	int32 CAODIBCKAJP = 5;
 	bool is_serverbuff_modifier = 6;
-	int32 JIEEGPFDKEA = 7;
+	int32 local_id = 7;
 	uint32 server_buff_uid = 8;
 	uint32 instanced_ability_id = 13;
 }
@@ -5317,11 +5317,11 @@ message PMEOMBMJBAG {
 	int32 retcode = 12;
 }
 
-message ANJNNHGLGJJ {
+message MassivePropParam {
 	int32 type = 1;
-	repeated uint32 JMCEEPJGDBO = 2;
+	repeated uint32 reaction_info_list = 2;
 	repeated float param_list = 3;
-	uint32 ICNLMIEDCLF = 4;
+	uint32 sync_flag = 4;
 }
 
 // CmdId: 27947
@@ -7207,7 +7207,7 @@ message CEEPPDPNEME {
 	uint32 AGHFFBPDIHE = 5;
 	repeated ICIICBOLMHK fungus_info_list = 6;
 	float energy_point = 9;
-	uint64 Unk3700_KAOACLDKNEE = 10;
+	uint64 CKEBHMPOOAF = 10;
 	uint32 CMDALOLDNGB = 11;
 	uint32 GLMKCODHIML = 13;
 	uint32 IANIJPOHGIP = 14;
@@ -7896,7 +7896,7 @@ message FPHLJGDJCLB {
 // CmdId: 21913
 message SceneEntityDisappearNotify {
 	uint32 param = 4;
-	repeated uint32 HDFIIECBHBC = 9;
+	repeated uint32 entity_list = 9;
 	VisionType disappear_type = 13;
 }
 
@@ -8065,9 +8065,9 @@ message BlitzRushActivityDetailInfo {
 
 // CmdId: 5471
 message GEJLHPMFEMI {
-	/* protected @ 0x20 */// repeated SceneEntityInfo HDFIIECBHBC = 65535;
+	/* protected @ 0x20 */// repeated SceneEntityInfo entity_list = 65535;
 	/* protected @ 0x28 */// uint32 param = 65535;
-	/* protected @ 0x2C */// VisionType KMBILDCEJAN = 65535;
+	/* protected @ 0x2C */// VisionType appear_type = 65535;
 }
 
 // CmdId: 4648
@@ -9872,7 +9872,7 @@ message EEDGJCAPMCI {
 	uint32 KDPGILHNFNM = 554;
 	repeated uint32 target_lock_point_index_list = 588;
 	repeated uint32 target_entity_id_list = 1298;
-	int32 JIEEGPFDKEA = 1381;
+	int32 local_id = 1381;
 	bool PDGGCPDDAOL = 1542;
 	uint32 init_pose_id = 1860;
 	bool is_peer_id_from_player = 1956;
@@ -11641,7 +11641,7 @@ message PEMAEGMEAAE {
 	bool is_serverbuff_modifier = 8;
 	uint32 EGFPJDNPCAJ = 9;
 	uint32 OOEBIGKJEBA = 10;
-	int32 JIEEGPFDKEA = 13;
+	int32 local_id = 13;
 }
 
 // CmdId: 8166
@@ -13812,7 +13812,7 @@ message PPABDPDOCFC {
 message OMAOBDPPGIC {
 	uint64 client_game_time = 1;
 	uint64 server_game_time = 2;
-	repeated NLABNLIAKAE HDFIIECBHBC = 3;
+	repeated NLABNLIAKAE entity_list = 3;
 	repeated BLGAKHOKBCG action_list = 4;
 	bool is_finish = 5;
 	repeated uint32 id_index_list = 6;
@@ -14364,12 +14364,12 @@ message SceneTeamAvatar {
 	uint32 entity_id = 5;
 	repeated ServerBuff server_buff_list = 6;
 	uint64 avatar_guid = 7;
-	AvatarInfo OJAMODPDJGL = 8;
-	SceneAvatarInfo GEAMIHLGJDF = 9;
+	AvatarInfo avatar_info = 8;
+	SceneAvatarInfo scene_avatar_info = 9;
 	bool JAAHGCNIFEA = 10;
 	bool MIEIHDKMNLA = 11;
 	uint32 weapon_entity_id = 12;
-	SceneEntityInfo JGGJHHCIGLI = 13;
+	SceneEntityInfo scene_entity_info = 13;
 	AbilitySyncStateInfo avatar_ability_info = 14;//sus 14 or 15
 	AbilitySyncStateInfo weapon_ability_info = 15;//sus 14 or 15
 	bool KPHIDKPPFDL = 1097;
@@ -14980,9 +14980,9 @@ message FurnitureMakeBeHelpedNotify {
 	LPCKFOIEMBI BCMGCCJPFMO = 8;
 }
 
-message INLDMANOCIO {
+message MassivePropSyncInfo {
 	int64 id = 1;
-	repeated ANJNNHGLGJJ prop_list = 2;
+	repeated MassivePropParam prop_list = 2;
 }
 
 // CmdId: 23511
@@ -16436,7 +16436,7 @@ message InBattleMechanicusCardInfo {
 message PBKHJDLPANB {
 	AvatarInfo COHMFBJLOCM = 3;
 	int32 retcode = 10;
-	AvatarInfo OJAMODPDJGL = 13;
+	AvatarInfo avatar_info = 13;
 }
 
 // CmdId: 28025
@@ -18336,9 +18336,9 @@ message OEBLHADEFBK {
 	uint32 entity_id = 12;
 }
 
-message BIOHHADBAEC {
-	sfixed32 JLFIMGNPPBN = 3;
-	sfixed32 CHDCGKJGJMM = 10;
+message ShortAbilityHashPair {
+	sfixed32 ability_name_hash = 3;
+	sfixed32 ability_config_hash = 10;
 }
 
 // CmdId: 20057
@@ -20326,7 +20326,7 @@ message MBHIMCNDHHL {
 }
 
 // CmdId: 23328
-message Unk3700_HJBIANEJEBC {
+message BMCJOINHDOK {
 	repeated UgcDungeonCandidateTeamAvatarInfo avatar_info_list = 3;
 }
 
@@ -22201,7 +22201,7 @@ message GetAllSceneGalleryInfoRsp {
 
 message DungeonCandidateTeamAvatar {
 	uint32 player_uid = 6;
-	AvatarInfo OJAMODPDJGL = 11;
+	AvatarInfo avatar_info = 11;
 	oneof detail {
 		UgcDungeonCandidateTeamAvatarInfo ugc_avatar_info = 1794;
 	}
@@ -23904,16 +23904,16 @@ message CPLPFICOPPJ {
 }
 
 message AbilityMixinRecoverInfo {
-	uint32 JIEEGPFDKEA = 3;
-	repeated uint32 FBLBIEEIBHK = 4;
-	bool is_serverbuff_modifier = 5;
-	repeated INLDMANOCIO LMELICKLMNG = 6;
-	BreakoutSnapShot CNPGDPMPMJC = 7;
-	OMAOBDPPGIC BHPCDOJPBGL = 8;
 	oneof source {
 		uint32 instanced_ability_id = 1;
 		uint32 instanced_modifier_id = 2;
 	}
+	uint32 local_id = 3;
+	repeated uint32 data_list = 4;
+	bool is_serverbuff_modifier = 5;
+	repeated MassivePropSyncInfo massive_prop_list = 6;
+	BreakoutSnapShot breakout_snap_shot = 7;
+	OMAOBDPPGIC BHPCDOJPBGL = 8;
 }
 
 message OKEMBHCJFFM {
@@ -25436,7 +25436,7 @@ message KAIBIENEMKJ {
 
 message GLJILFGBCNM {
 	uint32 IPJOCONMJAL = 1;
-	fixed32 JLFIMGNPPBN = 2;
+	fixed32 ability_name_hash = 2;
 	fixed32 DBDODMIHABA = 3;
 }
 
@@ -27595,7 +27595,13 @@ message KFCFOKKFIML {
 
 message AbilityScalarValueEntry {
 	AbilityString key = 1;
-	float float_value = 3;
+	AbilityScalarType value_type = 2;
+	oneof value {
+		float float_value = 3;
+		string string_value = 4;
+		int32 int_value = 5;
+		uint32 uint_value = 6;
+	}
 }
 
 // CmdId: 22235
@@ -28157,7 +28163,7 @@ message SceneGalleryFungusFighterV2Info {
 	repeated KNAJCGMDGBP fungus_info_list = 5;
 	uint32 BCOCPMMKAHB = 7;
 	string transaction = 10;
-	uint64 Unk3700_KAOACLDKNEE = 15;
+	uint64 CKEBHMPOOAF = 15;
 }
 
 // CmdId: 25009
@@ -28636,7 +28642,7 @@ message PropValue {
 }
 
 message HICCLGEKCIO {
-	int32 JIEEGPFDKEA = 1;
+	int32 local_id = 1;
 	AbilityString parent_ability_name = 2;
 	uint32 instanced_modifier_id = 4;
 	uint32 instanced_ability_id = 5;
@@ -28933,7 +28939,7 @@ message LJJNGFAEJOG {
 }
 
 message MKGLBOHLKNK {
-	repeated INLDMANOCIO LMELICKLMNG = 11;
+	repeated MassivePropSyncInfo massive_prop_list = 11;
 	repeated int64 DOENEKCJBKI = 12;
 	bool ELKJHLEDHFO = 15;
 }

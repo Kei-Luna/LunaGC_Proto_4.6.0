@@ -171,7 +171,6 @@ BLLNNMGIPPG⇨GalleryStartSource
 BLMJNHLPHPA⇨BattlePassAllDataNotify
 BLPANCPNDIN⇨EvtDoSkillSuccNotify
 BMBJMAJOBOM⇨stop_end_time
-BMCJOINHDOK⇨Unk3700_HJBIANEJEBC
 BMHFDEEKNBC⇨DungeonSettleNotify
 BMHKBLMAEHP⇨ContentAuditInfo
 BMKOJJMLODF⇨is_content_closed
@@ -272,7 +271,6 @@ CJJCNGHPEEE⇨delete_info
 CJLNOKKGACI⇨status
 CKBGPDIACON⇨sync
 CKBKLEFOIAP⇨RegionSearchState
-CKEBHMPOOAF⇨Unk3700_KAOACLDKNEE
 CKGEAAPPOKD⇨info_list
 CKHJDCLHAAE⇨is_success
 CKKKDFJPDGN⇨count
@@ -661,7 +659,6 @@ GBMAEMIGBCJ⇨pos_offset
 GCBLAOFFGCG⇨param_list
 GCFFFMCOKPL⇨GCGMsgWaitingListChange
 GCGCMELMPFE⇨FleurFairFallSettleInfo
-GCGIOCKFPNK⇨Unk3700_JDCCOJLEIBP
 GCGNKEOELJM⇨life_count
 GCJDEPIHHIK⇨SceneGalleryHideAndSeekInfo
 GCJNOFIKJNH⇨DungeonCandidateTeamDismissReason
@@ -958,7 +955,6 @@ IPBAPMCCDJG⇨RogueDiaryRepairInfoNotify
 IPBMCLAKJFM⇨cond_index_list
 IPCIOFKONOJ⇨GameplayRecommendationSkillRequest
 IPFLEEKKKML⇨is_need_destroy
-IPIANPMJHHF⇨Unk3700_KMFLCEGIGCL
 IPMCBADCFGP⇨ChallengeFinishType
 IPOLANPEODI⇨event_type
 IPPADJEDBEL⇨GetOnlinePlayerInfoReq
