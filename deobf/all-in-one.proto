@@ -953,9 +953,9 @@ message IFAEGLGCGDG {
 }
 
 // CmdId: 7716
-message LOJFNABBFNM {
-	/* protected @ 0x20 */// uint32 enter_scene_token = 65535;
-	/* protected @ 0x24 */// int32 retcode = 65535;
+message PostEnterSceneRsp {
+	uint32 enter_scene_token = 6;
+	int32 retcode = ?;
 }
 
 // CmdId: 28904
@@ -3144,7 +3144,6 @@ message PlayerEnterSceneNotify {
 	/* protected @ 0x54 */// uint32 BEIMODPNDPC = 65535;
 	/* protected @ 0x58 */// uint32 HPNGBLOOJNM = 65535;
 	/* protected @ 0x5C */// uint32 KPBCNOCAOCF = 65535;
-	/* protected @ 0x60 */// uint32 world_level = 65535;
 	/* protected @ 0x68 */// uint32 FNGAHCBKJIK = 65535;
 	/* protected @ 0x6C */// uint32 GHMMLIFDPFA = 65535;
 	/* protected @ 0x70 */// uint32 IOJHKOFGJJF = 65535;
@@ -3152,6 +3151,7 @@ message PlayerEnterSceneNotify {
 	/* protected @ 0x80 */// bool HFHMDLKKPBO = 65535;
 	/* protected @ 0x81 */// bool ABPKOALIJDP = 65535;
 	/* protected @ 0x84 */// uint32 MJLOKFODKEP = 65535;
+	uint32 world_level = 3;
 	uint32 target_uid = 14;//14 or 189
 	uint32 create_player_uid = 189;//14 or 189
 	Vector pos = 13;
@@ -5757,9 +5757,9 @@ message NMLDOHBICJD {
 }
 
 // CmdId: 6717
-message BONNDJEKNOB {
-	/* protected @ 0x20 */// uint32 enter_scene_token = 65535;
-	/* protected @ 0x24 */// int32 retcode = 65535;
+message SceneInitFinishRsp {
+	uint32 enter_scene_token = 11;
+	int32 retcode = ?;
 }
 
 message GCGOperationReboot {
@@ -7259,9 +7259,9 @@ message SalvageScoreChallengeInfo {
 }
 
 // CmdId: 1328
-message FLGICNDFNJG {
-	/* protected @ 0x20 */// uint32 enter_scene_token = 65535;
-	/* protected @ 0x28 */// double total_tick_time = 65535;
+message PostEnterSceneReq {
+	uint32 enter_scene_token = 15;
+	double total_tick_time = 13;
 }
 
 message AbilityAppliedAbility {
@@ -14366,13 +14366,13 @@ message SceneTeamAvatar {
 	uint64 avatar_guid = 7;
 	AvatarInfo avatar_info = 8;
 	SceneAvatarInfo scene_avatar_info = 9;
-	bool JAAHGCNIFEA = 10;
-	bool MIEIHDKMNLA = 11;
+	bool is_on_scene = 10;//sus 1097 or 10 or 11
+	bool is_reconnect = 11;//sus 1097 or 10 or 11
 	uint32 weapon_entity_id = 12;
 	SceneEntityInfo scene_entity_info = 13;
 	AbilitySyncStateInfo avatar_ability_info = 14;//sus 14 or 15
 	AbilitySyncStateInfo weapon_ability_info = 15;//sus 14 or 15
-	bool KPHIDKPPFDL = 1097;
+	bool is_player_cur_avatar = 1097;//sus 1097 or 10 or 11
 }
 
 // CmdId: 27660
@@ -14953,8 +14953,8 @@ message AbilityMetaUpdateBaseReactionDamage {
 }
 
 // CmdId: 21776
-message PLJFDIOOANK {
-	/* protected @ 0x20 */// uint32 enter_scene_token = 65535;
+message EnterSceneDoneReq {
+	uint32 enter_scene_token = 8;
 }
 
 // CmdId: 21240
@@ -15537,8 +15537,8 @@ message CNMFNEMEKAJ {
 }
 
 // CmdId: 2089
-message OMOGAHOAFKG {
-	/* protected @ 0x20 */// uint32 enter_scene_token = 65535;
+message SceneInitFinishReq {
+	uint32 enter_scene_token = 12;
 }
 
 // CmdId: 7890
@@ -19365,7 +19365,7 @@ message InstableSprayDungeonSettleInfo {
 // CmdId: 24452
 message AvatarDataNotify {
 	//repeated uint32 owned_flycloak_list = null;
-	//repeated AvatarRenameInfo avatar_rename_list = null;
+	repeated AvatarRenameInfo avatar_rename_list = 10;
 	repeated AvatarInfo avatar_list = 5;
 	map<uint32, AvatarTeam> avatar_team_map = 15;
 	//repeated uint32 backup_avatar_team_order_list = null;
@@ -26303,9 +26303,9 @@ message IENGMMBFAGC {
 }
 
 // CmdId: 9331
-message FPOAHDILOKP {
-	/* protected @ 0x20 */// int32 retcode = 65535;
-	/* protected @ 0x24 */// uint32 enter_scene_token = 65535;
+message EnterSceneDoneRsp {
+	int32 retcode = ?;
+	uint32 enter_scene_token = 3;
 }
 
 // CmdId: 8828

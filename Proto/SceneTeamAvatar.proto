@@ -19,11 +19,11 @@ message SceneTeamAvatar {
 	uint64 avatar_guid = 7;
 	AvatarInfo avatar_info = 8;
 	SceneAvatarInfo scene_avatar_info = 9;
-	bool JAAHGCNIFEA = 10;
-	bool MIEIHDKMNLA = 11;
+	bool is_on_scene = 10;//sus 1097 or 10 or 11
+	bool is_reconnect = 11;//sus 1097 or 10 or 11
 	uint32 weapon_entity_id = 12;
 	SceneEntityInfo scene_entity_info = 13;
 	AbilitySyncStateInfo avatar_ability_info = 14;//sus 14 or 15
 	AbilitySyncStateInfo weapon_ability_info = 15;//sus 14 or 15
-	bool KPHIDKPPFDL = 1097;
+	bool is_player_cur_avatar = 1097;//sus 1097 or 10 or 11
 }

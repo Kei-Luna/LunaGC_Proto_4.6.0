@@ -6,6 +6,7 @@ import "Vector.proto";
 // 4.6.0
 // CmdId: 21317
 message PlayerEnterSceneNotify {
+	uint32 world_level = 3;
 	uint32 target_uid = 14;//14 or 189
 	uint32 create_player_uid = 189;//14 or 189
 	Vector pos = 13;
