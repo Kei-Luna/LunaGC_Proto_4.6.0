@@ -4,5 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 // 4.6.0
 // CmdId: 28294
 message PingRsp {
+	uint32 seq = 6;
+	int32 retcode = 13;
 	uint32 client_time = 14;
 }

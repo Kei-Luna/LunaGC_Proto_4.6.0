@@ -2407,8 +2407,8 @@ message PDGLCIFFIHN {
 }
 
 // CmdId: 26330
-message MAJJADHIMAH {
-	map<uint32, uint32> ANBBGGGKABK = 9;
+message OpenStateUpdateNotify {
+	map<uint32, uint32> open_state_map = 9;
 }
 
 message HACDPEKKKKN {
@@ -10580,7 +10580,7 @@ message BHGOGEPKIKJ {
 
 // CmdId: 24469
 message OKLBKBFKPEG {
-	map<uint32, uint32> ANBBGGGKABK = 8;
+	map<uint32, uint32> open_state_map = 8;
 }
 
 message MEPFNFBFGED {
@@ -11317,8 +11317,8 @@ message JEMGALIEBPL {
 message PingReq {
 	bytes sc_data = 3;
 	double total_tick_time = 5;
-	uint32 CEJLGOEFFCL = 9;
-	uint32 BFFAGHKBEEP = 11;
+	uint32 seq = 9;
+	uint32 client_time = 11;
 	float ue_time = 15;
 }
 
@@ -14522,9 +14522,9 @@ message EPCNCICFPEA {
 
 // CmdId: 28294
 message DMNLKINMMBE {
-	uint32 CEJLGOEFFCL = 6;
+	uint32 seq = 6;
 	int32 retcode = 13;
-	uint32 BFFAGHKBEEP = 14;
+	uint32 client_time = 14;
 }
 
 // CmdId: 20949
