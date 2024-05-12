@@ -1913,7 +1913,7 @@ message MJIIKINDLEC {
 }
 
 message BLBPMNBHOIM {
-	FGGDHKEOJKN FEHGHBCFEGE = 4;
+	MapLayerInfo map_layer_info = 4;
 	bool is_locked = 7;
 	repeated uint32 scene_tag_id_list = 9;
 	uint32 scene_id = 13;
@@ -3136,7 +3136,7 @@ message HGGIEPGKANG {
 
 // CmdId: 21317
 message PlayerEnterSceneNotify {
-	/* protected @ 0x28 */// FGGDHKEOJKN FEHGHBCFEGE = 65535;
+	/* protected @ 0x28 */// MapLayerInfo map_layer_info = 65535;
 	/* protected @ 0x38 */// Vector CAMKCCFNHOJ = 65535;
 	/* protected @ 0x40 */// string DNKHBOFBIDA = 65535;
 	/* protected @ 0x48 */// Vector BPMCJCMBDPP = 65535;
@@ -3147,10 +3147,12 @@ message PlayerEnterSceneNotify {
 	/* protected @ 0x68 */// uint32 FNGAHCBKJIK = 65535;
 	/* protected @ 0x6C */// uint32 GHMMLIFDPFA = 65535;
 	/* protected @ 0x70 */// uint32 IOJHKOFGJJF = 65535;
-	/* protected @ 0x7C */// EnterType type = 65535;
 	/* protected @ 0x80 */// bool HFHMDLKKPBO = 65535;
 	/* protected @ 0x81 */// bool ABPKOALIJDP = 65535;
 	/* protected @ 0x84 */// uint32 MJLOKFODKEP = 65535;
+	//MapLayerInfo map_layer_info = 317;
+	EnterType type = 2;//sus
+	repeated uint32 scene_tag_id_list = 9;
 	uint32 world_level = 3;
 	uint32 target_uid = 14;//14 or 189
 	uint32 create_player_uid = 189;//14 or 189
@@ -3159,7 +3161,6 @@ message PlayerEnterSceneNotify {
 	string scene_transaction = 120;
 	uint32 enter_scene_token = 15;
 	uint64 scene_begin_time = 6;
-	repeated uint32 scene_tag_id_list = 9;
 }
 
 message NDEFFOFLHMN {
@@ -8065,9 +8066,9 @@ message BlitzRushActivityDetailInfo {
 
 // CmdId: 5471
 message GEJLHPMFEMI {
-	/* protected @ 0x20 */// repeated SceneEntityInfo entity_list = 65535;
-	/* protected @ 0x28 */// uint32 param = 65535;
-	/* protected @ 0x2C */// VisionType appear_type = 65535;
+	repeated SceneEntityInfo entity_list = 3;
+	uint32 param = 10;
+	VisionType appear_type = 15;
 }
 
 // CmdId: 4648
@@ -8572,7 +8573,7 @@ message JKJLHMIEGIH {
 	Vector DCOKIBGAFKB = 6;
 }
 
-message FGGDHKEOJKN {
+message MapLayerInfo {
 	repeated uint32 NENBINOMGNJ = 9;
 	repeated uint32 CKFKHAFLNMD = 12;
 	repeated uint32 EFOALIDJALA = 13;
@@ -8749,7 +8750,7 @@ message DCKFIENNBJG {
 // CmdId: 28422
 message SceneTeamUpdateNotify {
 	repeated SceneTeamAvatar scene_team_avatar_list = 5;
-	bool is_in_mp = 88; //tentativeID
+	bool is_in_mp = 88; //Wrong
 }
 
 // CmdId: 8411
@@ -21013,7 +21014,7 @@ message EIMGGOAMJJG {
 message SceneDataNotify {
 	repeated string level_config_name_list = 2;
 	repeated uint32 scene_tag_id_list = 5;
-	FGGDHKEOJKN FEHGHBCFEGE = 11;
+	MapLayerInfo map_layer_info = 11;
 }
 
 // CmdId: 29810
@@ -23745,7 +23746,7 @@ message PFBKDFOEJKK {
 
 // CmdId: 22744
 message LHGAEBNFAED {
-	FGGDHKEOJKN FEHGHBCFEGE = 1;
+	MapLayerInfo map_layer_info = 1;
 	repeated uint32 scene_tag_id_list = 4;
 	uint32 BMDDLMBLDGA = 14;
 }
@@ -27932,7 +27933,7 @@ message PlayerLoginRsp {
 	/* protected @ 0xC5 */// bool is_audit = 65535;
 	/* protected @ 0xC6 */// bool IMGABNEDDIC = 65535;
 	/* protected @ 0xC8 */// uint64 JBGNLMFOFGD = 65535;
-	/* protected @ 0xD0 */// double total_tick_time = 65535;
+	
 	/* protected @ 0xD8 */// int32 retcode = 65535;
 	/* protected @ 0xDC */// uint32 BLDEGGHMEIJ = 65535;
 	/* protected @ 0xE0 */// bool EHMADOOKACO = 65535;
@@ -27943,13 +27944,18 @@ message PlayerLoginRsp {
 	/* protected @ 0xED */// bool JCGNNDFEEJA = 65535;
 	/* protected @ 0xEE */// bool DGOHGBEBEJH = 65535;
 	/* protected @ 0xEF */// bool CPNKHEDGHHL = 65535;
+	string client_silence_md5 =  1216;
 	string country_code = 1486;
 	string game_biz = 9;
+	double total_tick_time = 1181;
 	ResVersionConfig res_version_config = 240;
 	string client_version_suffix = 1275;
 	string client_silence_version_suffix = 335;
 	uint32 client_data_version = 4;
 	repeated ShortAbilityHashPair short_ability_hash_map = 1145;//sus
+	string client_md5 = 1875;
+	bool is_use_ability_hash = 13;//sus 1375 or 13
+	bool is_sc_open = 1376;//sus 1375 or 13
 }
 
 // CmdId: 27964

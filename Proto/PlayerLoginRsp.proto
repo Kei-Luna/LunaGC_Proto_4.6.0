@@ -2,7 +2,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 import "ResVersionConfig.proto";
-import "ShortAbilityHashPair.proto";
+//import "ShortAbilityHashPair.proto";
 
 // 4.6.0
 // CmdId: 25507
@@ -13,5 +13,5 @@ message PlayerLoginRsp {
 	string client_version_suffix = 1275;
 	string client_silence_version_suffix = 335;
 	uint32 client_data_version = 4;
-	repeated ShortAbilityHashPair short_ability_hash_map = 1145;//sus
+	//repeated ShortAbilityHashPair short_ability_hash_map = 1145;//sus
 }

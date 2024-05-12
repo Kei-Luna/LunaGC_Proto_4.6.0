@@ -8,13 +8,13 @@ import "AvatarRenameInfo.proto";
 // 4.6.0
 // CmdId: 24452
 message AvatarDataNotify {
-	//repeated uint32 owned_flycloak_list = null;
+	//repeated uint32 owned_flycloak_list = 13;//sus
 	repeated AvatarRenameInfo avatar_rename_list = 10;
 	repeated AvatarInfo avatar_list = 5;
 	map<uint32, AvatarTeam> avatar_team_map = 15;
-	repeated uint32 backup_avatar_team_order_list = 111;//Wrong
-	//repeated uint32 owned_costume_list = null;
-	repeated uint64 temp_avatar_guid_list = 2;//sus
+	//repeated uint32 backup_avatar_team_order_list = 9;//sus
+	//repeated uint32 owned_costume_list = 2;//sus
+	//repeated uint64 temp_avatar_guid_list = 999;//Wrong
 	uint32 cur_avatar_team_id = 1;
 	uint64 choose_avatar_guid = 11;
 }
