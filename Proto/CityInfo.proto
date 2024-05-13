@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+message CityInfo {
+	uint32 level = 8;
+	uint32 crystal_num = 9;
+	uint32 city_id = 13;
+}

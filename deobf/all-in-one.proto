@@ -1535,8 +1535,8 @@ message PJIIPCEHFLP {
 }
 
 // CmdId: 24629
-message CHIEGNCCJMI {
-	uint64 BLBIPIIGGFE = 5;
+message WearEquipRsp {
+	uint64 equip_guid = 5;
 	uint64 avatar_guid = 11;
 	int32 retcode = 15;
 }
@@ -2047,7 +2047,7 @@ message AbilityInvokeEntry {
 	NGLKNCPFFIN head = 7;
 	bool is_ignore_auth = 9;
 	uint32 OGGPHGDDOHO = 10;
-	AbilityInvokeArgument JGGJALJJCOK = 12;
+	AbilityInvokeArgument argument_type = 12;
 	bytes ability_data = 13;
 	uint32 entity_id = 14;
 }
@@ -3268,9 +3268,9 @@ message GKOLBEOMLLH {
 	uint32 schedule_id = 4;
 }
 
-message CFDCABAHOOK {
+message CityInfo {
 	uint32 level = 8;
-	uint32 BLGMMJONOCP = 9;
+	uint32 crystal_num = 9;
 	uint32 city_id = 13;
 }
 
@@ -3862,8 +3862,8 @@ message KBBPCNAGNIA {
 }
 
 // CmdId: 4665
-message KGNGEEFHHAI {
-	CFDCABAHOOK MFEHIHBGMBB = 3;
+message LevelupCityRsp {
+	CityInfo city_info = 3;
 	uint32 scene_id = 12;
 	int32 retcode = 13;
 	uint32 area_id = 14;
@@ -4043,29 +4043,29 @@ message VehicleMember {
 }
 
 enum CombatTypeArgument {
-	CombatTypeArgument_COMBAT_NONE = 0;
-	CombatTypeArgument_COMBAT_EVT_BEING_HIT = 1;
-	CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED = 2;
-	CombatTypeArgument_COMBAT_FACE_TO_DIR = 3;
-	CombatTypeArgument_COMBAT_SET_ATTACK_TARGET = 4;
-	CombatTypeArgument_COMBAT_RUSH_MOVE = 5;
-	CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED = 6;
-	CombatTypeArgument_ENTITY_MOVE = 7;
-	CombatTypeArgument_SYNC_ENTITY_POSITION = 8;
-	CombatTypeArgument_COMBAT_STEER_MOTION_INFO = 9;
-	CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO = 10;
-	CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF = 11;
-	CombatTypeArgument_COMBAT_MONSTER_DO_BLINK = 12;
-	CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE = 13;
-	CombatTypeArgument_COMBAT_SYNC_TRANSFORM = 14;
-	CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE = 15;
-	CombatTypeArgument_COMBAT_BEING_HEALED_NTF = 16;
-	CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF = 17;
-	CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE = 18;
-	CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO = 19;
-	CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE = 20;
-	CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM = 21;
-	CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION = 22;
+	COMBAT_TYPE_ARGUMENT_NONE = 0;
+	COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT = 1;
+	COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED = 2;
+	COMBAT_TYPE_ARGUMENT_FACE_TO_DIR = 3;
+	COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET = 4;
+	COMBAT_TYPE_ARGUMENT_RUSH_MOVE = 5;
+	COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED = 6;
+	COMBAT_TYPE_ARGUMENT_ENTITY_MOVE = 7;
+	COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION = 8;
+	COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO = 9;
+	COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO = 10;
+	COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF = 11;
+	COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK = 12;
+	COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE = 13;
+	COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM = 14;
+	COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE = 15;
+	COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF = 16;
+	COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF = 17;
+	COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE = 18;
+	COMBAT_TYPE_ARGUMENT_SPECIAL_MOTION_INFO = 19;
+	COMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_MOVE = 20;
+	COMBAT_TYPE_ARGUMENT_MULTI_OVERRIDE_ANIM = 21;
+	COMBAT_TYPE_ARGUMENT_DEBUG_SYNC_MOTION = 22;
 }
 
 // CmdId: 1558
@@ -9348,7 +9348,7 @@ message CHABEBLCLGD {
 
 // CmdId: 23073
 message ODLGLDDEDCI {
-	GAHOJDLPEGP HOPIKBAHJKF = 9;
+	GAHOJDLPEGP mark = 9;
 }
 
 // CmdId: 6506
@@ -9842,9 +9842,9 @@ message ChatInfo {
 
 	uint32 time = 1;
 	uint32 uid = 3;
-	uint32 DIPABINNMJB = 6;
+	uint32 to_uid = 6;
 	bool is_read = 11;
-	uint32 HBNCOIPGEMF = 14;
+	uint32 sequence = 14;
 	oneof content {
 		string text = 1643;
 		uint32 icon = 1290;
@@ -11259,8 +11259,8 @@ message KGKMKGDAPBL {
 }
 
 // CmdId: 1207
-message GJJKGKOFDEN {
-	uint32 COECPOJCIKD = 5;
+message GetScenePointReq {
+	uint32 belong_uid = 5;
 	bool CPNKHEDGHHL = 10;
 	uint32 scene_id = 11;
 }
@@ -11572,9 +11572,9 @@ enum WidgetCreatorOpType {
 }
 
 // CmdId: 24538
-message DMCNNPJMOIO {
-	repeated uint32 HFDBFKMHCKH = 1;
-	repeated CFDCABAHOOK OBJDDIMGGNG = 13;
+message GetSceneAreaRsp {
+	repeated uint32 area_id_list = 1;
+	repeated CityInfo city_info_list = 13;
 	uint32 scene_id = 14;
 	int32 retcode = 15;
 }
@@ -13491,8 +13491,8 @@ message BEJIFLBDHLN {
 }
 
 // CmdId: 3607
-message JKEJLECGKLF {
-	repeated uint32 HFDBFKMHCKH = 13;
+message GetAreaExplorePointReq {
+	repeated uint32 area_id_list = 13;
 }
 
 message SceneGalleryBulletInfo {
@@ -14521,7 +14521,7 @@ message EPCNCICFPEA {
 }
 
 // CmdId: 28294
-message DMNLKINMMBE {
+message PingRsp {
 	uint32 seq = 6;
 	int32 retcode = 13;
 	uint32 client_time = 14;
@@ -15176,7 +15176,7 @@ message AvatarSkillInfoNotify {
 
 // CmdId: 21841
 message MEKAOIMGOON {
-	repeated MapMarkPoint INGNKDOHHOK = 13;
+	repeated MapMarkPoint mark_list = 13;
 }
 
 message OBHCNGHDOCE {
@@ -15543,9 +15543,9 @@ message SceneInitFinishReq {
 }
 
 // CmdId: 7890
-message LCKLOPCPJKP {
+message GetSceneAreaReq {
 	uint32 scene_id = 3;
-	uint32 COECPOJCIKD = 14;
+	uint32 belong_uid = 14;
 }
 
 // CmdId: 9416
@@ -16246,8 +16246,8 @@ message AvatarEquipChangeNotify {
 	SceneWeaponInfo weapon = 2;
 	uint64 avatar_guid = 5;
 	uint32 item_id = 7;
-	uint64 BLBIPIIGGFE = 9;
-	SceneReliquaryInfo ENDHCBGNLPP = 15;
+	uint64 equip_guid = 9;
+	SceneReliquaryInfo reliquary = 15;
 }
 
 // CmdId: 9910
@@ -20033,8 +20033,8 @@ message BFIPHENLMCF {
 }
 
 // CmdId: 4499
-message DNKHLBEJFFC {
-	uint64 BLBIPIIGGFE = 6;
+message WearEquipReq {
+	uint64 equip_guid = 6;
 	uint64 avatar_guid = 13;
 }
 
@@ -20776,7 +20776,7 @@ message KFPAJDKMEJF {
 // CmdId: 7548
 message INDPOIIFOCC {
 	int32 retcode = 5;
-	repeated MapMarkPoint INGNKDOHHOK = 11;
+	repeated MapMarkPoint mark_list = 11;
 }
 
 message UgcTriggerActionDeactiveGadget {
@@ -22847,7 +22847,7 @@ message FAHIFOKBPAF {
 }
 
 message MLBOCIKGACP {
-	repeated GAHOJDLPEGP INGNKDOHHOK = 1;
+	repeated GAHOJDLPEGP mark_list = 1;
 	bool BEEHHAEBCFP = 3;
 	repeated uint32 DKCAALBDPHM = 12;
 	bool HLIOHJCKDFF = 13;
@@ -22899,7 +22899,7 @@ message FungusFighterV2SettleInfo {
 }
 
 message CombatInvokeEntry {
-	CombatTypeArgument JGGJALJJCOK = 3;
+	CombatTypeArgument argument_type = 3;
 	bytes combat_data = 13;
 	ForwardType forward_type = 14;
 }
@@ -23274,15 +23274,15 @@ message INGGBODNKHA {
 }
 
 enum ForwardType {
-	ForwardType_FORWARD_LOCAL = 0;
-	ForwardType_FORWARD_TO_ALL = 1;
-	ForwardType_FORWARD_TO_ALL_EXCEPT_CUR = 2;
-	ForwardType_FORWARD_TO_HOST = 3;
-	ForwardType_FORWARD_TO_ALL_GUEST = 4;
-	ForwardType_FORWARD_TO_PEER = 5;
-	ForwardType_FORWARD_TO_PEERS = 6;
-	ForwardType_FORWARD_ONLY_SERVER = 7;
-	ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR = 8;
+	FORWARD_TYPE_LOCAL = 0;
+	FORWARD_TYPE_TO_ALL = 1;
+	FORWARD_TYPE_TO_ALL_EXCEPT_CUR = 2;
+	FORWARD_TYPE_TO_HOST = 3;
+	FORWARD_TYPE_TO_ALL_GUEST = 4;
+	FORWARD_TYPE_TO_PEER = 5;
+	FORWARD_TYPE_TO_PEERS = 6;
+	FORWARD_TYPE_ONLY_SERVER = 7;
+	FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR = 8;
 }
 
 // CmdId: 3305
@@ -24521,10 +24521,10 @@ message RockBoardExploreDetailInfo {
 }
 
 // CmdId: 9042
-message MJFIHCKKHAH {
+message GetAreaExplorePointRsp {
 	int32 retcode = 4;
-	repeated uint32 JPCINDJACEC = 5;
-	repeated uint32 HFDBFKMHCKH = 15;
+	repeated uint32 explore_point_list = 5;
+	repeated uint32 area_id_list = 15;
 }
 
 message GCGMsgReactionBegin {
@@ -26027,10 +26027,10 @@ message GEGLAEEDFPP {
 }
 
 // CmdId: 831
-message LMAKPOKAHJK {
+message GetScenePointRsp {
 	bool CPNKHEDGHHL = 1;
 	uint32 scene_id = 2;
-	uint32 COECPOJCIKD = 3;
+	uint32 belong_uid = 3;
 	repeated uint32 DBHGFHNGBJK = 4;
 	repeated uint32 AKHAPPFGOGM = 5;
 	repeated uint32 HNFMMECDIGB = 6;
@@ -26083,7 +26083,7 @@ message GetCustomDungeonRsp {
 // CmdId: 1360
 message PMIMCAJMJPM {
 	int32 retcode = 2;
-	repeated MapMarkPoint INGNKDOHHOK = 6;
+	repeated MapMarkPoint mark_list = 6;
 }
 
 // CmdId: 25634
@@ -28730,14 +28730,14 @@ message NEGBCANHLOP {
 // CmdId: 1319
 message MarkMapReq {
 	enum Operation {
-		Operation_ADD = 0;
-		Operation_MOD = 1;
-		Operation_DEL = 2;
-		Operation_GET = 3;
+		OPERATION_ADD = 0;
+		OPERATION_MOD = 1;
+		OPERATION_DEL = 2;
+		OPERATION_GET = 3;
 	}
 
-	MapMarkPoint GGAKHPMFGIL = 1;
-	MapMarkPoint HOPIKBAHJKF = 11;
+	MapMarkPoint old = 1;
+	MapMarkPoint mark = 11;
 	Operation op = 12;
 }
 
@@ -29401,7 +29401,7 @@ message MHCMGKCNPMA {
 
 // CmdId: 4620
 message JPICNNLPEKD {
-	repeated MapMarkPoint INGNKDOHHOK = 12;
+	repeated MapMarkPoint mark_list = 12;
 }
 
 // CmdId: 2729
