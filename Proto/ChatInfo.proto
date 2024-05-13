@@ -6,7 +6,11 @@ message ChatInfo {
 	message SystemHint {
 		uint32 type = 11;
 	}
-
+    enum SystemHintType {
+        SYSTEM_HINT_TYPE_CHAT_NONE = 0;
+        SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD = 1;
+        SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD = 2;
+    }
 	uint32 time = 1;
 	uint32 uid = 3;
 	uint32 to_uid = 6;
