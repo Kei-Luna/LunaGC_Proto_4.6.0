@@ -11627,9 +11627,9 @@ message GetPlayerTokenRsp {
 	uint32 uid = 13;
 }
 
-message EFNFEHFKIOO {
-	bytes NMOIDMJEOBE = 12;
-	uint32 KGEMGNDKFPN = 14;
+message UnionCmd {
+	bytes body = 12;
+	uint32 message_id = 14;
 }
 
 // CmdId: 9669
@@ -14484,8 +14484,8 @@ message BDILOGBIMMK {
 }
 
 // CmdId: 25659
-message CCMNNNDEGPK {
-	repeated EFNFEHFKIOO KIEFBCBBPDD = 6;
+message UnionCmdNotify {
+	repeated UnionCmd cmd_list = 6;
 }
 
 // CmdId: 28785

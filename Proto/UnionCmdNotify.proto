@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "UnionCmd.proto";
+
+// 4.6.0
+// CmdId: 25659
+message UnionCmdNotify {
+	repeated UnionCmd cmd_list = 6;
+}
