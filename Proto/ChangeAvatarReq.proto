@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// 4.6.0
+// CmdId: 27362
+message ChangeAvatarReq {
+	Vector move_pos = 8;
+	/* protected @ 0x28 */// uint32 skill_id = 65535;
+	/* protected @ 0x2C */// bool BKFBCEPLOLN = 65535;
+	bool is_move = 2;
+	uint64 guid = 7;
+}

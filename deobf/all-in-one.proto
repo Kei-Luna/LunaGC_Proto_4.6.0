@@ -2781,7 +2781,7 @@ message MJKIBNMMJGF {
 }
 
 // CmdId: 3135
-message AODFFPHAAPJ {
+message AvatarTeamAllDataNotify {
 	map<uint32, AvatarTeam> avatar_team_map = 5;
 	repeated uint64 temp_avatar_guid_list = 12;
 	repeated uint32 backup_avatar_team_order_list = 13;
@@ -5097,7 +5097,7 @@ message APNFPCCAODI {
 
 // CmdId: 26267
 message ChangeAvatarRsp {
-	/* protected @ 0x20 */// uint64 cur_guid = 65535;
+	uint64 cur_guid = 2;
 	/* protected @ 0x28 */// int32 retcode = 65535;
 	/* protected @ 0x2C */// uint32 skill_id = 65535;
 }
@@ -11799,7 +11799,7 @@ message KDIGEJMMIBG {
 }
 
 // CmdId: 26704
-message FPMHIGPPNLN {
+message AvatarTeamUpdateNotify {
 	repeated uint64 temp_avatar_guid_list = 7;
 	map<uint32, AvatarTeam> avatar_team_map = 10;
 }
@@ -27558,11 +27558,11 @@ message NNMHELONHJG {
 
 // CmdId: 27362
 message ChangeAvatarReq {
-	/* protected @ 0x20 */// Vector move_pos = 65535;
+	Vector move_pos = 8;
 	/* protected @ 0x28 */// uint32 skill_id = 65535;
 	/* protected @ 0x2C */// bool BKFBCEPLOLN = 65535;
-	/* protected @ 0x2D */// bool IGIMPIHMELC = 65535;
-	/* protected @ 0x30 */// uint64 guid = 65535;
+	bool is_move = 2;
+	uint64 guid = 7;
 }
 
 // CmdId: 3885
