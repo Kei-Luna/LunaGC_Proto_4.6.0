@@ -1,3 +1,11 @@
+IDIKLFDJCAP⇨MailChangeNotify
+IHPHKMAOPDI⇨MailTextContent
+FLBMBDHHHPH⇨MailData
+ALKAGIKHBPC⇨MailItem
+PGOKFLPAGNO⇨MailCollectState
+KCMAEFKLMNI⇨EquipParam
+MPLFKHHMJKP⇨GetAllMailResultNotify
+LFBKNJCPKIJ⇨GetAllMailNotify
 AACIBKOGOGB⇨Vector
 AAEENEPPPCH⇨open_id_list
 AAIKIKLEBDL⇨ItemAddHintNotify
