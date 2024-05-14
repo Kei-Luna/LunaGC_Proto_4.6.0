@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 24469
+message OpenStateChangeNotify {
+	map<uint32, uint32> open_state_map = 8;
+}

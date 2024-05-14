@@ -2283,8 +2283,8 @@ message AGPMACCJHGF {
 }
 
 // CmdId: 1674
-message GKFPMBLFLFH {
-	int32 MPBDBAGHPJE = 4;
+message ChangeTeamNameRsp {
+	int32 team_id = 4;
 	int32 retcode = 5;
 	string team_name = 12;
 }
@@ -3125,7 +3125,7 @@ message GCGSettleNotify {
 }
 
 message MBHLPKMNHOC {
-	uint32 MPBDBAGHPJE = 2;
+	uint32 team_id = 2;
 	repeated uint32 MCDMJOGLHAE = 3;
 }
 
@@ -4015,7 +4015,7 @@ enum GCGZoneType {
 
 // CmdId: 26144
 message KNGJLLGJAPJ {
-	uint64 OAMJJKMGLPI = 1;
+	uint64 cur_avatar_guid = 1;
 	repeated uint64 avatar_guid_list = 4;
 	int32 retcode = 8;
 }
@@ -4198,7 +4198,7 @@ message CylinderRegionSize {
 // CmdId: 23126
 message CFILHOPIAIK {
 	repeated uint64 avatar_guid_list = 5;
-	uint64 OAMJJKMGLPI = 6;
+	uint64 cur_avatar_guid = 6;
 }
 
 // CmdId: 9545
@@ -10428,9 +10428,9 @@ message ELOBEFHCEDA {
 
 // CmdId: 4588
 message DHMCBNDGPGG {
-	uint64 OAMJJKMGLPI = 2;
+	uint64 cur_avatar_guid = 2;
 	int32 retcode = 8;
-	repeated uint64 MOHNCOHKELD = 13;
+	repeated uint64 avatar_team_guid_list = 13;
 }
 
 message WindFieldDetailInfo {
@@ -10579,7 +10579,7 @@ message BHGOGEPKIKJ {
 }
 
 // CmdId: 24469
-message OKLBKBFKPEG {
+message OpenStateChangeNotify {
 	map<uint32, uint32> open_state_map = 8;
 }
 
@@ -12082,7 +12082,7 @@ message NIAMHBALOHA {
 	uint32 cell_id = 10;
 	repeated uint64 FPDJIFDFHKC = 11;
 	int32 retcode = 13;
-	uint64 OAMJJKMGLPI = 14;
+	uint64 cur_avatar_guid = 14;
 }
 
 message DOKFBJJOLNF {
@@ -14944,7 +14944,7 @@ message OMMHODGHGPL {
 }
 
 message AbilityMetaUpdateBaseReactionDamage {
-	AbilityString IMJJPFPBBNF = 6;
+	AbilityString global_value_key = 6;
 	uint32 HBHNLDMINML = 9;
 	AbilityString ability_name = 10;
 	uint32 KINMHEBJGLK = 14;
@@ -15358,7 +15358,7 @@ message GABAKECHBKH {
 // CmdId: 21756
 message KCPDCLKNDNI {
 	repeated uint64 NOGACDHOCNG = 7;
-	uint64 OAMJJKMGLPI = 15;
+	uint64 cur_avatar_guid = 15;
 }
 
 // CmdId: 20381
@@ -16520,10 +16520,10 @@ message HABOGODALMA {
 }
 
 // CmdId: 23569
-message INGHMIJLJLG {
-	repeated uint64 MOHNCOHKELD = 2;
-	uint32 MPBDBAGHPJE = 5;
-	uint64 OAMJJKMGLPI = 8;
+message SetUpAvatarTeamReq {
+	repeated uint64 avatar_team_guid_list = 2;
+	uint32 team_id = 5;
+	uint64 cur_avatar_guid = 8;
 }
 
 message GBBCKBMECMO {
@@ -17488,7 +17488,7 @@ message LLHIFMNMDEC {
 	repeated uint64 CGCJJOAMEEA = 3;
 	uint32 dungeon_id = 7;
 	uint32 cell_id = 11;
-	uint64 OAMJJKMGLPI = 12;
+	uint64 cur_avatar_guid = 12;
 }
 
 // CmdId: 5557
@@ -19198,8 +19198,8 @@ enum UgcDungeonSwitchRoomInviteState {
 
 // CmdId: 75
 message NJMAMJPPMCB {
-	uint64 OAMJJKMGLPI = 2;
-	repeated uint64 MOHNCOHKELD = 11;
+	uint64 cur_avatar_guid = 2;
+	repeated uint64 avatar_team_guid_list = 11;
 }
 
 // CmdId: 28000
@@ -23573,8 +23573,8 @@ message FishtankFishInfo {
 }
 
 // CmdId: 7877
-message IJJLLEENPPK {
-	uint32 MPBDBAGHPJE = 10;
+message ChooseCurAvatarTeamReq {
+	uint32 team_id = 10;
 }
 
 message GMObstacleInfo {
@@ -23929,8 +23929,8 @@ message GadgetGeneralRewardInfo {
 
 // CmdId: 29837
 message JKLLNGLOOAP {
-	uint64 OAMJJKMGLPI = 8;
-	repeated uint64 MOHNCOHKELD = 12;
+	uint64 cur_avatar_guid = 8;
+	repeated uint64 avatar_team_guid_list = 12;
 }
 
 // CmdId: 5377
@@ -25960,9 +25960,9 @@ message JLHDLMDPOFA {
 
 // CmdId: 4318
 message IOECDMKKNPM {
-	uint64 OAMJJKMGLPI = 4;
+	uint64 cur_avatar_guid = 4;
 	int32 retcode = 6;
-	repeated uint64 MOHNCOHKELD = 15;
+	repeated uint64 avatar_team_guid_list = 15;
 }
 
 message BFJHGOBAFFB {
@@ -27571,8 +27571,8 @@ message FKNGFBOCLAM {
 }
 
 // CmdId: 5863
-message NLPKBKOGLDN {
-	int32 MPBDBAGHPJE = 3;
+message ChangeTeamNameReq {
+	int32 team_id = 3;
 	string team_name = 10;
 }
 
@@ -27961,11 +27961,11 @@ message IBGKCOJDBFK {
 }
 
 // CmdId: 7187
-message JNEGAAOEJJI {
-	uint64 OAMJJKMGLPI = 1;
+message SetUpAvatarTeamRsp {
+	uint64 cur_avatar_guid = 1;
 	int32 retcode = 7;
-	repeated uint64 MOHNCOHKELD = 8;
-	uint32 MPBDBAGHPJE = 9;
+	repeated uint64 avatar_team_guid_list = 8;
+	uint32 team_id = 9;
 }
 
 // CmdId: 27045
