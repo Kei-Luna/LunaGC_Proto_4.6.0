@@ -509,8 +509,8 @@ enum ForgeQueueManipulateType {
 // CmdId: 9934
 message ServerBuffChangeNotify {
 	enum ServerBuffChangeType {
-		ServerBuffChangeType_ADD_SERVER_BUFF = 0;
-		ServerBuffChangeType_DEL_SERVER_BUFF = 1;
+		SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;
+		SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;
 	}
 
 	bool is_creature_buff = 2;
@@ -976,7 +976,7 @@ message LBCADMLMJMM {
 
 // CmdId: 7462
 message KJMDKJLLMKA {
-	repeated MGOKPOHNCCO GHBNBBHAEFL = 7;
+	repeated PlayerLocationInfo player_loc_list = 7;
 	repeated KOBHCHMLBED KACIECPNHAD = 14;
 }
 
@@ -2833,13 +2833,13 @@ message AbilityInvocationFailNotify {
 }
 
 enum SvrMsgId {
-	SvrMsgId_MSG_UNKNOWN = 0;
-	SvrMsgId_MSG_BLOCK_REFRESH_COUNTDOWN = 1;
-	SvrMsgId_MSG_AVATAR_REVIVE_BY_STATUE = 2;
-	SvrMsgId_MSG_DAILY_TASK_REWARD_MAX_NUM = 3;
-	SvrMsgId_MSG_ROUTINE_TYPE_NOT_OPEN = 4;
-	SvrMsgId_MSG_ROUTINE_TYPE_REWARD_MAX_NUM = 5;
-	SvrMsgId_MSG_MECHANICUS_COIN_LIMIT = 6;
+	MSG_UNKNOWN = 0;
+	MSG_BLOCK_REFRESH_COUNTDOWN = 1;
+	MSG_AVATAR_REVIVE_BY_STATUE = 2;
+	MSG_DAILY_TASK_REWARD_MAX_NUM = 3;
+	MSG_ROUTINE_TYPE_NOT_OPEN = 4;
+	MSG_ROUTINE_TYPE_REWARD_MAX_NUM = 5;
+	MSG_MECHANICUS_COIN_LIMIT = 6;
 }
 
 message LPLHCMMEDEM {
@@ -3407,9 +3407,9 @@ message KOEFMCGDFGA {
 }
 
 // CmdId: 4276
-message OIKPJOMCBNF {
-	repeated BHAEOMPDNHP DDAGNKJEEJD = 6;
-	repeated uint32 IINIGGMNJBH = 15;
+message ChatChannelDataNotify {
+	repeated ChatChannelInfo channel_info_list = 6;
+	repeated uint32 channel_list = 15;
 }
 
 message CNHFBFMKINM {
@@ -3658,7 +3658,7 @@ message DungeonSettleNotify {
 	uint32 OKOANLIBBLO = 3;
 	repeated ACCOFBALEBG DAGKHIMLIAA = 5;
 	uint32 LIKNHIFFLCO = 6;
-	map<uint32, GEPDJIKNDHA> PHHLFDOFIPE = 8;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 8;
 	bool is_success = 9;
 	uint32 HPNGBLOOJNM = 11;
 	map<uint32, APLBJJBLBKC> BEDJOIKNMND = 12;
@@ -4087,9 +4087,9 @@ message NCNAPGOFANK {
 }
 
 enum MapMarkFromType {
-	MapMarkFromType_NOE = 0;
-	MapMarkFromType_MONSTER = 1;
-	MapMarkFromType_QUEST = 2;
+	MAP_MARK_FROM_TYPE_NONE = 0;
+	MAP_MARK_FROM_TYPE_MONSTER = 1;
+	MAP_MARK_FROM_TYPE_QUEST = 2;
 }
 
 message GCGPVEActivitySettle {
@@ -4173,9 +4173,9 @@ message PLBJGGOPHOF {
 }
 
 // CmdId: 1020
-message EHEGFFAPJEI {
+message AvatarDieAnimationEndRsp {
 	int32 retcode = 6;
-	uint64 BDOHHMEOPOP = 11;
+	uint64 die_guid= 11;
 	uint32 skill_id = 13;
 }
 
@@ -4614,7 +4614,7 @@ message OMEANODJNDJ {
 	repeated uint32 skill_id_list = 4;
 }
 
-message MGOKPOHNCCO {
+message PlayerLocationInfo {
 	uint32 uid = 4;
 	Vector pos = 5;
 	Vector rot = 6;
@@ -6605,12 +6605,12 @@ message MOLAIMKBAHN {
 }
 
 enum ServerLogType {
-	ServerLogType_SERVER_LOG_NONE = 0;
-	ServerLogType_SERVER_LOG_ABILITY = 1;
-	ServerLogType_SERVER_LOG_LEVEL = 2;
-	ServerLogType_SERVER_LOG_ENTITY = 3;
-	ServerLogType_SERVER_LOG_LUA = 4;
-	ServerLogType_SERVER_LOG_DAILYTASK = 5;
+	SERVER_LOG_NONE = 0;
+	SERVER_LOG_ABILITY = 1;
+	SERVER_LOG_LEVEL = 2;
+	SERVER_LOG_ENTITY = 3;
+	SERVER_LOG_LUA = 4;
+	SERVER_LOG_DAILYTASK = 5;
 }
 
 // CmdId: 7386
@@ -8341,7 +8341,7 @@ message BGKCAEBJLIB {
 	Vector OGLNHHMOBCB = 1;
 }
 
-message FOGEKJNAAME {
+message QueryRegionListHttpRsp {
 	/* protected @ 0x20 */// bytes NHHAKOGAOIM = 65535;
 	/* protected @ 0x28 */// bytes JKFNDCHOGNL = 65535;
 	/* protected @ 0x30 */// repeated FPLOHGCDEPO PIKLFFEAEKA = 65535;
@@ -8671,7 +8671,7 @@ message BECNLPEIOBI {
 
 // CmdId: 21011
 message ELJPDKGLPFG {
-	BHAEOMPDNHP GBGKFEBMFPD = 2;
+	ChatChannelInfo channel_info = 2;
 	uint32 channel_id = 3;
 	uint32 dungeon_id = 7;
 	bool HDLPNBPKFFK = 13;
@@ -8767,7 +8767,7 @@ message EOOHCHIICFP {
 // CmdId: 6815
 message BAANKBPBNAF {
 	uint32 channel_id = 6;
-	bool FBDFPBMNIOL = 8;
+	bool is_shield = 8;
 }
 
 // CmdId: 7531
@@ -10308,12 +10308,12 @@ message KOFPPMIKPKD {
 // CmdId: 850
 message LuaSetOptionNotify {
 	enum LuaOptionType {
-		LuaOptionType_LUA_OPTION_NONE = 0;
-		LuaOptionType_LUA_OPTION_PLAYER_INPUT = 1;
+		LUA_OPTION_NONE = 0;
+		LUA_OPTION_PLAYER_INPUT = 1;
 	}
 
-	LuaOptionType IKEONKLDAJK = 9;
-	string AIOCBNEICJG = 15;
+	LuaOptionType option_type = 9;
+	string lua_set_param = 15;
 }
 
 // CmdId: 22252
@@ -11779,16 +11779,16 @@ message KHDCKFNEBNK {
 }
 
 enum PlayerDieType {
-	PlayerDieType_PLAYER_DIE_NONE = 0;
-	PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER = 1;
-	PlayerDieType_PLAYER_DIE_KILL_BY_GEAR = 2;
-	PlayerDieType_PLAYER_DIE_FALL = 3;
-	PlayerDieType_PLAYER_DIE_DRAWN = 4;
-	PlayerDieType_PLAYER_DIE_ABYSS = 5;
-	PlayerDieType_PLAYER_DIE_GM = 6;
-	PlayerDieType_PLAYER_DIE_CLIMATE_COLD = 7;
-	PlayerDieType_PLAYER_DIE_STORM_LIGHTING = 8;
-	PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION = 9;
+	PLAYER_DIE_TYPE_NONE = 0;
+	PLAYER_DIE_TYPE_KILL_BY_MONSTER = 1;
+	PLAYER_DIE_TYPE_KILL_BY_GEAR = 2;
+	PLAYER_DIE_TYPE_FALL = 3;
+	PLAYER_DIE_TYPE_DRAWN = 4;
+	PLAYER_DIE_TYPE_ABYSS = 5;
+	PLAYER_DIE_TYPE_GM = 6;
+	PLAYER_DIE_TYPE_CLIMATE_COLD = 7;
+	PLAYER_DIE_TYPE_STORM_LIGHTING = 8;
+	PLAYER_DIE_TYPE_DIRTY_WATER_EROSION = 9;
 }
 
 // CmdId: 5424
@@ -13144,8 +13144,8 @@ message GBBMGGGOBEG {
 // CmdId: 24778
 message ServerLogNotify {
 	string server_log = 1;
-	ServerLogLevel BIIOIICEHOF = 8;
-	ServerLogType OEKCIAOHACB = 14;
+	ServerLogLevel log_level = 8;
+	ServerLogType log_type = 14;
 }
 
 // CmdId: 3020
@@ -14374,7 +14374,7 @@ message SceneTeamAvatar {
 }
 
 // CmdId: 27660
-message BOOOLODNCAG {
+message AvatarChangeAnimHashReq {
 	uint64 avatar_guid = 10;
 	uint32 anim_hash = 14;
 }
@@ -15118,11 +15118,11 @@ message HHJLDPGANDO {
 }
 
 // CmdId: 22032
-message BNJPHLPEGJG {
+message DungeonPlayerDieNotify {
 	uint32 NHOJEFBAMLG = 1;
-	uint32 PBDGPIBJLID = 3;
+	uint32 wait_time = 3;
 	uint32 HAPBFAFEGIF = 5;
-	map<uint32, GEPDJIKNDHA> PHHLFDOFIPE = 7;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 7;
 	AbilityString LIPNKBKKOBP = 8;
 	PlayerDieType die_type = 9;
 	uint32 dungeon_id = 11;
@@ -15475,8 +15475,8 @@ message KFIBBJHMDID {
 // CmdId: 801
 message ScenePlayerLocationNotify {
 	uint32 scene_id = 8;
-	repeated VehicleLocationInfo AHOPHPBKCJH = 10;
-	repeated MGOKPOHNCCO GHBNBBHAEFL = 12;
+	repeated VehicleLocationInfo vehicle_loc_list = 10;
+	repeated PlayerLocationInfo player_loc_list = 12;
 }
 
 // CmdId: 5536
@@ -15711,7 +15711,7 @@ message IEOAKFPAKNJ {
 // CmdId: 23218
 message FPJPKAHBFHA {
 	bool HDLPNBPKFFK = 1;
-	BHAEOMPDNHP GBGKFEBMFPD = 6;
+	ChatChannelInfo channel_info = 6;
 	uint32 channel_id = 12;
 }
 
@@ -16130,7 +16130,7 @@ message LBFDFOCDIEE {
 
 // CmdId: 26577
 message LPLIICDOHMM {
-	BHAEOMPDNHP GBGKFEBMFPD = 5;
+	ChatChannelInfo channel_info = 5;
 }
 
 // CmdId: 20263
@@ -17068,10 +17068,10 @@ message EJCJMABGCID {
 }
 
 // CmdId: 44
-message JGJHKICOHIF {
+message AvatarDieAnimationEndReq {
 	uint32 skill_id = 6;
-	Vector GNNEGLHKEON = 7;
-	uint64 BDOHHMEOPOP = 13;
+	Vector reborn_pos = 7;
+	uint64 die_guid= 13;
 }
 
 // CmdId: 7906
@@ -18435,9 +18435,9 @@ message CNGMJGCIDAE {
 }
 
 // CmdId: 8833
-message PLPAIGMIJLL {
-	uint64 JPFJMPBLMFE = 3;
-	uint64 CFKBJBKGPGA = 5;
+message ReliquaryPromoteReq {
+	uint64 target_guid = 3;
+	uint64 item_guid = 5;
 }
 
 message SeaLampActivityDetailInfo {
@@ -19021,7 +19021,7 @@ message NMOJPMHBPME {
 	int32 retcode = 7;
 }
 
-message GEPDJIKNDHA {
+message StrengthenPointData {
 	uint32 EGBFKOEAJEC = 2;
 	uint32 EKGFMKGOKOE = 6;
 }
@@ -19961,7 +19961,7 @@ message CodexDataFullNotify {
 // CmdId: 27698
 message DKLBMPDLFLO {
 	uint32 dungeon_id = 4;
-	repeated BHAEOMPDNHP DDAGNKJEEJD = 11;
+	repeated ChatChannelInfo channel_info_list = 11;
 }
 
 // CmdId: 7008
@@ -20002,7 +20002,7 @@ message NPDHEAMLICH {
 
 message DDFCGDCJODG {
 	float OCBCILMFIEG = 2;
-	float PBDGPIBJLID = 3;
+	float wait_time = 3;
 	uint32 DKAAFCENICJ = 15;
 }
 
@@ -20257,11 +20257,11 @@ message JPDLBACDODB {
 }
 
 enum ServerLogLevel {
-	ServerLogLevel_LOG_LEVEL_NONE = 0;
-	ServerLogLevel_LOG_LEVEL_DEBUG = 1;
-	ServerLogLevel_LOG_LEVEL_INFO = 2;
-	ServerLogLevel_LOG_LEVEL_WARNING = 3;
-	ServerLogLevel_LOG_LEVEL_ERROR = 4;
+	LOG_LEVEL_NONE = 0;
+	LOG_LEVEL_DEBUG = 1;
+	LOG_LEVEL_INFO = 2;
+	LOG_LEVEL_WARNING = 3;
+	LOG_LEVEL_ERROR = 4;
 }
 
 // CmdId: 25340
@@ -23283,12 +23283,12 @@ enum ForwardType {
 }
 
 // CmdId: 3305
-message AABCFJNAFDC {
+message UseItemRsp {
 	int32 retcode = 2;
 	uint64 guid = 3;
 	uint32 option_idx = 5;
 	uint32 item_id = 13;
-	uint64 JPFJMPBLMFE = 15;
+	uint64 target_guid = 15;
 }
 
 message LFLHJAPNPLB {
@@ -23806,7 +23806,7 @@ message AvatarChangeCostumeNotify {
 message DungeonChallengeFinishNotify {
 	ChallengeFinishType finish_type = 2;
 	uint32 JDAGEJBMMHB = 3;
-	map<uint32, GEPDJIKNDHA> PHHLFDOFIPE = 5;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 5;
 	uint32 CKNKNAFPGPK = 7;
 	bool is_success = 8;
 	uint32 EKCJEBMLLBC = 9;
@@ -24237,12 +24237,12 @@ message CLDIICHDCDF {
 }
 
 // CmdId: 5998
-message KKCFJFPKPAM {
+message UseItemReq {
 	uint32 count = 2;
-	uint64 JPFJMPBLMFE = 3;
+	uint64 target_guid = 3;
 	uint32 option_idx = 6;
 	uint64 guid = 14;
-	bool FAILCADNLBJ = 15;
+	bool is_enter_mp_dungeon_team = 15;
 }
 
 // CmdId: 24552
@@ -25744,13 +25744,13 @@ message JEIJILHHKGA {
 }
 
 enum MapMarkPointType {
-	MapMarkPointType_NPC = 0;
-	MapMarkPointType_QUEST = 1;
-	MapMarkPointType_SPECIAL = 2;
-	MapMarkPointType_MINE = 3;
-	MapMarkPointType_COLLECTION = 4;
-	MapMarkPointType_MONSTER = 5;
-	MapMarkPointType_FISH_POOL = 6;
+	MAP_MARK_POINT_TYPE_NPC = 0;
+	MAP_MARK_POINT_TYPE_QUEST = 1;
+	MAP_MARK_POINT_TYPE_SPECIAL = 2;
+	MAP_MARK_POINT_TYPE_MINE = 3;
+	MAP_MARK_POINT_TYPE_COLLECTION = 4;
+	MAP_MARK_POINT_TYPE_MONSTER = 5;
+	MAP_MARK_POINT_TYPE_FISH_POOL = 6;
 }
 
 // CmdId: 4718
@@ -28408,9 +28408,9 @@ message HONADJHEAGF {
 	uint64 avatar_guid = 9;
 }
 
-message BHAEOMPDNHP {
+message ChatChannelInfo {
 	uint32 channel_id = 10;
-	bool FBDFPBMNIOL = 11;
+	bool is_shield = 11;
 }
 
 // CmdId: 25321
@@ -28448,7 +28448,7 @@ message FFOAILEBFAD {
 }
 
 // CmdId: 416
-message KCHOJNOOBAL {
+message AvatarChangeAnimHashRsp {
 	uint32 anim_hash = 5;
 	uint64 avatar_guid = 11;
 	int32 retcode = 15;
@@ -29341,7 +29341,7 @@ message KMNKJKIEPCB {
 }
 
 // CmdId: 24403
-message PKKIJOMEENE {
+message AvatarRenameInfoNotify {
 	repeated AvatarRenameInfo avatar_rename_list = 8;
 }
 
@@ -31050,7 +31050,7 @@ message GCGStartChallengeRsp {
 
 message KOBHCHMLBED {
 	uint32 scene_id = 1;
-	MGOKPOHNCCO CJFKFIJOCNB = 9;
+	PlayerLocationInfo CJFKFIJOCNB = 9;
 }
 
 enum RogueDiaryAvatarDisableStatus {

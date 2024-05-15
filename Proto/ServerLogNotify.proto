@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ServerLogLevel.proto";
+import "ServerLogType.proto";
+
+// 4.6.0
+// CmdId: 24778
+message ServerLogNotify {
+	string server_log = 1;
+	ServerLogLevel log_level = 8;
+	ServerLogType log_type = 14;
+}

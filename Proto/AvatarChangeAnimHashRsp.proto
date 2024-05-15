@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 416
+message AvatarChangeAnimHashRsp {
+	uint32 anim_hash = 5;
+	uint64 avatar_guid = 11;
+	int32 retcode = 15;
+}

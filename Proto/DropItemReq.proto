@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+import "StoreType.proto";
+
+// 4.6.0
+// CmdId: 23960
+message DropItemReq {
+	uint64 guid = 3;
+	Vector pos = 6;
+	uint32 count = 12;
+	StoreType store_type = 13;
+}

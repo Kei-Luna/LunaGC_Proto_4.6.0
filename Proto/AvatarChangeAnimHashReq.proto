@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 27660
+message AvatarChangeAnimHashReq {
+	uint64 avatar_guid = 10;
+	uint32 anim_hash = 14;
+}

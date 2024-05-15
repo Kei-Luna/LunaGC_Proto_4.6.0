@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AvatarRenameInfo.proto";
+
+// 4.6.0
+// CmdId: 24403
+message AvatarRenameInfoNotify {
+	repeated AvatarRenameInfo avatar_rename_list = 8;
+}

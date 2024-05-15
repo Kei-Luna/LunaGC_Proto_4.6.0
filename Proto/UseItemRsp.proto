@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 3305
+message UseItemRsp {
+	int32 retcode = 2;
+	uint64 guid = 3;
+	uint32 option_idx = 5;
+	uint32 item_id = 13;
+	uint64 target_guid = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "SvrMsgId.proto";
+import "MsgParam.proto";
+
+// 4.6.0
+// CmdId: 4061
+message ShowMessageNotify {
+	SvrMsgId msg_id = 5;
+	repeated MsgParam params = 11;
+}
