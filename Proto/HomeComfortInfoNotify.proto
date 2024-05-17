@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeModuleComfortInfo.proto";
+
+message HomeComfortInfoNotify {
+    repeated HomeModuleComfortInfo module_info_list = 11;
+}

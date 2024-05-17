@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 25519
+message TryEnterHomeRsp {
+    uint32 target_uid = 11;
+    int32 retcode = 13;
+    repeated uint32 param_list = 15;
+}

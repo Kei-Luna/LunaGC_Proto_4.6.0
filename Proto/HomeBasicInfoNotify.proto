@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeBasicInfo.proto";
+
+// CmdId: 25591
+message HomeBasicInfoNotify {
+    HomeBasicInfo basic_info = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 20306
+message TryEnterHomeReq {
+    uint32 target_uid = 4;
+    uint32 target_point = 5;
+    bool is_transfer_to_main_house_point = 10;
+    bool is_transfer_to_safe_point = 14;
+}

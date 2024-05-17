@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message HomeLimitedShopInfo {
+    fixed32 end_time = 3;
+    Vector djinn_rot = 7;
+    fixed32 start_time = 8;
+    fixed32 CPOCMEGMECF = 11;
+    uint32 uid = 12;
+    Vector djinn_pos = 13;
+}

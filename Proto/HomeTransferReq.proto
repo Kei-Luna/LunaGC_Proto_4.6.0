@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 3980
+message HomeTransferReq {
+    bool is_transfer_to_safe_point = 1;
+    bool is_transfer_to_main_house_point = 11;
+    uint32 guid = 12;
+}

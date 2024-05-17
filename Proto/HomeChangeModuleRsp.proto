@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+//obf: HLONDLKECKC
+// CmdId: 9924
+message HomeChangeModuleRsp {
+    int32 retcode = 3;
+    uint32 target_module_id = 5;
+}

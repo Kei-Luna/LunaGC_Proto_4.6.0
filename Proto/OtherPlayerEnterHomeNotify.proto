@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 20379
+message OtherPlayerEnterHomeNotify {
+    enum Reason {
+        INVALID = 0;
+        ENTER = 1;
+        LEAVE = 2;
+    }
+
+    Reason reason = 4;
+    string nickname = 7;
+}

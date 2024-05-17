@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+//obf: EOPBEIGHCKC
+// CmdId: 26930
+message HomeChangeModuleReq {
+    uint32 target_module_id = 7;
+}

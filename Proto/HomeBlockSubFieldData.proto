@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+//obf: DLGDKPKEOEG
+message HomeBlockSubFieldData {
+    Vector rot = 8;
+    Vector pos = 13;
+}

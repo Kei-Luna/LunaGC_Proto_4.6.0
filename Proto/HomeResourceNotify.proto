@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeResource.proto";
+
+// CmdId: 21381
+message HomeResourceNotify {
+    HomeResource fetter_exp = 7;
+    HomeResource home_coin = 10;
+}
