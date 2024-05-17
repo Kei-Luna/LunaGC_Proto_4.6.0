@@ -917,7 +917,7 @@ message CJLJPNIKDCB {
 }
 
 message MMGJJJFDIPK {
-	uint32 BIJMADNNIEO = 4;
+	uint32 module_id = 4;
 	string share_code = 5;
 	uint32 scene_id = 10;
 	uint32 block_id = 11;
@@ -3131,7 +3131,7 @@ message MBHLPKMNHOC {
 
 // CmdId: 768
 message HGGIEPGKANG {
-	uint32 BIJMADNNIEO = 8;
+	uint32 module_id = 8;
 }
 
 // CmdId: 21317
@@ -6765,9 +6765,9 @@ message IrodoriMasterGallerySettleInfo {
 }
 
 // CmdId: 28619
-message JMHMPEJLKLL {
-	uint32 CPPLFBMJCDD = 1;
-	uint32 MNEAENAKKKE = 10;
+message PullPrivateChatReq {
+	uint32 pull_num = 1;
+	uint32 from_sequence = 10;
 	uint32 target_uid = 12;
 }
 
@@ -13831,7 +13831,7 @@ message MNMGOIHAKOM {
 	uint32 MBJEELGKMKC = 10;
 	bool GFDDIMEOEJG = 12;
 	bool EBDDJCIOGGB = 13;
-	uint32 BIJMADNNIEO = 15;
+	uint32 module_id = 15;
 }
 
 // CmdId: 3029
@@ -14191,7 +14191,7 @@ message DNBIFEPKAPF {
 }
 
 // CmdId: 7469
-message LGBNBNGIJCP {
+message PrivateChatRsp {
 	/* protected @ 0x20 */// uint32 MLMLNADIMJJ = 65535;
 	/* protected @ 0x24 */// int32 retcode = 65535;
 }
@@ -14714,7 +14714,7 @@ message EJMPIGACIDJ {
 
 // CmdId: 25183
 message PPENKKLMDPD {
-	uint32 BIJMADNNIEO = 6;
+	uint32 module_id = 6;
 	int32 retcode = 11;
 }
 
@@ -16129,7 +16129,7 @@ message LBFDFOCDIEE {
 }
 
 // CmdId: 26577
-message LPLIICDOHMM {
+message ChatChannelInfoNotify {
 	ChatChannelInfo channel_info = 5;
 }
 
@@ -16546,7 +16546,7 @@ message CKFOIKJDCCD {
 
 // CmdId: 3342
 message PrivateChatReq {
-	/* protected @ 0x28 */// uint32 target_uid = 65535;
+	uint32 target_uid = 6;
 	oneof content {
 		string text = 10;
 		uint32 icon = 7;
@@ -20950,7 +20950,7 @@ message IHMJHKCFMGN {
 message HomeMarkPointSceneData {
 	Vector PFEPBONBKCL = 1;
 	Vector FGDOFHCPECF = 2;
-	uint32 BIJMADNNIEO = 4;
+	uint32 module_id = 4;
 	uint32 scene_id = 12;
 	repeated HomeMarkPointFurnitureData NFLBDDJFHNK = 14;
 }
@@ -21157,9 +21157,9 @@ message PIMOJOLCNHP {
 }
 
 // CmdId: 9148
-message PLLNNIDNPDL {
-	uint32 OLJPNILCLCH = 2;
-	uint32 CPPLFBMJCDD = 4;
+message PullRecentChatReq {
+	uint32 begin_sequence = 2;
+	uint32 pull_num = 4;
 }
 
 // CmdId: 614
@@ -27819,7 +27819,7 @@ message NPKNJMPIBMK {
 
 // CmdId: 22321
 message EPCAOBCAJEI {
-	uint32 BIJMADNNIEO = 9;
+	uint32 module_id = 9;
 }
 
 // CmdId: 1049
@@ -31330,7 +31330,7 @@ message KKKLEEIHIJH {
 message BOAKBFKOBOB {
 	repeated uint32 KBLEJBFMBMG = 6;
 	uint32 KNIGAOCFMON = 7;
-	uint32 BIJMADNNIEO = 8;
+	uint32 module_id = 8;
 }
 
 // CmdId: 23996
