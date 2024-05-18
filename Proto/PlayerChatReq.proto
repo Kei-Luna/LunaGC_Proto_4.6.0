@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChatInfo.proto";
+
+// 4.6.0
+// CmdId: 26464
+message PlayerChatReq {
+	uint32 channel_id = 9;
+	ChatInfo chat_info = 10;
+}

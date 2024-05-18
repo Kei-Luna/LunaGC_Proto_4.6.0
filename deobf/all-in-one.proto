@@ -413,7 +413,7 @@ message HCDOCILHAKD {
 }
 
 // CmdId: 26464
-message OJPLKKOHFNN {
+message PlayerChatReq {
 	uint32 channel_id = 9;
 	ChatInfo chat_info = 10;
 }
@@ -6386,8 +6386,8 @@ message LJGKCBNPELK {
 }
 
 // CmdId: 29270
-message DPMKKBEAIHJ {
-	uint32 MLMLNADIMJJ = 1;
+message PlayerChatRsp {
+	uint32 chat_forbidden_endtime = 1;
 	int32 retcode = 4;
 }
 
@@ -8041,9 +8041,9 @@ message EEBJFMBMMMB {
 }
 
 // CmdId: 21231
-message PEDOFHIJODA {
+message GetPlayerAskFriendListRsp {
 	int32 retcode = 7;
-	repeated FriendBrief EHLNAFHMHCM = 14;
+	repeated FriendBrief ask_friend_list = 14;
 }
 
 // CmdId: 23403
@@ -8765,7 +8765,7 @@ message EOOHCHIICFP {
 }
 
 // CmdId: 6815
-message BAANKBPBNAF {
+message ChatChannelShieldNotify {
 	uint32 channel_id = 6;
 	bool is_shield = 8;
 }
@@ -14192,7 +14192,7 @@ message DNBIFEPKAPF {
 
 // CmdId: 7469
 message PrivateChatRsp {
-	/* protected @ 0x20 */// uint32 MLMLNADIMJJ = 65535;
+	/* protected @ 0x20 */// uint32 chat_forbidden_endtime = 65535;
 	/* protected @ 0x24 */// int32 retcode = 65535;
 }
 
@@ -15709,8 +15709,8 @@ message IEOAKFPAKNJ {
 }
 
 // CmdId: 23218
-message FPJPKAHBFHA {
-	bool HDLPNBPKFFK = 1;
+message ChatChannelUpdateNotify {
+	bool is_create = 1;
 	ChatChannelInfo channel_info = 6;
 	uint32 channel_id = 12;
 }
@@ -15820,8 +15820,8 @@ message BBLJMGLHNMB {
 
 // CmdId: 8658
 message GetPlayerFriendListRsp {
-	/* protected @ 0x20 */// repeated FriendBrief CMGOKIHFNHH = 65535;
-	/* protected @ 0x28 */// repeated FriendBrief EHLNAFHMHCM = 65535;
+	repeated FriendBrief friend_list = 9;
+	/* protected @ 0x28 */// repeated FriendBrief ask_friend_list = 65535;
 	/* protected @ 0x30 */// int32 retcode = 65535;
 }
 
@@ -28630,7 +28630,7 @@ enum HomePlantFieldStatus {
 }
 
 // CmdId: 9695
-message NONLLDBFDHL {
+message PlayerChatNotify {
 	ChatInfo chat_info = 9;
 	uint32 channel_id = 12;
 }
@@ -31327,9 +31327,9 @@ message KKKLEEIHIJH {
 	repeated uint32 tag_list = 6;
 }
 
-message BOAKBFKOBOB {
-	repeated uint32 KBLEJBFMBMG = 6;
-	uint32 KNIGAOCFMON = 7;
+message HomeModuleComfortInfo {
+	repeated uint32 world_scene_block_comfort_value_list = 6;
+	uint32 room_scene_comfort_value = 7;
 	uint32 module_id = 8;
 }
 

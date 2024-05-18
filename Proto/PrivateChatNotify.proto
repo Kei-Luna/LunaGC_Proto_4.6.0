@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChatInfo.proto";
+
+// 4.6.0
+// CmdId: 1701
+message PrivateChatNotify {
+	ChatInfo chat_info = 11;
+}

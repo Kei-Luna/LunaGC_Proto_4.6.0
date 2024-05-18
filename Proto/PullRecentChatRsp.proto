@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChatInfo.proto";
+
+
+//sus
+// 4.6.0
+// CmdId: 1830
+message PullRecentChatRsp {
+	repeated ChatInfo chat_info = 6;
+	int32 retcode = 11;
+}
