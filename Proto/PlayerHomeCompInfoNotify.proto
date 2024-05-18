@@ -3,6 +3,8 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "PlayerHomeCompInfo.proto";
 
+// 4.6.0
+// CmdId: 9764
 message PlayerHomeCompInfoNotify {
     PlayerHomeCompInfo comp_info = 13;
 }

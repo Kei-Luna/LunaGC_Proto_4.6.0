@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChatChannelInfo.proto";
+
+// 4.6.0
+// CmdId: 4276
+message ChatChannelDataNotify {
+	repeated ChatChannelInfo channel_info_list = 6;
+	repeated uint32 channel_list = 15;
+}

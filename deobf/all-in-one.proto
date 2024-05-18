@@ -333,14 +333,14 @@ message LanternRiteActivityDetailInfo {
 }
 
 // CmdId: 20379
-message JJPMDJFACKI {
-	enum KGGCDPDCIDD {
-		KGGCDPDCIDD_INVALID = 0;
-		KGGCDPDCIDD_ENTER = 1;
-		KGGCDPDCIDD_LEAVE = 2;
-	}
+message OtherPlayerEnterHomeNotify {
+    enum Reason {
+        INVALID = 0;
+        ENTER = 1;
+        LEAVE = 2;
+    }
 
-	KGGCDPDCIDD reason = 4;
+	Reason reason = 4;
 	string nickname = 7;
 }
 
@@ -709,10 +709,10 @@ message BreakoutSyncSnapShot {
 	OMAOBDPPGIC snap_shot = 8;
 }
 
-message HFKLFHGNLAK {
+message ExhibitionDisplayInfo {
 	uint32 id = 1;
 	uint32 param = 2;
-	uint32 LBIMJINCKKM = 3;
+	uint32 detail_param = 3;
 }
 
 // CmdId: 9476
@@ -1479,7 +1479,7 @@ message NLLKEDMLCML {
 }
 
 message ScenePlayBattleSettlePlayerInfo {
-	repeated HFKLFHGNLAK card_list = 2;
+	repeated ExhibitionDisplayInfo card_list = 2;
 	string online_id = 3;
 	ProfilePicture profile_picture = 6;
 	uint32 uid = 7;
@@ -1852,7 +1852,7 @@ message EGLEHLAFGMM {
 
 message GJEIEBKPFLD {
 	uint32 MNPFODGOPDE = 3;
-	repeated HFKLFHGNLAK card_list = 6;
+	repeated ExhibitionDisplayInfo card_list = 6;
 	string nickname = 7;
 	uint32 uid = 12;
 	ProfilePicture profile_picture = 13;
@@ -4014,7 +4014,7 @@ enum GCGZoneType {
 }
 
 // CmdId: 26144
-message KNGJLLGJAPJ {
+message ChangeMpTeamAvatarRsp {
 	uint64 cur_avatar_guid = 1;
 	repeated uint64 avatar_guid_list = 4;
 	int32 retcode = 8;
@@ -4196,7 +4196,7 @@ message CylinderRegionSize {
 }
 
 // CmdId: 23126
-message CFILHOPIAIK {
+message ChangeMpTeamAvatarReq {
 	repeated uint64 avatar_guid_list = 5;
 	uint64 cur_avatar_guid = 6;
 }
@@ -6719,7 +6719,7 @@ message GNKLGNNNKKC {
 	repeated uint32 HEJKDIMCNIP = 5;
 	uint32 stage_type = 8;
 	uint32 play_index = 9;
-	repeated HFKLFHGNLAK score_list = 10;
+	repeated ExhibitionDisplayInfo score_list = 10;
 	LDDOLFLMGBN reason = 11;
 	uint32 IPAOLHMOBCF = 15;
 }
@@ -7746,7 +7746,7 @@ message IJLDECPPHPO {
 	string nickname = 7;
 	uint32 uid = 8;
 	ProfilePicture profile_picture = 13;
-	repeated HFKLFHGNLAK card_list = 14;
+	repeated ExhibitionDisplayInfo card_list = 14;
 	uint32 MNPFODGOPDE = 15;
 }
 
@@ -8260,9 +8260,9 @@ message LHMENPMEHEH {
 // CmdId: 3822
 message UpdateAbilityCreatedMovingPlatformNotify {
 	enum OpType {
-		OpType_OP_NONE = 0;
-		OpType_OP_ACTIVATE = 1;
-		OpType_OP_DEACTIVATE = 2;
+		OP_TYPE_NONE = 0;
+		OP_TYPE_ACTIVATE = 1;
+		OP_TYPE_DEACTIVATE = 2;
 	}
 
 	uint32 entity_id = 7;
@@ -8881,11 +8881,11 @@ message OKCILHODBOI {
 }
 
 // CmdId: 23680
-message LGKOHNBALFB {
+message AvatarUnlockTalentNotify {
 	uint64 avatar_guid = 4;
 	uint32 skill_depot_id = 5;
 	uint32 entity_id = 10;
-	uint32 OGFIAPOCIEB = 15;
+	uint32 talent_id = 15;
 }
 
 // CmdId: 28637
@@ -9117,7 +9117,7 @@ message BounceConjuringGallerySettleInfo {
 	uint32 OJKGFDLIFOF = 3;
 	uint32 MKDGBDLDNPF = 6;
 	OnlinePlayerInfo player_info = 7;
-	repeated HFKLFHGNLAK card_list = 8;
+	repeated ExhibitionDisplayInfo card_list = 8;
 	uint32 EBEHNODNPLF = 10;
 	uint32 IAFIDBFMFOF = 11;
 	float damage = 12;
@@ -9973,16 +9973,16 @@ message JFEIFFGNFAP {
 }
 
 // CmdId: 20429
-message COHHMEFLBPC {
-	enum QuitReason {
-		QuitReason_INVALID = 0;
-		QuitReason_KICK_BY_HOST = 1;
-		QuitReason_BACK_TO_MY_WORLD = 2;
-		QuitReason_HOME_BLOCKED = 3;
-		QuitReason_HOME_IN_EDIT_MODE = 4;
-		QuitReason_BY_MUIP = 5;
-		QuitReason_CUR_MODULE_CLOSED = 6;
-	}
+message PlayerQuitFromHomeNotify {
+    enum QuitReason {
+        INVALID = 0;
+        KICK_BY_HOST = 1;
+        BACK_TO_MY_WORLD = 2;
+        HOME_BLOCKED = 3;
+        HOME_IN_EDIT_MODE = 4;
+        BY_MUIP = 5;
+        CUR_MODULE_CLOSED = 6;
+    }
 
 	QuitReason reason = 3;
 }
@@ -10385,7 +10385,7 @@ message JGKHKHPHPCM {
 	uint32 OKOANLIBBLO = 5;
 	bool OFNECEDHPDC = 6;
 	bool FPBAJMAJKGE = 7;
-	repeated HFKLFHGNLAK score_list = 8;
+	repeated ExhibitionDisplayInfo score_list = 8;
 	uint32 play_index = 10;
 	repeated uint32 KBJPEPAKNDJ = 11;
 	uint32 begin_time = 13;
@@ -11862,7 +11862,7 @@ message PFHMEALLNJC {
 }
 
 message AbilityControlBlock {
-	repeated GLJILFGBCNM FAOEHHJMODP = 1;
+	repeated AbilityEmbryo ability_embryo_list = 1;
 }
 
 // CmdId: 7185
@@ -12014,7 +12014,7 @@ message MLNAKNABIKM {
 // CmdId: 4199
 message GLOAOOOIIMC {
 	uint64 avatar_guid = 3;
-	uint32 OGFIAPOCIEB = 10;
+	uint32 talent_id = 10;
 }
 
 // CmdId: 7238
@@ -14135,7 +14135,7 @@ message PBCOKOEDACF {
 
 // CmdId: 28618
 message KADJCJPCEKL {
-	uint32 OGFIAPOCIEB = 9;
+	uint32 talent_id = 9;
 	uint64 avatar_guid = 11;
 	int32 retcode = 12;
 }
@@ -15615,7 +15615,7 @@ message IslandPartySettleNotify {
 	bool is_new_record = 6;
 	GalleryStopReason reason = 11;
 	repeated LFLHJAPNPLB JDFKKLCCOHH = 12;
-	repeated HFKLFHGNLAK score_list = 15;
+	repeated ExhibitionDisplayInfo score_list = 15;
 }
 
 // CmdId: 21092
@@ -16867,8 +16867,8 @@ message RegionInfo {
 
 // CmdId: 3980
 message KMBAENIJAME {
-	bool OIJAKNNDKIG = 1;
-	bool BCKKBMIOLIL = 11;
+	bool is_transfer_to_safe_point = 1;
+	bool is_transfer_to_main_house_point = 11;
 	uint32 guid = 12;
 }
 
@@ -17648,7 +17648,7 @@ message IFIMACOBOAI {
 	bool FPBAJMAJKGE = 6;
 	repeated EKEECEGIBEO JDFKKLCCOHH = 7;
 	FHFIANLNBEK reason = 9;
-	repeated HFKLFHGNLAK score_list = 10;
+	repeated ExhibitionDisplayInfo score_list = 10;
 	bool is_record_score = 11;
 	uint32 IPAOLHMOBCF = 12;
 	uint32 begin_time = 13;
@@ -19598,7 +19598,7 @@ message INHCLMKKMMJ {
 message ALCKAOMGGII {
 	string online_id = 1;
 	uint32 uid = 3;
-	repeated HFKLFHGNLAK card_list = 4;
+	repeated ExhibitionDisplayInfo card_list = 4;
 	string nickname = 6;
 	ProfilePicture profile_picture = 8;
 }
@@ -21644,8 +21644,8 @@ message OBGENHLKAGI {
 }
 
 // CmdId: 24155
-message DOAAKBMLNLD {
-	bool DMAFFCNMMBL = 1;
+message WidgetUseAttachAbilityGroupChangeNotify {
+	bool is_attach = 1;
 	uint32 material_id = 2;
 }
 
@@ -22395,7 +22395,7 @@ message ClientAbilityChangeNotify {
 
 // CmdId: 29756
 message OFPKABDOIME {
-	repeated HFKLFHGNLAK score_list = 1;
+	repeated ExhibitionDisplayInfo score_list = 1;
 	bool is_new_record = 6;
 	uint32 play_index = 7;
 	uint32 stage_type = 8;
@@ -23293,7 +23293,7 @@ message UseItemRsp {
 
 message LFLHJAPNPLB {
 	OnlinePlayerInfo player_info = 4;
-	repeated HFKLFHGNLAK card_list = 13;
+	repeated ExhibitionDisplayInfo card_list = 13;
 }
 
 // CmdId: 3888
@@ -23839,11 +23839,11 @@ message AABJDFKIBMF {
 }
 
 // CmdId: 20306
-message PNPLPHPIHOO {
+message TryEnterHomeReq {
 	uint32 target_uid = 4;
-	uint32 BMPCJDEHAPO = 5;
-	bool BCKKBMIOLIL = 10;
-	bool OIJAKNNDKIG = 14;
+	uint32 target_point = 5;
+	bool is_transfer_to_main_house_point = 10;
+	bool is_transfer_to_safe_point = 14;
 }
 
 // CmdId: 3490
@@ -23888,7 +23888,7 @@ message IOKPNGJJMBD {
 	uint32 stage_type = 8;
 	repeated GJEIEBKPFLD JDFKKLCCOHH = 11;
 	repeated uint32 KBJPEPAKNDJ = 12;
-	repeated HFKLFHGNLAK score_list = 13;
+	repeated ExhibitionDisplayInfo score_list = 13;
 	bool is_single = 14;
 }
 
@@ -24154,7 +24154,7 @@ message FBFALNCAOBL {
 	uint32 MNPFODGOPDE = 4;
 	string nickname = 7;
 	ProfilePicture profile_picture = 10;
-	repeated HFKLFHGNLAK card_list = 12;
+	repeated ExhibitionDisplayInfo card_list = 12;
 	uint32 uid = 13;
 }
 
@@ -25432,7 +25432,7 @@ message KAIBIENEMKJ {
 	uint32 level_id = 14;
 }
 
-message GLJILFGBCNM {
+message AbilityEmbryo {
 	uint32 IPJOCONMJAL = 1;
 	fixed32 ability_name_hash = 2;
 	fixed32 DBDODMIHABA = 3;
@@ -26545,7 +26545,7 @@ message HODIENEELEE {
 }
 
 // CmdId: 27409
-message GFMBGACNMIM {
+message PlayerNicknameNotify {
 	string nickname = 1;
 }
 
@@ -26632,7 +26632,7 @@ message JNJKFNHOOFD {
 }
 
 // CmdId: 25519
-message CCBHMJOAOAB {
+message TryEnterHomeRsp {
 	uint32 target_uid = 11;
 	int32 retcode = 13;
 	repeated uint32 param_list = 15;
@@ -26876,7 +26876,7 @@ message DIGPMBNOGGI {
 }
 
 message ACCOFBALEBG {
-	repeated HFKLFHGNLAK card_list = 6;
+	repeated ExhibitionDisplayInfo card_list = 6;
 	OnlinePlayerInfo player_info = 10;
 }
 
@@ -27897,7 +27897,7 @@ message FGFDEFIJPLF {
 }
 
 // CmdId: 516
-message MPGCFICFJHE {
+message AbilityChangeNotify {
 	AbilityControlBlock ability_control_block = 5;
 	uint32 entity_id = 9;
 }
@@ -28000,7 +28000,7 @@ message GANFFNKNNHI {
 }
 
 message EKEECEGIBEO {
-	repeated HFKLFHGNLAK card_list = 3;
+	repeated ExhibitionDisplayInfo card_list = 3;
 	string online_id = 8;
 	string nickname = 9;
 	uint32 MNPFODGOPDE = 10;
@@ -29050,7 +29050,7 @@ message InBattleChessSettleInfo {
 	bool is_success = 9;
 	uint32 BAAFKJKOJAD = 10;
 	uint32 CABBAOBBAHH = 12;
-	repeated HFKLFHGNLAK score_list = 13;
+	repeated ExhibitionDisplayInfo score_list = 13;
 	uint32 HLKCHNNDIMF = 15;
 }
 
