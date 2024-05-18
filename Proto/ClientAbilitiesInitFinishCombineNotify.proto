@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "EntityAbilityInvokeEntry.proto";
+
+//obf: KNDIDFOJEJD
+// CmdId: 22401
+message ClientAbilitiesInitFinishCombineNotify {
+    repeated EntityAbilityInvokeEntry entity_invoke_list = 2;
+}

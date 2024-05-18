@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilityInvokeEntry.proto";
+
+//obf: HMICLOFFJGD
+// CmdId: 21190
+message ClientAbilityInitFinishNotify {
+    repeated AbilityInvokeEntry invokes = 3;
+    uint32 entity_id = 14;
+}

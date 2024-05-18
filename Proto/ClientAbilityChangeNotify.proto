@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilityInvokeEntry.proto";
+
+//obf: PHBIGCMGNHM
+// CmdId: 28122
+message ClientAbilityChangeNotify {
+    bool is_init_hash = 6;
+    uint32 entity_id = 8;
+    repeated AbilityInvokeEntry invokes = 9;
+}
