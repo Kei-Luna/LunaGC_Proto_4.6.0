@@ -1,0 +1,42 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+import "AbilityIdentifier.proto";
+import "HitCollision.proto";
+import "AttackHitEffectResult.proto";
+
+//obf: PBNJFKKLHNG
+message AttackResult {
+    int32 hit_retreat_angle_compat = 2;
+    HitCollision hit_collision = 3;
+    float damage = 4;
+    Vector resolved_dir = 5;
+    uint32 element_type = 6;
+    AttackHitEffectResult hit_eff_result = 7;
+    uint32 defense_id = 8;
+    uint32 HLDPABLDFMA = 9;
+    AbilityIdentifier ability_identifier = 11;
+    uint32 attacker_id = 12;
+    uint32 PBAOKLLNEKH = 13;
+    string anim_event_id = 14;
+    bool DOOAHLOJHFI = 15;
+    bool MMGHNAGCMKI = 101;
+    uint32 ANCLENEDEFP = 368;
+    float KIBCOOHDGGC = 395;
+    float KOHHKJHBPGC = 434;
+    bool OLBMHKAKCAO = 686;
+    uint32 GKEECIACCJL = 792;
+    float JAMLOHCLJGO = 844;
+    uint32 IKBJOJCMIDD = 966;
+    uint32 JHGMKBBHGKK = 1152;
+    float IBDIPOKNGND = 1178;
+    uint32 ADAPJNAPCFM = 1195;
+    uint32 HEGHHBKOGPM = 1400;
+    uint32 GONCKDKHCCD = 1579;
+    uint32 IPHOJADNMPG = 1582;
+    bool ECOJPMMOFGO = 1638;
+    uint32 LINKMJIJDAI = 1649;
+    uint32 GBFOLNPHPFC = 1744;
+    uint32 PMCGHDEGGGO = 2023;
+}

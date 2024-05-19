@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+//obf: PDMMIGKPKBI
+// CmdId: 8257
+message EntityFightPropUpdateNotify {
+    map<uint32, float> fight_prop_map = 7;
+    uint32 entity_id = 8;
+}

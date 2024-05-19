@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilityString.proto";
+
+message HICCLGEKCIO {
+    int32 local_id = 1;
+    AbilityString parent_ability_name = 2;
+    uint32 instanced_ability_id = 4;
+    uint32 instanced_modifier_id = 5;
+    uint32 caster_id = 6;
+    int32 modifier_local_id = 7;
+}
