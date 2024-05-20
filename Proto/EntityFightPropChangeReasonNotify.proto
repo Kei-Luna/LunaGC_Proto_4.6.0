@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "ChangeHpReason.proto";
 import "ChangeEnergyReason.proto";
 import "PropChangeReason.proto";
-import "MIONMJBHCNN.proto";
+import "ChangeHpDebts.proto";
 import "MGHDLMIEMLI.proto";
 
 //obf: KNIDFELLKBI
@@ -13,7 +13,7 @@ message EntityFightPropChangeReasonNotify {
     uint32 entity_id = 1;
     ChangeHpReason changeHpReason = 2;
     repeated uint32 param_list = 6;
-    MIONMJBHCNN GLPHMLFPOKO = 7;
+    ChangeHpDebts change_hp_debts = 7;
     MGHDLMIEMLI detail_info = 8;
     uint32 prop_type = 9;
     PropChangeReason reason = 10;

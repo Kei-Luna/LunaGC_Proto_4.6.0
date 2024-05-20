@@ -1,10 +1,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
-import "HICCLGEKCIO.proto";
+import "DetailAbilityInfo.proto";
 
 message MGHDLMIEMLI {
     oneof ADCLBBDEGBD {
-        HICCLGEKCIO detail_ability_info = 9;
+        DetailAbilityInfo detail_ability_info = 9;
     }
 }

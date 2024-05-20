@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+enum ChangeHpDebts {
+	CHANGE_HP_DEBTS_NONE = 0;
+	CHANGE_HP_DEBTS_PAY = 1;
+	CHANGE_HP_DEBTS_PAYFINISH = 2;
+	CHANGE_HP_DEBTS_CLEAR = 21;
+	CHANGE_HP_DEBTS_ADDABILiTY = 51;
+}

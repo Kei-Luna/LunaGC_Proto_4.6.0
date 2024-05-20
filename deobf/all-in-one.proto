@@ -14918,7 +14918,7 @@ message EntityFightPropChangeReasonNotify {
 	uint32 entity_id = 1;
 	ChangeHpReason changeHpReason = 2;
 	repeated uint32 param_list = 6;
-	MIONMJBHCNN GLPHMLFPOKO = 7;
+	ChangeHpDebts change_hp_debts = 7;
 	MGHDLMIEMLI ADCLBBDEGBD = 8;
 	uint32 prop_type = 9;
 	PropChangeReason reason = 10;
@@ -15750,7 +15750,7 @@ message PNJIFAADGAM {
 
 message MGHDLMIEMLI {
 	oneof ADCLBBDEGBD {
-		HICCLGEKCIO detail_ability_info = 9;
+		DetailAbilityInfo detail_ability_info = 9;
 	}
 }
 
@@ -20165,13 +20165,12 @@ message GCGMsgCostRevise {
 message HJEECCKNIGB {
 }
 
-enum MIONMJBHCNN {
-	MIONMJBHCNN_CHANGE_HP_DEBTS_NONE = 0;
-	MIONMJBHCNN_CHANGE_HP_DEBTS_PAY = 1;
-	MIONMJBHCNN_CHANGE_HP_DEBTS_PAY_FINISH = 2;
-	MIONMJBHCNN_CHANGE_HP_DEBTS_CLEAR = 21;
-	MIONMJBHCNN_CHANGE_HP_DEBTS_REDUCE_ABILITY = 41;
-	MIONMJBHCNN_CHANGE_HP_DEBTS_ADD_ABILITY = 51;
+enum ChangeHpDebts {
+	CHANGE_HP_DEBTS_NONE = 0;
+	CHANGE_HP_DEBTS_PAY = 1;
+	CHANGE_HP_DEBTS_PAYFINISH = 2;
+	CHANGE_HP_DEBTS_CLEAR = 21;
+	CHANGE_HP_DEBTS_ADDABILiTY = 51;
 }
 
 message BANBLIJNCMN {
@@ -28644,7 +28643,7 @@ message PropValue {
 	}
 }
 
-message HICCLGEKCIO {
+message DetailAbilityInfo {
 	int32 local_id = 1;
 	AbilityString parent_ability_name = 2;
 	uint32 instanced_modifier_id = 4;
