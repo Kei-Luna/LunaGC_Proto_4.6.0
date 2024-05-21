@@ -994,7 +994,7 @@ message LGLPEEPLOHE {
 message MJJBEMHLFGJ {
 	int32 retcode = 1;
 	uint32 target_uid = 4;
-	FriendBrief CBLFPCLEFIL = 12;
+	FriendBrief target_friend_brief = 12;
 }
 
 message GCEGJGIBMCH {
@@ -4513,7 +4513,7 @@ message ElectroherculesBattleDetailInfo {
 }
 
 // CmdId: 8082
-message MBLHNONFHFH {
+message SetPlayerNameRsp {
 	int32 retcode = 2;
 	string nick_name = 6;
 }
@@ -6850,8 +6850,8 @@ message PlayerLoginReq {
 }
 
 message Birthday {
-	uint32 NGFPJHIFLEG = 1;
-	uint32 NMGMPNKAOCJ = 2;
+	uint32 month = 1;
+	uint32 day = 2;
 }
 
 // CmdId: 21423
@@ -9853,7 +9853,7 @@ message ChatInfo {
 }
 
 // CmdId: 24638
-message EEDGJCAPMCI {
+message EvtCreateGadgetNotify {
 	uint32 config_id = 1;
 	uint32 HOFCLFELEMK = 2;
 	bool LGOLECDFPNK = 3;
@@ -9861,12 +9861,12 @@ message EEDGJCAPMCI {
 	bool BANJELHCLDK = 5;
 	uint32 room_id = 6;
 	uint32 camp_type = 7;
-	Vector EOGHCHLHPGA = 8;
+	Vector InitEulerAngles = 8;
 	uint64 guid = 9;
 	uint32 camp_id = 10;
 	uint32 target_entity_id = 11;
 	ForwardType forward_type = 12;
-	Vector AJDOBAJIMFK = 13;
+	Vector InitPos = 13;
 	uint32 owner_entity_id = 14;
 	uint32 prop_owner_entity_id = 15;
 	AbilityString ability_name = 440;
@@ -9995,23 +9995,23 @@ enum UgcDungeonImportSourceType {
 }
 
 enum InteractType {
-	InteractType_INTERACT_NONE = 0;
-	InteractType_INTERACT_PICK_ITEM = 1;
-	InteractType_INTERACT_GATHER = 2;
-	InteractType_INTERACT_OPEN_CHEST = 3;
-	InteractType_INTERACT_OPEN_STATUE = 4;
-	InteractType_INTERACT_CONSUM = 5;
-	InteractType_INTERACT_MP_PLAY_REWARD = 6;
-	InteractType_INTERACT_VIEW = 7;
-	InteractType_INTERACT_GENERAL_REWARD = 8;
-	InteractType_INTERACT_MIRACLE_RING = 9;
-	InteractType_INTERACT_FOUNDATION = 10;
-	InteractType_INTERACT_ECHO_SHELL = 11;
-	InteractType_INTERACT_HOME_GATHER = 12;
-	InteractType_INTERACT_ENV_ANIMAL = 13;
-	InteractType_INTERACT_QUEST_GADGET = 14;
-	InteractType_INTERACT_UI_INTERACT = 15;
-	InteractType_INTERACT_DESHRET_OBELISK = 16;
+	INTERACT_TYPE_NONE = 0;
+	INTERACT_TYPE_PICK_ITEM = 1;
+	INTERACT_TYPE_GATHER = 2;
+	INTERACT_TYPE_OPEN_CHEST = 3;
+	INTERACT_TYPE_OPEN_STATUE = 4;
+	INTERACT_TYPE_CONSUM = 5;
+	INTERACT_TYPE_MP_PLAY_REWARD = 6;
+	INTERACT_TYPE_VIEW = 7;
+	INTERACT_TYPE_GENERAL_REWARD = 8;
+	INTERACT_TYPE_MIRACLE_RING = 9;
+	INTERACT_TYPE_FOUNDATION = 10;
+	INTERACT_TYPE_ECHO_SHELL = 11;
+	INTERACT_TYPE_HOME_GATHER = 12;
+	INTERACT_TYPE_ENV_ANIMAL = 13;
+	INTERACT_TYPE_QUEST_GADGET = 14;
+	INTERACT_TYPE_UI_INTERACT = 15;
+	INTERACT_TYPE_DESHRET_OBELISK = 16;
 }
 
 // CmdId: 9674
@@ -13847,7 +13847,7 @@ message GAEMKDMIHHP {
 
 // CmdId: 7804
 message PPCEPIKBAEI {
-	FriendBrief CBLFPCLEFIL = 3;
+	FriendBrief target_friend_brief = 3;
 	int32 retcode = 10;
 }
 
@@ -13996,7 +13996,7 @@ message AOJNGAGLDOM {
 }
 
 // CmdId: 21040
-message JCCKMDIBIMC {
+message SetPlayerBirthdayRsp {
 	int32 retcode = 6;
 	Birthday birthday = 9;
 }
@@ -20186,7 +20186,7 @@ message HJFCGDAEPPO {
 
 // CmdId: 28106
 message EFEDNNPIENJ {
-	FriendBrief CBLFPCLEFIL = 6;
+	FriendBrief target_friend_brief = 6;
 	uint32 target_uid = 13;
 }
 
@@ -23025,12 +23025,12 @@ message NEMGPFJGENC {
 
 // CmdId: 4226
 message JDEJMBHOIIB {
-	FriendBrief CBLFPCLEFIL = 1;
+	FriendBrief target_friend_brief = 1;
 	uint32 target_uid = 4;
 }
 
 // CmdId: 22779
-message PNCBGOOFJLA {
+message SetPlayerNameReq {
 	string nick_name = 3;
 }
 
@@ -26414,7 +26414,7 @@ message NHGJIPJEANH {
 }
 
 message DIBCIDEIPEO {
-	Vector AJDOBAJIMFK = 2;
+	Vector InitPos = 2;
 	Vector forward = 5;
 }
 
@@ -28383,7 +28383,7 @@ enum BargainResultType {
 }
 
 // CmdId: 1528
-message NOJIIFNKJDP {
+message SetPlayerBirthdayReq {
 	Birthday birthday = 7;
 }
 

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "MapMarkPoint.proto";
+
+// 4.6.0
+// CmdId: 1360
+message MarkMapRsp {
+	int32 retcode = 2;
+	repeated MapMarkPoint mark_list = 6;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "MapMarkPoint.proto";
+
+// 4.6.0
+// CmdId: 4620
+message AllMarkPointNotify {
+	repeated MapMarkPoint mark_list = 12;
+}
