@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 24060
+message SetOpenStateRsp {
+	uint32 key = 4;
+	int32 retcode = 7;
+	uint32 value = 11;
+}

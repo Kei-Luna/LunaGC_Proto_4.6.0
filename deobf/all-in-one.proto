@@ -1860,7 +1860,7 @@ message GJEIEBKPFLD {
 }
 
 // CmdId: 24060
-message LPCKGBPFLPJ {
+message SetOpenStateRsp {
 	uint32 key = 4;
 	int32 retcode = 7;
 	uint32 value = 11;
@@ -27576,7 +27576,7 @@ message ChangeTeamNameReq {
 }
 
 // CmdId: 28401
-message EPEGJHKLKIL {
+message SetOpenStateReq {
 	uint32 value = 4;
 	uint32 key = 7;
 }
