@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 3525
+message TakeoffEquipReq {
+	uint64 avatar_guid = 1;
+	uint32 slot = 15;
+}

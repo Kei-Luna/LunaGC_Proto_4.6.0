@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+// 4.6.0
+// CmdId: 204
+message ItemGivingReq {
+	map<uint64, uint32> DLNKNDCAAHI = 2;
+	uint32 giving_id = 6;
+	repeated ItemParam item_param_list = 14;
+}
