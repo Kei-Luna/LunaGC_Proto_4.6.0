@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 24449
+message ServerGlobalValueChangeNotify {
+	uint32 entity_id = 8;
+	uint32 key_hash = 10;
+	float value = 15;
+}

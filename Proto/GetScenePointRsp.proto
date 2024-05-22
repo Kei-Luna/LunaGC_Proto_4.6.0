@@ -4,17 +4,17 @@ option java_package = "emu.grasscutter.net.proto";
 // 4.6.0
 // CmdId: 831
 message GetScenePointRsp {
-  repeated uint32 unlock_area_list = 15; //random
-  repeated uint32 locked_point_list = 11; //random
-  repeated uint32 not_interact_dungeon_entry_list = 9; //random
-  repeated uint32 hide_point_list = 7; //random
-  repeated uint32 unhide_point_list = 999; //random
-  repeated uint32 to_be_explore_dungeon_entry_list = 8; //random
-  repeated uint32 unlocked_point_list = 12; //random
-  repeated uint32 not_explored_dungeon_entry_list = 997; //random
-  repeated uint32 group_unlimit_point_list = 998; //random
-  bool is_relogin = 1;
-  uint32 belong_uid = 3;
+	bool CPNKHEDGHHL = 1;
+	uint32 scene_id = 2;
+	uint32 belong_uid = 3;
   int32 retcode = 14;
-  uint32 scene_id = 2;
+	repeated uint32 unhide_point_list = 4;//2
+	repeated uint32 AKHAPPFGOGM = 5;//1
+	repeated uint32 HNFMMECDIGB = 6;//1
+	repeated uint32 HJIEJPPDLKO = 7;//1
+	repeated uint32 DKKKDOJPNOK = 9;//1
+	repeated uint32 unlocked_point_list = 10;//1 may be
+	repeated uint32 MDCKMMJDEHG = 12;//2
+	repeated uint32 KIBAPLIMEHA = 13;//2
+	repeated uint32 unlock_area_list = 15;//1
 }

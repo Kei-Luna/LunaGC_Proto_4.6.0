@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "MapLayerInfo.proto";
+
+// 4.6.0
+message PlayerWorldSceneInfo {
+	MapLayerInfo map_layer_info = 4;
+	bool is_locked = 7;
+	repeated uint32 scene_tag_id_list = 9;
+	uint32 scene_id = 13;
+}

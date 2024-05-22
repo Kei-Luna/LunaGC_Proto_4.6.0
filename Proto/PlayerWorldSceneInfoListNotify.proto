@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlayerWorldSceneInfo.proto";
+
+// 4.6.0
+// CmdId: 250
+message PlayerWorldSceneInfoListNotify {
+	repeated PlayerWorldSceneInfo info_list = 14;
+	repeated uint32 unlocked_area_id_list = 132;
+}

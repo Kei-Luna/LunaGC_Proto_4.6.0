@@ -1158,7 +1158,7 @@ message SceneAvatarInfo {
 
 message JAINNJPNDPP {
 	float value = 3;
-	uint32 NBKDNLODDPE = 5;
+	uint32 key_hash = 5;
 	uint32 entity_id = 12;
 }
 
@@ -1912,7 +1912,7 @@ message CLKCDKBNHEE {
 message MJIIKINDLEC {
 }
 
-message BLBPMNBHOIM {
+message PlayerWorldSceneInfo {
 	MapLayerInfo map_layer_info = 4;
 	bool is_locked = 7;
 	repeated uint32 scene_tag_id_list = 9;
@@ -3136,7 +3136,6 @@ message HGGIEPGKANG {
 
 // CmdId: 21317
 message PlayerEnterSceneNotify {
-	/* protected @ 0x28 */// MapLayerInfo map_layer_info = 65535;
 	/* protected @ 0x38 */// Vector CAMKCCFNHOJ = 65535;
 	/* protected @ 0x40 */// string DNKHBOFBIDA = 65535;
 	/* protected @ 0x48 */// Vector BPMCJCMBDPP = 65535;
@@ -6136,7 +6135,7 @@ message ServerUpdateGlobalValueNotify {
 		UpdateType_SET = 2;
 	}
 
-	uint32 NBKDNLODDPE = 3;
+	uint32 key_hash = 3;
 	float HOKNGFPKNBF = 6;
 	float value = 9;
 	uint32 entity_id = 12;
@@ -8574,9 +8573,9 @@ message JKJLHMIEGIH {
 }
 
 message MapLayerInfo {
-	repeated uint32 NENBINOMGNJ = 9;
-	repeated uint32 CKFKHAFLNMD = 12;
-	repeated uint32 EFOALIDJALA = 13;
+	repeated uint32 unlocked_map_layer_group_id_list = 9;//sus
+	repeated uint32 unlocked_map_layer_id_list = 12;//sus
+	repeated uint32 unlocked_map_layer_floor_id_list = 13;//sus
 }
 
 // CmdId: 29940
@@ -8981,9 +8980,9 @@ message IBHBMCCALPL {
 }
 
 // CmdId: 923
-message NKNHDCOLOEL {
-	Uint32Pair KHGPLJGKEED = 1;
-	bool MAEPDJNMMLH = 11;
+message ActivityDisableTransferPointInteractionNotify {
+	Uint32Pair scene_point_pair = 1;
+	bool is_disable = 11;
 }
 
 // CmdId: 25869
@@ -11652,7 +11651,7 @@ message BIKCNPPICEM {
 	bool KHOEMLGIJGE = 12;
 }
 
-message KCKCLGBDCPO {
+message ModifierProperty {
 	AbilityString key = 8;
 	float value = 13;
 }
@@ -13265,7 +13264,7 @@ message KOIHJJHCEJF {
 }
 
 // CmdId: 20814
-message OLJCNNENKHA {
+message SceneTransToPointReq {
 	uint32 point_id = 1;
 	uint32 scene_id = 12;
 }
@@ -19083,7 +19082,7 @@ message InBattleMechanicusSettleInfo {
 }
 
 // CmdId: 29013
-message EBBCHGKACOL {
+message SceneTransToPointRsp {
 	uint32 point_id = 2;
 	uint32 scene_id = 5;
 	int32 retcode = 13;
@@ -25058,7 +25057,7 @@ message HomeSeekFurnitureAllRecord {
 }
 
 // CmdId: 7336
-message PJPGNGIIEHG {
+message ScenePointUnlockNotify {
 	uint32 scene_id = 2;
 	repeated uint32 point_list = 4;
 	repeated uint32 MDCKMMJDEHG = 8;
@@ -25782,9 +25781,9 @@ message CPMCDJIKLPH {
 }
 
 // CmdId: 24449
-message GFNFHGKPCLI {
+message ServerGlobalValueChangeNotify {
 	uint32 entity_id = 8;
-	uint32 NBKDNLODDPE = 10;
+	uint32 key_hash = 10;
 	float value = 15;
 }
 
@@ -26032,7 +26031,7 @@ message GetScenePointRsp {
 	repeated uint32 HNFMMECDIGB = 6;
 	repeated uint32 HJIEJPPDLKO = 7;
 	repeated uint32 DKKKDOJPNOK = 9;
-	repeated uint32 PCHLGKOCDAL = 10;
+	repeated uint32 unlocked_point_list = 10;
 	repeated uint32 MDCKMMJDEHG = 12;
 	repeated uint32 KIBAPLIMEHA = 13;
 	int32 retcode = 14;
@@ -26408,9 +26407,9 @@ message JIEBHIMNPMF {
 }
 
 // CmdId: 250
-message NHGJIPJEANH {
-	repeated BLBPMNBHOIM info_list = 14;
-	repeated uint32 OACMHPKJBAE = 132;
+message PlayerWorldSceneInfoListNotify {
+	repeated PlayerWorldSceneInfo info_list = 14;
+	repeated uint32 unlocked_area_id_list = 132;
 }
 
 message DIBCIDEIPEO {
@@ -30975,7 +30974,7 @@ message SumoActivityDetailInfo {
 }
 
 message AbilityMetaModifierChange {
-	repeated KCKCLGBDCPO KDFCCJHKAPH = 2;
+	repeated ModifierProperty KDFCCJHKAPH = 2;
 	float IGOAHJDOAJL = 3;
 	bool BDACCDEPCKL = 4;
 	bool HBKHNKHEPGE = 5;
