@@ -626,7 +626,7 @@ message MDKFABOOLLJ {
 
 // CmdId: 7025
 message DFKLNPKMNND {
-	bool NFABEGIHPEE = 9;
+	bool is_new = 9;
 }
 
 message GMGNGCEHKAA {
@@ -4933,7 +4933,7 @@ message UgcDungeonBrief {
 
 message GAEKEOJIMDJ {
 	uint32 count = 5;
-	bool NFABEGIHPEE = 7;
+	bool is_new = 7;
 	repeated uint32 JKNECBGOEMG = 9;
 	uint32 DCHLDPCBHBI = 10;
 }
@@ -9770,10 +9770,10 @@ message ItemAddHintNotify {
 	uint32 quest_id = 2;
 	bool LANOGHMNMGK = 6;
 	bool NGMABKAOMOA = 7;
-	repeated MOANDMJCDHA CCEFMLMFLNM = 8;
+	repeated ItemHint overflow_transformed_item_list = 8;
 	Vector position = 9;
 	uint32 reason = 12;
-	repeated MOANDMJCDHA item_list = 14;
+	repeated ItemHint item_list = 14;
 	bool FBGIFDMHBNO = 15;
 }
 
@@ -10323,12 +10323,12 @@ message JDBOGLMMOGE {
 }
 
 // CmdId: 20933
-message BFCIGMNAAKF {
+message GadgetInteractRsp {
 	int32 retcode = 1;
 	uint32 gadget_id = 4;
 	InteractType interact_type = 11;
 	uint32 gadget_entity_id = 12;
-	LAPHEPLFFMP op_type = 13;
+	InterOpType op_type = 13;
 }
 
 // CmdId: 26322
@@ -16209,12 +16209,12 @@ message APELNAMPCFC {
 }
 
 enum ResinCostType {
-	ResinCostType_NONE = 0;
-	ResinCostType_NORMAL = 1;
-	ResinCostType_CONDENSE = 2;
-	ResinCostType_REUNION_PRIVILEGE = 3;
-	ResinCostType_OP_ACTIVITY = 4;
-	ResinCostType_MATERIAL = 5;
+	RESIN_COST_TYPE_NONE = 0;
+	RESIN_COST_TYPE_NORMAL = 1;
+	RESIN_COST_TYPE_CONDENSE = 2;
+	RESIN_COST_TYPE_REUNION_PRIVILEGE = 3;
+	RESIN_COST_TYPE_OP_ACTIVITY = 4;
+	RESIN_COST_TYPE_MATERIAL = 5;
 }
 
 message DKLPDBGLIBJ {
@@ -19107,7 +19107,7 @@ message LCPPGHGMCGG {
 
 // CmdId: 5782
 message ILCNCHBAFKF {
-	LAPHEPLFFMP op_type = 1;
+	InterOpType op_type = 1;
 	uint32 gadget_id = 2;
 	int32 retcode = 6;
 	InteractType interact_type = 9;
@@ -19791,7 +19791,7 @@ message MMPCANPFBJI {
 message FHJNPMLMBFO {
 	uint32 count = 6;
 	uint32 item_id = 7;
-	bool NFABEGIHPEE = 11;
+	bool is_new = 11;
 }
 
 // CmdId: 4533
@@ -20074,7 +20074,7 @@ message MiracleRingDeliverItemReq {
 	uint32 gadget_entity_id = 2;
 	repeated uint64 food_weapon_guid_list = 5;
 	repeated ItemParam item_param_list = 9;
-	LAPHEPLFFMP op_type = 10;
+	InterOpType op_type = 10;
 	uint32 gadget_id = 15;
 }
 
@@ -20788,7 +20788,7 @@ message GGAHNEENFJB {
 
 // CmdId: 4187
 message HKBBICBHNPO {
-	bool NFABEGIHPEE = 6;
+	bool is_new = 6;
 	int32 retcode = 9;
 	repeated uint32 affix_list = 10;
 	uint32 NLKLBPGKMOO = 11;
@@ -22245,12 +22245,12 @@ message BOKPCGPMHOL {
 
 // CmdId: 9529
 message GadgetInteractReq {
-	LAPHEPLFFMP op_type = 3;
+	InterOpType op_type = 3;
 	uint32 gadget_id = 4;
 	uint32 gadget_entity_id = 5;
 	bool is_use_condense_resin = 6;
-	ResinCostType PJKHJJJIANF = 12;
-	uint32 LPLOBCLLOMD = 15;
+	ResinCostType resin_cost_type = 12;
+	uint32 ui_interact_id = 15;
 }
 
 message MailData {
@@ -22998,9 +22998,9 @@ message ReformFireworksReq {
 	FireworksReformData fireworks_reform_data = 6;
 }
 
-enum LAPHEPLFFMP {
-	LAPHEPLFFMP_INTER_OP_FINISH = 0;
-	LAPHEPLFFMP_INTER_OP_START = 1;
+enum InterOpType {
+	INTER_OP_TYPE_FINISH = 0;
+	INTER_OP_TYPE_START = 1;
 }
 
 message FPLOHGCDEPO {
@@ -23450,7 +23450,7 @@ message JBIFMAKGOFI {
 // CmdId: 8981
 message DOFHDNANHEF {
 	repeated uint32 affix_list = 2;
-	bool NFABEGIHPEE = 8;
+	bool is_new = 8;
 	uint32 quest_id = 10;
 	int32 retcode = 12;
 	uint32 NLKLBPGKMOO = 14;
@@ -31428,11 +31428,11 @@ message BCIMNDLIENF {
 	repeated uint32 OEIMDBGNAIH = 13;
 }
 
-message MOANDMJCDHA {
+message ItemHint {
 	uint32 count = 3;
 	uint32 item_id = 4;
 	uint64 guid = 6;
-	bool NFABEGIHPEE = 14;
+	bool is_new = 14;
 }
 
 enum LFEPMEKCGOO {
