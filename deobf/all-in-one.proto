@@ -1240,10 +1240,10 @@ message KIFMHBLJJJN {
 }
 
 // CmdId: 27487
-message AHOCJPIPMFM {
+message DungeonRestartInviteNotify {
 	uint32 player_uid = 2;
 	uint32 point_id = 7;
-	uint32 MOKHEPAOJCE = 9;
+	uint32 cd = 9;
 	uint32 dungeon_id = 11;
 }
 
@@ -1313,7 +1313,7 @@ message FPLDICCHNPH {
 // CmdId: 3446
 message GHMGIOGAPMI {
 	uint64 avatar_guid = 5;
-	uint32 CFOOOMDDHJE = 12;
+	uint32 old_level = 12;
 	uint32 NGDFOJCBBKK = 14;
 }
 
@@ -2317,7 +2317,7 @@ message RoguelikeDungeonSettleInfo {
 	bool EKGFECFLIIL = 11;
 	uint32 JLJBOFOFCID = 12;
 	map<uint32, DGKNGNJLKLO> finished_challenge_cell_num_map = 14;
-	uint32 LGNMCHOKMBE = 15;
+	uint32 cur_level = 15;
 }
 
 // CmdId: 21735
@@ -4232,7 +4232,7 @@ message DEDGOOFANMB {
 }
 
 // CmdId: 3919
-message INBKDJPCNPP {
+message MpPlayPrepareNotify {
 	uint32 mp_play_id = 6;
 	uint32 prepare_end_time = 8;
 }
@@ -5750,9 +5750,9 @@ message JHDLFFBAPMD {
 }
 
 // CmdId: 7084
-message NMLDOHBICJD {
+message GetPlayerMpModeAvailabilityRsp {
 	int32 retcode = 1;
-	int32 MLBDJHOINDB = 8;
+	int32 mp_ret = 8;
 	repeated uint32 param_list = 14;
 }
 
@@ -6289,7 +6289,7 @@ message SceneGadgetInfo {
 		NightCrowGadgetInfo night_crow_gadget_info = 62;
 		DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;
 		CoinCollectOperatorInfo coin_collect_operator_info = 64;
-		EBLKHBJLIAH trifle_gadget = 67;
+		TrifleGadget trifle_gadget = 67;
 	}
 }
 
@@ -7084,10 +7084,10 @@ message JOLLAJJNBAD {
 }
 
 // CmdId: 20208
-message KHPBGOKPFKE {
+message ReliquaryUpgradeReq {
 	repeated ItemParam item_param_list = 1;
-	repeated uint64 OICGCPJJHHH = 8;
-	uint64 MPJNIKIPIEA = 11;
+	repeated uint64 food_reliquary_guid_list = 8;
+	uint64 target_reliquary_guid = 11;
 }
 
 enum SalvageEscortStopReason {
@@ -7839,8 +7839,8 @@ message DKGNBEGGLKE {
 
 // CmdId: 9984
 message EMNIMLFOGDG {
-	uint32 JIBGPKOCOCD = 5;
-	uint32 LIICAIIENAK = 11;
+	uint32 recipe_id = 5;
+	uint32 assist_avatar = 11;
 }
 
 // CmdId: 25803
@@ -8027,8 +8027,8 @@ message FNHPEAAOLBO {
 	ForwardType forward_type = 11;
 }
 
-message BPCODGFHLIF {
-	uint32 JIBGPKOCOCD = 1;
+message CookRecipeData {
+	uint32 recipe_id = 1;
 	uint32 GFOOLOLKBGA = 14;
 }
 
@@ -8036,7 +8036,7 @@ message BPCODGFHLIF {
 message EEBJFMBMMMB {
 	uint32 KKEJHMMHDOB = 3;
 	uint32 MMENLJNENCA = 5;
-	bool IMNNMLNJCNJ = 13;
+	bool is_remain_reward = 13;
 }
 
 // CmdId: 21231
@@ -9252,9 +9252,9 @@ message UpdatePlayerShowNameCardListReq {
 // CmdId: 854
 message CPKAEBOPMNH {
 	uint32 skill_depot_id = 1;
-	uint32 CFOOOMDDHJE = 2;
+	uint32 old_level = 2;
 	uint32 NGDFOJCBBKK = 5;
-	uint32 LGNMCHOKMBE = 6;
+	uint32 cur_level = 6;
 	uint32 entity_id = 10;
 	uint64 avatar_guid = 11;
 }
@@ -10635,7 +10635,7 @@ message FCLIBCDGOLC {
 
 // CmdId: 20451
 message CELEILBPEII {
-	uint32 LGNMCHOKMBE = 5;
+	uint32 cur_level = 5;
 	int32 retcode = 6;
 	uint32 MNOJHJHMPAN = 11;
 }
@@ -11100,7 +11100,7 @@ message ILCGFEJGBMJ {
 	bool NBEMHAPDGKH = 11;
 }
 
-message EBLKHBJLIAH {
+message TrifleGadget {
 	Item item = 1;
 	uint32 JGMBBGNMNNL = 2;
 }
@@ -12084,7 +12084,7 @@ message NIAMHBALOHA {
 	uint64 cur_avatar_guid = 14;
 }
 
-message DOKFBJJOLNF {
+message ScenePlayBattleInfo {
 	uint32 duration = 1;
 	uint32 start_time = 2;
 	uint32 progress = 5;
@@ -12119,7 +12119,7 @@ message ADOBLNNIOOM {
 
 // CmdId: 3926
 message ILJJJINIGJB {
-	repeated BPCODGFHLIF JGFEIFNEHPF = 1;
+	repeated CookRecipeData JGFEIFNEHPF = 1;
 	uint32 BJFKFNAJMOI = 8;
 }
 
@@ -13966,10 +13966,10 @@ enum AbilityInvokeArgument {
 }
 
 // CmdId: 5597
-message HCFOKAEAFNH {
+message ReliquaryPromoteRsp {
 	repeated uint32 ECGFPMHHIII = 2;
 	uint32 AOGPLEOJAPI = 6;
-	uint64 MPJNIKIPIEA = 8;
+	uint64 target_reliquary_guid = 8;
 	uint32 JMNPNAJAHOB = 9;
 	int32 retcode = 11;
 	repeated uint32 AHIOFEJFIMP = 14;
@@ -15070,10 +15070,10 @@ message GFAFOPDEBAI {
 
 // CmdId: 119
 message JDNNFCBKBKC {
-	uint32 CFOOOMDDHJE = 6;
+	uint32 old_level = 6;
 	uint64 avatar_guid = 8;
 	int32 retcode = 9;
-	uint32 LGNMCHOKMBE = 10;
+	uint32 cur_level = 10;
 	uint32 NGDFOJCBBKK = 15;
 }
 
@@ -16063,7 +16063,7 @@ message HKGLFCPONPB {
 }
 
 // CmdId: 28192
-message MCIHHPJIKKJ {
+message DropHintNotify {
 	Vector position = 5;
 	repeated uint32 item_id_list = 14;
 }
@@ -17719,7 +17719,7 @@ enum SalesmanStatusType {
 }
 
 // CmdId: 201
-message NAABBGDAMPE {
+message AvatarCardChangeReq {
 	uint64 avatar_guid = 2;
 	uint32 count = 7;
 	uint32 item_id = 9;
@@ -19174,7 +19174,7 @@ message JEOBJGGFMHP {
 }
 
 // CmdId: 27473
-message MBEDPMKHBOK {
+message WeaponPromoteRsp {
 	uint64 target_weapon_guid = 5;
 	uint32 AOGPLEOJAPI = 7;
 	int32 retcode = 12;
@@ -19301,8 +19301,8 @@ message LBHCAIAHIBO {
 
 // CmdId: 7563
 message PlayerCookRsp {
-	repeated ItemParam CCDFDCKOEDL = 2;
-	BPCODGFHLIF FAAPPDKHHNG = 3;
+	repeated ItemParam extral_item_list = 2;
+	CookRecipeData recipe_data = 3;
 	uint32 ENLOFNGPDHF = 5;
 	uint32 JLDPAIGMIIC = 8;
 	int32 retcode = 12;
@@ -19724,10 +19724,10 @@ message JLCCOKDGBCL {
 }
 
 // CmdId: 25505
-message BKGBADCDGPE {
-	uint32 JIBGPKOCOCD = 2;
+message PlayerCookReq {
+	uint32 recipe_id = 2;
 	uint32 JLDPAIGMIIC = 4;
-	uint32 LIICAIIENAK = 9;
+	uint32 assist_avatar = 9;
 	uint32 ENLOFNGPDHF = 10;
 }
 
@@ -19868,7 +19868,7 @@ enum AuditState {
 }
 
 // CmdId: 27774
-message BLMPKNDKDOJ {
+message WeaponPromoteReq {
 	uint64 target_weapon_guid = 14;
 }
 
@@ -21056,7 +21056,7 @@ message FOHCOGHIJGD {
 	uint32 KPCGFDLKFMF = 7;
 	uint32 MAIHMIFIELM = 9;
 	uint32 stage_id = 10;
-	uint32 LGNMCHOKMBE = 11;
+	uint32 cur_level = 11;
 	bool is_taken_reward = 12;
 	bool DKFMGIFDBCK = 13;
 	ODPJFCIGEJO OCEKFPHJGLJ = 14;
@@ -21092,7 +21092,7 @@ message EFEPKEHGNKJ {
 }
 
 message PINMAJJPGJC {
-	uint32 LGNMCHOKMBE = 3;
+	uint32 cur_level = 3;
 	uint32 LLAFKNFONPB = 4;
 	uint32 MFNBKEFNKBB = 10;
 	uint32 KHDOHKEECCK = 13;
@@ -22324,12 +22324,12 @@ message GKKEPJOOHLK {
 }
 
 // CmdId: 336
-message JKLDHFGEKCG {
-	uint64 MPJNIKIPIEA = 2;
+message ReliquaryUpgradeRsp {
+	uint64 target_reliquary_guid = 2;
 	int32 retcode = 3;
-	uint32 MEDFJOHHIFK = 5;
-	uint32 LGNMCHOKMBE = 6;
-	uint32 CFOOOMDDHJE = 7;
+	uint32 power_up_rate = 5;
+	uint32 cur_level = 6;
+	uint32 old_level = 7;
 	repeated uint32 ECGFPMHHIII = 9;
 	repeated uint32 AHIOFEJFIMP = 10;
 }
@@ -23322,9 +23322,9 @@ message KJOFHOICCNN {
 // CmdId: 6374
 message LPFEGHPIFCP {
 	int32 retcode = 2;
-	uint32 CFOOOMDDHJE = 8;
+	uint32 old_level = 8;
 	uint64 avatar_guid = 10;
-	uint32 LGNMCHOKMBE = 11;
+	uint32 cur_level = 11;
 }
 
 message IKJLFKGGBDM {
@@ -24159,7 +24159,7 @@ message FBFALNCAOBL {
 // CmdId: 7434
 message EJNEKPBDBMN {
 	uint32 CPGLCDBJKHP = 1;
-	uint32 LGNMCHOKMBE = 2;
+	uint32 cur_level = 2;
 	uint32 POEIADKCPGI = 3;
 	uint32 dungeon_id = 4;
 	bool HPIHLAPNMBN = 5;
@@ -26330,10 +26330,10 @@ message GODHJGHJOHG {
 }
 
 // CmdId: 22143
-message MBBGKGOPIFH {
+message MpPlayOwnerInviteNotify {
 	uint32 mp_play_id = 1;
-	bool IMNNMLNJCNJ = 8;
-	uint32 MOKHEPAOJCE = 15;
+	bool is_remain_reward = 8;
+	uint32 cd = 15;
 }
 
 // CmdId: 579
@@ -26712,7 +26712,7 @@ message DHPENODGCMD {
 
 // CmdId: 24073
 message KPNMOPLFBKP {
-	BPCODGFHLIF FAAPPDKHHNG = 14;
+	CookRecipeData recipe_data = 14;
 }
 
 message DJIBHACHEPP {
@@ -28237,13 +28237,13 @@ message EHLBGIBNKEH {
 // CmdId: 29114
 message EntityJumpNotify {
 	enum Type {
-		Type_NULL = 0;
-		Type_ACTIVE = 1;
-		Type_PASSIVE = 2;
+		NULL = 0;
+		ACTIVE = 1;
+		PASSIVE = 2;
 	}
 
 	Vector pos = 3;
-	Type CIMOMBPJLBB = 9;
+	Type jump_type = 9;
 	uint32 entity_id = 13;
 	Vector rot = 14;
 }
@@ -31177,8 +31177,8 @@ message OBLKELMBIKJ {
 // CmdId: 22828
 message WeaponUpgradeRsp {
 	repeated ItemParam item_param_list = 5;
-	uint32 LGNMCHOKMBE = 8;
-	uint32 CFOOOMDDHJE = 9;
+	uint32 cur_level = 8;
+	uint32 old_level = 9;
 	int32 retcode = 11;
 	uint64 target_weapon_guid = 12;
 }
