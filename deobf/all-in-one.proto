@@ -6571,7 +6571,7 @@ message EHNHGHBGGNF {
 }
 
 // CmdId: 657
-message IDFOJKEFGDC {
+message AvatarChangeCostumeRsp {
 	uint32 costume_id = 1;
 	int32 retcode = 13;
 	uint64 avatar_guid = 15;
@@ -8156,7 +8156,7 @@ message GCGMessagePackNotify {
 }
 
 // CmdId: 27094
-message OGPBOIGJFDN {
+message AvatarChangeCostumeReq {
 	uint64 avatar_guid = 2;
 	uint32 costume_id = 6;
 }

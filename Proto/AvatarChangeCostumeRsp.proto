@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 657
+message AvatarChangeCostumeRsp {
+	uint32 costume_id = 1;
+	int32 retcode = 13;
+	uint64 avatar_guid = 15;
+}
