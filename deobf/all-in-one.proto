@@ -2572,9 +2572,9 @@ enum GCGDiceSideType {
 }
 
 // CmdId: 23787
-message OIPAMCOALEN {
+message TakeAchievementGoalRewardRsp {
 	repeated ItemParam item_list = 4;
-	repeated uint32 OCIODDHIEDO = 12;
+	repeated uint32 id_list = 12;
 	int32 retcode = 13;
 }
 
@@ -6031,19 +6031,19 @@ message IAKALHJEGBN {
 	int32 retcode = 14;
 }
 
-message EIFLBGEJFAA {
-	enum JJBOBONIDDO {
-		JJBOBONIDDO_INVALID = 0;
-		JJBOBONIDDO_UNFINISHED = 1;
-		JJBOBONIDDO_FINISHED = 2;
-		JJBOBONIDDO_REWARD_TAKEN = 3;
+message Achievement {
+	enum Status {
+		STATUS_INVALID = 0;
+		STATUS_UNFINISHED = 1;
+		STATUS_FINISHED = 2;
+		STATUS_REWARD_TAKEN = 3;
 	}
 
 	uint32 id = 1;
-	JJBOBONIDDO status = 2;
-	uint32 GDFKGNIPNOL = 6;
-	uint32 NEOOBMKNBNC = 9;
-	uint32 GMOGHINBEBK = 13;
+	Status status = 2;
+	uint32 cur_progress = 6;
+	uint32 total_progress = 9;
+	uint32 finish_timestamp = 13;
 }
 
 // CmdId: 9573
@@ -6059,7 +6059,7 @@ message GAALLMKNLOA {
 
 message APPLPCHPCOM {
 	bool is_success = 3;
-	uint32 GDFKGNIPNOL = 7;
+	uint32 cur_progress = 7;
 	uint32 CKNKNAFPGPK = 8;
 	uint32 BPOJMDPFCLG = 9;
 }
@@ -6950,7 +6950,7 @@ message AbilityAttachedModifier {
 
 // CmdId: 5948
 message BAINEIEEPCE {
-	repeated uint32 OCIODDHIEDO = 1;
+	repeated uint32 id_list = 1;
 	uint32 OMNMKBPJGDP = 2;
 }
 
@@ -7430,8 +7430,8 @@ message ABDMHBDFIOJ {
 message BNMDLCIBDPP {
 	uint32 FBDLNGODOPB = 2;
 	bool is_taken_reward = 6;
-	uint32 NEOOBMKNBNC = 11;
-	uint32 GDFKGNIPNOL = 12;
+	uint32 total_progress = 11;
+	uint32 cur_progress = 12;
 }
 
 // CmdId: 2210
@@ -9504,8 +9504,8 @@ enum BDJGBBPOMDA {
 }
 
 // CmdId: 8646
-message NPLBIMGEICE {
-	repeated uint32 OCIODDHIEDO = 9;
+message TakeAchievementGoalRewardReq {
+	repeated uint32 id_list = 9;
 }
 
 message MonsterRoute {
@@ -9563,7 +9563,7 @@ message MJEMNNDPFMI {
 
 // CmdId: 2692
 message JFMJIGIJEEL {
-	repeated uint32 OCIODDHIEDO = 12;
+	repeated uint32 id_list = 12;
 }
 
 // CmdId: 3069
@@ -9665,7 +9665,7 @@ message OGOIMAKBAFF {
 message GDHOLMPBAML {
 	uint32 chapter_id = 5;
 	uint32 schedule_id = 6;
-	uint32 GDFKGNIPNOL = 8;
+	uint32 cur_progress = 8;
 }
 
 // CmdId: 3734
@@ -10933,11 +10933,11 @@ message OALIEDGJAFG {
 
 message WinterCampStageInfo {
 	bool is_finished = 4;
-	uint32 GDFKGNIPNOL = 5;
+	uint32 cur_progress = 5;
 	Vector pos = 6;
 	uint32 id = 7;
 	uint32 KKDKIOGHLDK = 9;
-	uint32 NEOOBMKNBNC = 15;
+	uint32 total_progress = 15;
 }
 
 // CmdId: 1167
@@ -16078,8 +16078,8 @@ message CGHLNPOLOGN {
 	bool is_taken_reward = 5;
 	uint32 AJGHAIFMNEJ = 6;
 	uint32 FBDLNGODOPB = 10;
-	uint32 NEOOBMKNBNC = 11;
-	uint32 GDFKGNIPNOL = 14;
+	uint32 total_progress = 11;
+	uint32 cur_progress = 14;
 }
 
 // CmdId: 5236
@@ -16314,10 +16314,10 @@ message GCEIGHOIEKF {
 }
 
 // CmdId: 24805
-message AGBCLNCEFCM {
+message TakeAchievementRewardRsp {
 	int32 retcode = 3;
 	repeated ItemParam item_list = 4;
-	repeated uint32 OCIODDHIEDO = 13;
+	repeated uint32 id_list = 13;
 }
 
 message HomeFurnitureGroupData {
@@ -18082,9 +18082,9 @@ message RoutePoint {
 }
 
 // CmdId: 1655
-message PKGEAOPOAKO {
-	repeated uint32 BHOOKDAPNEN = 8;
-	repeated EIFLBGEJFAA PIELLMDGDPI = 11;
+message AchievementAllDataNotify {
+	repeated uint32 reward_taken_goal_id_list = 8;
+	repeated Achievement achievement_list = 11;
 }
 
 message CNDDKNHFNND {
@@ -18167,7 +18167,7 @@ message INJKDLOLFNC {
 	}
 
 	uint32 id = 6;
-	uint32 NEOOBMKNBNC = 8;
+	uint32 total_progress = 8;
 	KEMKFIFJODF state = 9;
 	uint32 progress = 12;
 }
@@ -21202,8 +21202,8 @@ message CPNAMLIFGOJ {
 }
 
 // CmdId: 6011
-message AFDCLMDDHJI {
-	repeated EIFLBGEJFAA PIELLMDGDPI = 14;
+message AchievementUpdateNotify {
+	repeated Achievement achievement_list = 14;
 }
 
 // CmdId: 5313
@@ -21431,7 +21431,7 @@ message ShopCardProduct {
 		repeated ItemParam base_item_list = 1;
 		repeated ItemParam per_day_item_list = 2;
 	}
-	
+
 	string product_id = 1;
 	string price_tier = 2;
 	uint32 mcoin_base = 3;
@@ -22873,10 +22873,10 @@ message JHIFNBPMCDB {
 }
 
 message IJCBGAGNJJA {
-	uint32 GDFKGNIPNOL = 2;
+	uint32 cur_progress = 2;
 	bool NIKEFONIIEG = 6;
 	uint32 FBDLNGODOPB = 9;
-	uint32 NEOOBMKNBNC = 10;
+	uint32 total_progress = 10;
 }
 
 // CmdId: 8373
@@ -25733,7 +25733,7 @@ message RogueDiaryActivityDetailInfo {
 	bool is_content_closed = 3;
 	bool HBBAJGDMGOK = 4;
 	repeated JJOHEPDPHBO stage_list = 8;
-	LEELFGOJOMC GDFKGNIPNOL = 15;
+	LEELFGOJOMC cur_progress = 15;
 }
 
 // CmdId: 22672
@@ -26230,8 +26230,8 @@ message HMNBJMCAEKI {
 
 message CJBJAPKOBFO {
 	uint32 BPOJMDPFCLG = 3;
-	uint32 NEOOBMKNBNC = 7;
-	uint32 GDFKGNIPNOL = 12;
+	uint32 total_progress = 7;
+	uint32 cur_progress = 12;
 }
 
 // CmdId: 2448
@@ -27332,7 +27332,7 @@ message GetPlayerTokenReq {
 	uint32 key_id = 550;
 	string client_rand_key = 1605;
 	string account_token = 14;
-	string account_uid = 3;	
+	string account_uid = 3;
 }
 
 // CmdId: 28649
@@ -27772,9 +27772,9 @@ message BattlePassMission {
 	}
 
 	uint32 CPOHKKIFJIC = 5;
-	uint32 GDFKGNIPNOL = 6;
+	uint32 cur_progress = 6;
 	uint32 LGJNKOJDDCJ = 7;
-	uint32 NEOOBMKNBNC = 10;
+	uint32 total_progress = 10;
 	uint32 PMAEBJCCBNA = 12;
 	MissionStatus JEKGHKBKJEM = 14;
 }
@@ -27928,7 +27928,7 @@ message PlayerLoginRsp {
 	/* protected @ 0xC5 */// bool is_audit = 65535;
 	/* protected @ 0xC6 */// bool IMGABNEDDIC = 65535;
 	/* protected @ 0xC8 */// uint64 JBGNLMFOFGD = 65535;
-	
+
 	/* protected @ 0xD8 */// int32 retcode = 65535;
 	/* protected @ 0xDC */// uint32 BLDEGGHMEIJ = 65535;
 	/* protected @ 0xE0 */// bool EHMADOOKACO = 65535;
@@ -29335,7 +29335,7 @@ message KMNKJKIEPCB {
 	uint32 progress = 4;
 	uint32 KOFLHJKOOFJ = 6;
 	HNJKCDBPGCM state = 9;
-	uint32 NEOOBMKNBNC = 12;
+	uint32 total_progress = 12;
 }
 
 // CmdId: 24403
