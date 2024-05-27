@@ -3335,8 +3335,8 @@ message PHJLENMHMFM {
 }
 
 // CmdId: 2952
-message LDGBPPPJDBI {
-	uint32 EOGJELPLCIC = 3;
+message AvatarFlycloakChangeNotify {
+	uint32 flycloak_id = 3;
 	uint64 avatar_guid = 10;
 }
 
@@ -6666,8 +6666,8 @@ message FleurFairV2DetailInfo {
 }
 
 // CmdId: 22682
-message FBDBOCIJMFM {
-	uint32 EOGJELPLCIC = 4;
+message AvatarGainFlycloakNotify {
+	uint32 flycloak_id = 4;
 }
 
 // CmdId: 5469
@@ -19361,12 +19361,12 @@ message InstableSprayDungeonSettleInfo {
 
 // CmdId: 24452
 message AvatarDataNotify {
-	//repeated uint32 owned_flycloak_list = null;
+	repeated uint32 owned_flycloak_list = 13;
 	repeated AvatarRenameInfo avatar_rename_list = 10;
 	repeated AvatarInfo avatar_list = 5;
 	map<uint32, AvatarTeam> avatar_team_map = 15;
 	//repeated uint32 backup_avatar_team_order_list = null;
-	//repeated uint32 owned_costume_list = null;
+	repeated uint32 owned_costume_list = 2;
 	repeated uint64 temp_avatar_guid_list = 2;//sus
 	uint32 cur_avatar_team_id = 1;
 	uint64 choose_avatar_guid = 11;
@@ -21893,10 +21893,10 @@ message CGBMEBJNPFA {
 }
 
 // CmdId: 924
-message INHJOMAALAO {
+message AvatarWearFlycloakRsp {
 	uint64 avatar_guid = 3;
 	int32 retcode = 4;
-	uint32 EOGJELPLCIC = 11;
+	uint32 flycloak_id = 11;
 }
 
 // CmdId: 26090
@@ -25035,9 +25035,9 @@ message DCEDHKGGFJC {
 }
 
 // CmdId: 21936
-message NIPBDNMIFPH {
+message AvatarWearFlycloakReq {
 	uint64 avatar_guid = 7;
-	uint32 EOGJELPLCIC = 8;
+	uint32 flycloak_id = 8;
 }
 
 message SocialShowAvatarInfo {

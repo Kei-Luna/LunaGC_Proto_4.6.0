@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 21936
+message AvatarWearFlycloakReq {
+	uint64 avatar_guid = 7;
+	uint32 flycloak_id = 8;
+}
