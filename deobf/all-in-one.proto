@@ -2058,7 +2058,7 @@ message BKOHJLMGIBJ {
 }
 
 // CmdId: 27498
-message AAPMHBGCAOK {
+message AvatarGainCostumeNotify {
 	uint32 costume_id = 5;
 }
 
@@ -2944,23 +2944,23 @@ message FONFAKBOLBP {
 }
 
 message AbilityMixinBreakout {
-	enum KCOHIABPNFN {
-		KCOHIABPNFN_NONE = 0;
-		KCOHIABPNFN_CREATE_CONNECT = 1;
-		KCOHIABPNFN_START_GAME = 2;
-		KCOHIABPNFN_PING = 3;
-		KCOHIABPNFN_FINISH_GAME = 4;
-		KCOHIABPNFN_SNAP_SHOT = 5;
-		KCOHIABPNFN_ACTION = 6;
+	enum SyncType {
+		SYNC_TYPE_NONE = 0;
+		SYNC_TYPE_CREATE_CONNECT = 1;
+		SYNC_TYPE_START_GAME = 2;
+		SYNC_TYPE_PING = 3;
+		SYNC_TYPE_FINISH_GAME = 4;
+		SYNC_TYPE_SNAP_SHOT = 5;
+		SYNC_TYPE_ACTION = 6;
 	}
 
-	KCOHIABPNFN sync_type = 11;
+	SyncType sync_type = 11;
 	int32 retcode = 13;
 	oneof sync {
-		AJBNNMFJPIK sync_create_connect = 9;
+		BreakoutSyncCreateConnect sync_create_connect = 9;
 		BreakoutSyncPing sync_ping = 4;
-		IMGPCEPBAAG sync_finish_game = 2;
-		BPJCJLELMHK sync_snap_shot = 7;
+		BreakoutSyncFinishGame sync_finish_game = 2;
+		BreakoutSyncSnapShot sync_snap_shot = 7;
 		BreakoutSyncAction sync_action = 3;
 	}
 }
@@ -4576,7 +4576,7 @@ message CustomGalleryNormalScoreBoard {
 message APBHMKJAMDH {
 }
 
-message BPJCJLELMHK {
+message BreakoutSyncSnapShot {
 	BreakoutSnapShot snap_shot = 4;
 }
 
@@ -19095,7 +19095,7 @@ message MONEEKBFHDO {
 	/* protected @ 0x28 */// uint32 JLBLJDPEIHI = 65535;
 }
 
-message IMGPCEPBAAG {
+message BreakoutSyncFinishGame {
 	bool is_win = 8;
 	uint64 server_game_time = 10;
 	bool KNHCIGLJNHL = 14;
@@ -20035,7 +20035,7 @@ message WearEquipReq {
 }
 
 // CmdId: 21190
-message HMICLOFFJGD {
+message ClientAbilityInitFinishNotify {
 	repeated AbilityInvokeEntry invokes = 3;
 	uint32 entity_id = 14;
 }
@@ -20291,7 +20291,7 @@ message PLMLBCAEFDB {
 message KBCDAJADBHK {
 	float LEKHBGBAIKE = 5;
 	uint32 AABBJMMOMGK = 6;
-	uint32 OHFABPPBDEB = 11;
+	uint32 player_num = 11;
 	float ELCFEJKIKMJ = 12;
 	float FPKKBELJFBP = 13;
 	bool AEFDODJCAAC = 14;
@@ -22790,7 +22790,7 @@ message JMCKBFPNIED {
 	int32 retcode = 9;
 }
 
-message AJBNNMFJPIK {
+message BreakoutSyncCreateConnect {
 	repeated BreakoutSyncConnectUidInfo uid_info_list = 11;
 }
 
@@ -28671,9 +28671,9 @@ message CGEFFCJGLAC {
 	int32 retcode = 2;
 }
 
-message HBKENDLGGOE {
+message AbilityMixinShieldBar {
 	uint32 element_type = 4;
-	uint32 OHFABPPBDEB = 8;
+	uint32 player_num = 8;
 	float ELCFEJKIKMJ = 10;
 	float FPKKBELJFBP = 14;
 }
@@ -30974,7 +30974,7 @@ message SumoActivityDetailInfo {
 }
 
 message AbilityMetaModifierChange {
-	repeated ModifierProperty KDFCCJHKAPH = 2;
+	repeated ModifierProperty properties = 2;
 	float IGOAHJDOAJL = 3;
 	bool BDACCDEPCKL = 4;
 	bool HBKHNKHEPGE = 5;
