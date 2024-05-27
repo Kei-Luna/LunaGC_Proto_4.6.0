@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// 4.6.0
+message AbilityActionGenerateElemBall {
+	uint32 room_id = 6;
+	Vector rot = 10;
+	Vector pos = 14;
+}

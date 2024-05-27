@@ -2102,8 +2102,8 @@ message KGPLOMHAHEO {
 }
 
 enum ChangeEnergyReason {
-	ChangeEnergyReason_CHANGE_ENERGY_NONE = 0;
-	ChangeEnergyReason_CHANGE_ENERGY_SKILL_START = 1;
+	CHANGE_ENERGY_REASON_NONE = 0;
+	CHANGE_ENERGY_REASON_SKILL_START = 1;
 }
 
 message ELEAGLACLKH {
@@ -7235,7 +7235,7 @@ message IHLICBPLJBK {
 	uint32 LBHNFFJILMN = 10;
 }
 
-message AOEKFDIAAGA {
+message AbilityActionCreateGadget {
 	Vector rot = 3;
 	Vector pos = 5;
 	uint32 room_id = 7;
@@ -19993,7 +19993,7 @@ message GCGMsgUseSkillEnd {
 	uint32 card_guid = 14;
 }
 
-message NPDHEAMLICH {
+message AbilityActionGenerateElemBall {
 	uint32 room_id = 6;
 	Vector rot = 10;
 	Vector pos = 14;
@@ -28191,8 +28191,8 @@ message EPKDGBNCLBK {
 }
 
 // CmdId: 9147
-message LOCACCFEBLN {
-	uint64 LMLNIDPBCKL = 2;
+message ClientLoadingCostumeVerificationNotify {
+	uint64 prefab_hash = 2;
 	uint32 costume_id = 4;
 	uint64 guid = 6;
 }
