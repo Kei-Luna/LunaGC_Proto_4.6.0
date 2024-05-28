@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "EquipParam.proto";
+
+// CmdId: 6607
+// Version: 4.6.0
+// Obfs: IMOHHNPKKDF
+message GetMailItemRsp {
+  int32 retcode = 3;
+  repeated uint32 mail_id_list = 6;
+  repeated EquipParam item_list = 14;
+}

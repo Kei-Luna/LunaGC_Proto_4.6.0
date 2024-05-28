@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CodexType.proto";
+
+// CmdId: 8002
+// Version: 4.6.0
+// Obfs: JJIPFMLHHKI
+message CodexDataUpdateNotify {
+  uint32 weapon_max_promote_level = 2;
+  uint32 id = 8;
+  CodexType type = 9;
+}

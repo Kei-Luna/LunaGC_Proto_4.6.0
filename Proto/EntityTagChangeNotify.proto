@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 26996
+// Version: 4.6.0
+// Obfs: DJPKAAHDPMG
+message EntityTagChangeNotify {
+  uint32 entity_id = 8;
+  bool is_add = 10;
+  string tag = 12;
+}

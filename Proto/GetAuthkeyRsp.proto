@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 24258
+// Version: 4.6.0
+// Obfs: PBKMLPJKLEM
+message GetAuthkeyRsp {
+  string game_biz = 1;
+  string authkey = 2;
+  int32 retcode = 6;
+  uint32 sign_type = 11;
+  uint32 authkey_ver = 12;
+  string auth_appid = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+// Version: 4.6.0
+// Obfs: AFCOODFGGDL
+message GachaTransferItem {
+  ItemParam item = 2;
+  bool is_transfer_item_new = 3;
+}

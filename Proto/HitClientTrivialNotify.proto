@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// CmdId: 8588
+// Version: 4.6.0
+// Obfs: LCPIGGMOOOF
+message HitClientTrivialNotify {
+  Vector position = 6;
+  uint32 owner_entity_id = 7;
+}

@@ -2,9 +2,8 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-// CmdId: 20077
+// CmdId: 20029
 // Version: 4.6.0
-// Obfs: PANJGIHEJFO
-message GetAllMailNotify {
-  bool is_collected = 4;
+// Obfs: LNEBPLKCKLJ
+message GetGachaInfoReq {
 }

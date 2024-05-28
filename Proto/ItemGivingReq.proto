@@ -6,7 +6,12 @@ import "ItemParam.proto";
 // 4.6.0
 // CmdId: 204
 message ItemGivingReq {
-	map<uint64, uint32> DLNKNDCAAHI = 2;
+    enum ItemGivingType {
+        QUEST = 0;
+        GADGET = 1;
+    }
+	map<uint64, uint32> item_guid_count_map = 2;
 	uint32 giving_id = 6;
 	repeated ItemParam item_param_list = 14;
+    ItemGivingType item_giving_type = 1; // TODO 4.6.0
 }

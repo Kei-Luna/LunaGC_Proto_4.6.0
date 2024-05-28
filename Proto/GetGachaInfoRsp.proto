@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GachaInfo.proto";
+
+// CmdId: 1610
+// Version: 4.6.0
+// Obfs: 
+message GetGachaInfoRsp {
+  uint32 daily_gacha_times = 2; //IMPJPKBKFLB
+  int32 retcode = 3;
+  repeated GachaInfo gacha_info_list = 5;
+  bool is_under_general_restrict = 9; // BLIOHILHJOP 5050
+  uint32 gachaRandom = 11;
+  bool is_under_minors_restrict = 13; // AGPAJPJENKG 5050
+}

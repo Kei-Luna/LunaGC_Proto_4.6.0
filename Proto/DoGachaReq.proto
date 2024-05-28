@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 7748
+// Version: 4.6.0
+// Obfs: ???
+message DoGachaReq {
+  string gachaTag = 1;
+  uint32 gachaScheduleId = 7;
+  uint32 gachaTimes = 8;
+  uint32 gachaRandom = 10;
+  uint32 gachaType = 13;
+}
