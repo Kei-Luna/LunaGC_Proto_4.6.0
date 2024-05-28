@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "CrystalLinkBuffInfo.proto";
+import "CrystalLinkDungeonAvatarInfo.proto";
+
+// 4.6.0
+// CmdId: 3946
+message CrystalLinkDungeonInfoNotify {
+	uint32 level_id = 3;
+	repeated CrystalLinkDungeonAvatarInfo BKGNMCPHAOK = 5;
+	uint32 difficulty_id = 6;
+	uint32 init_gallery_progress = 7;
+	repeated CrystalLinkBuffInfo buff_info_list = 11;
+	bool is_upper_part = 12;
+}

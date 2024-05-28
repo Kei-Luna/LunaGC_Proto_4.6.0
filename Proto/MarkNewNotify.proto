@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 5948
+message MarkNewNotify {
+	repeated uint32 id_list = 1;
+	uint32 mark_new_type = 2;
+}
