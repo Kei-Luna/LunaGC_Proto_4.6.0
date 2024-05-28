@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// 4.6.0
+message AbilityBornType {
+	Vector rot = 7;
+	Vector move_dir = 10;
+	Vector pos = 13;
+}

@@ -110,11 +110,11 @@ message CHAAIMGCFEN {
 }
 
 // CmdId: 7039
-message DMFMFBJOGFD {
+message NpcTalkRsp {
 	uint32 entity_id = 8;
 	int32 retcode = 9;
-	uint32 DKCPHNOMOJK = 12;
-	uint32 KOKLGKOPKPL = 15;
+	uint32 cur_talk_id = 12;
+	uint32 npc_entity_id = 15;
 }
 
 message CoinCollectDetailInfo {
@@ -6326,10 +6326,10 @@ message JDJLJKJBCOF {
 }
 
 // CmdId: 24463
-message CDBBDCLDJFB {
+message NpcTalkReq {
 	uint32 entity_id = 2;
-	uint32 KOKLGKOPKPL = 12;
-	uint32 ECPEOAHFFEL = 15;
+	uint32 npc_entity_id = 12;
+	uint32 talk_id = 15;
 }
 
 // CmdId: 8331
@@ -14217,16 +14217,16 @@ message GOHBAKOBHEN {
 }
 
 message HomeSceneArrangementInfo {
-	uint32 GPAGBGJCPGA = 1;
+	uint32 bgm_id = 1;
 	bool HKDGOJLKLIP = 2;
 	Vector AOLFNCNNMDO = 3;
-	repeated HomeBlockArrangementInfo CPOKJIBAGOK = 4;
-	uint32 CAGDDLMHBHE = 5;
+	repeated HomeBlockArrangementInfo block_arrangement_info_list = 4;
+	uint32 tmp_version = 5;
 	repeated HomeFurnitureData OHIHGKDPCFM = 6;
 	repeated HomeFurnitureData JOCJOCECDCO = 7;
 	uint32 scene_id = 8;
-	HomeFurnitureData AAGFLGDEEKI = 9;
-	uint32 OKLKHDGNHKJ = 11;
+	HomeFurnitureData main_house = 9;
+	uint32 comfort_value = 11;
 	bool NNODFDADCEL = 12;
 	Vector FJGAPBGHEGL = 13;
 	Vector NKGKCLHPKPJ = 14;
@@ -14584,7 +14584,7 @@ message BJECHKJGAGD {
 
 // CmdId: 4213
 message GCCDDDLMHBJ {
-	uint32 GPAGBGJCPGA = 5;
+	uint32 bgm_id = 5;
 }
 
 // CmdId: 22564
@@ -16887,7 +16887,7 @@ message HLNJLNKEOPN {
 
 // CmdId: 2736
 message KIIIPENGOJB {
-	uint32 ECPEOAHFFEL = 4;
+	uint32 talk_id = 4;
 	uint32 avatar_id = 10;
 }
 
@@ -17242,7 +17242,7 @@ message EKPDOHMCHLA {
 
 // CmdId: 26137
 message JLPKIHPFKEI {
-	uint32 GPAGBGJCPGA = 15;
+	uint32 bgm_id = 15;
 }
 
 message DELEDBMALBD {
@@ -20729,7 +20729,7 @@ message HomeBlockArrangementInfo {
 	repeated NJOKBNDHOJL BLDJNKMDJNN = 6;
 	repeated ECIIKJIKNFC MLDJPELFBCA = 7;
 	repeated EGLCPDHFGPB PKPCNKLEKLN = 8;
-	uint32 OKLKHDGNHKJ = 9;
+	uint32 comfort_value = 9;
 	repeated ECDJBCPLCNO field_list = 10;
 	repeated IEKCEGFNINF OHBFPIIHBJF = 11;
 	repeated HomeFurnitureData LHGBPPNFPCE = 13;
@@ -24540,9 +24540,9 @@ message EnterCustomDungeonReq {
 }
 
 // CmdId: 1391
-message AMMDEPLNGDI {
+message PlayerTimeNotify {
 	bool is_paused = 2;
-	uint64 MMPBDCCHFPK = 9;
+	uint64 player_time = 9;
 	uint64 server_time = 13;
 }
 

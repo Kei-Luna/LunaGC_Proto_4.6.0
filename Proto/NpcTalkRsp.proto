@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 7039
+message NpcTalkRsp {
+	uint32 entity_id = 8;
+	int32 retcode = 9;
+	uint32 cur_talk_id = 12;
+	uint32 npc_entity_id = 15;
+}
