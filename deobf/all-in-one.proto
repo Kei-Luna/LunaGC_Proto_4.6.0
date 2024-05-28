@@ -20,7 +20,7 @@ message MOEPOBCCJIG {
 
 // CmdId: 204
 message ItemGivingReq {
-	map<uint64, uint32> DLNKNDCAAHI = 2;
+	map<uint64, uint32> item_guid_count_map = 2;
 	uint32 giving_id = 6;
 	repeated ItemParam item_param_list = 14;
 }
@@ -74,7 +74,7 @@ message ShopGoods {
 	uint32 bought_num = 2;
 	uint32 FEOJKIHDKCE = 3;
 	uint32 GHLKAFLLBJN = 4;
-	repeated uint32 NBKABHDDAFC = 5;
+	repeated uint32 preGoodsIdList = 5;
 	uint32 end_time = 6;
 	uint32 HBMJLIGEEKG = 7;
 	uint32 NDLDBEJMHNB = 8;
@@ -84,7 +84,7 @@ message ShopGoods {
 	uint32 begin_time = 12;
 	uint32 DNLPCAEGBGN = 13;
 	repeated ItemParam OAAFLOFLELI = 14;
-	ItemParam JHFIBIBJCHL = 15;
+	ItemParam goods_item = 15;
 	uint32 EBODOLJJCJP = 462;
 	uint32 ECDBKMBMALF = 492;
 	uint32 MJAFPOBKHJP = 994;
@@ -1644,7 +1644,7 @@ message PLNKPKMFLIM {
 }
 
 // CmdId: 8588
-message LCPIGGMOOOF {
+message HitClientTrivialNotify {
 	Vector position = 6;
 	uint32 owner_entity_id = 7;
 }
@@ -1713,7 +1713,7 @@ message EHFAMAGFNJC {
 }
 
 // CmdId: 7230
-message OFALDGJHMKE {
+message GetMailItemReq {
 	repeated uint32 mail_id_list = 8;
 }
 
@@ -3143,7 +3143,7 @@ message PlayerEnterSceneNotify {
 	/* protected @ 0x54 */// uint32 BEIMODPNDPC = 65535;
 	/* protected @ 0x58 */// uint32 HPNGBLOOJNM = 65535;
 	/* protected @ 0x5C */// uint32 KPBCNOCAOCF = 65535;
-	/* protected @ 0x68 */// uint32 FNGAHCBKJIK = 65535;
+	/* protected @ 0x68 */// uint32 text_id = 65535;
 	/* protected @ 0x6C */// uint32 GHMMLIFDPFA = 65535;
 	/* protected @ 0x70 */// uint32 IOJHKOFGJJF = 65535;
 	/* protected @ 0x80 */// bool HFHMDLKKPBO = 65535;
@@ -3501,10 +3501,10 @@ message EnterUgcDungeonReq {
 }
 
 // CmdId: 20926
-message HJKMHGJBGON {
-	string DCAKNBHKFHJ = 4;
-	uint32 ANPPNCKCPOL = 5;
-	uint32 CPFBLKCDCDO = 14;
+message GetAuthkeyReq {
+	string auth_appid = 4;
+	uint32 sign_type = 5;
+	uint32 authkey_ver = 14;
 }
 
 // CmdId: 2786
@@ -7911,20 +7911,20 @@ message FriendBrief {
 	uint32 param = 8;
 	bool is_friend = 10;
 	string online_id = 11;
-	uint32 NCMINEPCLFF = 12;
+	uint32 last_active_time = 12;
 	uint32 name_card_id = 13;
-	uint32 GCNGGDJLKFH = 14;
+	uint32 mp_player_num = 14;
 	bool is_chat_no_disturb = 15;
-	uint32 PNIFKDLLGFH = 16;
+	uint32 chat_sequence = 16;
 	string remark_name = 17;
 	repeated SocialShowAvatarInfo show_avatar_info_list = 22;
 	FriendEnterHomeOption friend_enter_home_option = 23;
 	ProfilePicture profile_picture = 24;
-	bool PLCFAEJEMCB = 25;
-	bool HPKNBDAEANE = 26;
+	bool is_game_source = 25;
+	bool is_psn_source = 26;
 	PlatformType platform_type = 27;
-	bool LCPBMHAHNEE = 28;
-	bool GJBJJAECABP = 29;
+	bool is_in_duel = 28;
+	bool is_duel_observable = 29;
 }
 
 message KJBGKJKCPAK {
@@ -8120,13 +8120,13 @@ message DDHMHAMGJIP {
 }
 
 // CmdId: 24258
-message PBKMLPJKLEM {
-	string FJNCOFJADAF = 1;
-	string LCJBIEODJAI = 2;
+message GetAuthkeyRsp {
+	string game_biz = 1;
+	string authkey = 2;
 	int32 retcode = 6;
-	uint32 ANPPNCKCPOL = 11;
-	uint32 CPFBLKCDCDO = 12;
-	string DCAKNBHKFHJ = 14;
+	uint32 sign_type = 11;
+	uint32 authkey_ver = 12;
+	string auth_appid = 14;
 }
 
 message KBKEMCINCJJ {
@@ -9338,10 +9338,10 @@ message LCHCFLDALPO {
 }
 
 // CmdId: 20149
-message CHABEBLCLGD {
+message SceneShowTextNotify {
 	float HMONIADIBIL = 5;
 	float DBGPNDKPJJF = 9;
-	uint32 FNGAHCBKJIK = 13;
+	uint32 text_id = 13;
 	float duration = 15;
 }
 
@@ -10525,24 +10525,24 @@ message SceneGallerySummerTimeV2BoatInfo {
 
 // CmdId: 3838
 message DoGachaRsp {
-	uint32 BCDOOPICEMD = 1;
-	uint32 NFGOJJOMFCA = 2;
-	uint32 BHBCHFFGHHE = 3;
-	uint32 EBDGLPNHAPC = 4;
+	uint32 ten_cost_item_id = 1;
+	uint32 wish_item_id = 2;
+	uint32 wish_max_progress = 3;
+	uint32 new_gacha_random = 4;
 	int32 retcode = 5;
-	uint32 EOFACNPOJBN = 6;
-	uint32 EMKBGHENNEL = 7;
-	uint32 HNFPBJIEGHD = 8;
-	uint32 KINBJAPMIJD = 9;
-	uint32 POEJPPCFPNG = 10;
-	uint32 NABJFPLLGGM = 11;
+	uint32 wish_progress = 6;
+	uint32 ten_cost_item_num = 7;
+	uint32 left_gacha_times = 8;
+	uint32 cost_item_id = 9;
+	uint32 cost_item_num = 10;
+	uint32 gacha_times_limit = 11;
 	uint32 gachaType = 12;
 	repeated GachaItem gacha_item_list = 13;
 	uint32 gachaScheduleId = 14;
 	uint32 gachaTimes = 15;
 	uint32 dailyGachaTimes = 156;
 	bool BLIOHILHJOP = 205;
-	uint32 MJCGMHMPKOE = 1513;
+	uint32 cur_schedule_daily_gacha_times = 1513;
 	bool AGPAJPJENKG = 1563;
 }
 
@@ -10597,9 +10597,9 @@ message BCGKNKHAFCO {
 message GachaItem {
 	ItemParam gacha_item = 4;
 	repeated ItemParam token_item_list = 9;
-	bool CKAPCKPPAIG = 11;
+	bool is_gacha_item_new = 11;
 	repeated GachaTransferItem transfer_items = 12;
-	bool AAECBIKHMFM = 14;
+	bool is_flash_card = 14;
 }
 
 message AFKCJAJDHMO {
@@ -11590,9 +11590,9 @@ message GetPlayerTokenRsp {
 	/* protected @ 0x58 */// string psn_id = 65535;
 	/* protected @ 0x60 */// string LMJLDOJOJEM = 65535;
 	/* protected @ 0x68 */// string EEENDIELLNM = 65535;
-	/* protected @ 0x70 */// string FJNCOFJADAF = 65535;
-	/* protected @ 0x78 */// string DCAKNBHKFHJ = 65535;
-	/* protected @ 0x80 */// string LCJBIEODJAI = 65535;
+	/* protected @ 0x70 */// string game_biz = 65535;
+	/* protected @ 0x78 */// string auth_appid = 65535;
+	/* protected @ 0x80 */// string authkey = 65535;
 	/* protected @ 0x88 */// StopServerInfo OGOICEBEPGL = 65535;
 	/* protected @ 0x90 */// string PGLLIHAHNEC = 65535;
 	/* protected @ 0x98 */// repeated uint32 BNHPAPMEMIK = 65535;
@@ -11607,9 +11607,9 @@ message GetPlayerTokenRsp {
 	/* protected @ 0xCC */// uint32 NMBHDBCAOMG = 65535;
 	/* protected @ 0xD0 */// uint32 FGJCMKOKDKE = 65535;
 	/* protected @ 0xD4 */// int32 retcode = 65535;
-	/* protected @ 0xD8 */// uint32 CPFBLKCDCDO = 65535;
+	/* protected @ 0xD8 */// uint32 authkey_ver = 65535;
 	/* protected @ 0xDC */// uint32 tag = 65535;
-	/* protected @ 0xE0 */// uint32 ANPPNCKCPOL = 65535;
+	/* protected @ 0xE0 */// uint32 sign_type = 65535;
 	/* protected @ 0xE4 */// bool NBNHMEICDDC = 65535;
 	/* protected @ 0xE5 */// bool LIIBCFLFDHM = 65535;
 	/* protected @ 0xE6 */// bool AJAGIOMGNMO = 65535;
@@ -13351,10 +13351,10 @@ message LJBHNMNEIGA {
 
 // CmdId: 384
 message GachaWishRsp {
-	uint32 NFGOJJOMFCA = 4;
+	uint32 wish_item_id = 4;
 	uint32 gachaScheduleId = 5;
-	uint32 BHBCHFFGHHE = 7;
-	uint32 EOFACNPOJBN = 8;
+	uint32 wish_max_progress = 7;
+	uint32 wish_progress = 8;
 	uint32 gachaType = 13;
 	int32 retcode = 14;
 }
@@ -14398,7 +14398,7 @@ message KGAFCOBMEPE {
 }
 
 // CmdId: 26645
-message JCLANGHEMLF {
+message SetPlayerBornDataReq {
 	string nick_name = 5;
 	uint32 avatar_id = 8;
 }
@@ -14828,7 +14828,7 @@ message JBFLGFBGMDB {
 }
 
 // CmdId: 28367
-message EJGNMKBIONF {
+message PlayerSetPauseRsp {
 	int32 retcode = 7;
 }
 
@@ -14923,7 +14923,7 @@ message EntityFightPropChangeReasonNotify {
 	PropChangeReason reason = 10;
 	float prop_delta = 13;
 	ChangeEnergyReason GJFKLFKCPBG = 14;
-	float IFDGFBBCMBB = 15;
+	float prop_abs = 15;
 }
 
 // CmdId: 24070
@@ -16690,7 +16690,7 @@ message GCGOperationReq {
 }
 
 // CmdId: 20077
-message PANJGIHEJFO {
+message GetAllMailNotify {
 	bool is_collected = 4;
 }
 
@@ -16860,7 +16860,7 @@ message RegionInfo {
 	string LLGNAHGMKLI = 33;
 	string GFIJDKFNAFA = 34;
 	ResVersionConfig DHKPFELBGBC = 35;
-	string FJNCOFJADAF = 36;
+	string game_biz = 36;
 	string ADEHIEEKMFJ = 37;
 }
 
@@ -17162,7 +17162,7 @@ message CJLKNNNDNCL {
 // CmdId: 29107
 message OGPNCPMGOBH {
 	uint32 point_id = 8;
-	uint32 FNGAHCBKJIK = 9;
+	uint32 text_id = 9;
 	uint32 quest_id = 11;
 }
 
@@ -17256,7 +17256,7 @@ message JEPJDEKDOKM {
 }
 
 // CmdId: 853
-message INJOCNKNOAP {
+message PlayerSetPauseReq {
 	bool is_paused = 1;
 }
 
@@ -19383,7 +19383,7 @@ message HomeLimitedShopGoods {
 	uint32 HHBOIKPMLMO = 10;
 	uint32 bought_num = 12;
 	uint32 GHLKAFLLBJN = 14;
-	ItemParam JHFIBIBJCHL = 15;
+	ItemParam goods_item = 15;
 }
 
 // CmdId: 23678
@@ -26512,7 +26512,7 @@ message DGFDONMBAOD {
 }
 
 // CmdId: 26996
-message DJPKAAHDPMG {
+message EntityTagChangeNotify {
 	uint32 entity_id = 8;
 	bool is_add = 10;
 	string tag = 12;
@@ -27169,32 +27169,32 @@ message BBCINNHANNF {
 }
 
 message GachaInfo {
-	uint32 HNFPBJIEGHD = 1;
-	uint32 BCDOOPICEMD = 2;
+	uint32 left_gacha_times = 1;
+	uint32 ten_cost_item_id = 2;
 	uint32 end_time = 3;
-	string LCNMHLJCLIK = 4;
-	string HIOKPEGNPLK = 5;
-	uint32 EMKBGHENNEL = 6;
+	string gacha_preview_prefab_path = 4;
+	string gacha_record_url = 5;
+	uint32 ten_cost_item_num = 6;
 	uint32 gachaType = 7;
-	uint32 NABJFPLLGGM = 8;
+	uint32 gacha_times_limit = 8;
 	uint32 schedule_id = 9;
-	string FCPIKKHIDDO = 10;
-	uint32 KINBJAPMIJD = 11;
-	uint32 EKKEPHGDAKB = 12;
-	uint32 POEJPPCFPNG = 13;
-	string ICOEPLJMDCK = 14;
+	string gacha_prob_url = 10;
+	uint32 cost_item_id = 11;
+	uint32 gacha_sort_id = 12;
+	uint32 cost_item_num = 13;
+	string gacha_prefab_path = 14;
 	uint32 begin_time = 15;
-	bool JLNOHJBDNJN = 298;
-	string ELOGPDHLPAI = 448;
+	bool is_new_wish = 298;
+	string gacha_prob_url_oversea = 448;
 	repeated GachaUpInfo gacha_up_info_list = 535;
-	string JPBNAMGLKEC = 667;
-	repeated uint32 KIEKPNDHGGJ = 707;
-	uint32 NFGOJJOMFCA = 794;
-	uint32 MJCGMHMPKOE = 1233;
-	string GGCMMKLOJMN = 1354;
-	repeated uint32 OAJAMCHOPFJ = 1621;
-	uint32 BHBCHFFGHHE = 1757;
-	uint32 EOFACNPOJBN = 1799;
+	string title_textmap = 667;
+	repeated uint32 display_up4_item_list = 707;
+	uint32 wish_item_id = 794;
+	uint32 cur_schedule_daily_gacha_times = 1233;
+	string gacha_record_url_oversea = 1354;
+	repeated uint32 display_up5_item_list = 1621;
+	uint32 wish_max_progress = 1757;
+	uint32 wish_progress = 1799;
 	repeated uint32 DHONBCHNPJD = 1921;
 }
 
@@ -27312,18 +27312,18 @@ message GetPlayerTokenReq {
 	/* protected @ 0x68 */// string online_id = 65535;
 	/* protected @ 0x70 */// string KLAKLJGHDKN = 65535;
 	/* protected @ 0x78 */// string CBBMHJONPOH = 65535;
-	/* protected @ 0x80 */// string DCAKNBHKFHJ = 65535;
+	/* protected @ 0x80 */// string auth_appid = 65535;
 	/* protected @ 0x88 */// uint32 ECBDPOCIHEH = 65535;
 	/* protected @ 0x8C */// uint32 channel_id = 65535;
 	/* protected @ 0x90 */// uint32 OMBJGGGJOAO = 65535;
 	/* protected @ 0x94 */// bool AJAGIOMGNMO = 65535;
-	/* protected @ 0x98 */// uint32 ANPPNCKCPOL = 65535;
+	/* protected @ 0x98 */// uint32 sign_type = 65535;
 	/* protected @ 0x9C */// uint32 JNIACFONNDD = 65535;
 	/* protected @ 0xA0 */// uint32 MOGNIAGKEMK = 65535;
 	/* protected @ 0xA4 */// uint32 platform_type = 65535;
 	/* protected @ 0xA8 */// uint32 PFJAKDADOKJ = 65535;
 	/* protected @ 0xAC */// uint32 uid = 65535;
-	/* protected @ 0xB0 */// uint32 CPFBLKCDCDO = 65535;
+	/* protected @ 0xB0 */// uint32 authkey_ver = 65535;
 	/* protected @ 0xB4 */// uint32 LKIBAOMNLCF = 65535;
 	uint32 platform_type = 7;
 	string account_uid = 9;
@@ -27914,7 +27914,7 @@ message PlayerLoginRsp {
 	/* protected @ 0x80 */// ResVersionConfig EKMNPEHHJKG = 65535;
 	/* protected @ 0x88 */// repeated PDNFNBEKIHF BEKDJGBNNND = 65535;
 	/* protected @ 0x90 */// string GECGFPEAFKP = 65535;
-	/* protected @ 0x98 */// string FJNCOFJADAF = 65535;
+	/* protected @ 0x98 */// string game_biz = 65535;
 	/* protected @ 0xA0 */// map<uint32, EIONDCIELPO> JFFFCBLDDDJ = 65535;
 	/* protected @ 0xA8 */// ResVersionConfig DHKPFELBGBC = 65535;
 	/* protected @ 0xB0 */// bytes HPICJJJIAKH = 65535;
@@ -28972,7 +28972,7 @@ message FFGCACBMJEN {
 
 // CmdId: 8002
 message CodexDataUpdateNotify {
-	uint32 AKNOHMKPPDF = 2;
+	uint32 weapon_max_promote_level = 2;
 	uint32 id = 8;
 	CodexType type = 9;
 }
