@@ -1,4 +1,5 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
 
 // CmdId: 6481

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 3779
+// Version: 4.6.0
+// Obfs: MLNPMOILLJI
+message DelMailReq {
+	repeated uint32 mail_id_list = 13;
+}
+

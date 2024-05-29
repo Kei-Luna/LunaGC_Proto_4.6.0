@@ -2,8 +2,10 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-// CmdId: 9573
 // Version: 4.6.0
-// Obfs: HPDHEEIPNLP
-message GetShopmallDataReq {
+// Obfs: IPDNLGHMCNH
+message Vector3Int {
+	int32 x = 1;
+	int32 y = 2;
+	int32 z = 3;
 }

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ObstacleInfo.proto";
+
+// CmdId: 2311
+// Version: 4.6.0
+// Obfs: BEHJKJMHJCG
+message PathfindingEnterSceneReq {
+	bool is_editor = 1;
+	uint32 ECNGACHMEKA = 5;
+	uint32 version = 6;
+	repeated int32 BBMACCGKECH = 7;
+	uint32 scene_id = 9;
+	repeated ObstacleInfo obstacles = 10;
+	uint32 JHINLHMPHGA = 12;
+}

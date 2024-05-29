@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 26318
+// Version: 4.6.0
+// Obfs: KHEPLNGHMBP
+message DungeonWayPointNotify {
+	bool is_add = 6;
+	repeated uint32 active_way_point_list = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 21969
+// Version: 4.6.0
+// Obfs: LCDPHKOCFMK
+message BrickBreakerSelectAvatarRsp {
+	repeated uint32 avatar_id = 2;
+	int32 retcode = 11;
+}

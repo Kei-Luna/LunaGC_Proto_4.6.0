@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 29251
+// Version: 4.6.0
+// Obfs: KEFLFPLHJOB
+message DelMailRsp {
+	int32 retcode = 1;
+	repeated uint32 mail_id_list = 14;
+}

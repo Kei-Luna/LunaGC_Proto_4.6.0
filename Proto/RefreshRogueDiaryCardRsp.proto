@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 28587
+// Version: 4.6.0
+// Obfs: KBCGJCGOPNI
+message RefreshRogueDiaryCardRsp {
+	int32 retcode = 3;
+	repeated uint32 rand_card_list = 12;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 6106
+// Version: 4.6.0
+// Obfs: ILIJECBDCIM
+message ToTheMoonEnterSceneReq {
+	uint32 version = 1;
+	uint32 ECNGACHMEKA = 4;
+	uint32 JHINLHMPHGA = 6;
+	uint32 scene_id = 7;
+}

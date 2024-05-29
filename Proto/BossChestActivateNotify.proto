@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 21714
+// Version: 4.6.0
+// Obfs: CMHNHAHLPNM
+message BossChestActivateNotify {
+	uint32 entity_id = 2;
+	repeated uint32 qualify_uid_list = 9;
+}

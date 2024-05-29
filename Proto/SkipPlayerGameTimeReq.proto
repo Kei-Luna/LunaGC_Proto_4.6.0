@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 26429
+// Version: 4.6.0
+// Obfs: CANKELPJFLD
+message SkipPlayerGameTimeReq {
+	uint32 client_game_time = 5;
+	uint32 game_time = 8;
+	bool is_force_set = 12;
+}

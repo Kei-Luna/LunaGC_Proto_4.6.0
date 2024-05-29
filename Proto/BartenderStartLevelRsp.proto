@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 8981
+// Version: 4.6.0
+// Obfs: FFOAILEBFAD
+message BartenderStartLevelRsp {
+	uint32 time = 1;
+	int32 retcode = 4;
+	repeated uint32 order_list = 7;
+	uint32 level_id = 11;
+}

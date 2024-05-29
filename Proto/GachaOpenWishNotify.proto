@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 3594
+// Version: 4.6.0
+// Obfs: ???
+message GachaOpenWishNotify {
+	uint32 gachaType = 3;
+	uint32 gachaScheduleId = 4;
+}
