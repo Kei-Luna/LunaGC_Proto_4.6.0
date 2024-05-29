@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "BuyGoodsParam.proto";
+import "ShopGoods.proto";
+
+// CmdId: 23001
+// Version: 4.6.0
+// Obfs: PHGJENGMPOE
+message BatchBuyGoodsRsp {
+	repeated ShopGoods goods_list = 1;
+	repeated BuyGoodsParam buy_goods_list = 2;
+	int32 retcode = 5;
+	uint32 shop_type = 11;
+}

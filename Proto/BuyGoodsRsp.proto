@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ShopGoods.proto";
+
+// CmdId: 8
+// Version: 4.6.0
+// Obfs: ALLGKCIALEP
+message BuyGoodsRsp {
+	repeated ShopGoods goods_list = 1;
+	int32 retcode = 4;
+	ShopGoods goods = 9;
+	uint32 buy_count = 12;
+	uint32 shop_type = 14;
+}

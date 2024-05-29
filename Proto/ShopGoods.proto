@@ -1,29 +1,31 @@
 syntax = "proto3";
+
 option java_package = "emu.grasscutter.net.proto";
+
 import "ItemParam.proto";
 
-// Obf: OBABFCEJLGK
+// Version: 4.6.0
+// Obf: ???
 message ShopGoods {
-	uint32 hcoin = 15; // primogem
-	uint32 scoin = 7; // mora
-    uint32 mcoin = 11; // crystals
-    uint32 goods_id = 8;
-    repeated ItemParam cost_item_list = 3;
-	uint32 buy_limit = 4;
-    uint32 max_level = 1690;
-	uint32 min_level = 1946;
-    uint32 bought_num = 14;    
-    uint32 secondary_sheet_id = 1950;
-    repeated uint32 preGoodsIdList = 5;	    
-    ItemParam goods_item = 1;    
-    uint32 single_limit = 2;
-	uint32 discount_id = 10;
-	uint32 discount_end_time = 923;
-    uint32 discount_begin_time = 898;
-
-	uint32 begin_time = 13;
-    
-    uint32 end_time = 6;    
-    uint32 next_refresh_time = 9;
-	
+	uint32 min_level = 1;                   // FOIGNDFHDOJ OK
+	uint32 bought_num = 2;                  // OK
+	uint32 goods_id = 3;                    // FEOJKIHDKCE OK
+	uint32 disable_type = 4;                // GHLKAFLLBJN (infer from HomeLimitedShopGoods)
+	repeated uint32 pre_goods_id_list = 5;  // NBKABHDDAFC (infer as only repeated uint32)
+	uint32 end_time = 6;                    // OK
+	uint32 mcoin = 7;                       // HBMJLIGEEKG OK
+	uint32 scoin = 8;                       // NDLDBEJMHNB OK
+	uint32 hcoin = 9;                       // JPLKFKJCLBH OK
+	uint32 next_refresh_time = 10;          // OK
+	uint32 buy_limit = 11;                  // HHBOIKPMLMO OK
+	uint32 begin_time = 12;                 // OK
+	uint32 max_level = 13;                  // DNLPCAEGBGN OK
+	repeated ItemParam cost_item_list = 14; // OAAFLOFLELI OK
+	ItemParam goods_item = 15;              // JHFIBIBJCHL OK
+	uint32 discount_id = 462;               // EBODOLJJCJP (sus)
+	uint32 discount_begin_time = 492;       // ECDBKMBMALF (sus)
+	uint32 discount_end_time = 994;         // MJAFPOBKHJP (sus)
+	bool EFHKENODDBF = 1040;                // EFHKENODDBF
+	uint32 single_limit = 1153;             // ACMNLOCEHOD (sus)
+	uint32 secondary_sheet_id = 1800;       // FNPCKDKEGIJ (sus)	
 }
