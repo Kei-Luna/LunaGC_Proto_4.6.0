@@ -2457,7 +2457,7 @@ message MMALNOGFHBB {
 }
 
 // CmdId: 6413
-message HNDNAIHKEHB {
+message ExitTransPointRegionNotify {
 	uint32 point_id = 2;
 	uint32 scene_id = 9;
 }
@@ -22102,7 +22102,7 @@ message OGPLHLLFLEE {
 }
 
 // CmdId: 8063
-message LGMHBKKGHCB 
+message LGMHBKKGHCB
 
 // CmdId: 9141
 message ONDIJMIENLE {
@@ -25202,7 +25202,7 @@ message LockedPersonallineData {
 }
 
 // CmdId: 7189
-message PAECNEHLOFG {
+message EnterTransPointRegionNotify {
 	uint32 point_id = 11;
 	uint32 scene_id = 15;
 }
@@ -26568,7 +26568,7 @@ message KGEAFFFLBIN {
 }
 
 // CmdId: 24875
-message ALCKJOFAKEL 
+message ALCKJOFAKEL
 
 // CmdId: 22674
 message IALKBPMPJDF {
@@ -27387,7 +27387,7 @@ message SceneGalleryHomeBalloonInfo {
 }
 
 // CmdId: 294
-message OBGNLCCHLIK 
+message OBGNLCCHLIK
 
 // CmdId: 20706
 message CLCBKDGLMJP {
@@ -28011,7 +28011,7 @@ message NJGICNBHEPM {
 }
 
 // CmdId: 26439
-message EEGDAABFFEF 
+message EEGDAABFFEF
 
 message CFJIJBEEHPJ {
 	uint32 uid = 6;
