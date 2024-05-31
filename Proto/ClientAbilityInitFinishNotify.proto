@@ -6,6 +6,6 @@ import "AbilityInvokeEntry.proto";
 //obf: HMICLOFFJGD
 // CmdId: 21190
 message ClientAbilityInitFinishNotify {
-    repeated AbilityInvokeEntry invokes = 3;
-    uint32 entity_id = 14;
+	repeated AbilityInvokeEntry invokes = 3;
+	uint32 entity_id = 14;
 }

@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: LFBKNJCPKIJ
 message SceneEntityDrownReq {
-  uint32 entity_id = 13;
+	uint32 entity_id = 13;
 }

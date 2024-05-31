@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 // 4.6.0
 // CmdId: 1207
 message GetScenePointReq {
-  uint32 scene_id = 11;
-  uint32 belong_uid = 5;
-  bool is_relogin = 10;
+	uint32 scene_id = 11;
+	uint32 belong_uid = 5;
+	bool is_relogin = 10;
 }

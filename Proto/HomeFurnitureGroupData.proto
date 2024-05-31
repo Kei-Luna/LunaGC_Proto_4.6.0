@@ -5,6 +5,6 @@ import "HomeFurnitureData.proto";
 
 //obf: NFNCNNJLKJH
 message HomeFurnitureGroupData {
-    repeated HomeFurnitureData virtual_furniure_list = 5;
-    uint32 group_furniture_index = 8;
+	repeated HomeFurnitureData virtual_furniure_list = 5;
+	uint32 group_furniture_index = 8;
 }

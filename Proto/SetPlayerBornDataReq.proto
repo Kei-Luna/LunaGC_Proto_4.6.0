@@ -6,6 +6,6 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.50
 // Obfs: JCLANGHEMLF
 message SetPlayerBornDataReq {
-  string nick_name = 5;
-  uint32 avatar_id = 8;
+	string nick_name = 5;
+	uint32 avatar_id = 8;
 }

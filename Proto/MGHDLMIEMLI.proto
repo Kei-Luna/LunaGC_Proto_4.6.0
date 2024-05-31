@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "DetailAbilityInfo.proto";
 
 message MGHDLMIEMLI {
-    oneof ADCLBBDEGBD {
-        DetailAbilityInfo detail_ability_info = 9;
-    }
+	oneof ADCLBBDEGBD {
+		DetailAbilityInfo detail_ability_info = 9;
+	}
 }

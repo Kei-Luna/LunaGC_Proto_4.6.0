@@ -6,7 +6,7 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obf: AMMDEPLNGDI
 message PlayerTimeNotify {
-  bool is_paused = 2;
-  uint64 player_time = 9;
-  uint64 server_time = 13;
+	bool is_paused = 2;
+	uint64 player_time = 9;
+	uint64 server_time = 13;
 }

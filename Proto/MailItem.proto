@@ -5,6 +5,6 @@ import "EquipParam.proto";
 import "MaterialDeleteInfo.proto";
 
 message MailItem {
-    EquipParam equip_param = 1;
-    MaterialDeleteInfo delete_info = 2;
+	EquipParam equip_param = 1;
+	MaterialDeleteInfo delete_info = 2;
 }

@@ -6,7 +6,7 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: IBPEMCDPBHM
 message GadgetStateNotify {
-  uint32 gadget_entity_id = 5;
-  uint32 gadget_state = 8;
-  bool is_enable_interact = 15;
+	uint32 gadget_entity_id = 5;
+	uint32 gadget_state = 8;
+	bool is_enable_interact = 15;
 }

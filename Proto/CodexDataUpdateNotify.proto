@@ -8,7 +8,7 @@ import "CodexType.proto";
 // Version: 4.6.0
 // Obfs: JJIPFMLHHKI
 message CodexDataUpdateNotify {
-  uint32 weapon_max_promote_level = 2;
-  uint32 id = 8;
-  CodexType type = 9;
+	uint32 weapon_max_promote_level = 2;
+	uint32 id = 8;
+	CodexType type = 9;
 }

@@ -2,5 +2,5 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
 message HomeMarkPointSuiteData {
-    uint32 suite_id = 1;
+	uint32 suite_id = 1;
 }

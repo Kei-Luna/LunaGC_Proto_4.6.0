@@ -5,7 +5,7 @@ import "Vector.proto";
 
 //obf: NJOKBNDHOJL
 message HomeAnimalData {
-    Vector spawnRot = 10;
-    uint32 furniture_id = 14;
-    Vector spawn_pos = 15;
+	Vector spawnRot = 10;
+	uint32 furniture_id = 14;
+	Vector spawn_pos = 15;
 }

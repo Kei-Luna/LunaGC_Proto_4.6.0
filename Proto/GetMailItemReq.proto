@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: OFALDGJHMKE
 message GetMailItemReq {
-  repeated uint32 mail_id_list = 8;
+	repeated uint32 mail_id_list = 8;
 }

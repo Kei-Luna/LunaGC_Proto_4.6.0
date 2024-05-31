@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: KOEFMCGDFGA
 message GetDailyDungeonEntryInfoReq {
-  uint32 scene_id = 7;
+	uint32 scene_id = 7;
 }

@@ -8,6 +8,6 @@ import "MapMarkPoint.proto";
 // Version: 4.6.0
 // Obfs: PMIMCAJMJPM
 message BatchDeleteMapMarkRsp {
-  int32 retcode = 2;
-  repeated MapMarkPoint mark_list = 6;
+	int32 retcode = 2;
+	repeated MapMarkPoint mark_list = 6;
 }

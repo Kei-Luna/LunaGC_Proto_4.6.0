@@ -9,12 +9,12 @@ import "PlayerDieType.proto";
 // Version: 4.6.0
 // Obfs: OFEIOKCHBFK
 message WorldPlayerDieNotify {
-  uint32 HAPBFAFEGIF = 7;
-  AbilityString LIPNKBKKOBP = 8;
-  uint32 NHOJEFBAMLG = 11;
-  PlayerDieType die_type = 15;
-  oneof entity {
+	uint32 HAPBFAFEGIF = 7;
+	AbilityString LIPNKBKKOBP = 8;
+	uint32 NHOJEFBAMLG = 11;
+	PlayerDieType die_type = 15;
+	oneof entity {
 	uint32 monster_id = 2;
 	uint32 gadget_id = 1;
-  }
+	}
 }

@@ -8,10 +8,10 @@ import "MailData.proto";
 // Version: 4.6.0
 // Obfs: MPLFKHHMJKP
 message GetAllMailResultNotify {
-  int32 retcode = 1;
-  repeated MailData mail_list = 3;
-  string transaction = 7;
-  uint32 packet_num = 9;
-  bool is_collected = 12;
-  uint32 packet_be_sent_num = 15;
+	int32 retcode = 1;
+	repeated MailData mail_list = 3;
+	string transaction = 7;
+	uint32 packet_num = 9;
+	bool is_collected = 12;
+	uint32 packet_be_sent_num = 15;
 }

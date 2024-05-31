@@ -8,6 +8,6 @@ import "ForwardType.proto";
 // Version: 4.6.0
 // Obfs: ???
 message EvtDestroyGadgetNotify {
-  uint32 entity_id = 2;
-  ForwardType forward_type = 3;
+	uint32 entity_id = 2;
+	ForwardType forward_type = 3;
 }

@@ -5,6 +5,6 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: ???
 message Uint32Pair {
-  uint32 key = 1;
-  uint32 value = 2;
+	uint32 key = 1;
+	uint32 value = 2;
 }

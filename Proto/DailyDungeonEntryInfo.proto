@@ -8,10 +8,10 @@ import "DungeonEntryInfo.proto";
 // Version: 4.6.0
 // Obfs: PJIEDHIAOEH
 message DailyDungeonEntryInfo {
-  DungeonEntryInfo recommend_dungeon_entry_info = 2;
-  uint32 recommend_dungeon_id = 6;
-  uint32 dungeon_entry_id = 9;
-  uint32 dungeon_entry_config_id = 10;
-  bool is_point_unlocked = 13; // FBMFIAFCPKB
-  bool is_quick_open = 14;     // KHMADLJLNEB
+	DungeonEntryInfo recommend_dungeon_entry_info = 2;
+	uint32 recommend_dungeon_id = 6;
+	uint32 dungeon_entry_id = 9;
+	uint32 dungeon_entry_config_id = 10;
+	bool is_point_unlocked = 13; // FBMFIAFCPKB
+	bool is_quick_open = 14;	 // KHMADLJLNEB
 }

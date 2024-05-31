@@ -5,10 +5,10 @@ import "Vector.proto";
 
 //obf: DJKBKLKPFML
 message HomeFurnitureData {
-    uint32 version = 3;
-    int32 parent_furniture_index = 4;
-    Vector spawn_pos = 5;
-    Vector spawnRot = 12;
-    uint32 furniture_id = 14;
-    uint32 guid = 15;
+	uint32 version = 3;
+	int32 parent_furniture_index = 4;
+	Vector spawn_pos = 5;
+	Vector spawnRot = 12;
+	uint32 furniture_id = 14;
+	uint32 guid = 15;
 }

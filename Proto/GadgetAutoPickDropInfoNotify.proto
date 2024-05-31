@@ -8,5 +8,5 @@ import "Item.proto";
 // Version: 4.6.0
 // Obfs: HAAAAPJJBGF
 message GadgetAutoPickDropInfoNotify {
-  repeated Item item_list = 12;
+	repeated Item item_list = 12;
 }

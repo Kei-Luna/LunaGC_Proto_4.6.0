@@ -8,6 +8,6 @@ import "Vector.proto";
 // Version: 4.6.0
 // Obfs: LCPIGGMOOOF
 message HitClientTrivialNotify {
-  Vector position = 6;
-  uint32 owner_entity_id = 7;
+	Vector position = 6;
+	uint32 owner_entity_id = 7;
 }

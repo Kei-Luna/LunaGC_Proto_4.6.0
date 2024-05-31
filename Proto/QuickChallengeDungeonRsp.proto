@@ -5,6 +5,6 @@ option java_package = "emu.grasscutter.net.proto";
 // CmdId: 22235
 // Version: 4.6.0
 message QuickChallengeDungeonRsp {
-  int32 retcode = 6;
-  uint32 dungeon_entry_config_id = 11;
+	int32 retcode = 6;
+	uint32 dungeon_entry_config_id = 11;
 }

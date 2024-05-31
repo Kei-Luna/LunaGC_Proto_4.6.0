@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 // 4.6.0
 // CmdId: 2692
 message TakeAchievementGoalRewardReq {
-    repeated uint32 id_list = 12;
+	repeated uint32 id_list = 12;
 }

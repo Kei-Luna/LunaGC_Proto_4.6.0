@@ -5,7 +5,7 @@ import "AttackResult.proto";
 
 //obf: PJOFJKPOAOF
 message EvtBeingHitInfo {
-    uint32 peer_id = 9;
-    uint32 frame_num = 12;
-    AttackResult attack_result = 13;
+	uint32 peer_id = 9;
+	uint32 frame_num = 12;
+	AttackResult attack_result = 13;
 }

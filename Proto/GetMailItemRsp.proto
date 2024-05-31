@@ -8,7 +8,7 @@ import "EquipParam.proto";
 // Version: 4.6.0
 // Obfs: IMOHHNPKKDF
 message GetMailItemRsp {
-  int32 retcode = 3;
-  repeated uint32 mail_id_list = 6;
-  repeated EquipParam item_list = 14;
+	int32 retcode = 3;
+	repeated uint32 mail_id_list = 6;
+	repeated EquipParam item_list = 14;
 }

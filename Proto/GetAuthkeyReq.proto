@@ -6,7 +6,7 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: HJKMHGJBGON
 message GetAuthkeyReq {
-  string auth_appid = 4;
-  uint32 sign_type = 5;
-  uint32 authkey_ver = 14;
+	string auth_appid = 4;
+	uint32 sign_type = 5;
+	uint32 authkey_ver = 14;
 }

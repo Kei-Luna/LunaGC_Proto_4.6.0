@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: CLCBKDGLMJP
 message GetBlossomBriefInfoListReq {
-  repeated uint32 city_id_list = 12;
+	repeated uint32 city_id_list = 12;
 }

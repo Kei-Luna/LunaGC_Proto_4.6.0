@@ -975,9 +975,9 @@ message LBCADMLMJMM {
 }
 
 // CmdId: 7462
-message KJMDKJLLMKA {
+message WorldPlayerLocationNotify {
 	repeated PlayerLocationInfo player_loc_list = 7;
-	repeated KOBHCHMLBED KACIECPNHAD = 14;
+	repeated PlayerWorldLocationInfo player_loc_list = 14;
 }
 
 // CmdId: 8616
@@ -31042,9 +31042,9 @@ message GCGStartChallengeRsp {
 	int32 retcode = 11;
 }
 
-message KOBHCHMLBED {
+message PlayerWorldLocationInfo {
 	uint32 scene_id = 1;
-	PlayerLocationInfo CJFKFIJOCNB = 9;
+	PlayerLocationInfo player_loc = 9;
 }
 
 enum RogueDiaryAvatarDisableStatus {

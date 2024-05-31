@@ -3,6 +3,6 @@ option java_package = "emu.grasscutter.net.proto";
 
 // CmdId: 6413
 message ExitTransPointRegionNotify {
-    uint32 point_id = 2;
-    uint32 scene_id = 9;
+	uint32 point_id = 2;
+	uint32 scene_id = 9;
 }

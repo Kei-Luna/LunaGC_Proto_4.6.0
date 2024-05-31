@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: MNFMHLPNPIA
 message SetPlayerBornDataRsp {
-  int32 retcode = 7;
+	int32 retcode = 7;
 }

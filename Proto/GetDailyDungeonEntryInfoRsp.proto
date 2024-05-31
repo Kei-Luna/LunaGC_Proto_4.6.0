@@ -8,6 +8,6 @@ import "DailyDungeonEntryInfo.proto";
 // Version: 4.6.0
 // Obfs: EDDHDLPMJCE
 message GetDailyDungeonEntryInfoRsp {
-  repeated DailyDungeonEntryInfo daily_dungeon_info_list = 3;
-  int32 retcode = 12;
+	repeated DailyDungeonEntryInfo daily_dungeon_info_list = 3;
+	int32 retcode = 12;
 }

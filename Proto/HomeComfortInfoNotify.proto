@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 import "HomeModuleComfortInfo.proto";
 
 message HomeComfortInfoNotify {
-    repeated HomeModuleComfortInfo module_info_list = 11;
+	repeated HomeModuleComfortInfo module_info_list = 11;
 }

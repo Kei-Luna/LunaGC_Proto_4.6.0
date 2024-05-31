@@ -8,28 +8,28 @@ import "Vector.proto";
 // Version: 4.6.0
 // Obfs: GHKMDKIHGAN
 message InvestigationMonster {
-  enum LockState {
+	enum LockState {
 	LOCK_NONE = 0;
 	LOCK_QUEST = 1;
-  }
+	}
 
-  uint32 left_times  = 1; // NKDIJIFMLKI
-  uint32 next_refresh_time = 2;
-  LockState lock_state = 3;
-  bool is_alive = 4;
-  WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 5;
-  uint32 level = 6;
-  bool IDCEKNMKCKG = 7;
-  uint32 resin = 8;
-  uint32 refresh_interval = 9; // EKFGDFIDKBF
-  uint32 CJJEGKEPHKM = 10; // CJJEGKEPHKM
-  uint32 id = 11;
-  uint32 scene_id = 12;
-  uint32 city_id = 13;
-  uint32 max_boss_chest_num = 14; // JNDHLFKEGAL
-  Vector pos = 15;
-  uint32 group_id = 196;
-  uint32 map_layer_id = 498;
-  bool BHLBJLIPCBO = 1793;
-  uint32 monster_id = 2015;
+	uint32 left_times  = 1; // NKDIJIFMLKI
+	uint32 next_refresh_time = 2;
+	LockState lock_state = 3;
+	bool is_alive = 4;
+	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 5;
+	uint32 level = 6;
+	bool IDCEKNMKCKG = 7;
+	uint32 resin = 8;
+	uint32 refresh_interval = 9; // EKFGDFIDKBF
+	uint32 CJJEGKEPHKM = 10; // CJJEGKEPHKM
+	uint32 id = 11;
+	uint32 scene_id = 12;
+	uint32 city_id = 13;
+	uint32 max_boss_chest_num = 14; // JNDHLFKEGAL
+	Vector pos = 15;
+	uint32 group_id = 196;
+	uint32 map_layer_id = 498;
+	bool BHLBJLIPCBO = 1793;
+	uint32 monster_id = 2015;
 }

@@ -7,8 +7,8 @@ import "CrystalLinkTeamInfo.proto";
 // Version: 4.6.0
 // Obfs: DEEAEONHCHO
 message CrystalLinkLevelInfo {
-  uint32 level_id = 2;
-  uint32 best_score = 3;
-  repeated CrystalLinkTeamInfo team_info_list = 12;
-  bool is_open = 14;
+	uint32 level_id = 2;
+	uint32 best_score = 3;
+	repeated CrystalLinkTeamInfo team_info_list = 12;
+	bool is_open = 14;
 }

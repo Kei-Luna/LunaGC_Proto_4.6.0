@@ -5,6 +5,6 @@ import "Vector.proto";
 
 //obf: KKGNEFILAFP
 message ShapeSphere {
-    Vector center = 1;
-    float radius = 2;
+	Vector center = 1;
+	float radius = 2;
 }

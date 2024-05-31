@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 // 4.6.0
 // CmdId: 26330
 message OpenStateUpdateNotify {
-  map<uint32, uint32> open_state_map = 9;
+	map<uint32, uint32> open_state_map = 9;
 }

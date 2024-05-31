@@ -7,8 +7,8 @@ import "Vector.proto";
 //obf: BLPANCPNDIN
 // CmdId: 6290
 message EvtDoSkillSuccNotify {
-    uint32 skill_id = 2;
-    uint32 caster_id = 3;
-    ForwardType forward_type = 8;
-    Vector forward = 13;
+	uint32 skill_id = 2;
+	uint32 caster_id = 3;
+	ForwardType forward_type = 8;
+	Vector forward = 13;
 }

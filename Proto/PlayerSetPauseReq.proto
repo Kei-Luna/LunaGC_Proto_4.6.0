@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: INJOCNKNOAP
 message PlayerSetPauseReq {
-  bool is_paused = 1;
+	bool is_paused = 1;
 }

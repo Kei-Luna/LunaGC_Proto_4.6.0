@@ -6,6 +6,6 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: DHCBHICEMLG
 message GetInvestigationMonsterReq {
-  bool is_for_mark = 11;
-  repeated uint32 city_id_list = 12;
+	bool is_for_mark = 11;
+	repeated uint32 city_id_list = 12;
 }

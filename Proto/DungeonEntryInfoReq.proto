@@ -8,7 +8,7 @@ import "Uint32Pair.proto";
 // Version: 4.6.0
 // Obfs: ABMPEDCFHIF
 message DungeonEntryInfoReq {
-  repeated Uint32Pair scene_point_id_list = 8;
-  uint32 point_id = 9;
-  uint32 scene_id = 14;
+	repeated Uint32Pair scene_point_id_list = 8;
+	uint32 point_id = 9;
+	uint32 scene_id = 14;
 }

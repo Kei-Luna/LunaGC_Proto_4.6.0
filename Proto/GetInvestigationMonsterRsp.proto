@@ -8,7 +8,7 @@ import "InvestigationMonster.proto";
 // Version: 4.6.0
 // Obfs: OOADKBLCCJN
 message GetInvestigationMonsterRsp {
-  int32 retcode = 11;
-  repeated InvestigationMonster monster_list = 13;
-  bool is_for_mark = 15;
+	int32 retcode = 11;
+	repeated InvestigationMonster monster_list = 13;
+	bool is_for_mark = 15;
 }

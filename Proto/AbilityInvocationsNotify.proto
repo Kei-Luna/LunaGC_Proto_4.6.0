@@ -6,5 +6,5 @@ import "AbilityInvokeEntry.proto";
 //obf: KGJLCBEKCFD
 // CmdId: 21569
 message AbilityInvocationsNotify {
-    repeated AbilityInvokeEntry invokes = 5;
+	repeated AbilityInvokeEntry invokes = 5;
 }

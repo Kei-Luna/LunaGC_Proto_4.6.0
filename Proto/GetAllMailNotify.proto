@@ -6,5 +6,5 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: PANJGIHEJFO
 message GetAllMailNotify {
-  bool is_collected = 4;
+	bool is_collected = 4;
 }

@@ -6,7 +6,7 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: DJPKAAHDPMG
 message EntityTagChangeNotify {
-  uint32 entity_id = 8;
-  bool is_add = 10;
-  string tag = 12;
+	uint32 entity_id = 8;
+	bool is_add = 10;
+	string tag = 12;
 }

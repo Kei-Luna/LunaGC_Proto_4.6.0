@@ -6,7 +6,7 @@ option java_package = "emu.grasscutter.net.proto";
 // Version: 4.6.0
 // Obfs: LOCACCFEBLN
 message ClientLoadingCostumeVerificationNotify {
-  uint64 prefab_hash = 2;
-  uint32 costume_id = 4;
-  uint64 guid = 6;
+	uint64 prefab_hash = 2;
+	uint32 costume_id = 4;
+	uint64 guid = 6;
 }

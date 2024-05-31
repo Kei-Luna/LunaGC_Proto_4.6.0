@@ -5,5 +5,5 @@ import "HomeBasicInfo.proto";
 
 // CmdId: 25591
 message HomeBasicInfoNotify {
-    HomeBasicInfo basic_info = 8;
+	HomeBasicInfo basic_info = 8;
 }
