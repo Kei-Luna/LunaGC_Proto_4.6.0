@@ -779,13 +779,13 @@ message GONHOPIBJHI {
 	uint32 entity_id = 14;
 }
 
-message PJIEDHIAOEH {
-	IPAMCDBKCOB FHDLJGPFHMB = 2;
-	uint32 PPONBHNAGGM = 6;
-	uint32 OAAIHDCMHLE = 9;
-	uint32 DMBNPMFIEBM = 10;
-	bool FBMFIAFCPKB = 13;
-	bool KHMADLJLNEB = 14;
+message DailyDungeonEntryInfo {
+	DungeonEntryInfo recommend_dungeon_entry_info = 2;
+	uint32 recommend_dungeon_id = 6;
+	uint32 dungeon_entry_id = 9;
+	uint32 dungeon_entry_config_id = 10;
+	bool is_point_unlocked = 13;
+	bool is_quick_open = 14;
 }
 
 // CmdId: 20695
@@ -835,7 +835,7 @@ message IMEKNEJPDFF {
 	int32 retcode = 6;
 }
 
-message MOJHEMEKPLH {
+message GCGPlayerField {
 	LAGJEDAAGCD IIJEJOFKEOE = 1;
 	LAGJEDAAGCD PIJEOCFJHDA = 2;
 	uint32 FDHBBBJMDPB = 3;
@@ -847,7 +847,7 @@ message MOJHEMEKPLH {
 	uint32 controller_id = 9;
 	LAGJEDAAGCD COFJNFGNIJM = 10;
 	repeated GCGDiceSideType dice_side_list = 11;
-	bool DKFMGIFDBCK = 12;
+	bool is_passed = 12;
 	uint32 PODOKALOLAH = 13;
 	map<uint32, LAGJEDAAGCD> LHDOBPPNLMK = 14;
 	uint32 JHCCJACCHLH = 15;
@@ -1012,7 +1012,7 @@ message LMLKDHODKIP {
 
 // CmdId: 3256
 message NEKNDHAGMCO {
-	uint32 PCINBMGKKDJ = 1;
+	uint32 map_layer_id = 1;
 }
 
 // CmdId: 28853
@@ -1355,7 +1355,7 @@ message IBHEJGCLCCH {
 
 message BFEOCGLAFCD {
 	uint32 IAHMKPMFPKG = 3;
-	repeated DIMJJHANHPG CAKJDFHJIOE = 4;
+	repeated FungusFighterMonsterDetail CAKJDFHJIOE = 4;
 	uint32 dungeon_id = 7;
 	repeated uint32 KFCNOCNELML = 9;
 	repeated MDMJOPOJEAL IPGMHIHDIFD = 10;
@@ -1571,10 +1571,10 @@ message CHBPNPGIDPD {
 }
 
 // CmdId: 27061
-message OOADKBLCCJN {
+message GetInvestigationMonsterRsp {
 	int32 retcode = 11;
-	repeated GHKMDKIHGAN DBBHMECOOAI = 13;
-	bool DIEGMMLFECA = 15;
+	repeated InvestigationMonster monster_list = 13;
+	bool is_for_mark = 15;
 }
 
 // CmdId: 9787
@@ -1784,14 +1784,14 @@ message GCGDuel {
 	repeated KCGJJCJPPNA card_list = 6;
 	repeated uint32 GBIONBFKBNA = 7;
 	repeated IFCIECKFCPO GEBCHKIHLMP = 8;
-	repeated MOJHEMEKPLH field_list = 9;
+	repeated GCGPlayerField field_list = 9;
 	uint32 server_seq = 10;
 	GCGPhase phase = 11;
 	uint32 AOGPOFHDIGM = 12;
 	uint32 EBOCAKIIJLA = 13;
 	JGGELBIIIOH cost_revise = 14;
 	map<uint32, PKBPOLNAOHJ> DHCBPEHEPIE = 244;
-	repeated MOJHEMEKPLH INBLBBHCPCM = 329;
+	repeated GCGPlayerField INBLBBHCPCM = 329;
 	repeated CJBJAPKOBFO MMECADELJBN = 731;
 	repeated KCGJJCJPPNA MNHCKFJHMLN = 1313;
 	repeated PGBIOACPBDO OEJCPJLMFHN = 1366;
@@ -2303,9 +2303,9 @@ message CDAEENLHOIE {
 }
 
 // CmdId: 9870
-message JEIELODGJJI {
-	uint32 DHAJMMCPEBO = 1;
-	bool NMIFJPHMPIL = 4;
+message QuestRenameAvatarRsp {
+	uint32 rename_id = 1;
+	bool is_check = 4;
 	string avatar_name = 6;
 	int32 retcode = 10;
 }
@@ -2554,7 +2554,7 @@ message PDIKPJNBCOG {
 	uint32 config_id = 6;
 	uint32 BKEPBHBCJEP = 8;
 	uint32 EMBILCOKHLN = 10;
-	uint32 PCINBMGKKDJ = 11;
+	uint32 map_layer_id = 11;
 	uint32 group_id = 12;
 	uint32 offering_id = 14;
 }
@@ -3032,7 +3032,7 @@ message UgcActivityDetailInfo {
 // CmdId: 7359
 message FONAFLOHGCP {
 	string avatar_name = 8;
-	uint32 DHAJMMCPEBO = 12;
+	uint32 rename_id = 12;
 }
 
 message LEELFGOJOMC {
@@ -3401,7 +3401,7 @@ message EKKJDPMILAD {
 }
 
 // CmdId: 25932
-message KOEFMCGDFGA {
+message GetDailyDungeonEntryInfoReq {
 	uint32 scene_id = 7;
 }
 
@@ -3568,7 +3568,7 @@ message BILKJOBCEAP {
 
 message IPLJBMGNGAD {
 	uint32 config_id = 1;
-	repeated Uint32Pair DBBHMECOOAI = 2;
+	repeated Uint32Pair monster_list = 2;
 	bool JCIODEPMBDE = 7;
 }
 
@@ -4530,17 +4530,17 @@ message JGOOBAJBKMO {
 	string LDOHKIBEBCL = 13;
 }
 
-message GHKMDKIHGAN {
-	enum LEMBJKHNFIP {
-		LEMBJKHNFIP_LOCK_NONE = 0;
-		LEMBJKHNFIP_LOCK_QUEST = 1;
+message InvestigationMonster {
+	enum LockState {
+		LockState_LOCK_NONE = 0;
+		LockState_LOCK_QUEST = 1;
 	}
 
-	uint32 NKDIJIFMLKI = 1;
+	uint32 left_times = 1;
 	uint32 next_refresh_time = 2;
-	LEMBJKHNFIP OJCPGGMAMHM = 3;
-	bool ONJECHEKGEL = 4;
-	WeeklyBossResinDiscountInfo PMEMIBNLJIF = 5;
+	LockState lock_state = 3;
+	bool is_alive = 4;
+	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 5;
 	uint32 level = 6;
 	bool IDCEKNMKCKG = 7;
 	uint32 resin = 8;
@@ -4549,10 +4549,10 @@ message GHKMDKIHGAN {
 	uint32 id = 11;
 	uint32 scene_id = 12;
 	uint32 city_id = 13;
-	uint32 JNDHLFKEGAL = 14;
+	uint32 max_boss_chest_num = 14;
 	Vector pos = 15;
 	uint32 group_id = 196;
-	uint32 PCINBMGKKDJ = 498;
+	uint32 map_layer_id = 498;
 	bool BHLBJLIPCBO = 1793;
 	uint32 monster_id = 2015;
 }
@@ -4639,7 +4639,7 @@ message KPMNLHDCPOM {
 // CmdId: 3946
 message CrystalLinkDungeonInfoNotify {
 	uint32 level_id = 3;
-	repeated CrystalLinkDungeonAvatarInfo BKGNMCPHAOK = 5;
+	repeated CrystalLinkDungeonAvatarInfo dungeon_avatar_info_list = 5;
 	uint32 difficulty_id = 6;
 	uint32 init_gallery_progress = 7;
 	repeated CrystalLinkBuffInfo buff_info_list = 11;
@@ -5297,9 +5297,9 @@ enum ChapterState {
 	ChapterState_END = 3;
 }
 
-message ACDGMFFCMHP {
-	uint32 EPKBMLAJJIA = 5;
-	uint32 CEPMFLMJDEO = 6;
+message BlossomScheduleInfo {
+	uint32 finish_progress = 5;
+	uint32 circle_camp_id = 6;
 	uint32 progress = 8;
 	uint32 state = 10;
 	uint32 refresh_id = 14;
@@ -6311,12 +6311,12 @@ message HLKFIIJOHHO {
 }
 
 // CmdId: 21310
-message OABAOIFOJML {
-	uint32 PPONBHNAGGM = 2;
-	repeated IPAMCDBKCOB OKLEJIMAHJC = 6;
+message DungeonEntryInfoRsp {
+	uint32 recommend_dungeon_id = 2;
+	repeated DungeonEntryInfo dungeon_entry_list = 6;
 	int32 retcode = 8;
 	uint32 point_id = 9;
-	repeated NHGDJAAICLF EOPAAHNCHAP = 11;
+	repeated DungeonEntryPointInfo dungeon_entry_point_list = 11;
 }
 
 // CmdId: 7276
@@ -6394,13 +6394,13 @@ message LHNAGDPFDBE {
 	repeated Vector MKMNPLOHJOL = 4;
 }
 
-message IPAMCDBKCOB {
+message DungeonEntryInfo {
 	uint32 next_refresh_time = 4;
 	uint32 dungeon_id = 5;
-	WeeklyBossResinDiscountInfo PMEMIBNLJIF = 7;
-	uint32 NKDIJIFMLKI = 8;
-	bool DKFMGIFDBCK = 14;
-	uint32 JNDHLFKEGAL = 15;
+	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 7;
+	uint32 left_times = 8;
+	bool is_passed = 14;
+	uint32 max_boss_chest_num = 15;
 }
 
 // CmdId: 27888
@@ -6514,7 +6514,7 @@ message OfferingInteractRsp {
 }
 
 // CmdId: 3874
-message KMANALJGHMG {
+message InteractDailyDungeonInfoNotify {
 }
 
 message KPEOFOHPPAP {
@@ -6560,9 +6560,9 @@ message FleurFairStageSettleNotify {
 }
 
 // CmdId: 25947
-message DHCBHICEMLG {
-	bool DIEGMMLFECA = 11;
-	repeated uint32 KLOJDHAJPFI = 12;
+message GetInvestigationMonsterReq {
+	bool is_for_mark = 11;
+	repeated uint32 city_id_list = 12;
 }
 
 // CmdId: 20691
@@ -7174,10 +7174,10 @@ message OIEJDNGCNHK {
 	uint32 LMMKCKLAHPN = 9;
 }
 
-message DIMJJHANHPG {
-	uint32 HHIJEEEFODH = 1;
-	float KPACGMCGGHM = 3;
-	bool ONJECHEKGEL = 12;
+message FungusFighterMonsterDetail {
+	uint32 fungus_id = 1;
+	float cur_hp_percentage = 3;
+	bool is_alive = 12;
 }
 
 message LJDPMPBFGPH {
@@ -7197,8 +7197,8 @@ message LMILOJPCICI {
 
 message CEEPPDPNEME {
 	message ICIICBOLMHK {
-		uint32 HHIJEEEFODH = 5;
-		bool ONJECHEKGEL = 12;
+		uint32 fungus_id = 5;
+		bool is_alive = 12;
 		uint64 JDPIAIIABAF = 14;
 	}
 
@@ -9546,7 +9546,7 @@ message CJDGJAKHIBI {
 
 message MEIMHEKHOLO {
 	uint32 group_id = 3;
-	uint32 PCINBMGKKDJ = 5;
+	uint32 map_layer_id = 5;
 	Vector pos = 8;
 	uint32 config_id = 9;
 	uint32 scene_id = 13;
@@ -10215,7 +10215,7 @@ message LKONGLHAFGN {
 
 message NCNJCOCHKEC {
 	uint32 entity_id = 7;
-	bool ONJECHEKGEL = 9;
+	bool is_alive = 9;
 	bool AOHHOFCBKLN = 10;
 	uint32 monster_id = 13;
 }
@@ -10972,7 +10972,7 @@ message GKOOMPBDLBO {
 }
 
 // CmdId: 23594
-message EJFMLLICCCF {
+message WorldPlayerReviveReq {
 }
 
 message POANFCMNNOC {
@@ -11710,7 +11710,7 @@ message MapMarkPoint {
 	uint32 monster_id = 5;
 	MapMarkFromType from_type = 6;
 	uint32 quest_id = 7;
-	uint32 PCINBMGKKDJ = 8;
+	uint32 map_layer_id = 8;
 }
 
 // CmdId: 7385
@@ -11961,7 +11961,7 @@ message HOKACKGFEDI {
 
 // CmdId: 7537
 message LIJFGIMHIHH {
-	repeated ILNBNHMLOOA KOIFEHOCJLC = 2;
+	repeated BlossomBriefInfo brief_info_list = 2;
 }
 
 message BAMBLMLFKFC {
@@ -12114,7 +12114,7 @@ message EKHNBHEADJE {
 }
 
 message ADOBLNNIOOM {
-	repeated UgcMusicBriefInfo KOIFEHOCJLC = 1;
+	repeated UgcMusicBriefInfo brief_info_list = 1;
 }
 
 // CmdId: 3926
@@ -12299,8 +12299,8 @@ message POLBFPCAJKN {
 }
 
 // CmdId: 23247
-message BPJGKLGEOKA {
-	repeated ILNBNHMLOOA KOIFEHOCJLC = 4;
+message GetBlossomBriefInfoListRsp {
+	repeated BlossomBriefInfo brief_info_list = 4;
 	int32 retcode = 6;
 }
 
@@ -12369,7 +12369,7 @@ message BBPDFNLDIIO {
 
 // CmdId: 392
 message INEDFHCKFBB {
-	ACDGMFFCMHP EJBGMNMLDOC = 7;
+	BlossomScheduleInfo EJBGMNMLDOC = 7;
 }
 
 // CmdId: 7440
@@ -12622,7 +12622,7 @@ message OADHMMKEJLK {
 
 // CmdId: 29921
 message BLKADHKEPOB {
-	uint32 DHAJMMCPEBO = 3;
+	uint32 rename_id = 3;
 	uint32 DJNICBDKLFP = 12;
 	int32 retcode = 15;
 }
@@ -12740,7 +12740,7 @@ message DMFNNNHABMD {
 
 // CmdId: 21683
 message EDKDFMJKFIN {
-	repeated ILNBNHMLOOA KOIFEHOCJLC = 13;
+	repeated BlossomBriefInfo brief_info_list = 13;
 }
 
 // CmdId: 29799
@@ -13434,7 +13434,7 @@ message BeginCameraSceneLookWithTemplateNotify {
 }
 
 message HHEIFOBALMK {
-	repeated UgcMusicBriefInfo KOIFEHOCJLC = 4;
+	repeated UgcMusicBriefInfo brief_info_list = 4;
 }
 
 // CmdId: 20439
@@ -15171,7 +15171,7 @@ message AvatarSkillInfoNotify {
 }
 
 // CmdId: 21841
-message MEKAOIMGOON {
+message BatchDeleteMapMarkReq {
 	repeated MapMarkPoint mark_list = 13;
 }
 
@@ -16137,10 +16137,10 @@ message LMLBGPJKJKM {
 	uint32 live_id = 7;
 }
 
-message NJICICNNAKG {
+message RogueAvatarInfo {
 	uint32 avatar_id = 1;
-	bool EMENECCLLNE = 10;
-	bool ONJECHEKGEL = 11;
+	bool is_onstage = 10;
+	bool is_alive = 11;
 }
 
 // CmdId: 3749
@@ -16260,8 +16260,8 @@ message KAAGNDHHDIF {
 }
 
 // CmdId: 8949
-message ABMPEDCFHIF {
-	repeated Uint32Pair AJMEBNFDBFP = 8;
+message DungeonEntryInfoReq {
+	repeated Uint32Pair scene_point_id_list = 8;
 	uint32 point_id = 9;
 	uint32 scene_id = 14;
 }
@@ -16367,8 +16367,8 @@ message GearActivityDetailInfo {
 }
 
 // CmdId: 7426
-message OIJLIIANFHK {
-	GHKMDKIHGAN BMEBBFAMNOP = 2;
+message InvestigationMonsterUpdateNotify {
+	InvestigationMonster investigation_monster = 2;
 	bool HEHNGEIOFHN = 12;
 }
 
@@ -16672,8 +16672,8 @@ message KJDDMPICFHE {
 }
 
 // CmdId: 28304
-message GOAIIPKPHMG {
-	uint32 DMBNPMFIEBM = 15;
+message QuickChallengeDungeonReq {
+	uint32 dungeon_entry_config_id = 15;
 }
 
 message EEKEOOOICFJ {
@@ -17985,7 +17985,7 @@ message InBattleMechanicusInfo {
 	uint64 GDPLLHKEFMH = 3;
 	uint32 LBANCILFFFK = 4;
 	uint32 DEIIIONIEGH = 5;
-	repeated DHEAHPDIPJN DBBHMECOOAI = 6;
+	repeated DHEAHPDIPJN monster_list = 6;
 	uint32 round = 7;
 	uint32 CMMANNKBBJP = 8;
 	uint64 FGMNIAJLMMH = 9;
@@ -18928,7 +18928,7 @@ message FGBILFMPDDN {
 
 // CmdId: 9228
 message ODGKCOIAFOL {
-	uint32 HHIJEEEFODH = 4;
+	uint32 fungus_id = 4;
 	uint32 name_id = 14;
 }
 
@@ -19470,7 +19470,7 @@ message UgcDungeonRoomDeployment {
 	repeated CPLPFICOPPJ IHIJLDDOHBD = 2;
 	repeated UgcGadget MMIKEHIJCGF = 9;
 	repeated OLDJBPCBPAF IMHHJDECMDK = 11;
-	repeated LLHBEEOBPHC DBBHMECOOAI = 12;
+	repeated LLHBEEOBPHC monster_list = 12;
 	repeated AHLGKNDDGMM DJBBCFICANL = 14;
 }
 
@@ -19584,8 +19584,8 @@ message LEEHLLLPEBH {
 }
 
 // CmdId: 7795
-message EDDHDLPMJCE {
-	repeated PJIEDHIAOEH NEGIIFOGBHL = 3;
+message GetDailyDungeonEntryInfoRsp {
+	repeated DailyDungeonEntryInfo daily_dungeon_info_list = 3;
 	int32 retcode = 12;
 }
 
@@ -20363,7 +20363,7 @@ message LEHKGPFIEHM {
 	bool is_content_closed = 4;
 	repeated GHLILNAOIDF ALGHNOPMJNH = 6;
 	uint32 content_close_time = 8;
-	repeated FOHCOGHIJGD stage_list = 10;
+	repeated RogueStageInfo stage_list = 10;
 	repeated uint32 ELMKIKKGACO = 13;
 	repeated uint32 JLCFPAAPNLE = 15;
 }
@@ -20475,7 +20475,7 @@ message PDNFNBEKIHF {
 }
 
 message ODPJFCIGEJO {
-	repeated NJICICNNAKG avatar_list = 10;
+	repeated RogueAvatarInfo avatar_list = 10;
 }
 
 message BOAFNAKNDPO {
@@ -20539,7 +20539,7 @@ message KFAGIFKJEDH {
 message PBAHBBADOIJ {
 	uint32 MPHCFNDDIHH = 7;
 	bool DIFGMGNGIKM = 11;
-	uint32 HHIJEEEFODH = 12;
+	uint32 fungus_id = 12;
 	uint32 JADENLONAHI = 14;
 	uint32 name_id = 15;
 }
@@ -20563,9 +20563,9 @@ message GCGMsgGameOver {
 
 // CmdId: 645
 message GLHCNCKGGEP {
-	uint32 DMBNPMFIEBM = 4;
+	uint32 dungeon_entry_config_id = 4;
 	uint32 scene_id = 12;
-	uint32 MIBACBKBNJE = 13;
+	uint32 dungeon_entry_scene_point_id = 13;
 }
 
 message LuminanceStoneChallengeActivityDetailInfo {
@@ -21047,7 +21047,7 @@ message DANCMLKPODP {
 	repeated uint32 KOJKLMPPHCO = 15;
 }
 
-message FOHCOGHIJGD {
+message RogueStageInfo {
 	bool is_open = 1;
 	bool OLJFILOFFFN = 2;
 	uint32 NNMNAKDJGCI = 3;
@@ -21058,7 +21058,7 @@ message FOHCOGHIJGD {
 	uint32 stage_id = 10;
 	uint32 cur_level = 11;
 	bool is_taken_reward = 12;
-	bool DKFMGIFDBCK = 13;
+	bool is_passed = 13;
 	ODPJFCIGEJO OCEKFPHJGLJ = 14;
 	bool KGCEIBNJBPA = 15;
 	uint32 IIDNKHKJNBF = 1558;
@@ -21606,7 +21606,7 @@ message LFGAGAFGFAI {
 	uint32 OLNOAJLCLLK = 4;
 	bool is_finished = 5;
 	uint32 progress = 11;
-	uint32 EPKBMLAJJIA = 14;
+	uint32 finish_progress = 14;
 }
 
 // CmdId: 28567
@@ -22606,18 +22606,18 @@ message EHEPPGANPAA {
 	uint32 DCEOFEGIIDL = 14;
 }
 
-message ILNBNHMLOOA {
+message BlossomBriefInfo {
 	uint32 refresh_id = 1;
 	uint32 resin = 2;
-	uint32 BAGJJCINLDD = 3;
+	uint32 monster_level = 3;
 	uint32 reward_id = 5;
-	bool AHAPIDGGAJB = 7;
+	bool is_guide_opened = 7;
 	uint32 scene_id = 8;
 	uint32 city_id = 9;
-	uint32 PCINBMGKKDJ = 11;
+	uint32 map_layer_id = 11;
 	Vector pos = 12;
 	uint32 state = 13;
-	uint32 CEPMFLMJDEO = 14;
+	uint32 circle_camp_id = 14;
 }
 
 // CmdId: 9838
@@ -23015,9 +23015,9 @@ message DBJKDGFPIOC {
 }
 
 // CmdId: 20927
-message NEMGPFJGENC {
-	bool NMIFJPHMPIL = 1;
-	uint32 DHAJMMCPEBO = 7;
+message QuestRenameAvatarReq {
+	bool is_check = 1;
+	uint32 rename_id = 7;
 	string avatar_name = 9;
 }
 
@@ -24402,7 +24402,7 @@ message GroupLinkBundle {
 	Vector center = 11;
 	bool MCCAPLKPGID = 12;
 	bool KPMDLOBIKAL = 13;
-	uint32 PCINBMGKKDJ = 14;
+	uint32 map_layer_id = 14;
 	GroupLinkShowAreaState show_area_state = 15;
 }
 
@@ -24621,7 +24621,7 @@ message ActivityInfo {
 	uint64 GAGLMONJMLM = 207;
 	map<uint32, uint32> OIBCGLGJIOJ = 220;
 	map<uint32, uint32> KMMPCHEDDJG = 383;
-	bool KHMADLJLNEB = 591;
+	bool is_quick_open = 591;
 	uint32 BCNABBJIBLK = 761;
 	uint32 MKFFIANHDOA = 937;
 	bool GODPBKJMDLJ = 1221;
@@ -24892,7 +24892,7 @@ message FCJEKAAMNBP {
 }
 
 // CmdId: 9771
-message OFEIOKCHBFK {
+message WorldPlayerDieNotify {
 	uint32 HAPBFAFEGIF = 7;
 	AbilityString LIPNKBKKOBP = 8;
 	uint32 NHOJEFBAMLG = 11;
@@ -25720,7 +25720,7 @@ message KDFDGGNLODN {
 message JEPIJIEDDML {
 	int32 retcode = 4;
 	uint32 name_id = 8;
-	uint32 HHIJEEEFODH = 9;
+	uint32 fungus_id = 9;
 }
 
 // CmdId: 28977
@@ -26075,7 +26075,7 @@ message GetCustomDungeonRsp {
 }
 
 // CmdId: 1360
-message PMIMCAJMJPM {
+message BatchDeleteMapMarkRsp {
 	int32 retcode = 2;
 	repeated MapMarkPoint mark_list = 6;
 }
@@ -26500,7 +26500,7 @@ message OneoffGatherPointDetectorData {
 	uint32 BKEPBHBCJEP = 7;
 	uint32 group_id = 8;
 	Vector hint_center_pos = 9;
-	uint32 PCINBMGKKDJ = 11;
+	uint32 map_layer_id = 11;
 	uint32 scene_id = 12;
 	uint32 EMBILCOKHLN = 14;
 	bool KHBPPOMNENB = 15;
@@ -26903,7 +26903,7 @@ message BreakoutBrickInfo {
 }
 
 // CmdId: 5911
-message IBPEMCDPBHM {
+message GadgetStateNotify {
 	uint32 gadget_entity_id = 5;
 	uint32 gadget_state = 8;
 	bool is_enable_interact = 15;
@@ -27390,8 +27390,8 @@ message SceneGalleryHomeBalloonInfo {
 message OBGNLCCHLIK
 
 // CmdId: 20706
-message CLCBKDGLMJP {
-	repeated uint32 KLOJDHAJPFI = 12;
+message GetBlossomBriefInfoListReq {
+	repeated uint32 city_id_list = 12;
 }
 
 // CmdId: 20116
@@ -27447,10 +27447,10 @@ message DPIHCKNPINN {
 	uint32 activity_push_tips_id = 14;
 }
 
-message NHGDJAAICLF {
+message DungeonEntryPointInfo {
 	uint32 scene_id = 7;
-	repeated IPAMCDBKCOB OKLEJIMAHJC = 8;
-	uint32 PPONBHNAGGM = 9;
+	repeated DungeonEntryInfo dungeon_entry_list = 8;
+	uint32 recommend_dungeon_id = 9;
 	uint32 point_id = 13;
 }
 
@@ -27598,9 +27598,9 @@ message AbilityScalarValueEntry {
 }
 
 // CmdId: 22235
-message OJPNNDBCMDP {
+message QuickChallengeDungeonRsp {
 	int32 retcode = 6;
-	uint32 DMBNPMFIEBM = 11;
+	uint32 dungeon_entry_config_id = 11;
 }
 
 // CmdId: 9368
@@ -27627,7 +27627,7 @@ message IPELDIDALJJ {
 message LHJBPCKOJGL {
 	uint32 FNJHOKACDKB = 1;
 	uint32 progress = 2;
-	uint32 EPKBMLAJJIA = 5;
+	uint32 finish_progress = 5;
 	bool is_finished = 7;
 	uint32 reward_id = 9;
 }
@@ -28150,8 +28150,8 @@ enum CompoundBoostTakeStatusType {
 
 message SceneGalleryFungusFighterV2Info {
 	message KNAJCGMDGBP {
-		uint32 HHIJEEEFODH = 5;
-		bool ONJECHEKGEL = 12;
+		uint32 fungus_id = 5;
+		bool is_alive = 12;
 		uint64 JDPIAIIABAF = 14;
 	}
 
@@ -28585,9 +28585,9 @@ message PlatformInfo {
 }
 
 // CmdId: 24499
-message HLHPGKGLOAN {
+message BlossomChestCreateNotify {
 	uint32 refresh_id = 1;
-	uint32 CEPMFLMJDEO = 9;
+	uint32 circle_camp_id = 9;
 }
 
 message KBMGFOFLGCP {
@@ -29012,7 +29012,7 @@ message ODFKMGEALCH {
 }
 
 message KMDDNLBJLJJ {
-	repeated LIPOHCFDFBH KOIFEHOCJLC = 5;
+	repeated LIPOHCFDFBH brief_info_list = 5;
 	bool OOPOFACKKPF = 11;
 }
 
@@ -31388,8 +31388,8 @@ message HDPJODLNIJH {
 
 // CmdId: 24332
 message DHPDNHGNGJI {
-	uint32 MIBACBKBNJE = 6;
-	uint32 DMBNPMFIEBM = 8;
+	uint32 dungeon_entry_scene_point_id = 6;
+	uint32 dungeon_entry_config_id = 8;
 	uint32 scene_id = 9;
 }
 
