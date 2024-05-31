@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "DungeonEntryInfo.proto";
+
+// Version: 4.6.0
+// Obfs: NHGDJAAICLF
+message DungeonEntryPointInfo {
+  uint32 scene_id = 7;
+  repeated DungeonEntryInfo dungeon_entry_list = 8;
+  uint32 recommend_dungeon_id = 9;
+  uint32 point_id = 13;
+}

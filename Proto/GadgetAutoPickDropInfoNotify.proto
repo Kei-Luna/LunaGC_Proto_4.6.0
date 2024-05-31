@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Item.proto";
+
+// CmdId: 21348
+// Version: 4.6.0
+// Obfs: HAAAAPJJBGF
+message GadgetAutoPickDropInfoNotify {
+  repeated Item item_list = 12;
+}

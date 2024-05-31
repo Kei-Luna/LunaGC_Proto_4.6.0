@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Uint32Pair.proto";
+
+// CmdId: 8949
+// Version: 4.6.0
+// Obfs: ABMPEDCFHIF
+message DungeonEntryInfoReq {
+  repeated Uint32Pair scene_point_id_list = 8;
+  uint32 point_id = 9;
+  uint32 scene_id = 14;
+}

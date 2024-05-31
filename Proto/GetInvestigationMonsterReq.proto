@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 25947
+// Version: 4.6.0
+// Obfs: DHCBHICEMLG
+message GetInvestigationMonsterReq {
+  bool is_for_mark = 11;
+  repeated uint32 city_id_list = 12;
+}

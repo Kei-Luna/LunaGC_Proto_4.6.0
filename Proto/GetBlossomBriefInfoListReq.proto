@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 20706
+// Version: 4.6.0
+// Obfs: CLCBKDGLMJP
+message GetBlossomBriefInfoListReq {
+  repeated uint32 city_id_list = 12;
+}

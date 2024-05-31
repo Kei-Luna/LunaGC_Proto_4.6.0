@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 5911
+// Version: 4.6.0
+// Obfs: IBPEMCDPBHM
+message GadgetStateNotify {
+  uint32 gadget_entity_id = 5;
+  uint32 gadget_state = 8;
+  bool is_enable_interact = 15;
+}

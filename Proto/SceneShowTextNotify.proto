@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 20149
+// Obfs: CHABEBLCLGD
+message SceneShowTextNotify {
+	float HMONIADIBIL = 5;
+	float DBGPNDKPJJF = 9;
+	uint32 text_id = 13; // FNGAHCBKJIK
+	float duration = 15;
+}

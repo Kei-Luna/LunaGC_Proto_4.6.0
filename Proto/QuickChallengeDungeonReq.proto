@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 28304
+// Version: 4.6.0
+message QuickChallengeDungeonReq {
+  uint32 dungeon_entry_config_id = 15;
+}
