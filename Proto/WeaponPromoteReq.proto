@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 27774
+message WeaponPromoteReq {
+	uint64 target_weapon_guid = 14;
+}

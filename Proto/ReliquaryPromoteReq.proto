@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 8833
+message ReliquaryPromoteReq {
+	uint64 target_guid = 3;
+	uint64 item_guid = 5;
+}

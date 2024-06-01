@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+// 4.6.0
+// CmdId: 20208
+message ReliquaryUpgradeReq {
+	repeated ItemParam item_param_list = 1;
+	repeated uint64 food_reliquary_guid_list = 8;
+	uint64 target_reliquary_guid = 11;
+}

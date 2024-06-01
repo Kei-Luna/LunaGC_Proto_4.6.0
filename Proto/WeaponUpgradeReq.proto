@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+// 4.6.0
+// CmdId: 28307
+// sus
+message WeaponUpgradeReq {
+	repeated ItemParam item_param_list = 3;
+	uint64 target_weapon_guid = 6;
+	repeated uint64 food_weapon_guid_list = 13;
+}

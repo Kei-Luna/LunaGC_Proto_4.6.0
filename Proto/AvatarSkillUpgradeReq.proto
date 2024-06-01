@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 3446
+message AvatarSkillUpgradeReq {
+	uint64 avatar_guid = 5;
+	uint32 old_level = 12;
+	uint32 avatar_skill_id = 14;
+}

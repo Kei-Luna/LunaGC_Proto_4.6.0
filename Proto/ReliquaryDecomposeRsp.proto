@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 22479
+message ReliquaryDecomposeRsp {
+	repeated uint64 guid_list = 14;
+	int32 retcode = 15;
+}
