@@ -3937,7 +3937,7 @@ message CombatInvocationsNotify {
 
 message OtherCustomDungeonBrief {
 	repeated uint32 tag_list = 1;
-	SocialDetail PFJHGAMBPJI = 2;
+	SocialDetail creator_detail = 2;
 	bool CADALFGPGML = 4;
 	bool JLPAPANBLCE = 5;
 	AHNEDLNIKAB GABAOCABGMM = 6;
@@ -10806,8 +10806,8 @@ message CJLABBMLHJF {
 }
 
 // CmdId: 27738
-message EGLKMGGKLKA {
-	uint32 PHBMKHDNJMM = 6;
+message AvatarFetterLevelRewardRsp {
+	uint32 fetter_level = 6;
 	uint32 reward_id = 7;
 	int32 retcode = 10;
 	uint64 avatar_guid = 14;
@@ -12011,7 +12011,7 @@ message MLNAKNABIKM {
 }
 
 // CmdId: 4199
-message GLOAOOOIIMC {
+message UnlockAvatarTalentReq {
 	uint64 avatar_guid = 3;
 	uint32 talent_id = 10;
 }
@@ -14133,7 +14133,7 @@ message PBCOKOEDACF {
 }
 
 // CmdId: 28618
-message KADJCJPCEKL {
+message UnlockAvatarTalentRsp {
 	uint32 talent_id = 9;
 	uint64 avatar_guid = 11;
 	int32 retcode = 12;
@@ -18195,7 +18195,7 @@ message AvatarPropNotify {
 }
 
 // CmdId: 229
-message NOJFFPDHJOD {
+message AvatarPromoteGetRewardRsp {
 	uint32 reward_id = 7;
 	uint64 avatar_guid = 9;
 	int32 retcode = 10;
@@ -18295,8 +18295,8 @@ message GIJPLKPLJKG {
 }
 
 // CmdId: 28961
-message CIMFHGJCFMN {
-	map<uint64, AvatarFetterInfo> HHKINMBBNDC = 10;
+message AvatarFetterDataNotify {
+	map<uint64, AvatarFetterInfo> fetter_info_map = 10;
 }
 
 // CmdId: 26066
@@ -19897,7 +19897,7 @@ message BAAMMOHAKIG {
 }
 
 // CmdId: 287
-message GHMCKGKJLKC {
+message AvatarPromoteGetRewardReq {
 	uint32 promote_level = 4;
 	uint64 avatar_guid = 13;
 }
@@ -26385,8 +26385,8 @@ message AHDFJPOBOJJ {
 }
 
 // CmdId: 4220
-message HEOFAAJINLE {
-	uint32 PHBMKHDNJMM = 9;
+message AvatarFetterLevelRewardReq {
+	uint32 fetter_level = 9;
 	uint64 avatar_guid = 14;
 }
 

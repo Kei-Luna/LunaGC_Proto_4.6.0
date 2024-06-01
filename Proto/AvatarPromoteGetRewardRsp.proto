@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 229
+message AvatarPromoteGetRewardRsp {
+	uint32 reward_id = 7;
+	uint64 avatar_guid = 9;
+	int32 retcode = 10;
+	uint32 promote_level = 13;
+}

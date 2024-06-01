@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 28618
+message UnlockAvatarTalentRsp {
+	uint32 talent_id = 9;
+	uint64 avatar_guid = 11;
+	int32 retcode = 12;
+}

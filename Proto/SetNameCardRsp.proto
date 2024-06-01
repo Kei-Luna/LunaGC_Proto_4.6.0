@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 1786
+message SetNameCardRsp {
+	int32 retcode = 10;
+	uint32 name_card_id = 11;
+}

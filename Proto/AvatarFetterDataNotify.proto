@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AvatarFetterInfo.proto";
+
+// 4.6.0
+// CmdId: 28961
+message AvatarFetterDataNotify {
+	map<uint64, AvatarFetterInfo> fetter_info_map = 10;
+}
