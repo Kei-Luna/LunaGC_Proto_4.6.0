@@ -1,6 +1,6 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 
-import ".proto";
-
 // 4.6.0
+message GetAllUnlockNameCardReq {
+}
