@@ -5,6 +5,6 @@ import "Vector.proto";
 
 //obf: NPLBBAJDIOM
 message WeekendDjinnInfo {
-	Vector pos = 13;
-	Vector rot = 14;
+	Vector rot = 13;
+	Vector pos = 14;
 }

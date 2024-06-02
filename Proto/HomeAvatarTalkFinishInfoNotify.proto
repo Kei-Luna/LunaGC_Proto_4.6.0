@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeAvatarTalkFinishInfo.proto";
+
+// 4.6.0
+// Obf: DJPAKLKHNIM
+// CmdId: 20101
+message HomeAvatarTalkFinishInfoNotify {
+    repeated HomeAvatarTalkFinishInfo avatar_talk_info_list = 14;
+}

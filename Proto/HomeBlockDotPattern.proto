@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 //obf: IEKCEGFNINF
 message HomeBlockDotPattern {
 	bytes data = 5;
-	uint32 width = 9;
-	uint32 height = 11;
+	uint32 height = 9;
+	uint32 width = 11;
 }

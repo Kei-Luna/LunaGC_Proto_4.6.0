@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// Obf: PLMLBCAEFDB
+message HomeAvatarTalkFinishInfo {
+    uint32 avatar_id = 11;
+    repeated uint32 finish_talk_id_list = 13;
+}

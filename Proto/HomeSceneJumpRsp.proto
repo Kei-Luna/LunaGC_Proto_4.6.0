@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// Obf: NPOEELOKDIC
+// CmdId: 8266
+message HomeSceneJumpRsp {
+    bool is_enter_room_scene = 5;
+    int32 retcode = 10;
+}

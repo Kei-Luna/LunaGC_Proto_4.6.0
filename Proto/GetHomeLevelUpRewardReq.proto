@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// Obf: JCAHJIAMECH
+// CmdId: 2113
+message GetHomeLevelUpRewardReq {
+    uint32 level = 10;
+}

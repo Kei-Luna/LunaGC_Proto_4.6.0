@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// Obf: BMAJEDLDBNC
+// CmdId: 24843
+message HomeModuleSeenRsp {
+    int32 retcode = 5;
+    repeated uint32 seen_module_id_list = 13;
+}

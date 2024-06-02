@@ -6,7 +6,7 @@ import "Vector.proto";
 //obf: EGLCPDHFGPB
 message HomeNpcData {
 	Vector spawnRot = 2;
-	uint32 avatar_id = 5;
+	uint32 costume_id = 5;
 	Vector spawn_pos = 7;
-	uint32 costume_id = 8;
+	uint32 avatar_id = 8;
 }

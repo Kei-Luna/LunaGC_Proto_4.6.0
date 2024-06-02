@@ -6,9 +6,9 @@ import "HomeBlockSubFieldData.proto";
 
 //obf: ECDJBCPLCNO
 message HomeBlockFieldData {
-	uint32 furniture_id = 4;
+	uint32 guid = 4;
 	repeated HomeBlockSubFieldData sub_field_list = 7;
-	uint32 guid = 9;
+	uint32 furniture_id = 9;
 	Vector rot = 11;
 	Vector pos = 14;
 }

@@ -5,6 +5,6 @@ import "HomeResource.proto";
 
 // CmdId: 21381
 message HomeResourceNotify {
-	HomeResource fetter_exp = 7;
-	HomeResource home_coin = 10;
+	HomeResource home_coin = 7;
+	HomeResource fetter_exp = 10;
 }

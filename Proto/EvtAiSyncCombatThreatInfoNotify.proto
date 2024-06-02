@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "AiThreatInfo.proto";
+
+// 4.6.0
+// Obf: CMLBBABLKPB
+// CmdId: 28434
+message EvtAiSyncCombatThreatInfoNotify {
+    map<uint32, AiThreatInfo> combat_threat_info_map = 5;
+}

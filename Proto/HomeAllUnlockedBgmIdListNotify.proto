@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// Obf: JCFCMHLOEAE
+// CmdId: 4053
+message HomeAllUnlockedBgmIdListNotify {
+    repeated uint32 all_unlocked_bgm_id_list = 4;
+}

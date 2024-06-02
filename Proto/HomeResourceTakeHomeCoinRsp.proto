@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeResource.proto";
+
+// 4.6.0
+// Obf: EMIEOHBGPEH
+// CmdId: 841
+message HomeResourceTakeHomeCoinRsp {
+    int32 retcode = 2;
+    HomeResource home_coin = 4;
+}

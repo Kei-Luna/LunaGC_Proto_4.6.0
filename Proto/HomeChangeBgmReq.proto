@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// Obf: JLPKIHPFKEI
+// CmdId: 26137
+message HomeChangeBgmReq {
+    uint32 bgm_id = 15;
+}
