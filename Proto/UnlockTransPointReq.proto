@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 27857
+// Version: 4.6.0
+// Obfs: EMIFGECBKAI
+message UnlockTransPointReq {
+	uint32 point_id = 2;
+	uint32 scene_id = 3;
+}

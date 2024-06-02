@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+// CmdId: 21408
+// Version: 4.6.0
+// Obfs: KNIBHNOEHPA
+message BattlePassBuySuccNotify {
+	uint32 schedule_id = 1;
+	uint32 HMKOKJKINCG = 6;
+	uint32 LAKIBHGHOGE = 7;
+	repeated ItemParam item_list = 11;
+}

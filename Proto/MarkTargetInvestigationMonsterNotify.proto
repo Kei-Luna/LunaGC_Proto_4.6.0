@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "DeshretObeliskChestInfo.proto";
+
+// CmdId: 28878
+// Version: 4.6.0
+// Obfs: HOEBDLJJCPL
+message MarkTargetInvestigationMonsterNotify {
+	uint32 investigation_monster_id = 1;
+	uint32 scene_id = 2;
+	uint32 group_id = 4;
+	uint32 monster_id = 8;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 6118
+// Version: 4.6.0
+// Obfs: FKBIPLGJBMF
+message ToTheMoonRemoveObstacleReq {
+	int32 handle = 5;
+	uint32 scene_id = 8;
+	int32 query_id = 10;
+}

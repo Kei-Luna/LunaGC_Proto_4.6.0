@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: DDFCGDCJODG
+message RoutePointChangeInfo {
+	float target_velocity = 2;
+	float wait_time = 3;
+	uint32 point_index = 15;
+}

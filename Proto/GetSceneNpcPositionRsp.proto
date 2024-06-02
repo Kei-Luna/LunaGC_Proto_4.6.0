@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "NpcPositionInfo.proto";
+
+// CmdId: 24033
+// Version: 4.6.0
+// Obfs: NPPNJKFOCDG
+message NPPNJKFOCDG {
+	int32 retcode = 1;
+	uint32 scene_id = 2;
+	repeated NpcPositionInfo npc_info_list = 4;
+}

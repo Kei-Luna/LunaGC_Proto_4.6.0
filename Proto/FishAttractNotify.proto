@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// CmdId: 7501
+// Version: 4.6.0
+// Obfs: AODMIJLDINJ
+message FishAttractNotify {
+	Vector pos = 6;
+	uint32 uid = 13;
+	repeated uint32 fish_id_list = 15;
+}

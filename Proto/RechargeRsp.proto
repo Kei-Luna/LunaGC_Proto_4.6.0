@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 1499
+// Version: 4.6.0
+// Obfs: HEJONAIGBBM
+message RechargeRsp {
+	string product_id = 3;
+	bool is_show_minors_hint = 6;
+	int32 retcode = 11;
+}

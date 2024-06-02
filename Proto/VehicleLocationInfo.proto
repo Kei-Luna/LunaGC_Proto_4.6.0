@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// Version: 4.6.0
+// Obfs: HHIDIPNLEIE
+message VehicleLocationInfo {
+	uint32 entity_id = 2;
+	float MKHCMCLJKLN = 5; // seems to be sorush related
+	float AACAIMICFPI = 6; // seems to be sorush related
+	uint32 owner_uid = 9;
+	Vector pos = 11;
+	repeated uint32 uid_list = 12;
+	Vector rot = 13;
+	uint32 gadget_id = 14;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TransmitReason.proto";
+
+// CmdId: 28038
+// Version: 4.6.0
+// Obfs: LOEEFJBLHNH
+message ClientTransmitRsp {
+	int32 retcode = 11;
+	TransmitReason reason = 15;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// Version: 4.6.0
+// Obfs: MEIMHEKHOLO
+message DeshretObeliskChestInfo {
+	uint32 group_id = 3;
+	uint32 map_layer_id = 5;
+	Vector pos = 8;
+	uint32 config_id = 9;
+	uint32 scene_id = 13;
+}

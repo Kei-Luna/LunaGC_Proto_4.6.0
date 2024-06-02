@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 22934
+// Version: 4.6.0
+// Obfs: EMEHBONIFJF
+message SceneAreaUnlockNotify {
+	uint32 scene_id = 7;
+	repeated uint32 area_list = 9;
+}

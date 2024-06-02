@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlayerLocationInfo.proto";
+import "PlayerWorldLocationInfo.proto";
+
+// CmdId: 7462
+// Version: 4.6.0
+// Obfs: KJMDKJLLMKA
+message WorldPlayerLocationNotify {
+	repeated PlayerLocationInfo player_loc_list = 7;
+	repeated PlayerWorldLocationInfo player_world_loc_list = 14;
+}

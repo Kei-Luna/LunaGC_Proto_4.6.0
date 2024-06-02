@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: KGKLDAGGGNP
+message ProductPriceTier {
+	string price_tier = 3;
+	string product_id = 10;
+}

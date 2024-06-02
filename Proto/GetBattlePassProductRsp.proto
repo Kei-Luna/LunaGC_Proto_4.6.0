@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 4426
+// Version: 4.6.0
+// Obfs: FPLDICCHNPH
+message GetBattlePassProductRsp {
+	uint32 battle_pass_product_play_type = 2;
+	uint32 cur_schedule_id = 4;
+	string price_tier = 8;
+	int32 retcode = 12;
+	string product_id = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BattlePassRewardTakeOption.proto";
+
+// CmdId: 28683
+// Version: 4.6.0
+// Obfs: IMCLHEMCFIC
+message TakeBattlePassRewardReq {
+	repeated BattlePassRewardTakeOption take_option_list = 1;
+}

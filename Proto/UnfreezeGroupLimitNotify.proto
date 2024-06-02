@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 1186
+// Version: 4.6.0
+// Obfs: FCHAMHONLJE
+message UnfreezeGroupLimitNotify {
+	uint32 point_id = 5;
+	uint32 scene_id = 13;
+}

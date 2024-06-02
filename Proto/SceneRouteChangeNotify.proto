@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SceneRouteChangeInfo.proto";
+
+// CmdId: 9498
+// Version: 4.6.0
+// Obfs: EFPEFPLEDJA
+message SceneRouteChangeNotify {
+	uint32 scene_time = 6;
+	uint32 scene_id = 8;
+	repeated SceneRouteChangeInfo route_list = 12;
+}

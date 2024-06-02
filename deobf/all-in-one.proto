@@ -3877,7 +3877,7 @@ message AAACNIECLGF {
 }
 
 // CmdId: 2937
-message HFANJCHEDHC {
+message AvatarUpgradeReq {
 	repeated ItemParam item_param_list = 6;
 	uint64 avatar_guid = 15;
 }
@@ -5605,7 +5605,7 @@ message BJMFPMEOLFJ {
 }
 
 // CmdId: 245
-message DDKBDEJDHEJ {
+message GetAllUnlockNameCardReq {
 }
 
 // CmdId: 4796

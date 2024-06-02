@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: DJLNCMNEAOI
+enum TransmitReason {
+	TRANSMIT_NONE = 0;
+	TRANSMIT_QUEST = 1;
+}

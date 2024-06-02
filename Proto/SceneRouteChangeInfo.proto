@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "RoutePointChangeInfo.proto";
+
+// Version: 4.6.0
+// Obfs: GAALLMKNLOA
+message SceneRouteChangeInfo {
+	repeated RoutePointChangeInfo point_list = 3;
+	uint32 route_id = 10;
+	uint32 type = 12;
+	bool is_forward = 14;
+}

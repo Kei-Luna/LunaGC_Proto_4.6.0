@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeBlueprintSearchInfo.proto";
+
+// CmdId: 28183
+// Version: 4.6.0
+// Obfs: LBNOHJDLCOM
+message HomeSearchBlueprintRsp {
+	int32 retcode = 10;
+	HomeBlueprintSearchInfo search_info = 12;
+}

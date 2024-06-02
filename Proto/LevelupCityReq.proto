@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 25231
+// Version: 4.6.0
+// Obfs: PELEDEMOCGN
+message LevelupCityReq {
+	uint32 item_num = 5;
+	uint32 area_id = 8;
+	uint32 scene_id = 11;
+}

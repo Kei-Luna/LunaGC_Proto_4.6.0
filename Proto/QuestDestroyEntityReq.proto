@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 842
+// Version: 4.6.0
+// Obfs: BGBFEAGIFKO
+message QuestDestroyEntityReq {
+	uint32 scene_id = 3;
+	uint32 quest_id = 6;
+	uint32 entity_id = 11;
+}

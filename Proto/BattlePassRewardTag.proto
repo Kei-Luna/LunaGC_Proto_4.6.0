@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BattlePassUnlockStatus.proto";
+
+// Version: 4.6.0
+// Obfs: FEKBEHGKKML
+message BattlePassRewardTag {
+	uint32 reward_id = 4;
+	BattlePassUnlockStatus unlock_status = 10;
+	uint32 level = 13;
+}

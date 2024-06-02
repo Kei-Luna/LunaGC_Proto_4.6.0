@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+// Version: 4.6.0
+// Obfs: ???
+message PlayerLocationInfo {
+	uint32 uid = 4;
+	Vector pos = 5;
+	Vector rot = 6;
+}
