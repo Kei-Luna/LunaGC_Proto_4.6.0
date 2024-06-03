@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 // 4.6.0
 // CmdId: 2232
 message AvatarPromoteReq {
-	uint64 avatar_guid = 14;
+	uint64 guid = 14;
 }
