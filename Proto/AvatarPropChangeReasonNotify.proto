@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+import "PropChangeReason.proto";
+
+// 4.6.0
+// CmdId: 5955
+message AvatarPropChangeReasonNotify {
+	uint32 prop_type = 2;
+	uint64 avatar_guid = 3;
+	float cur_value = 11;
+	float old_value = 13;
+	PropChangeReason reason = 15;
+}

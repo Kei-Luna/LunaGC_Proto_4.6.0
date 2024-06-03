@@ -12311,7 +12311,7 @@ message EHANPEDDIBP {
 }
 
 // CmdId: 2232
-message DMAPLFFFILP {
+message AvatarPromoteReq {
 	uint64 guid = 14;
 }
 
@@ -26549,8 +26549,8 @@ message PlayerNicknameNotify {
 }
 
 // CmdId: 7078
-message HOOLAGBCPDI {
-	repeated uint32 GJEKMNDEHGF = 1;
+message GetAllUnlockNameCardRsp {
+	repeated uint32 name_card_list = 1;
 	int32 retcode = 13;
 }
 
