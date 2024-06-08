@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 612
+message TowerBriefDataNotify {
+	uint32 last_floor_index = 6;
+	uint32 tower_schedule_id = 7;
+	uint32 last_level_index = 9;
+	uint32 next_schedule_change_time = 12;
+	uint32 total_star_num = 13;
+	uint32 schedule_start_time = 14;
+	bool is_finished_entrance_floor = 15;
+}

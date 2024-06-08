@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: BNAIFNLBGOL
+message BNAIFNLBGOL {
+	bool is_success = 1;
+	uint32 DPNNPLCCDEL = 7;
+	uint32 DPEBFHMKICN = 12;
+}

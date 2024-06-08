@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 7359
+message ItemRenameAvatarReq {
+	string avatar_name = 8;
+	uint32 rename_id = 12;
+}

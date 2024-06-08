@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "InferenceWordInfo.proto";
+
+// Version: 4.6.0
+// Obfs: CAOBNKCODIB
+message InferencePageInfo {
+	repeated InferenceWordInfo unlock_word_list = 10;
+	uint32 page_id = 12;
+}

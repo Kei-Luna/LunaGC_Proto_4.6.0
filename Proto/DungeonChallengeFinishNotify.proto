@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChallengeFinishType.proto";
+import "ChannelerSlabLoopDungeonResultInfo.proto";
+import "CustomDungeonResultInfo.proto";
+import "EffigyChallengeDungeonResultInfo.proto";
+import "PotionDungeonResultInfo.proto";
+import "StrengthenPointData.proto";
+
+// Version: 4.6.0
+// CmdId: 20089
+message DungeonChallengeFinishNotify {
+	ChallengeFinishType finish_type = 2;
+	uint32 time_cost = 3;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 5;
+	uint32 challenge_index = 7;
+	bool is_success = 8;
+	uint32 challenge_record_type = 9;
+	bool is_new_record = 13;
+	uint32 current_value = 15;
+	oneof detail {
+		ChannelerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1922;
+		EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 1859;
+		PotionDungeonResultInfo potion_dungeon_result_info = 1677;
+		CustomDungeonResultInfo custom_dungeon_result_info = 1349;
+	}
+}

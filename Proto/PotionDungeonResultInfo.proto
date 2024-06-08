@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+message PotionDungeonResultInfo {
+	uint32 IPKGIOBPENI = 3;
+	uint32 EEOAFHOMHPH = 8;
+	uint32 MCAIMDGIIPN = 10;
+	uint32 level_id = 11;
+	uint32 IKDMGBPAKOL = 12;
+	uint32 stage_id = 13;
+}

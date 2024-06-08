@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 8699
+message AddQuestContentProgressReq {
+	uint32 content_type = 6;
+	uint32 param = 10;
+	uint32 add_progress = 11;
+}

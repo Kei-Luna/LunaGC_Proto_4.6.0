@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 28763
+message QuestUpdateQuestVarNotify {
+	repeated int32 quest_var = 9;
+	uint32 parent_quest_var_seq = 10;
+	uint32 parent_quest_id = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 1527
+message SeaLampContributeItemRsp {
+	uint32 add_progress = 3;
+	uint32 CHEONBIDFMN = 5;
+	uint32 OIGKMDPCBIC = 12;
+	int32 retcode = 14;
+}

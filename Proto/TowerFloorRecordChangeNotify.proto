@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerFloorRecord.proto";
+
+// 4.6.0
+// CmdId: 9916
+message TowerFloorRecordChangeNotify {
+	bool is_finished_entrance_floor = 6;
+	repeated TowerFloorRecord tower_floor_record_list = 10;
+}

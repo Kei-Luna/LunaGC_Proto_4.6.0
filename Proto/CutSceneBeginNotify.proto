@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CutSceneExtraParam.proto";
+
+// 4.6.0
+// CmdId: 28649
+message CutSceneBeginNotify {
+	repeated CutSceneExtraParam extra_param_list = 2;
+	bool is_wait_others = 6;
+	uint32 cutscene_id = 12;
+}

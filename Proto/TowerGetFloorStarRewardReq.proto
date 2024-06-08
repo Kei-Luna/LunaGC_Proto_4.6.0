@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 21493
+message TowerGetFloorStarRewardReq {
+	uint32 floor_id = 3;
+}

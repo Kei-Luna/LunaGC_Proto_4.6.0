@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: KMNKJKIEPCB
+message InvestigationTarget {
+	enum State {
+		STATE_INVALID = 0;
+		STATE_IN_PROGRESS = 1;
+		STATE_COMPLETE = 2;
+		STATE_REWARD_TAKEN = 3;
+	}
+
+	uint32 quest_id = 3;
+	uint32 progress = 4;
+	uint32 investigation_id = 6;
+	State state = 9;
+	uint32 total_progress = 12;
+}

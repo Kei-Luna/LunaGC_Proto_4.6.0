@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerCurLevelRecord.proto";
+
+// 4.6.0
+// CmdId: 24979
+message TowerCurLevelRecordChangeNotify {
+	TowerCurLevelRecord cur_level_record = 9;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 2570
+message ChallengeDataNotify {
+	uint32 challenge_index = 6;
+	uint32 value = 7;
+	uint32 param_index = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Investigation.proto";
+
+// CmdId: 20131
+message PlayerInvestigationNotify {
+	repeated Investigation investigation_list = 12;
+}

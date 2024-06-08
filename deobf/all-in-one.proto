@@ -26381,7 +26381,7 @@ message GLGOCFNCMJP {
 }
 
 // CmdId: 3564
-message AHDFJPOBOJJ {
+message AvatarPromoteRsp {
 	uint64 guid = 13;
 	int32 retcode = 15;
 }

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ReportReasonType.proto";
+import "ReportSubtype.proto";
+
+// CmdId: 22232
+message PlayerReportReq {
+	uint32 target_uid = 2;
+	string target_home_module_name = 3;
+	ReportReasonType reason = 4;
+	string content = 8;
+	uint32 target_home_module_id = 9;
+	ReportSubtype subtype = 14;
+}
+

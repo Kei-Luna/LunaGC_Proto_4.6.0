@@ -3,21 +3,33 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "Vector.proto";
 import "EnterType.proto";
+import "MapLayerInfo.proto";
 
 // 4.6.0
 // CmdId: 21317
+// 2 -> 1, 4 -> 1, 376 -> 1, 1100 -> 1
+// world_type type enter_reason is_first_login_enter_scene
 message PlayerEnterSceneNotify {
-	//MapLayerInfo map_layer_info = 317;
-	EnterType type = 2;//sus
-	repeated uint32 scene_tag_id_list = 9;
-	uint32 world_level = 3;
-	uint32 target_uid = 14;//14 or 189
-	uint32 create_player_uid = 189;//14 or 189
-	Vector pos = 13;
-	uint32 scene_id = 7;
-	string scene_transaction = 120;
-	uint32 enter_scene_token = 15;
-	uint64 scene_begin_time = 6;
-	bool is_skip_ui = 376;//sus
-	uint32 dungeon_id = 1999;//wrong
+	uint32 prev_scene_id = 1; // OK
+	EnterType type = 2; // OK
+	uint32 world_level = 3; // OK
+	bool is_first_login_enter_scene = 4; // OK
+	uint64 scene_begin_time = 6; // OK
+	uint32 scene_id = 7; // OK
+	uint32 dungeon_id = 8; // OK
+	repeated uint32 scene_tag_id_list = 9; // OK
+	Vector prev_pos = 11; // OK
+	Vector pos = 13; // OK
+	uint32 target_uid = 14;         // 14 or 189
+	uint32 enter_scene_token = 15; // OK
+	string scene_transaction = 120; // OK
+	uint32 create_player_uid = 189; // 14 or 189
+	MapLayerInfo map_layer_info = 317; // OK
+    uint32 world_type = 376; // OK
+    uint32 enter_reason = 1100; // OK
+
+    Vector dungeon_prev_pos = 1663; // NEW
+    uint32 dungeon_prev_scene_id = 1848; // NEW
+
+	bool is_skip_ui = 2000; // wrong
 }

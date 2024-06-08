@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// CmdId: 6799
+message DungeonDataNotify {
+	map<uint32, uint32> dungeon_data_map = 10;
+}

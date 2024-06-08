@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// CmdId: 26552
+message DungeonChallengeBeginNotify {
+	uint32 challenge_id = 2;
+	repeated uint32 param_list = 4;
+	uint32 group_id = 5;
+	uint32 father_index = 6;
+	uint32 challenge_index = 9;
+	repeated uint32 uid_list = 12;
+}

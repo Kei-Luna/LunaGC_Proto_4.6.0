@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerCurLevelRecord.proto";
+import "TowerFloorRecord.proto";
+import "TowerMonthlyBrief.proto";
+
+// 4.6.0
+// CmdId: 7133
+message TowerAllDataRsp {
+	uint32 tower_schedule_id = 1;
+	bool is_finished_entrance_floor = 2;
+	uint32 valid_floor_record_list = 3;
+	TowerCurLevelRecord cur_level_record = 4;
+	int32 retcode = 5;
+	map<uint32, uint32> skip_floor_granted_reward_item_map = 6;
+	bool is_first_interact = 7;
+	uint32 NNIGLOKAEAI = 8;
+	map<uint32, uint32> floor_open_time_map = 9;
+	uint32 ANOHIMHLMID = 10;
+	uint32 MICBOPDAEFN = 11;
+	uint32 next_schedule_change_time = 12;
+	TowerMonthlyBrief monthly_brief = 13;
+	repeated TowerFloorRecord tower_floor_record_list = 14;
+	uint32 LKDMPGCGDCJ = 15;
+	uint32 schedule_start_time = 942;
+	TowerMonthlyBrief last_schedule_monthly_brief = 1740;
+}

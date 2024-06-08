@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ChildQuest.proto";
+import "BNAIFNLBGOL.proto";
+import "InferencePageInfo.proto";
+import "ParentQuestRandomInfo.proto";
+
+// Version: 4.6.0
+// Obfs: BLKNHPMNCDI
+message ParentQuest {
+	repeated ChildQuest child_quest_list = 1;
+	bool is_random = 2;
+	map<uint32, uint32> time_var_map = 4;
+	bool is_finished = 5;
+	uint64 video_key = 6;
+	uint32 quest_var_seq = 7;
+	uint32 parent_quest_state = 8;
+	uint32 parent_quest_id = 9;
+	uint32 accept_time = 10;
+	repeated BNAIFNLBGOL GNDCAPMKBOL = 11;
+	repeated InferencePageInfo inference_page_list = 12;
+	repeated int32 quest_var = 13;
+	ParentQuestRandomInfo random_info = 14;
+	bool AOLONEOJINE = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 1367
+message WatcherEventTypeNotify {
+	uint32 watcher_trigger_type = 3;
+	repeated uint32 param_list = 6;
+	uint32 add_progress = 12;
+}

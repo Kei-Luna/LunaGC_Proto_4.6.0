@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 26350
+message PlayerReportRsp {
+	uint32 target_uid = 2;
+	int32 retcode = 3;
+	uint32 cd_time = 4;
+}

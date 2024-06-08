@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 22912
+message TakeCityReputationParentQuestReq {
+	repeated uint32 parent_quest_list = 3;
+	uint32 city_id = 13;
+}

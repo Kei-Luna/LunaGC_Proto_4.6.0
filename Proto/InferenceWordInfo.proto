@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: IMHNIMEAFKE
+message InferenceWordInfo {
+	bool LHPCEHJMDNF = 3;
+	uint32 unlock_by_word_id = 5;
+	bool PFHIFFLGPKK = 10;
+	bool NLJGIIJPNJP = 11;
+	uint32 word_id = 13;
+}

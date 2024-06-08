@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+message ChannelerSlabLoopDungeonResultInfo {
+	uint32 challenge_max_score = 1;
+	uint32 dungeon_index = 2;
+	bool is_success = 3;
+	uint32 challenge_score = 6;
+	bool is_in_time_limit = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 6852
+message TowerAllDataReq {
+	bool is_interact = 9;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CustomDungeonFinishType.proto";
+import "ChallengeBrief.proto";
+
+// Version: 4.6.0
+message CustomDungeonResultInfo {
+	CustomDungeonFinishType finish_type = 1;
+	bool AOFLEOKAPPE = 4;
+	uint32 get_coin_num = 5;
+	repeated ChallengeBrief child_challenge_list = 6;
+	uint32 time_cost = 8;
+	uint64 dungeon_guid = 11;
+	bool JLPAPANBLCE = 12;
+	bool PGEHHNIADBK = 14;
+}

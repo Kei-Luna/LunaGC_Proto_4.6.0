@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// CmdId: 5279
+message CanUseSkillNotify {
+	bool is_can_use_skill = 2;
+}

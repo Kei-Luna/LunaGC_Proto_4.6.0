@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LackingResourceInfo.proto";
+
+// CmdId: 3935
+message GetQuestLackingResourceRsp {
+	uint32 quest_id = 4;
+	int32 retcode = 7;
+	LackingResourceInfo DMDCNMGJPAN = 8;
+}

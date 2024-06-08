@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: KBMGFOFLGCP
+message FurnitureMakeData {
+	uint32 make_id = 6;
+	uint32 dur_time = 7;
+	uint32 index = 9;
+	fixed32 accelerate_time = 10;
+	uint32 avatar_id = 12;
+	fixed32 begin_time = 13;
+}

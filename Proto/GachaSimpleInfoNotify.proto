@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// CmdId: 7025
+message GachaSimpleInfoNotify {
+	bool is_new = 9;
+}

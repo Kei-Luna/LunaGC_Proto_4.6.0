@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// Version: 4.6.0
+// Obfs: JOHFHDPJJHA
+message QuestGlobalVar {
+	uint32 key = 3;
+	int32 value = 14;
+}

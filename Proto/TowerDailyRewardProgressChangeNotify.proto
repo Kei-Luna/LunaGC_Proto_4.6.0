@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+// 4.6.0
+// CmdId: 26940
+message TowerDailyRewardProgressChangeNotify {
+	uint32 MICBOPDAEFN = 3;
+	uint32 NNIGLOKAEAI = 10;
+}
